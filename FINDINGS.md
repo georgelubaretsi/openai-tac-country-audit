@@ -1,99 +1,84 @@
 # OpenAI Cyber Verification Country Support — Findings
 
-## Result
+## Executive summary
 
-A fresh complete pass of the OpenAI-configured Persona government-ID selector tested all **250** enabled country and territory entries.
+This report documents a complete 2026-08-27 audit of the country selector in the Persona government-ID widget configured for OpenAI’s cyber-verification flow.
 
-- **177 supported (70.8%)**
-- **73 unsupported (29.2%)**
-- **250 transition requests and 250 transition responses**
-- **All responses returned HTTP 200**
+| Measure | Result |
+|---|---:|
+| Selector entries tested | 250 |
+| Cyber verification supported | 177 (70.8%) |
+| Cyber verification unsupported | 73 (29.2%) |
+| Entries on OpenAI’s official ChatGPT access list | 208 |
+| Officially listed entries without cyber-verification support | 44 |
+| Transition responses returning HTTP 200 | 250 of 250 |
 
-“Unsupported” has a narrow operational meaning: the transition returned an empty government-ID class list and the widget displayed:
+The primary finding is a gap between general ChatGPT availability and cyber-verification coverage: **44 countries, regions, or territories appear on OpenAI’s official access list but returned no accepted government-ID classes in the audited cyber flow**.
 
-> Unable to verify  
-> We are unable to verify identities in this country. Please select another country.
+Population data is available for 42 of those 44 entries. They represent **654,983,348 people** using 2023 population estimates. Across all officially listed entries with population data, **89.63% of the represented population** is in entries that also have cyber-verification support.
 
-This was not an HTTP or transport block.
+The observed transition data does not identify why a country lacks support. The evidence cannot distinguish document coverage, OpenAI configuration, compliance policy, fraud controls, or other operational decisions.
 
-## Comparison with OpenAI’s ChatGPT supported-country list
+## Scope and definitions
 
-The canonical map was compared with OpenAI’s official [ChatGPT Supported Countries](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries) article, fetched on 2026-08-27. The official article listed 208 countries, regions, and territories.
+The unit of analysis is a selector entry, not necessarily a sovereign country. The 250 entries include countries, regions, and territories exposed by the production Persona widget.
 
-| Official ChatGPT access list | Cyber ID support | Count |
-|---|---|---:|
-| Listed | Supported | 164 |
-| Listed | Unsupported | 44 |
-| Not listed | Supported | 13 |
-| Not listed | Unsupported | 29 |
+- **Cyber verification supported** means the transition response contained at least one accepted government-ID class in `next-step.config.idclasses`.
+- **Cyber verification unsupported** means the transition returned an empty ID-class list and the widget displayed:  
+  > Unable to verify  
+  > We are unable to verify identities in this country. Please select another country.
+- **Official ChatGPT availability** means the entry appeared in OpenAI’s published [ChatGPT Supported Countries](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries) article when fetched on 2026-08-27.
+- **Matched sanctions program** means an active U.S.-issued OpenSanctions program targeted the entry and included at least one of the defined financial, import, export, investment, services, sectoral, or transportation measures.
 
-The primary gap is the **44 entries OpenAI lists for ChatGPT access but whose cyber-verification transition returned no accepted ID classes**. The complete ordered comparison is stored in:
+Cyber-verification configuration is not evidence that OpenAI permits ChatGPT access from a location. Conversely, presence on OpenAI’s official access list is not evidence that the audited cyber-verification template accepts that location’s identity documents.
 
-- `evidence/comparisons/openai-chatgpt-supported-countries.json`
-- `evidence/comparisons/openai-chatgpt-supported-countries.csv`
+## Methodology
 
-The 13 selector entries with accepted cyber ID classes but absent from the official access article were American Samoa, Anguilla, Curaçao, Gibraltar, Guam, Guernsey, Isle of Man, Jersey, Kosovo, Montserrat, Puerto Rico, Turks and Caicos Islands, and the U.S. Virgin Islands.
+The audit exercised the production Persona widget embedded in OpenAI’s cyber-verification page. Before automation began, a user signed in, opened the flow, clicked **Start verification**, and left the widget on its government-ID country selector. Chrome was already running with CDP enabled.
 
-This comparison does not imply that those 13 locations are permitted access regions. The cyber flow exposes all 250 selector entries, and an accepted ID configuration is not evidence that OpenAI permits service access from that location. Conversely, presence on the official access list does not imply that the cyber-verification template supports identity documents from that location.
+The selector exposed 250 enabled entries, ordered from Afghanistan through Zimbabwe. For each entry, the recorder:
 
-## Population enrichment
+1. selected the entry;
+2. waited at least three seconds;
+3. captured full-page and widget-only selected-country screenshots;
+4. pressed **Select**;
+5. captured the exact CDP transition request and response without mutation;
+6. waited for a stable supported or unsupported state;
+7. held the result for at least one second;
+8. captured full-page and widget-only result screenshots;
+9. created a deterministic selected/result widget comparison;
+10. returned to the selector and waited at least one second.
 
-The 250 canonical selector entries were enriched with 2023 population values from [Our World in Data’s population dataset](https://ourworldindata.org/grapher/population), whose 1950–2023 country records derive from the United Nations World Population Prospects 2024 revision.
+Classification used the transition response, not OCR or screenshot interpretation. Entries with multiple accepted classes displayed an ID-class chooser; one supported entry transitioned directly to its only accepted document type.
 
-- **237 entries matched a three-letter ISO-coded source record**
-- **13 entries remain `null` because the primary source does not cover them under a standard three-letter code**
-- **206 of 208 entries on OpenAI’s official access list have population data**
-- **176 of 177 cyber-supported entries have population data**
+Only the final complete 250-entry run was promoted to committed evidence. Incomplete runtime attempts remained in ignored local storage.
 
-The uncovered entries are Åland Islands, Antarctica, Bouvet Island, British Indian Ocean Territory, Christmas Island, Cocos (Keeling) Islands, French Southern Territories, Heard Island and McDonald Islands, Kosovo, Norfolk Island, Pitcairn, South Georgia and the South Sandwich Islands, and United States Minor Outlying Islands. Missing does not mean zero.
+## Evidence integrity
 
-Among official-access entries with population data, **5,663,893,485 of 6,318,876,833 people (89.63%)** are in entries that also returned accepted cyber-verification ID classes. The official-access/cyber-unsupported group accounts for **654,983,348 people across 42 populated entries**, with two additional entries excluded because their population is `null`.
+Exact unredacted request and response bodies remain only in ignored local runtime storage. They are not committed.
 
-These are selector-entry aggregates, not an estimate of OpenAI users or identity-verification demand. Territory populations may overlap parent-country totals, so sums across all 250 entries are not necessarily mutually exclusive. The committed source metadata records the fetch timestamp, source URLs, source payload hashes, reference year, alias method, null handling, and overlap caveat.
+Committed transition artifacts are deterministic post-capture derivatives:
 
-## Method
-
-- Surface: the production Persona widget embedded in OpenAI’s cyber-verification page.
-- Chrome was already running with CDP enabled.
-- A user signed in, opened the page, clicked **Start verification**, and left the widget on its country selector before automation began.
-- The selector exposed 250 enabled entries.
-- Entries were exercised in their displayed order, Afghanistan through Zimbabwe.
-- For each entry:
-  1. select the country;
-  2. wait at least three seconds;
-  3. capture full-page and widget-only selected-country screenshots;
-  4. press **Select**;
-  5. capture the exact CDP request and response without mutation;
-  6. wait for a stable result state;
-  7. hold for at least one second;
-  8. capture full-page and widget-only result screenshots;
-  9. create a deterministic selected/result widget comparison;
-  10. return to the selector and wait at least one second.
-
-One supported country transitioned directly to its only accepted document type; countries with multiple accepted classes displayed an ID-class chooser. The classification comes from the response’s `next-step.config.idclasses`, not from OCR or screenshot interpretation.
-
-The first corrected-media attempt was explicitly stopped after the browser window was accidentally resized. Its partial runtime artifacts were not promoted. The final committed run restarted from Afghanistan with the stabilized window geometry and completed all 250 countries without a resume.
-
-## Evidence architecture
-
-Exact unredacted request/response bodies and metadata remain only in ignored local runtime storage. They are not committed.
-
-Committed requests and responses are deterministic post-capture derivatives:
-
-- the original artifact is hashed before sanitization;
+- each raw artifact is hashed before sanitization;
 - only declared sensitive byte spans are replaced;
-- bytes outside redactions remain identical;
-- each sanitized artifact has its own hash;
-- each artifact has a redaction sidecar containing raw and sanitized ranges, replacement, reason, and hashes;
-- a fail-closed audit verifies hashes, byte correspondence, JSON/multipart validity, country alignment, and absence of secret-shaped values.
+- bytes outside declared redactions remain identical;
+- each sanitized artifact receives a separate hash;
+- each artifact has a redaction sidecar recording ranges, replacements, reasons, and hashes;
+- a fail-closed audit verifies hashes, byte correspondence, JSON or multipart validity, country alignment, and absence of secret-shaped values.
 
-Five images were produced for each country: a full-page selected/result pair, a widget-only selected/result pair, and a deterministic side-by-side widget comparison. The committed evidence contains **1,250 screenshots**. Captured images were promoted byte-for-byte after explicit confirmation that they contain no PII; comparisons are lossless derived WebPs linked to their source pair.
+Five images were produced for each entry: full-page selected and result screenshots, widget-only selected and result screenshots, and a lossless side-by-side widget comparison. The committed evidence contains **1,250 screenshots**. Captured images were promoted byte-for-byte after confirmation that they contain no PII.
 
-## Accepted document classes
+The representative video contains all 73 unsupported transitions and is accompanied by a chapter index.
 
-Among the 177 supported entries:
+## Results
 
-| Code | Document class | Countries offering it |
+### Cyber-verification coverage
+
+Of 250 selector entries, **177 returned accepted ID classes** and **73 returned none**. Every transition response returned HTTP 200, so unsupported results were application-level configuration outcomes rather than HTTP or transport failures.
+
+Every supported entry accepted a passport. Other document classes varied:
+
+| Code | Document class | Entries offering it |
 |---|---|---:|
 | `pp` | Passport | 177 |
 | `dl` | Driver License | 116 |
@@ -105,50 +90,89 @@ Among the 177 supported entries:
 | `sid` | Seafarer ID | 1 |
 | `rp` | Residency Permit | 1 |
 
-Every supported entry accepted a passport. Other document classes vary by country.
+### Alignment with OpenAI’s official access list
 
-## Notable patterns
+OpenAI’s official article listed 208 countries, regions, and territories. Comparing that list with the cyber-verification results produced four groups:
 
-### Most surprising official-access cyber gaps
+| Official ChatGPT access list | Cyber verification | Entries |
+|---|---|---:|
+| Listed | Supported | 164 |
+| Listed | Unsupported | 44 |
+| Not listed | Supported | 13 |
+| Not listed | Unsupported | 29 |
 
-“Surprising” here is descriptive rather than causal. These entries stand out because of population scale, a close supported comparator, or an internally inconsistent territory configuration. The evidence does not identify why an entry lacks cyber-verification classes.
+The 44 listed-but-unsupported entries are the primary operational gap.
 
-#### Direct country anomalies
+The 13 entries with cyber-verification support but no official ChatGPT listing are American Samoa, Anguilla, Curaçao, Gibraltar, Guam, Guernsey, Isle of Man, Jersey, Kosovo, Montserrat, Puerto Rico, Turks and Caicos Islands, and the U.S. Virgin Islands. Their cyber configuration does not establish that ChatGPT access is permitted from those locations.
 
-- **Georgia (`GE`)** — officially available, population **3,807,494**, but no cyber-verification classes. Neighboring Türkiye supports driver license, national ID, and passport. Armenia and Azerbaijan are also gaps, suggesting a broader Caucasus configuration hole rather than a Georgia-specific decision.
-- **Vietnam (`VN`)** — officially available, population **100,352,189**, but no cyber-verification classes. Thailand, Indonesia, Malaysia, and the Philippines support driver license, national ID, and passport; the Philippines also supports additional classes.
-- **Democratic Republic of the Congo (`CD`)** — officially available, population **105,789,733**, but no cyber-verification classes. The Republic of the Congo supports driver license, national ID, and passport.
-- **Moldova (`MD`)** — officially available, population **3,067,072**, but no cyber-verification classes. Romania supports driver license, national ID, and passport, while Ukraine supports driver license and passport.
+The complete comparison is stored in:
 
-#### Territory configuration anomalies
+- `evidence/comparisons/openai-chatgpt-supported-countries.json`
+- `evidence/comparisons/openai-chatgpt-supported-countries.csv`
 
-- **Ten French-associated entries** — French Guiana, French Polynesia, French Southern Territories, Guadeloupe, Martinique, Mayotte, New Caledonia, Réunion, Saint Barthélemy, and Saint Pierre and Miquelon are officially available but have no cyber-verification classes. France supports driver license, national ID, and passport.
-- **Aruba (`AW`)** — officially available but has no cyber-verification classes. Curaçao is absent from the official access list but its cyber configuration supports driver license, national ID, and passport; the Netherlands supports the same three classes. This inversion shows that official access and cyber-verification configuration are maintained independently.
+### Population-weighted view
 
-#### Large regional omissions
+The canonical entries were enriched with 2023 population values from [Our World in Data’s population dataset](https://ourworldindata.org/grapher/population), whose 1950–2023 country records derive from the United Nations World Population Prospects 2024 revision.
 
-| Country | Code | 2023 population |
+| Population coverage | Entries |
+|---|---:|
+| Matched to an ISO-coded source record | 237 |
+| Not covered by the primary source | 13 |
+| Officially listed entries with population data | 206 of 208 |
+| Cyber-supported entries with population data | 176 of 177 |
+
+The 13 uncovered entries are Åland Islands, Antarctica, Bouvet Island, British Indian Ocean Territory, Christmas Island, Cocos (Keeling) Islands, French Southern Territories, Heard Island and McDonald Islands, Kosovo, Norfolk Island, Pitcairn, South Georgia and the South Sandwich Islands, and United States Minor Outlying Islands. Missing population remains `null`; it is not interpreted as zero.
+
+Among officially listed entries with population data:
+
+- **6,318,876,833** people are represented in total;
+- **5,663,893,485** are represented in entries with cyber-verification support;
+- **654,983,348** are represented in 42 listed entries without cyber-verification support;
+- two additional listed-but-unsupported entries have `null` population;
+- the resulting population-weighted cyber-verification coverage is **89.63%**.
+
+These are selector-entry aggregates, not estimates of OpenAI users or verification demand. Territory populations may overlap parent-country totals, so totals across all 250 entries are not necessarily mutually exclusive.
+
+## High-salience coverage patterns
+
+The following patterns describe differences in configuration; they do not establish cause.
+
+### Country-level contrasts
+
+- **Georgia (`GE`)** — listed for ChatGPT access, population **3,807,494**, but no cyber-verification classes. Neighboring Türkiye supports driver license, national ID, and passport. Armenia and Azerbaijan are also gaps, indicating a broader Caucasus pattern rather than an isolated Georgian result.
+- **Vietnam (`VN`)** — listed for access, population **100,352,189**, but no cyber-verification classes. Thailand, Indonesia, Malaysia, and the Philippines support driver license, national ID, and passport; the Philippines also supports additional classes.
+- **Democratic Republic of the Congo (`CD`)** — listed for access, population **105,789,733**, but no cyber-verification classes. The Republic of the Congo supports driver license, national ID, and passport.
+- **Moldova (`MD`)** — listed for access, population **3,067,072**, but no cyber-verification classes. Romania supports driver license, national ID, and passport; Ukraine supports driver license and passport.
+
+### Territory-level contrasts
+
+- Ten French-associated entries—French Guiana, French Polynesia, French Southern Territories, Guadeloupe, Martinique, Mayotte, New Caledonia, Réunion, Saint Barthélemy, and Saint Pierre and Miquelon—are listed for ChatGPT access but have no cyber-verification classes. France supports driver license, national ID, and passport.
+- Aruba is listed for ChatGPT access but has no cyber-verification classes. Curaçao is absent from the official access list but its cyber configuration supports driver license, national ID, and passport; the Netherlands supports the same three classes.
+
+These results are consistent with independent per-entry configuration rather than automatic inheritance from a parent state.
+
+### Regional concentration
+
+Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan form a complete Central Asian gap among officially listed entries. Armenia, Azerbaijan, Georgia, Moldova, and Mongolia extend the broader regional concentration.
+
+| Selected gap | Code | 2023 population |
 |---|---|---:|
 | Uzbekistan | `UZ` | 35,652,311 |
 | Kazakhstan | `KZ` | 20,330,109 |
 | Cambodia | `KH` | 17,423,884 |
 | Zimbabwe | `ZW` | 16,340,829 |
 
-Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan form a complete Central Asian gap among officially available entries. Alongside Armenia, Azerbaijan, Georgia, Moldova, and Mongolia, this suggests a broader regional coverage or configuration boundary rather than isolated country anomalies.
+## Country availability lists
 
-The transition carries no reason field. Document coverage, OpenAI configuration, compliance policy, and fraud policy cannot be separated from this evidence.
+The tables below focus on the two categories where ChatGPT or cyber verification is unavailable. They omit the 164 entries that are both officially listed and cyber supported.
 
-## Availability gaps
+The sanctions-program column is contextual. It lists active U.S.-issued OpenSanctions programs that target the entry and contain at least one included measure. Program IDs link to the authoritative source recorded by OpenSanctions. `—` means no program matched the source and measure filter; it is not a legal conclusion.
 
-These tables separate official ChatGPT availability from cyber-verification availability. ChatGPT availability is based on OpenAI’s official supported-country list. Cyber verification is unavailable when the observed transition returned no accepted government-ID classes.
+### Not on OpenAI’s official ChatGPT access list — 42 entries
 
-The program column lists active U.S.-issued OpenSanctions programs that target the entry and include financial, import, export, investment, services, sectoral, or transportation restrictions. Program IDs link to the authoritative source recorded by OpenSanctions. `—` means that no program matched this defined source and measure filter. Program presence is contextual and does not establish why OpenAI or Persona configured an entry as unavailable.
+Thirteen entries in this group nevertheless expose accepted cyber-verification classes. Cyber configuration does not override the official access list.
 
-### ChatGPT unavailable according to OpenAI’s official access list — 42 entries
-
-These selector entries are absent from OpenAI’s official access list. Thirteen returned accepted cyber-verification classes, but widget configuration does not override the official ChatGPT access policy.
-
-| Entry | Code | Active selected U.S. sanctions programs |
+| Entry | Code | Matched active U.S. sanctions programs |
 |---|---|---|
 | American Samoa | `AS` | — |
 | Anguilla | `AI` | — |
@@ -193,11 +217,9 @@ These selector entries are absent from OpenAI’s official access list. Thirteen
 | Virgin Islands, U.S. | `VI` | — |
 | Western Sahara | `EH` | — |
 
-### ChatGPT available, but cyber verification unavailable — 44 entries
+### Listed for ChatGPT access but unsupported by cyber verification — 44 entries
 
-These entries appear on OpenAI’s official access list, but their observed cyber-verification transitions returned no accepted government-ID classes.
-
-| Entry | Code | Active selected U.S. sanctions programs |
+| Entry | Code | Matched active U.S. sanctions programs |
 |---|---|---|
 | Afghanistan | `AF` | — |
 | Åland Islands | `AX` | — |
@@ -244,21 +266,32 @@ These entries appear on OpenAI’s official access list, but their observed cybe
 | Yemen | `YE` | — |
 | Zimbabwe | `ZW` | — |
 
-Seven of the 42 ChatGPT-unavailable entries and two of the 44 cyber-specific gaps have at least one matched program under this definition. Georgia has no matched program.
+Seven of the 42 entries absent from OpenAI’s official list and two of the 44 cyber-verification gaps have at least one matched program under this definition. Georgia has no matched program.
 
 **Sanctions source, fetched 2026-08-27:** [OpenSanctions sanctions program directory](https://data.opensanctions.org/meta/programs.json), filtered to active U.S.-issued programs and the defined measures. Contains data from [OpenSanctions](https://www.opensanctions.org/docs/programs/) under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The committed source metadata records the exact fetch timestamp, source hash, filter, and coverage.
 
+## Interpretation
+
+The observed results demonstrate country-code-specific configuration differences in one production Persona template. They do not identify the policy or operational cause of those differences.
+
+In particular:
+
+- an empty ID-class list does not mean that every identity document from the entry is technically unreadable;
+- an accepted ID-class list does not mean a submitted document would pass verification;
+- sanctions-program matches provide context but do not establish legal applicability to every resident or explain OpenAI’s configuration;
+- population-weighted totals describe represented populations, not affected users or demand;
+- territory and parent-country configurations cannot be assumed to inherit from one another.
+
 ## Limitations
 
-- One production OpenAI Persona inquiry template.
-- One browser session and point in time.
-- The result measures accepted government-ID classes, not whether a submitted document would pass verification.
-- No identity document was uploaded and verification was not completed.
-- The selector’s inclusion of a country does not imply support; rejection occurs after submission.
-- OpenAI or Persona can change the configuration without notice.
-- Population values use one 2023 source snapshot; 13 selector entries are not covered and remain `null`.
-- Population-weighted sums may double-count territories already represented in parent-country estimates.
-- Sanctions mappings use one OpenSanctions program-directory snapshot and its curated target-territory and measure taxonomy; program presence does not establish causation or legal applicability to every resident.
+- One production OpenAI Persona inquiry template was tested.
+- The audit represents one browser session and one point in time.
+- No identity document was uploaded and identity verification was not completed.
+- The selector’s inclusion of an entry does not imply support; unsupported results occur after submission of the selector choice.
+- OpenAI or Persona may change the configuration without notice.
+- Population values use one 2023 source snapshot; 13 entries remain `null`.
+- Territory population totals may overlap parent-country estimates.
+- Sanctions mappings use one OpenSanctions program-directory snapshot and its curated target-territory and measure taxonomy.
 
 ## Evidence inventory
 
@@ -268,16 +301,16 @@ Seven of the 42 ChatGPT-unavailable entries and two of the 44 cyber-specific gap
 - `evidence/comparisons/openai-chatgpt-supported-countries.csv` — spreadsheet-friendly official-access, population, and sanctions-program comparison.
 - `evidence/enrichment/population-2023.json` — ordered population enrichment for all 250 canonical entries.
 - `evidence/enrichment/population-2023.csv` — spreadsheet-friendly population enrichment.
-- `evidence/enrichment/population-source-metadata.json` — source URLs, hashes, fetch time, source citation, coverage, and matching method.
-- `evidence/enrichment/us-sanctions-programs.json` — ordered active selected U.S. sanctions-program mapping for all 250 canonical entries.
+- `evidence/enrichment/population-source-metadata.json` — population source URLs, hashes, fetch time, citation, coverage, and matching method.
+- `evidence/enrichment/us-sanctions-programs.json` — ordered active U.S. sanctions-program mapping for all 250 canonical entries.
 - `evidence/enrichment/us-sanctions-programs.csv` — spreadsheet-friendly sanctions-program mapping.
 - `evidence/enrichment/us-sanctions-source-metadata.json` — OpenSanctions attribution, license, source hash, fetch time, filter, and coverage.
 - `evidence/sanitized-transitions/requests/` — post-capture-sanitized request metadata and bodies.
 - `evidence/sanitized-transitions/responses/` — post-capture-sanitized response metadata and bodies.
 - `evidence/sanitized-transitions/redactions/` — raw-to-sanitized byte-span manifests.
-- `evidence/screenshots/countries/` — full-page selected and result screenshot pair for every country.
-- `evidence/screenshots/widgets/` — widget-only selected and result screenshot pair for every country.
-- `evidence/screenshots/comparisons/` — lossless selected/result widget comparison for every country.
+- `evidence/screenshots/countries/` — full-page selected and result screenshot pair for every entry.
+- `evidence/screenshots/widgets/` — widget-only selected and result screenshot pair for every entry.
+- `evidence/screenshots/comparisons/` — lossless selected/result widget comparison for every entry.
 - `evidence/video/representative/` — one 1392×1440 H.264 representative video covering all 73 unsupported transitions, plus its chapter index.
 - `evidence/capture-metadata.json` — timing, counts, sanitizer version, and audit lineage.
 - `evidence/manifest.json` — hashes and byte counts for every committed evidence artifact.
