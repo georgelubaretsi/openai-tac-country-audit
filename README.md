@@ -176,6 +176,10 @@ evidence/
 
 Screenshots are committed byte-for-byte as captured; side-by-side comparisons are deterministic derived artifacts linked to their source pair. A complete run contains 1,250 screenshots. The representative video is committed once and treated as immutable evidence. Future videos stay under ignored `runtime/`.
 
+## External context evidence
+
+`evidence-external/tweets/` contains element-cropped public statements and selected replies with a SHA-256 capture manifest. `evidence-external/support-correspondence/` contains the redacted OpenAI Support thread and its redaction manifest. These contextual artifacts use their own provenance records; the country classifications and reported totals derive from the audited `evidence/` pipeline above.
+
 ## Operator and custody boundaries
 
 The operator navigates, signs in, and clicks **Start verification** before running the scripts. The audited workflow stops at the country/document-class transition: identity documents are not uploaded and identity verification is not completed. Raw captures remain under ignored `runtime/`; terminal output is limited to progress information and excludes raw URLs, headers, bodies, tokens, and identifiers.

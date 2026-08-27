@@ -421,3 +421,8 @@ In particular:
 - `evidence/video/representative/` — one 1392×1440 H.264 representative video covering all 73 unsupported transitions, plus its chapter index.
 - `evidence/capture-metadata.json` — timing, counts, sanitizer version, and audit lineage.
 - `evidence/manifest.json` — hashes and byte counts for every committed evidence artifact.
+- `evidence-external/tweets/` — captured public statements, selected replies, profile/affiliation context, and a SHA-256 capture manifest.
+- `evidence-external/support-correspondence/openai-support-thread-redacted.md` — redacted OpenAI Support correspondence.
+- `evidence-external/support-correspondence/redaction-manifest.json` — correspondence source custody hash, declared replacement tokens, occurrence counts, and redacted-file hash.
+
+The external context artifacts use separate capture/redaction manifests and do not feed the canonical country classifications, counts, or population summaries.

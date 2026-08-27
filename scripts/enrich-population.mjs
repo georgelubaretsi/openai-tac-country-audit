@@ -30,7 +30,7 @@ const manifestPath = resolve(evidenceRoot, "manifest.json");
 
 async function fetchSource(url) {
   const response = await fetch(url, {
-    headers: { "user-agent": "openai-cyber-verification-country-support/1.0" },
+    headers: { "user-agent": "openai-tac-country-audit/1.0" },
     signal: AbortSignal.timeout(60_000),
   });
   if (!response.ok) throw new Error(`source download failed (${response.status}): ${url}`);
