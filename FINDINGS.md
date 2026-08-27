@@ -16,6 +16,7 @@ This report documents a complete 2026-08-27 audit of the country selector in the
 The primary finding is a gap between general ChatGPT availability and cyber-verification coverage: **44 countries, regions, or territories appear on OpenAI’s official access list but returned no accepted government-ID classes in the audited cyber flow**.
 
 Population data is available for 42 of those 44 entries. They represent **654,983,348 people** using 2023 population estimates. Across all officially listed entries with population data, **89.63% of the represented population** is in entries that also have cyber-verification support.
+Across both availability-gap categories, 86 entries have either no official ChatGPT listing or no cyber-verification support. Population data is available for 73 of them, representing **2,425,064,775 people**; the remaining 13 entries have `null` population.
 
 The observed transition data does not identify why a country lacks support. The evidence cannot distinguish document coverage, OpenAI configuration, compliance policy, fraud controls, or other operational decisions.
 
@@ -123,13 +124,17 @@ The canonical entries were enriched with 2023 population values from [Our World 
 
 The 13 uncovered entries are Åland Islands, Antarctica, Bouvet Island, British Indian Ocean Territory, Christmas Island, Cocos (Keeling) Islands, French Southern Territories, Heard Island and McDonald Islands, Kosovo, Norfolk Island, Pitcairn, South Georgia and the South Sandwich Islands, and United States Minor Outlying Islands. Missing population remains `null`; it is not interpreted as zero.
 
-Among officially listed entries with population data:
+The availability states partition the full selector:
 
-- **6,318,876,833** people are represented in total;
-- **5,663,893,485** are represented in entries with cyber-verification support;
-- **654,983,348** are represented in 42 listed entries without cyber-verification support;
-- two additional listed-but-unsupported entries have `null` population;
-- the resulting population-weighted cyber-verification coverage is **89.63%**.
+| Availability state | Entries | With population | Population `null` | Represented 2023 population |
+|---|---:|---:|---:|---:|
+| Officially listed and cyber supported | 164 | 164 | 0 | 5,663,893,485 |
+| Officially listed, cyber unsupported | 44 | 42 | 2 | 654,983,348 |
+| Not on OpenAI’s official access list | 42 | 31 | 11 | 1,770,081,427 |
+| **At least one availability gap** | **86** | **73** | **13** | **2,425,064,775** |
+| All selector entries | 250 | 237 | 13 | 8,088,958,260 |
+
+The combined availability-gap total includes the 42 entries absent from OpenAI’s official access list and the 44 officially listed entries without cyber-verification support. Within the official access list, **5,663,893,485 of 6,318,876,833 represented people (89.63%)** are in entries with cyber-verification support.
 
 These are selector-entry aggregates, not estimates of OpenAI users or verification demand. Territory populations may overlap parent-country totals, so totals across all 250 entries are not necessarily mutually exclusive.
 
