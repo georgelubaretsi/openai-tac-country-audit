@@ -1,0 +1,98 @@
+{
+  "schema": "openai-cyber-verification-country-support/external-capture/v1",
+  "capturedAt": "2026-08-27T18:34:06.027Z",
+  "method": "CDP text extraction + screenshot from user's live Brave tabs (omp browser relay); not part of the audited evidence/ pipeline",
+  "attribution": {
+    "@fouadmatin": {
+      "userAsserted": "OpenAI staff",
+      "bioObserved": {
+        "description": "@openai\n cyber preparedness\n\ncodex, cyber, post training, security, safety",
+        "name": "fouad @fouadmatin"
+      },
+      "profileScreenshot": "fouadmatin-profile.png",
+      "profileObserved": {
+        "affiliation": "missionfouad.org\nJoined August 2011",
+        "bio": "@openai\n cyber preparedness\n\ncodex, cyber, post training, security, safety",
+        "headerItems": "missionfouad.org\nJoined August 2011",
+        "name": "fouad | @fouadmatin"
+      },
+      "profileCapturedAt": "2026-08-27T18:35:02.955Z",
+      "affiliatesListing": {
+        "checked": "https://x.com/openai/affiliates",
+        "listed": false,
+        "checkedAt": "2026-08-27T18:38:57.474Z",
+        "note": "Full @openai affiliates list captured as negative evidence: @fouadmatin absent. Bio affiliation remains self-declared, corroborated by role-consistent activity.",
+        "screenshot": "openai-affiliates-list.png"
+      }
+    },
+    "@GeorgeLubaretsi": {
+      "relationship": "capture author (user)",
+      "note": "Own tweets captured for thread completeness.",
+      "statuses": [
+        "2090215681908265453",
+        "2090220186368426155",
+        "2090331637749887476",
+        "2090814431374512563"
+      ]
+    }
+  },
+  "files": [
+    {
+      "path": "evidence-external/tweets/OpenAIDevs-2090148210031612123.md",
+      "bytes": 6914,
+      "sha256": "e55ad97b9a1c8cf8d1ae52093653ac015642d6ec549468023e1de3442706b2b1"
+    },
+    {
+      "path": "evidence-external/tweets/fouadmatin-2090168322109423687.png",
+      "bytes": 154068,
+      "sha256": "c115e9b5c323ef258a63835bb4374951db36ca261f7eea29d0530b938ce963b8"
+    },
+    {
+      "path": "evidence-external/tweets/OpenAIDevs-2090148210031612123.png",
+      "bytes": 75896,
+      "sha256": "3cfa46bbedf29452278865ad424898c15223b342cb892bb4c4e5fedf660a1069"
+    },
+    {
+      "path": "evidence-external/tweets/fouadmatin-profile.png",
+      "bytes": 135992,
+      "sha256": "52e290489de5e969d80df81289c9827f882f2de63b5e01bc4c6d917b4359c388"
+    },
+    {
+      "path": "evidence-external/tweets/GeorgeLubaretsi-2090215681908265453.png",
+      "bytes": 43964,
+      "sha256": "8f88716b305183294d09eb9c0dd46e44ce1d6f5d991e5823103e8c9495ee53f5"
+    },
+    {
+      "path": "evidence-external/tweets/GeorgeLubaretsi-2090220186368426155.png",
+      "bytes": 47547,
+      "sha256": "722886968834cd0ccda9f2221fae94944dc3410f22e67de315ef2bda7de41eb3"
+    },
+    {
+      "path": "evidence-external/tweets/GeorgeLubaretsi-2090331637749887476.png",
+      "bytes": 34362,
+      "sha256": "41c98a26941e337702cf697da8182f12521c54cd97af319392bbaf4c3230a7ae"
+    },
+    {
+      "path": "evidence-external/tweets/GeorgeLubaretsi-2090814431374512563.png",
+      "bytes": 41050,
+      "sha256": "80ff6e725b462f15674db3e582e56e6a51fcf78ed63f3041b8517fd93de51b97"
+    },
+    {
+      "path": "evidence-external/tweets/openai-affiliates-list.png",
+      "bytes": 113393,
+      "sha256": "40463f1b2928df3ff151e9181d4684e3a26dad13323801352ef11a8764267e03"
+    },
+    {
+      "path": "evidence-external/tweets/fouadmatin-2090168322109423687.md",
+      "bytes": 5569,
+      "sha256": "b0cf9eb1b0fa0c9824a3ca285f493a5667e860a4ce55bce3a44174bc4b27f176"
+    }
+  ],
+  "notes": [
+    "2026-08-27T18:36:21.066Z: backfilled focused-tweet permalink in fouadmatin-2090168322109423687.md; captured linked @OpenAIDevs announcement",
+    "2026-08-27T18:38:57.474Z: replaced full-tab screenshots with element crops (focused tweet / profile card).",
+    "2026-08-27T18:43:31.611Z: captured in-scope @GeorgeLubaretsi tweet crops; replaced the full-page affiliates screenshot with a cropped list.",
+    "2026-08-27T18:59:19+00:00: corrected the focused tweet timestamp in fouadmatin-2090168322109423687.md from the status-ID snowflake, matching the screenshot local time.",
+    "2026-08-27T19:01:26+00:00: omitted one off-topic @GeorgeLubaretsi reply from the fouadmatin thread transcript (marker left in place); sections renumbered."
+  ]
+}

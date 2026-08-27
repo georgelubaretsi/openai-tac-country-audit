@@ -1,0 +1,42 @@
+{
+  "schema": "openai-cyber-verification-country-support/external-capture/v1",
+  "kind": "redacted-correspondence",
+  "source": {
+    "description": "OpenAI Support thread, Case 13472230, exported from Proton Mail 2026-08-27 (8 unique messages, relayed duplicate and quoted history removed)",
+    "unredactedSha256": "ae148365ac3ce167e2fde263040b4c2a3e3bcefca3edee16643e5de9b16b2888",
+    "custody": "unredacted original in local gitignored runtime/ only"
+  },
+  "redaction": {
+    "rules": "email addresses and OpenAI Support agent first names replaced with descriptive tokens; sender display names, user name, case number, dates, and URLs retained",
+    "replacements": [
+      {
+        "token": "[hide-my-email alias for support@openai.com]",
+        "occurrences": 5
+      },
+      {
+        "token": "[user address 1]",
+        "occurrences": 3
+      },
+      {
+        "token": "[user address 2]",
+        "occurrences": 1
+      },
+      {
+        "token": "[OpenAI Support agent]",
+        "occurrences": 7
+      }
+    ],
+    "residualEmailsGenericized": 0,
+    "retainedIntentionally": [
+      "support@openai.com occurrences inside redaction tokens (public OpenAI address, not PII)",
+      "John Smith is the sender display name present in the exported messages and was retained verbatim."
+    ]
+  },
+  "files": [
+    {
+      "path": "evidence-external/support-correspondence/openai-support-thread-redacted.md",
+      "bytes": 11829,
+      "sha256": "182f249dd4b4997add56642250c9f056d17c9e5ee9a7af578e711c479f1f2f1c"
+    }
+  ]
+}
