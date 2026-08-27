@@ -1,0 +1,17 @@
+{
+  "schema": "openai-cyber-verification-country-support/capture-metadata/v1",
+  "run_id": "openai-cyber-media3-20260827",
+  "started_at": "2026-08-27T13:01:59.671Z",
+  "completed_at": "2026-08-27T13:38:23.402Z",
+  "delays_ms": {
+    "selection": 3000,
+    "between_actions": 1000
+  },
+  "option_count": 250,
+  "transition_count": 250,
+  "screenshot_count": 1250,
+  "sanitizer_version": "1.0.0",
+  "audit_report_sha256": "dc8eadd3cc281b475e81241a23fc7eb0fd940e5423f921c6420ecdc09d25d670",
+  "raw_capture_committed": false,
+  "privacy": "Exact raw requests, responses, metadata, and unreviewed media remain only in ignored local storage."
+}

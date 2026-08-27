@@ -1,0 +1,29 @@
+------WebKitFormBoundaryylHA6vcd8iTQqGo9
+Content-Disposition: form-data; name="data[id]"
+
+[REDACTED]
+------WebKitFormBoundaryylHA6vcd8iTQqGo9
+Content-Disposition: form-data; name="data[type]"
+
+inquiry
+------WebKitFormBoundaryylHA6vcd8iTQqGo9
+Content-Disposition: form-data; name="data[attributes][componentParams][input_country_select]"
+
+MY
+------WebKitFormBoundaryylHA6vcd8iTQqGo9
+Content-Disposition: form-data; name="data[attributes][flow-type]"
+
+embedded
+------WebKitFormBoundaryylHA6vcd8iTQqGo9
+Content-Disposition: form-data; name="meta[from-component]"
+
+button_submit
+------WebKitFormBoundaryylHA6vcd8iTQqGo9
+Content-Disposition: form-data; name="meta[from-step]"
+
+[REDACTED]
+------WebKitFormBoundaryylHA6vcd8iTQqGo9
+Content-Disposition: form-data; name="meta[workflow-initial-variables][debugForcedStatus]"
+
+passed
+------WebKitFormBoundaryylHA6vcd8iTQqGo9--

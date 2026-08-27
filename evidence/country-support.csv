@@ -1,0 +1,251 @@
+index,code,name,supported,idclasses,http_status
+1,AF,Afghanistan,false,,200
+2,AX,Åland Islands,false,,200
+3,AL,Albania,true,dl|id|pp,200
+4,DZ,Algeria,true,id|pp,200
+5,AS,American Samoa,true,dl|id|pp,200
+6,AD,Andorra,true,dl|pp,200
+7,AO,Angola,true,dl|id|pp,200
+8,AI,Anguilla,true,pp,200
+9,AQ,Antarctica,false,,200
+10,AG,Antigua and Barbuda,true,pp,200
+11,AR,Argentina,true,dl|id|pp,200
+12,AM,Armenia,false,,200
+13,AW,Aruba,false,,200
+14,AU,Australia,true,dl|id|pp,200
+15,AT,Austria,true,dl|id|pp,200
+16,AZ,Azerbaijan,false,,200
+17,BS,Bahamas,true,dl|pp|wp,200
+18,BH,Bahrain,true,id|pp,200
+19,BD,Bangladesh,true,dl|id|pp,200
+20,BB,Barbados,true,dl|pp,200
+21,BY,Belarus,false,,200
+22,BE,Belgium,true,dl|id|pp,200
+23,BZ,Belize,true,pp,200
+24,BJ,Benin,true,dl|id|pp,200
+25,BM,Bermuda,true,dl|pp|vid,200
+26,BT,Bhutan,true,pp,200
+27,BO,Bolivia,true,dl|id|pp,200
+28,BQ,"Bonaire, Sint Eustatius and Saba",false,,200
+29,BA,Bosnia and Herzegovina,true,dl|id|pp,200
+30,BW,Botswana,true,pp,200
+31,BV,Bouvet Island,false,,200
+32,BR,Brazil,true,dl|id|pp,200
+33,IO,British Indian Ocean Territory,false,,200
+34,BN,Brunei Darussalam,true,dl|id|pp,200
+35,BG,Bulgaria,true,dl|id|pp,200
+36,BF,Burkina Faso,true,pp,200
+37,BI,Burundi,true,pp,200
+38,CV,Cabo Verde,true,pp,200
+39,KH,Cambodia,false,,200
+40,CM,Cameroon,true,dl|id|pp,200
+41,CA,Canada,true,dl|id|pp|pr,200
+42,KY,Cayman Islands,true,dl|pp,200
+43,CF,Central African Republic,false,,200
+44,TD,Chad,true,pp,200
+45,CL,Chile,true,dl|id|pp,200
+46,CN,China,false,,200
+47,CX,Christmas Island,false,,200
+48,CC,Cocos (Keeling) Islands,false,,200
+49,CO,Colombia,true,dl|id|pp,200
+50,KM,Comoros,true,pp,200
+51,CG,Congo,true,dl|id|pp,200
+52,CD,"Congo, The Democratic Republic of the",false,,200
+53,CK,Cook Islands,false,,200
+54,CR,Costa Rica,true,dl|id|pp,200
+55,CI,Côte d'Ivoire,true,dl|id|pp,200
+56,HR,Croatia,true,dl|id|pp,200
+57,CU,Cuba,false,,200
+58,CW,Curaçao,true,dl|id|pp,200
+59,CY,Cyprus,true,dl|id|pp,200
+60,CZ,Czechia,true,dl|id|pp,200
+61,DK,Denmark,true,dl|pp,200
+62,DJ,Djibouti,true,pp,200
+63,DM,Dominica,true,pp,200
+64,DO,Dominican Republic,true,dl|id|pp,200
+65,EC,Ecuador,true,dl|id|pp,200
+66,EG,Egypt,true,dl|id|pp,200
+67,SV,El Salvador,true,dl|id|pp,200
+68,GQ,Equatorial Guinea,true,pp,200
+69,ER,Eritrea,false,,200
+70,EE,Estonia,true,dl|id|pp,200
+71,SZ,Eswatini,true,pp,200
+72,ET,Ethiopia,true,dl|id|pp,200
+73,FK,Falkland Islands (Malvinas),false,,200
+74,FO,Faroe Islands,true,dl|pp,200
+75,FJ,Fiji,true,dl|pp,200
+76,FI,Finland,true,dl|id|pp,200
+77,FR,France,true,dl|id|pp,200
+78,GF,French Guiana,false,,200
+79,PF,French Polynesia,false,,200
+80,TF,French Southern Territories,false,,200
+81,GA,Gabon,true,pp,200
+82,GM,Gambia,true,pp,200
+83,GE,Georgia,false,,200
+84,DE,Germany,true,dl|id|pp,200
+85,GH,Ghana,true,dl|id|pp,200
+86,GI,Gibraltar,true,dl|id|pp,200
+87,GR,Greece,true,dl|id|pp,200
+88,GL,Greenland,true,pp,200
+89,GD,Grenada,true,pp,200
+90,GP,Guadeloupe,false,,200
+91,GU,Guam,true,dl|id|pp,200
+92,GT,Guatemala,true,dl|id|pp,200
+93,GG,Guernsey,true,dl|id|pp,200
+94,GN,Guinea,true,pp,200
+95,GW,Guinea-Bissau,true,pp,200
+96,GY,Guyana,true,pp,200
+97,HT,Haiti,false,,200
+98,HM,Heard Island and McDonald Islands,false,,200
+99,VA,Holy See (Vatican City State),false,,200
+100,HN,Honduras,true,dl|id|pp,200
+101,HK,Hong Kong,false,,200
+102,HU,Hungary,true,dl|id|pp,200
+103,IS,Iceland,true,dl|pp,200
+104,IN,India,true,dl|id|pan|pp|vid,200
+105,ID,Indonesia,true,dl|id|pp,200
+106,IR,Iran,false,,200
+107,IQ,Iraq,false,,200
+108,IE,Ireland,true,dl|pp,200
+109,IM,Isle of Man,true,dl|pp,200
+110,IL,Israel,true,dl|id|pp,200
+111,IT,Italy,true,dl|id|pp,200
+112,JM,Jamaica,true,dl|id|pp|vid,200
+113,JP,Japan,true,dl|pp,200
+114,JE,Jersey,true,dl|pp,200
+115,JO,Jordan,true,dl|id|pp,200
+116,KZ,Kazakhstan,false,,200
+117,KE,Kenya,true,dl|id|pp,200
+118,KI,Kiribati,true,pp,200
+119,XK,Kosovo,true,dl|id|pp,200
+120,KW,Kuwait,true,dl|id|pp,200
+121,KG,Kyrgyzstan,false,,200
+122,LA,Lao People's Democratic Republic,false,,200
+123,LV,Latvia,true,dl|id|pp,200
+124,LB,Lebanon,false,,200
+125,LS,Lesotho,true,pp,200
+126,LR,Liberia,true,pp,200
+127,LY,Libya,false,,200
+128,LI,Liechtenstein,true,dl|id|pp,200
+129,LT,Lithuania,true,dl|id|pp,200
+130,LU,Luxembourg,true,dl|id|pp,200
+131,MO,Macao,false,,200
+132,MG,Madagascar,true,pp,200
+133,MW,Malawi,true,pp,200
+134,MY,Malaysia,true,dl|id|pp,200
+135,MV,Maldives,true,pp,200
+136,ML,Mali,true,pp,200
+137,MT,Malta,true,dl|id|pp,200
+138,MH,Marshall Islands,true,pp,200
+139,MQ,Martinique,false,,200
+140,MR,Mauritania,true,pp,200
+141,MU,Mauritius,true,pp,200
+142,YT,Mayotte,false,,200
+143,MX,Mexico,true,dl|pp|vid,200
+144,FM,"Micronesia, Federated States of",true,pp,200
+145,MD,Moldova,false,,200
+146,MC,Monaco,true,id|pp,200
+147,MN,Mongolia,false,,200
+148,ME,Montenegro,true,dl|id|pp,200
+149,MS,Montserrat,true,pp,200
+150,MA,Morocco,true,dl|id|pp,200
+151,MZ,Mozambique,true,pp,200
+152,MM,Myanmar,false,,200
+153,NA,Namibia,true,pp,200
+154,NR,Nauru,true,pp,200
+155,NP,Nepal,true,dl|id|pp,200
+156,NL,Netherlands,true,dl|id|pp,200
+157,NC,New Caledonia,false,,200
+158,NZ,New Zealand,true,dl|id|pp,200
+159,NI,Nicaragua,false,,200
+160,NE,Niger,true,pp,200
+161,NG,Nigeria,true,dl|id|pp|vid,200
+162,NU,Niue,false,,200
+163,NF,Norfolk Island,false,,200
+164,KP,North Korea,false,,200
+165,MK,North Macedonia,true,dl|id|pp,200
+166,MP,Northern Mariana Islands,false,,200
+167,NO,Norway,true,dl|id|pp,200
+168,OM,Oman,true,dl|id|pp,200
+169,PK,Pakistan,true,id|pp,200
+170,PW,Palau,true,pp,200
+171,PS,"Palestine, State of",true,pp,200
+172,PA,Panama,true,dl|id|pp|pr,200
+173,PG,Papua New Guinea,true,pp,200
+174,PY,Paraguay,true,dl|id|pp,200
+175,PE,Peru,true,dl|id|pp,200
+176,PH,Philippines,true,dl|id|pp|vid|sid,200
+177,PN,Pitcairn,false,,200
+178,PL,Poland,true,dl|id|pp,200
+179,PT,Portugal,true,dl|id|pp,200
+180,PR,Puerto Rico,true,dl|id|pp,200
+181,QA,Qatar,true,dl|id|pp,200
+182,RE,Réunion,false,,200
+183,RO,Romania,true,dl|id|pp,200
+184,RU,Russian Federation,false,,200
+185,RW,Rwanda,true,dl|id|pp,200
+186,BL,Saint Barthélemy,false,,200
+187,SH,"Saint Helena, Ascension and Tristan da Cunha",false,,200
+188,KN,Saint Kitts and Nevis,true,pp,200
+189,LC,Saint Lucia,true,pp,200
+190,MF,Saint Martin (French part),true,dl|pp,200
+191,PM,Saint Pierre and Miquelon,false,,200
+192,VC,Saint Vincent and the Grenadines,true,pp,200
+193,WS,Samoa,true,pp,200
+194,SM,San Marino,true,id|pp,200
+195,ST,Sao Tome and Principe,true,pp,200
+196,SA,Saudi Arabia,true,dl|id|pp,200
+197,SN,Senegal,true,dl|id|pp,200
+198,RS,Serbia,true,dl|id|pp,200
+199,SC,Seychelles,true,pp,200
+200,SL,Sierra Leone,true,pp,200
+201,SG,Singapore,true,dl|id|pp|wp,200
+202,SX,Sint Maarten (Dutch part),false,,200
+203,SK,Slovakia,true,dl|id|pp,200
+204,SI,Slovenia,true,dl|id|pp,200
+205,SB,Solomon Islands,true,pp,200
+206,SO,Somalia,false,,200
+207,ZA,South Africa,true,dl|id|pp,200
+208,GS,South Georgia and the South Sandwich Islands,false,,200
+209,KR,South Korea,true,pp|dl|rp|id,200
+210,SS,South Sudan,false,,200
+211,ES,Spain,true,dl|id|pp,200
+212,LK,Sri Lanka,true,dl|id|pp,200
+213,SD,Sudan,false,,200
+214,SR,Suriname,true,pp,200
+215,SJ,Svalbard and Jan Mayen,false,,200
+216,SE,Sweden,true,dl|id|pp,200
+217,CH,Switzerland,true,dl|id|pp,200
+218,SY,Syrian Arab Republic,false,,200
+219,TW,Taiwan,true,dl|id|pp,200
+220,TJ,Tajikistan,false,,200
+221,TZ,Tanzania,true,dl|id|pp|vid,200
+222,TH,Thailand,true,dl|id|pp,200
+223,TL,Timor-Leste,true,pp,200
+224,TG,Togo,true,pp,200
+225,TK,Tokelau,false,,200
+226,TO,Tonga,true,pp,200
+227,TT,Trinidad and Tobago,true,dl|id|pp,200
+228,TN,Tunisia,true,dl|id|pp,200
+229,TR,Türkiye,true,dl|id|pp,200
+230,TM,Turkmenistan,false,,200
+231,TC,Turks and Caicos Islands,true,pp,200
+232,TV,Tuvalu,true,pp,200
+233,UG,Uganda,true,dl|id|pp,200
+234,UA,Ukraine,true,dl|pp,200
+235,AE,United Arab Emirates,true,dl|id|pp,200
+236,GB,United Kingdom,true,dl|id|pp|vid,200
+237,US,United States,true,dl|id|pp|pr|wp,200
+238,UM,United States Minor Outlying Islands,false,,200
+239,UY,Uruguay,true,dl|id|pp,200
+240,UZ,Uzbekistan,false,,200
+241,VU,Vanuatu,true,pp,200
+242,VE,Venezuela,false,,200
+243,VN,Vietnam,false,,200
+244,VG,"Virgin Islands, British",false,,200
+245,VI,"Virgin Islands, U.S.",true,dl|id|pp,200
+246,WF,Wallis and Futuna,false,,200
+247,EH,Western Sahara,false,,200
+248,YE,Yemen,false,,200
+249,ZM,Zambia,true,pp,200
+250,ZW,Zimbabwe,false,,200

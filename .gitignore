@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+
+# Local custody: exact raw requests/responses and unreviewed media.
+/runtime/
+
+# Only evidence/video/representative may contain a tracked MP4.
+/evidence/video/generated/
+*.raw.mp4
+*.partial.mp4

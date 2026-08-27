@@ -1,0 +1,613 @@
+{
+  "schema": "openai-cyber-verification-country-support/redaction-manifest/v1",
+  "sanitizer_version": "1.0.0",
+  "artifact": "transitions/0087-GR/request.meta.json",
+  "raw": {
+    "bytes": 10733,
+    "sha256": "5ddeeccf32b65df033bb07f352e46168a7ed951acd556cc61610ea5302113f9e"
+  },
+  "sanitized": {
+    "bytes": 4950,
+    "sha256": "4d8d2fb6d7b316a36495755d9d55f345838fedcc4e55e4b523a38104deb0389e"
+  },
+  "changes": [
+    {
+      "index": 0,
+      "raw_range": {
+        "start": 44,
+        "end": 56
+      },
+      "sanitized_range": {
+        "start": 44,
+        "end": 56
+      },
+      "replacement": "[REDACTED]",
+      "reason": "phone-number"
+    },
+    {
+      "index": 1,
+      "raw_range": {
+        "start": 74,
+        "end": 108
+      },
+      "sanitized_range": {
+        "start": 74,
+        "end": 86
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 2,
+      "raw_range": {
+        "start": 129,
+        "end": 388
+      },
+      "sanitized_range": {
+        "start": 107,
+        "end": 119
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-url-parameter"
+    },
+    {
+      "index": 3,
+      "raw_range": {
+        "start": 420,
+        "end": 532
+      },
+      "sanitized_range": {
+        "start": 151,
+        "end": 163
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-url-identifier"
+    },
+    {
+      "index": 4,
+      "raw_range": {
+        "start": 611,
+        "end": 618
+      },
+      "sanitized_range": {
+        "start": 242,
+        "end": 254
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-field"
+    },
+    {
+      "index": 5,
+      "raw_range": {
+        "start": 645,
+        "end": 1503
+      },
+      "sanitized_range": {
+        "start": 281,
+        "end": 293
+      },
+      "replacement": "[REDACTED]",
+      "reason": "authentication-credential"
+    },
+    {
+      "index": 6,
+      "raw_range": {
+        "start": 1525,
+        "end": 1559
+      },
+      "sanitized_range": {
+        "start": 315,
+        "end": 327
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 7,
+      "raw_range": {
+        "start": 1595,
+        "end": 1629
+      },
+      "sanitized_range": {
+        "start": 363,
+        "end": 375
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 8,
+      "raw_range": {
+        "start": 1651,
+        "end": 1717
+      },
+      "sanitized_range": {
+        "start": 397,
+        "end": 409
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 9,
+      "raw_range": {
+        "start": 1749,
+        "end": 1762
+      },
+      "sanitized_range": {
+        "start": 441,
+        "end": 453
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-field"
+    },
+    {
+      "index": 10,
+      "raw_range": {
+        "start": 1797,
+        "end": 1804
+      },
+      "sanitized_range": {
+        "start": 488,
+        "end": 500
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-field"
+    },
+    {
+      "index": 11,
+      "raw_range": {
+        "start": 1845,
+        "end": 1881
+      },
+      "sanitized_range": {
+        "start": 541,
+        "end": 553
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 12,
+      "raw_range": {
+        "start": 1903,
+        "end": 1969
+      },
+      "sanitized_range": {
+        "start": 575,
+        "end": 587
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 13,
+      "raw_range": {
+        "start": 2247,
+        "end": 2281
+      },
+      "sanitized_range": {
+        "start": 865,
+        "end": 877
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 14,
+      "raw_range": {
+        "start": 2302,
+        "end": 2561
+      },
+      "sanitized_range": {
+        "start": 898,
+        "end": 910
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-url-parameter"
+    },
+    {
+      "index": 15,
+      "raw_range": {
+        "start": 2596,
+        "end": 2602
+      },
+      "sanitized_range": {
+        "start": 945,
+        "end": 957
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-field"
+    },
+    {
+      "index": 16,
+      "raw_range": {
+        "start": 2624,
+        "end": 2636
+      },
+      "sanitized_range": {
+        "start": 979,
+        "end": 991
+      },
+      "replacement": "[REDACTED]",
+      "reason": "phone-number"
+    },
+    {
+      "index": 17,
+      "raw_range": {
+        "start": 2665,
+        "end": 2677
+      },
+      "sanitized_range": {
+        "start": 1020,
+        "end": 1032
+      },
+      "replacement": "[REDACTED]",
+      "reason": "phone-number"
+    },
+    {
+      "index": 18,
+      "raw_range": {
+        "start": 2706,
+        "end": 2710
+      },
+      "sanitized_range": {
+        "start": 1061,
+        "end": 1073
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-field"
+    },
+    {
+      "index": 19,
+      "raw_range": {
+        "start": 2734,
+        "end": 2853
+      },
+      "sanitized_range": {
+        "start": 1097,
+        "end": 1109
+      },
+      "replacement": "[REDACTED]",
+      "reason": "ip-address"
+    },
+    {
+      "index": 20,
+      "raw_range": {
+        "start": 2890,
+        "end": 2920
+      },
+      "sanitized_range": {
+        "start": 1146,
+        "end": 1158
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 21,
+      "raw_range": {
+        "start": 2947,
+        "end": 3109
+      },
+      "sanitized_range": {
+        "start": 1185,
+        "end": 1197
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 22,
+      "raw_range": {
+        "start": 3137,
+        "end": 4148
+      },
+      "sanitized_range": {
+        "start": 1225,
+        "end": 1237
+      },
+      "replacement": "[REDACTED]",
+      "reason": "embedded-request-body"
+    },
+    {
+      "index": 23,
+      "raw_range": {
+        "start": 4233,
+        "end": 5487
+      },
+      "sanitized_range": {
+        "start": 1322,
+        "end": 1334
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 24,
+      "raw_range": {
+        "start": 7116,
+        "end": 7150
+      },
+      "sanitized_range": {
+        "start": 2963,
+        "end": 2975
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 25,
+      "raw_range": {
+        "start": 7243,
+        "end": 7255
+      },
+      "sanitized_range": {
+        "start": 3068,
+        "end": 3080
+      },
+      "replacement": "[REDACTED]",
+      "reason": "phone-number"
+    },
+    {
+      "index": 26,
+      "raw_range": {
+        "start": 7400,
+        "end": 7481
+      },
+      "sanitized_range": {
+        "start": 3225,
+        "end": 3237
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 27,
+      "raw_range": {
+        "start": 7690,
+        "end": 8548
+      },
+      "sanitized_range": {
+        "start": 3446,
+        "end": 3458
+      },
+      "replacement": "[REDACTED]",
+      "reason": "authentication-credential"
+    },
+    {
+      "index": 28,
+      "raw_range": {
+        "start": 8570,
+        "end": 8604
+      },
+      "sanitized_range": {
+        "start": 3480,
+        "end": 3492
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 29,
+      "raw_range": {
+        "start": 8755,
+        "end": 8821
+      },
+      "sanitized_range": {
+        "start": 3643,
+        "end": 3655
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 30,
+      "raw_range": {
+        "start": 8878,
+        "end": 8890
+      },
+      "sanitized_range": {
+        "start": 3712,
+        "end": 3724
+      },
+      "replacement": "[REDACTED]",
+      "reason": "phone-number"
+    },
+    {
+      "index": 31,
+      "raw_range": {
+        "start": 8972,
+        "end": 8976
+      },
+      "sanitized_range": {
+        "start": 3806,
+        "end": 3818
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-field"
+    },
+    {
+      "index": 32,
+      "raw_range": {
+        "start": 9007,
+        "end": 9041
+      },
+      "sanitized_range": {
+        "start": 3849,
+        "end": 3861
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 33,
+      "raw_range": {
+        "start": 9076,
+        "end": 9083
+      },
+      "sanitized_range": {
+        "start": 3896,
+        "end": 3908
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-field"
+    },
+    {
+      "index": 34,
+      "raw_range": {
+        "start": 9119,
+        "end": 9153
+      },
+      "sanitized_range": {
+        "start": 3944,
+        "end": 3956
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 35,
+      "raw_range": {
+        "start": 9194,
+        "end": 9230
+      },
+      "sanitized_range": {
+        "start": 3997,
+        "end": 4009
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 36,
+      "raw_range": {
+        "start": 9266,
+        "end": 9273
+      },
+      "sanitized_range": {
+        "start": 4045,
+        "end": 4057
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-field"
+    },
+    {
+      "index": 37,
+      "raw_range": {
+        "start": 9310,
+        "end": 9340
+      },
+      "sanitized_range": {
+        "start": 4094,
+        "end": 4106
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 38,
+      "raw_range": {
+        "start": 9372,
+        "end": 9385
+      },
+      "sanitized_range": {
+        "start": 4138,
+        "end": 4150
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-field"
+    },
+    {
+      "index": 39,
+      "raw_range": {
+        "start": 9420,
+        "end": 9426
+      },
+      "sanitized_range": {
+        "start": 4185,
+        "end": 4197
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-field"
+    },
+    {
+      "index": 40,
+      "raw_range": {
+        "start": 9455,
+        "end": 9467
+      },
+      "sanitized_range": {
+        "start": 4226,
+        "end": 4238
+      },
+      "replacement": "[REDACTED]",
+      "reason": "phone-number"
+    },
+    {
+      "index": 41,
+      "raw_range": {
+        "start": 9518,
+        "end": 9777
+      },
+      "sanitized_range": {
+        "start": 4289,
+        "end": 4301
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-url-parameter"
+    },
+    {
+      "index": 42,
+      "raw_range": {
+        "start": 9804,
+        "end": 9966
+      },
+      "sanitized_range": {
+        "start": 4328,
+        "end": 4340
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 43,
+      "raw_range": {
+        "start": 10142,
+        "end": 10208
+      },
+      "sanitized_range": {
+        "start": 4516,
+        "end": 4528
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 44,
+      "raw_range": {
+        "start": 10293,
+        "end": 10412
+      },
+      "sanitized_range": {
+        "start": 4613,
+        "end": 4625
+      },
+      "replacement": "[REDACTED]",
+      "reason": "ip-address"
+    },
+    {
+      "index": 45,
+      "raw_range": {
+        "start": 10600,
+        "end": 10608
+      },
+      "sanitized_range": {
+        "start": 4813,
+        "end": 4825
+      },
+      "replacement": "[REDACTED]",
+      "reason": "sensitive-field"
+    }
+  ]
+}

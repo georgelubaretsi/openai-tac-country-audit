@@ -1,0 +1,233 @@
+{
+  "responseReceived": {
+    "requestId": "[REDACTED]",
+    "loaderId": "[REDACTED]",
+    "timestamp": 317724.000365,
+    "type": "XHR",
+    "response": {
+      "url": "[REDACTED]",
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "x-request-id": "[REDACTED]",
+        "content-encoding": "gzip",
+        "cf-cache-status": "DYNAMIC",
+        "x-content-type-options": "nosniff",
+        "content-type": "application/json; charset=utf-8",
+        "x-runtime": "[REDACTED]",
+        "persona-fingerprint-life": "",
+        "persona-device-id-lifetime": "[REDACTED]",
+        "cache-control": "no-store",
+        "persona-ingress-worker-version": "[REDACTED]",
+        "persona-device-id": "[REDACTED]",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "196",
+        "x-traceparent": "[REDACTED]",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-envoy-decorator-operation": "persona-web-verify-api-canary-clusterip.persona-web.svc.cluster.local:8080/*",
+        "persona-country": "[REDACTED]",
+        "x-xss-protection": "1; mode=block",
+        "server": "cloudflare",
+        "persona-environment-id": "[REDACTED]",
+        "x-permitted-cross-domain-policies": "none",
+        "persona-inquiry-template-id": "[REDACTED]",
+        "expires": "[REDACTED]",
+        "date": "[REDACTED]",
+        "x-persona-trace-id": "[REDACTED]",
+        "vary": "Accept-Encoding, Origin",
+        "x-frame-options": "SAMEORIGIN",
+        "strict-transport-security": "max-age=631138519",
+        "x-persona-cf-internal-ray": "[REDACTED]",
+        "content-security-policy": "default-src *; base-uri 'none'; child-src 'self' blob: withpersona.com *.withpersona.com withpersona-staging.com *.withpersona-staging.com withpersona-development.com *.withpersona-development.com *.withpersona-sandbox.com *.withpersona-staging-sandbox.com storage.googleapis.com/persona-frontend-sandbox-development/index.html *.youtube.com js.stripe.com int-widgets.moneydesktop.com widgets.moneydesktop.com; connect-src 'self' data: blob: withpersona.com *.withpersona.com withpersona-staging.com *.withpersona-staging.com withpersona-development.com *.withpersona-development.com https://app-frontier-file-explorer-file-server-prod.public.frontier.withpersona.app *.local app.withpersona.com:* ws://app.withpersona.com:* wss://app.withpersona.com:* maps.googleapis.com translate.googleapis.com baltazar.microblink.com ping.microblink.com api.openai.com support-chat-ddu5zajd5a-uc.a.run.app canary---support-chat-ddu5zajd5a-uc.a.run.app www.google.com www.gstatic.com rum-http-intake.logs.datadoghq.com *.fpapi.io *.api.fpjs.io *.fptls.com *.fptls2.com *.fptls3.com *.amazonaws.com wss://*.amazonaws.com api.amplitude.com api.hubapi.com o175220.ingest.sentry.io o175220.ingest.us.sentry.io storage.googleapis.com browser-intake-datadoghq.com fonts.googleapis.com api.stripe.com app.usecanopy.com cdn.jsdelivr.net bridge.worldcoin.org; font-src 'self' https://* data: app.withpersona.com:*; frame-src *; img-src https://* blob: data: app.withpersona.com:*; object-src 'none'; script-src 'self' 'unsafe-eval' app.withpersona.com:* *.withpersona.com *.withpersona-staging.com *.withpersona-development.com maps.googleapis.com www.google.com www.gstatic.com code.jquery.com cdnjs.cloudflare.com cdn.jsdelivr.net maxcdn.bootstrapcdn.com js.stripe.com *.js.stripe.com 'sha256-NiHKryHWudRC2IteTqmY9v1VkaDUA/5jhgXkMTkgo2w=' 'sha256-MS6/3FCg4WjP9gwgaBGwLpRCY6fZBgwmhVCdrPrNf3E=' 'sha256-tQjf8gvb2ROOMapIxFvFAYBeUJ0v1HCbOcSmDNXGtDo=' 'sha256-VA8O2hAdooB288EpSTrGLl7z3QikbWU9wwoebO/QaYk=' 'sha256-+5XkZFazzJo8n0iOP4ti/cLCMUudTf//Mzkb7xNPXIc=' components.usecanopy.com; style-src 'self' 'unsafe-inline' app.withpersona.com:* *.withpersona.com *.withpersona-staging.com *.withpersona-development.com https://fonts.googleapis.com/ cdn.jsdelivr.net maxcdn.bootstrapcdn.com; style-src-attr 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline' app.withpersona.com:* cdn.jsdelivr.net maxcdn.bootstrapcdn.com cdnjs.cloudflare.com fonts.googleapis.com storage.googleapis.com translate.googleapis.com *.withpersona.com *.withpersona-staging.com *.withpersona-development.com, script-src 'strict-dynamic' 'unsafe-eval' 'nonce-qWhzRRUsQOdlVfoh8RBy2BoUNkVcydgGpk/2WSK9HLE=' 'unsafe-inline' https://* 'sha256-NiHKryHWudRC2IteTqmY9v1VkaDUA/5jhgXkMTkgo2w=';",
+        "accept-ch": "Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Model",
+        "via": "1.1 google",
+        "cf-ray": "[REDACTED]",
+        "x-download-options": "noopen",
+        "persona-host": "[REDACTED]",
+        "persona-organization-id": "[REDACTED]"
+      },
+      "mimeType": "application/json",
+      "charset": "utf-8",
+      "connectionReused": true,
+      "connectionId": 27091,
+      "remoteIPAddress": "[REDACTED]",
+      "remotePort": 443,
+      "fromDiskCache": false,
+      "fromServiceWorker": false,
+      "fromPrefetchCache": false,
+      "encodedDataLength": 3465,
+      "timing": {
+        "requestTime": 317723.524305,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 0.311,
+        "sendEnd": 0.457,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 474.904,
+        "receiveHeadersEnd": 475.049
+      },
+      "responseTime": 1787836777103.648,
+      "protocol": "h2",
+      "alternateProtocolUsage": "unspecifiedReason",
+      "securityState": "secure",
+      "securityDetails": {
+        "protocol": "TLS 1.3",
+        "keyExchange": "",
+        "keyExchangeGroup": "X25519MLKEM768",
+        "cipher": "AES_128_GCM",
+        "certificateId": 0,
+        "subjectName": "inquiry.withpersona.com",
+        "sanList": [
+          "inquiry.withpersona.com"
+        ],
+        "issuer": "WE1",
+        "validFrom": 1783271778,
+        "validTo": 1791051375,
+        "signedCertificateTimestampList": [
+          {
+            "status": "Verified",
+            "origin": "Embedded in certificate",
+            "logDescription": "Google 'Xenon2026h2' log",
+            "logId": "[REDACTED]",
+            "timestamp": 1783275378645,
+            "hashAlgorithm": "SHA-256",
+            "signatureAlgorithm": "[REDACTED]",
+            "signatureData": "[REDACTED]"
+          },
+          {
+            "status": "Verified",
+            "origin": "Embedded in certificate",
+            "logDescription": "DigiCert 'Sphinx2026h2'",
+            "logId": "[REDACTED]",
+            "timestamp": 1783275378600,
+            "hashAlgorithm": "SHA-256",
+            "signatureAlgorithm": "[REDACTED]",
+            "signatureData": "[REDACTED]"
+          }
+        ],
+        "certificateTransparencyCompliance": "unknown",
+        "serverSignatureAlgorithm": "[REDACTED]",
+        "encryptedClientHello": false
+      }
+    },
+    "hasExtraInfo": true,
+    "frameId": "[REDACTED]"
+  },
+  "responseReceivedExtraInfo": [
+    {
+      "requestId": "[REDACTED]",
+      "blockedCookies": [
+        {
+          "blockedReasons": [
+            "[REDACTED]"
+          ],
+          "cookieLine": "[REDACTED]",
+          "cookie": {
+            "name": "[REDACTED]",
+            "value": "[REDACTED]",
+            "domain": "[REDACTED]",
+            "path": "[REDACTED]",
+            "expires": "[REDACTED]",
+            "size": "[REDACTED]",
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "[REDACTED]",
+            "priority": "[REDACTED]",
+            "sameParty": false,
+            "sourceScheme": "[REDACTED]",
+            "sourcePort": "[REDACTED]"
+          }
+        },
+        {
+          "blockedReasons": [
+            "[REDACTED]"
+          ],
+          "cookieLine": "[REDACTED]",
+          "cookie": {
+            "name": "[REDACTED]",
+            "value": "[REDACTED]",
+            "domain": "[REDACTED]",
+            "path": "[REDACTED]",
+            "expires": "[REDACTED]",
+            "size": "[REDACTED]",
+            "httpOnly": true,
+            "secure": true,
+            "session": false,
+            "sameSite": "[REDACTED]",
+            "priority": "[REDACTED]",
+            "sameParty": false,
+            "sourceScheme": "[REDACTED]",
+            "sourcePort": "[REDACTED]"
+          }
+        }
+      ],
+      "headers": {
+        "accept-ch": "Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Model",
+        "cache-control": "no-store",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "[REDACTED]",
+        "content-encoding": "gzip",
+        "content-security-policy": "default-src *; base-uri 'none'; child-src 'self' blob: withpersona.com *.withpersona.com withpersona-staging.com *.withpersona-staging.com withpersona-development.com *.withpersona-development.com *.withpersona-sandbox.com *.withpersona-staging-sandbox.com storage.googleapis.com/persona-frontend-sandbox-development/index.html *.youtube.com js.stripe.com int-widgets.moneydesktop.com widgets.moneydesktop.com; connect-src 'self' data: blob: withpersona.com *.withpersona.com withpersona-staging.com *.withpersona-staging.com withpersona-development.com *.withpersona-development.com https://app-frontier-file-explorer-file-server-prod.public.frontier.withpersona.app *.local app.withpersona.com:* ws://app.withpersona.com:* wss://app.withpersona.com:* maps.googleapis.com translate.googleapis.com baltazar.microblink.com ping.microblink.com api.openai.com support-chat-ddu5zajd5a-uc.a.run.app canary---support-chat-ddu5zajd5a-uc.a.run.app www.google.com www.gstatic.com rum-http-intake.logs.datadoghq.com *.fpapi.io *.api.fpjs.io *.fptls.com *.fptls2.com *.fptls3.com *.amazonaws.com wss://*.amazonaws.com api.amplitude.com api.hubapi.com o175220.ingest.sentry.io o175220.ingest.us.sentry.io storage.googleapis.com browser-intake-datadoghq.com fonts.googleapis.com api.stripe.com app.usecanopy.com cdn.jsdelivr.net bridge.worldcoin.org; font-src 'self' https://* data: app.withpersona.com:*; frame-src *; img-src https://* blob: data: app.withpersona.com:*; object-src 'none'; script-src 'self' 'unsafe-eval' app.withpersona.com:* *.withpersona.com *.withpersona-staging.com *.withpersona-development.com maps.googleapis.com www.google.com www.gstatic.com code.jquery.com cdnjs.cloudflare.com cdn.jsdelivr.net maxcdn.bootstrapcdn.com js.stripe.com *.js.stripe.com 'sha256-NiHKryHWudRC2IteTqmY9v1VkaDUA/5jhgXkMTkgo2w=' 'sha256-MS6/3FCg4WjP9gwgaBGwLpRCY6fZBgwmhVCdrPrNf3E=' 'sha256-tQjf8gvb2ROOMapIxFvFAYBeUJ0v1HCbOcSmDNXGtDo=' 'sha256-VA8O2hAdooB288EpSTrGLl7z3QikbWU9wwoebO/QaYk=' 'sha256-+5XkZFazzJo8n0iOP4ti/cLCMUudTf//Mzkb7xNPXIc=' components.usecanopy.com; style-src 'self' 'unsafe-inline' app.withpersona.com:* *.withpersona.com *.withpersona-staging.com *.withpersona-development.com https://fonts.googleapis.com/ cdn.jsdelivr.net maxcdn.bootstrapcdn.com; style-src-attr 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline' app.withpersona.com:* cdn.jsdelivr.net maxcdn.bootstrapcdn.com cdnjs.cloudflare.com fonts.googleapis.com storage.googleapis.com translate.googleapis.com *.withpersona.com *.withpersona-staging.com *.withpersona-development.com, script-src 'strict-dynamic' 'unsafe-eval' 'nonce-qWhzRRUsQOdlVfoh8RBy2BoUNkVcydgGpk/2WSK9HLE=' 'unsafe-inline' https://* 'sha256-NiHKryHWudRC2IteTqmY9v1VkaDUA/5jhgXkMTkgo2w=';",
+        "content-type": "application/json; charset=utf-8",
+        "date": "[REDACTED]",
+        "expires": "[REDACTED]",
+        "persona-country": "[REDACTED]",
+        "persona-device-id": "[REDACTED]",
+        "persona-device-id-lifetime": "[REDACTED]",
+        "persona-environment-id": "[REDACTED]",
+        "persona-fingerprint-life": "",
+        "persona-host": "[REDACTED]",
+        "persona-ingress-worker-version": "[REDACTED]",
+        "persona-inquiry-template-id": "[REDACTED]",
+        "persona-organization-id": "[REDACTED]",
+        "pragma": "no-cache",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "[REDACTED]",
+        "strict-transport-security": "max-age=631138519",
+        "vary": "Accept-Encoding, Origin",
+        "via": "1.1 google",
+        "x-content-type-options": "nosniff",
+        "x-download-options": "noopen",
+        "x-envoy-decorator-operation": "persona-web-verify-api-canary-clusterip.persona-web.svc.cluster.local:8080/*",
+        "x-envoy-upstream-service-time": "196",
+        "x-frame-options": "SAMEORIGIN",
+        "x-permitted-cross-domain-policies": "none",
+        "x-persona-cf-internal-ray": "[REDACTED]",
+        "x-persona-trace-id": "[REDACTED]",
+        "x-request-id": "[REDACTED]",
+        "x-runtime": "[REDACTED]",
+        "x-traceparent": "[REDACTED]",
+        "x-xss-protection": "1; mode=block"
+      },
+      "resourceIPAddressSpace": "[REDACTED]",
+      "statusCode": 200,
+      "cookiePartitionKey": {
+        "topLevelSite": "[REDACTED]",
+        "hasCrossSiteAncestor": true
+      },
+      "cookiePartitionKeyOpaque": false,
+      "exemptedCookies": []
+    }
+  ],
+  "loadingFinished": {
+    "requestId": "[REDACTED]",
+    "timestamp": 317723.999871,
+    "encodedDataLength": 10377
+  },
+  "getResponseBody": {
+    "base64Encoded": false
+  }
+}

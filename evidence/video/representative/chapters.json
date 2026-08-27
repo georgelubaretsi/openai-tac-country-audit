@@ -1,0 +1,737 @@
+{
+  "schema": "openai-cyber-verification-country-support/video-chapters/v1",
+  "run_id": "openai-cyber-media3-20260827",
+  "status": "completed",
+  "chapters": [
+    {
+      "index": 1,
+      "code": "AF",
+      "name": "Afghanistan",
+      "supported": false,
+      "selected_at_ms": 0,
+      "submitted_at_ms": 2900,
+      "result_at_ms": 3800,
+      "ended_at_ms": 5800
+    },
+    {
+      "index": 2,
+      "code": "AX",
+      "name": "Åland Islands",
+      "supported": false,
+      "selected_at_ms": 5800,
+      "submitted_at_ms": 8800,
+      "result_at_ms": 9600,
+      "ended_at_ms": 11600
+    },
+    {
+      "index": 9,
+      "code": "AQ",
+      "name": "Antarctica",
+      "supported": false,
+      "selected_at_ms": 11600,
+      "submitted_at_ms": 14600,
+      "result_at_ms": 15500,
+      "ended_at_ms": 17500
+    },
+    {
+      "index": 12,
+      "code": "AM",
+      "name": "Armenia",
+      "supported": false,
+      "selected_at_ms": 17500,
+      "submitted_at_ms": 20500,
+      "result_at_ms": 21400,
+      "ended_at_ms": 23300
+    },
+    {
+      "index": 13,
+      "code": "AW",
+      "name": "Aruba",
+      "supported": false,
+      "selected_at_ms": 23400,
+      "submitted_at_ms": 26300,
+      "result_at_ms": 27200,
+      "ended_at_ms": 29200
+    },
+    {
+      "index": 16,
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "supported": false,
+      "selected_at_ms": 29200,
+      "submitted_at_ms": 32200,
+      "result_at_ms": 33200,
+      "ended_at_ms": 35100
+    },
+    {
+      "index": 21,
+      "code": "BY",
+      "name": "Belarus",
+      "supported": false,
+      "selected_at_ms": 35200,
+      "submitted_at_ms": 38100,
+      "result_at_ms": 39800,
+      "ended_at_ms": 41800
+    },
+    {
+      "index": 28,
+      "code": "BQ",
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "supported": false,
+      "selected_at_ms": 41800,
+      "submitted_at_ms": 44800,
+      "result_at_ms": 45600,
+      "ended_at_ms": 47600
+    },
+    {
+      "index": 31,
+      "code": "BV",
+      "name": "Bouvet Island",
+      "supported": false,
+      "selected_at_ms": 47700,
+      "submitted_at_ms": 50600,
+      "result_at_ms": 51600,
+      "ended_at_ms": 53600
+    },
+    {
+      "index": 33,
+      "code": "IO",
+      "name": "British Indian Ocean Territory",
+      "supported": false,
+      "selected_at_ms": 53600,
+      "submitted_at_ms": 56600,
+      "result_at_ms": 57400,
+      "ended_at_ms": 59400
+    },
+    {
+      "index": 39,
+      "code": "KH",
+      "name": "Cambodia",
+      "supported": false,
+      "selected_at_ms": 59400,
+      "submitted_at_ms": 62400,
+      "result_at_ms": 63600,
+      "ended_at_ms": 65600
+    },
+    {
+      "index": 43,
+      "code": "CF",
+      "name": "Central African Republic",
+      "supported": false,
+      "selected_at_ms": 65600,
+      "submitted_at_ms": 68500,
+      "result_at_ms": 69400,
+      "ended_at_ms": 71400
+    },
+    {
+      "index": 46,
+      "code": "CN",
+      "name": "China",
+      "supported": false,
+      "selected_at_ms": 71400,
+      "submitted_at_ms": 74400,
+      "result_at_ms": 75400,
+      "ended_at_ms": 77400
+    },
+    {
+      "index": 47,
+      "code": "CX",
+      "name": "Christmas Island",
+      "supported": false,
+      "selected_at_ms": 77400,
+      "submitted_at_ms": 80400,
+      "result_at_ms": 81300,
+      "ended_at_ms": 83300
+    },
+    {
+      "index": 48,
+      "code": "CC",
+      "name": "Cocos (Keeling) Islands",
+      "supported": false,
+      "selected_at_ms": 83300,
+      "submitted_at_ms": 86300,
+      "result_at_ms": 87700,
+      "ended_at_ms": 89700
+    },
+    {
+      "index": 52,
+      "code": "CD",
+      "name": "Congo, The Democratic Republic of the",
+      "supported": false,
+      "selected_at_ms": 89700,
+      "submitted_at_ms": 92600,
+      "result_at_ms": 93600,
+      "ended_at_ms": 95500
+    },
+    {
+      "index": 53,
+      "code": "CK",
+      "name": "Cook Islands",
+      "supported": false,
+      "selected_at_ms": 95600,
+      "submitted_at_ms": 98500,
+      "result_at_ms": 99500,
+      "ended_at_ms": 101500
+    },
+    {
+      "index": 57,
+      "code": "CU",
+      "name": "Cuba",
+      "supported": false,
+      "selected_at_ms": 101500,
+      "submitted_at_ms": 104500,
+      "result_at_ms": 105300,
+      "ended_at_ms": 107300
+    },
+    {
+      "index": 69,
+      "code": "ER",
+      "name": "Eritrea",
+      "supported": false,
+      "selected_at_ms": 107300,
+      "submitted_at_ms": 110300,
+      "result_at_ms": 111200,
+      "ended_at_ms": 113200
+    },
+    {
+      "index": 73,
+      "code": "FK",
+      "name": "Falkland Islands (Malvinas)",
+      "supported": false,
+      "selected_at_ms": 113200,
+      "submitted_at_ms": 116200,
+      "result_at_ms": 118400,
+      "ended_at_ms": 120400
+    },
+    {
+      "index": 78,
+      "code": "GF",
+      "name": "French Guiana",
+      "supported": false,
+      "selected_at_ms": 120400,
+      "submitted_at_ms": 123400,
+      "result_at_ms": 124500,
+      "ended_at_ms": 126500
+    },
+    {
+      "index": 79,
+      "code": "PF",
+      "name": "French Polynesia",
+      "supported": false,
+      "selected_at_ms": 126500,
+      "submitted_at_ms": 129500,
+      "result_at_ms": 130300,
+      "ended_at_ms": 132300
+    },
+    {
+      "index": 80,
+      "code": "TF",
+      "name": "French Southern Territories",
+      "supported": false,
+      "selected_at_ms": 132300,
+      "submitted_at_ms": 135300,
+      "result_at_ms": 136200,
+      "ended_at_ms": 138200
+    },
+    {
+      "index": 83,
+      "code": "GE",
+      "name": "Georgia",
+      "supported": false,
+      "selected_at_ms": 138200,
+      "submitted_at_ms": 141200,
+      "result_at_ms": 142100,
+      "ended_at_ms": 144100
+    },
+    {
+      "index": 90,
+      "code": "GP",
+      "name": "Guadeloupe",
+      "supported": false,
+      "selected_at_ms": 144100,
+      "submitted_at_ms": 147100,
+      "result_at_ms": 148200,
+      "ended_at_ms": 150200
+    },
+    {
+      "index": 97,
+      "code": "HT",
+      "name": "Haiti",
+      "supported": false,
+      "selected_at_ms": 150200,
+      "submitted_at_ms": 153200,
+      "result_at_ms": 154100,
+      "ended_at_ms": 156100
+    },
+    {
+      "index": 98,
+      "code": "HM",
+      "name": "Heard Island and McDonald Islands",
+      "supported": false,
+      "selected_at_ms": 156100,
+      "submitted_at_ms": 159100,
+      "result_at_ms": 160000,
+      "ended_at_ms": 162000
+    },
+    {
+      "index": 99,
+      "code": "VA",
+      "name": "Holy See (Vatican City State)",
+      "supported": false,
+      "selected_at_ms": 162000,
+      "submitted_at_ms": 165000,
+      "result_at_ms": 165900,
+      "ended_at_ms": 167900
+    },
+    {
+      "index": 101,
+      "code": "HK",
+      "name": "Hong Kong",
+      "supported": false,
+      "selected_at_ms": 167900,
+      "submitted_at_ms": 170900,
+      "result_at_ms": 172200,
+      "ended_at_ms": 174200
+    },
+    {
+      "index": 106,
+      "code": "IR",
+      "name": "Iran",
+      "supported": false,
+      "selected_at_ms": 174200,
+      "submitted_at_ms": 177100,
+      "result_at_ms": 178000,
+      "ended_at_ms": 180000
+    },
+    {
+      "index": 107,
+      "code": "IQ",
+      "name": "Iraq",
+      "supported": false,
+      "selected_at_ms": 180000,
+      "submitted_at_ms": 182900,
+      "result_at_ms": 184000,
+      "ended_at_ms": 186000
+    },
+    {
+      "index": 116,
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "supported": false,
+      "selected_at_ms": 186000,
+      "submitted_at_ms": 189000,
+      "result_at_ms": 190100,
+      "ended_at_ms": 192100
+    },
+    {
+      "index": 121,
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "supported": false,
+      "selected_at_ms": 192100,
+      "submitted_at_ms": 195100,
+      "result_at_ms": 196000,
+      "ended_at_ms": 198000
+    },
+    {
+      "index": 122,
+      "code": "LA",
+      "name": "Lao People's Democratic Republic",
+      "supported": false,
+      "selected_at_ms": 198000,
+      "submitted_at_ms": 201000,
+      "result_at_ms": 202000,
+      "ended_at_ms": 204000
+    },
+    {
+      "index": 124,
+      "code": "LB",
+      "name": "Lebanon",
+      "supported": false,
+      "selected_at_ms": 204000,
+      "submitted_at_ms": 207000,
+      "result_at_ms": 208000,
+      "ended_at_ms": 211000
+    },
+    {
+      "index": 127,
+      "code": "LY",
+      "name": "Libya",
+      "supported": false,
+      "selected_at_ms": 211000,
+      "submitted_at_ms": 214000,
+      "result_at_ms": 214900,
+      "ended_at_ms": 216800
+    },
+    {
+      "index": 131,
+      "code": "MO",
+      "name": "Macao",
+      "supported": false,
+      "selected_at_ms": 216900,
+      "submitted_at_ms": 219800,
+      "result_at_ms": 220700,
+      "ended_at_ms": 222700
+    },
+    {
+      "index": 139,
+      "code": "MQ",
+      "name": "Martinique",
+      "supported": false,
+      "selected_at_ms": 222700,
+      "submitted_at_ms": 225700,
+      "result_at_ms": 226700,
+      "ended_at_ms": 228700
+    },
+    {
+      "index": 142,
+      "code": "YT",
+      "name": "Mayotte",
+      "supported": false,
+      "selected_at_ms": 228700,
+      "submitted_at_ms": 231700,
+      "result_at_ms": 232600,
+      "ended_at_ms": 234600
+    },
+    {
+      "index": 145,
+      "code": "MD",
+      "name": "Moldova",
+      "supported": false,
+      "selected_at_ms": 234600,
+      "submitted_at_ms": 237600,
+      "result_at_ms": 239100,
+      "ended_at_ms": 241100
+    },
+    {
+      "index": 147,
+      "code": "MN",
+      "name": "Mongolia",
+      "supported": false,
+      "selected_at_ms": 241100,
+      "submitted_at_ms": 244000,
+      "result_at_ms": 245100,
+      "ended_at_ms": 247100
+    },
+    {
+      "index": 152,
+      "code": "MM",
+      "name": "Myanmar",
+      "supported": false,
+      "selected_at_ms": 247100,
+      "submitted_at_ms": 250100,
+      "result_at_ms": 251000,
+      "ended_at_ms": 253000
+    },
+    {
+      "index": 157,
+      "code": "NC",
+      "name": "New Caledonia",
+      "supported": false,
+      "selected_at_ms": 253000,
+      "submitted_at_ms": 256000,
+      "result_at_ms": 257000,
+      "ended_at_ms": 259000
+    },
+    {
+      "index": 159,
+      "code": "NI",
+      "name": "Nicaragua",
+      "supported": false,
+      "selected_at_ms": 259000,
+      "submitted_at_ms": 262000,
+      "result_at_ms": 262800,
+      "ended_at_ms": 264800
+    },
+    {
+      "index": 162,
+      "code": "NU",
+      "name": "Niue",
+      "supported": false,
+      "selected_at_ms": 264800,
+      "submitted_at_ms": 267800,
+      "result_at_ms": 268700,
+      "ended_at_ms": 270700
+    },
+    {
+      "index": 163,
+      "code": "NF",
+      "name": "Norfolk Island",
+      "supported": false,
+      "selected_at_ms": 270700,
+      "submitted_at_ms": 273700,
+      "result_at_ms": 274600,
+      "ended_at_ms": 276600
+    },
+    {
+      "index": 164,
+      "code": "KP",
+      "name": "North Korea",
+      "supported": false,
+      "selected_at_ms": 276600,
+      "submitted_at_ms": 279500,
+      "result_at_ms": 280400,
+      "ended_at_ms": 282400
+    },
+    {
+      "index": 166,
+      "code": "MP",
+      "name": "Northern Mariana Islands",
+      "supported": false,
+      "selected_at_ms": 282400,
+      "submitted_at_ms": 285400,
+      "result_at_ms": 286300,
+      "ended_at_ms": 288300
+    },
+    {
+      "index": 177,
+      "code": "PN",
+      "name": "Pitcairn",
+      "supported": false,
+      "selected_at_ms": 288300,
+      "submitted_at_ms": 291300,
+      "result_at_ms": 292700,
+      "ended_at_ms": 294700
+    },
+    {
+      "index": 182,
+      "code": "RE",
+      "name": "Réunion",
+      "supported": false,
+      "selected_at_ms": 294700,
+      "submitted_at_ms": 297700,
+      "result_at_ms": 298500,
+      "ended_at_ms": 300500
+    },
+    {
+      "index": 184,
+      "code": "RU",
+      "name": "Russian Federation",
+      "supported": false,
+      "selected_at_ms": 300500,
+      "submitted_at_ms": 303500,
+      "result_at_ms": 304400,
+      "ended_at_ms": 306400
+    },
+    {
+      "index": 186,
+      "code": "BL",
+      "name": "Saint Barthélemy",
+      "supported": false,
+      "selected_at_ms": 306400,
+      "submitted_at_ms": 309300,
+      "result_at_ms": 310300,
+      "ended_at_ms": 312300
+    },
+    {
+      "index": 187,
+      "code": "SH",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "supported": false,
+      "selected_at_ms": 312300,
+      "submitted_at_ms": 315300,
+      "result_at_ms": 316300,
+      "ended_at_ms": 318300
+    },
+    {
+      "index": 191,
+      "code": "PM",
+      "name": "Saint Pierre and Miquelon",
+      "supported": false,
+      "selected_at_ms": 318300,
+      "submitted_at_ms": 321300,
+      "result_at_ms": 322200,
+      "ended_at_ms": 324200
+    },
+    {
+      "index": 202,
+      "code": "SX",
+      "name": "Sint Maarten (Dutch part)",
+      "supported": false,
+      "selected_at_ms": 324200,
+      "submitted_at_ms": 327200,
+      "result_at_ms": 328300,
+      "ended_at_ms": 330200
+    },
+    {
+      "index": 206,
+      "code": "SO",
+      "name": "Somalia",
+      "supported": false,
+      "selected_at_ms": 330300,
+      "submitted_at_ms": 333200,
+      "result_at_ms": 334400,
+      "ended_at_ms": 336400
+    },
+    {
+      "index": 208,
+      "code": "GS",
+      "name": "South Georgia and the South Sandwich Islands",
+      "supported": false,
+      "selected_at_ms": 336500,
+      "submitted_at_ms": 339400,
+      "result_at_ms": 340500,
+      "ended_at_ms": 342500
+    },
+    {
+      "index": 210,
+      "code": "SS",
+      "name": "South Sudan",
+      "supported": false,
+      "selected_at_ms": 342500,
+      "submitted_at_ms": 345500,
+      "result_at_ms": 346400,
+      "ended_at_ms": 348300
+    },
+    {
+      "index": 213,
+      "code": "SD",
+      "name": "Sudan",
+      "supported": false,
+      "selected_at_ms": 348400,
+      "submitted_at_ms": 351300,
+      "result_at_ms": 352200,
+      "ended_at_ms": 354200
+    },
+    {
+      "index": 215,
+      "code": "SJ",
+      "name": "Svalbard and Jan Mayen",
+      "supported": false,
+      "selected_at_ms": 354200,
+      "submitted_at_ms": 357200,
+      "result_at_ms": 358100,
+      "ended_at_ms": 360100
+    },
+    {
+      "index": 218,
+      "code": "SY",
+      "name": "Syrian Arab Republic",
+      "supported": false,
+      "selected_at_ms": 360100,
+      "submitted_at_ms": 363100,
+      "result_at_ms": 364000,
+      "ended_at_ms": 366000
+    },
+    {
+      "index": 220,
+      "code": "TJ",
+      "name": "Tajikistan",
+      "supported": false,
+      "selected_at_ms": 366000,
+      "submitted_at_ms": 369000,
+      "result_at_ms": 369900,
+      "ended_at_ms": 371900
+    },
+    {
+      "index": 225,
+      "code": "TK",
+      "name": "Tokelau",
+      "supported": false,
+      "selected_at_ms": 371900,
+      "submitted_at_ms": 374900,
+      "result_at_ms": 375800,
+      "ended_at_ms": 377800
+    },
+    {
+      "index": 230,
+      "code": "TM",
+      "name": "Turkmenistan",
+      "supported": false,
+      "selected_at_ms": 377800,
+      "submitted_at_ms": 380800,
+      "result_at_ms": 381800,
+      "ended_at_ms": 383800
+    },
+    {
+      "index": 238,
+      "code": "UM",
+      "name": "United States Minor Outlying Islands",
+      "supported": false,
+      "selected_at_ms": 383800,
+      "submitted_at_ms": 386800,
+      "result_at_ms": 387600,
+      "ended_at_ms": 389600
+    },
+    {
+      "index": 240,
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "supported": false,
+      "selected_at_ms": 389600,
+      "submitted_at_ms": 392600,
+      "result_at_ms": 393700,
+      "ended_at_ms": 395700
+    },
+    {
+      "index": 242,
+      "code": "VE",
+      "name": "Venezuela",
+      "supported": false,
+      "selected_at_ms": 395700,
+      "submitted_at_ms": 398700,
+      "result_at_ms": 399600,
+      "ended_at_ms": 401500
+    },
+    {
+      "index": 243,
+      "code": "VN",
+      "name": "Vietnam",
+      "supported": false,
+      "selected_at_ms": 401600,
+      "submitted_at_ms": 404500,
+      "result_at_ms": 405400,
+      "ended_at_ms": 407400
+    },
+    {
+      "index": 244,
+      "code": "VG",
+      "name": "Virgin Islands, British",
+      "supported": false,
+      "selected_at_ms": 407400,
+      "submitted_at_ms": 410400,
+      "result_at_ms": 411400,
+      "ended_at_ms": 413400
+    },
+    {
+      "index": 246,
+      "code": "WF",
+      "name": "Wallis and Futuna",
+      "supported": false,
+      "selected_at_ms": 413400,
+      "submitted_at_ms": 416300,
+      "result_at_ms": 417200,
+      "ended_at_ms": 419200
+    },
+    {
+      "index": 247,
+      "code": "EH",
+      "name": "Western Sahara",
+      "supported": false,
+      "selected_at_ms": 419200,
+      "submitted_at_ms": 422200,
+      "result_at_ms": 423000,
+      "ended_at_ms": 425000
+    },
+    {
+      "index": 248,
+      "code": "YE",
+      "name": "Yemen",
+      "supported": false,
+      "selected_at_ms": 425000,
+      "submitted_at_ms": 428000,
+      "result_at_ms": 428900,
+      "ended_at_ms": 430900
+    },
+    {
+      "index": 250,
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "supported": false,
+      "selected_at_ms": 430900,
+      "submitted_at_ms": 433900,
+      "result_at_ms": 434800,
+      "ended_at_ms": 436800
+    }
+  ]
+}

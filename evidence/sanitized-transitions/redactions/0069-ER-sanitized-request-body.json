@@ -1,0 +1,41 @@
+{
+  "schema": "openai-cyber-verification-country-support/redaction-manifest/v1",
+  "sanitizer_version": "1.0.0",
+  "artifact": "transitions/0069-ER/request.body",
+  "raw": {
+    "bytes": 937,
+    "sha256": "a6d61c45a186cdba79040b5dc1d3761afd2b5f6b9b14f4e6de10483413856642"
+  },
+  "sanitized": {
+    "bytes": 895,
+    "sha256": "6a3959e832f184b1060d442243e7fec783bcfdc3eb53093e12bb48e0b5ce3c68"
+  },
+  "changes": [
+    {
+      "index": 0,
+      "raw_range": {
+        "start": 93,
+        "end": 127
+      },
+      "sanitized_range": {
+        "start": 93,
+        "end": 103
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    },
+    {
+      "index": 1,
+      "raw_range": {
+        "start": 719,
+        "end": 747
+      },
+      "sanitized_range": {
+        "start": 695,
+        "end": 705
+      },
+      "replacement": "[REDACTED]",
+      "reason": "high-entropy-identifier"
+    }
+  ]
+}

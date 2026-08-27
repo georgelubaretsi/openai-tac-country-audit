@@ -1,0 +1,146 @@
+{
+  "requestWillBeSent": {
+    "requestId": "[REDACTED]",
+    "loaderId": "[REDACTED]",
+    "documentURL": "[REDACTED]",
+    "request": {
+      "url": "[REDACTED]",
+      "method": "POST",
+      "headers": {
+        "Persona-Js-Sdk-Version": "[REDACTED]",
+        "Authorization": "[REDACTED]",
+        "Bkpqlmwz": "[REDACTED]",
+        "Persona-Environment-Id": "[REDACTED]",
+        "stpbwsbb": "[REDACTED]",
+        "Persona-Server-SHA": "[REDACTED]",
+        "Persona-Device-Locale": "[REDACTED]",
+        "Persona-Inquiry-Template-Id": "[REDACTED]",
+        "dnlgnzlz": "[REDACTED]",
+        "Accept": "application/json, text/plain, */*",
+        "Key-Inflection": "kebab",
+        "tljlggdg": "User-Agent, tljlggdg, Persona-Version",
+        "Content-Type": "multipart/form-data; boundary=----WebKitFormBoundarynqlTsyuN8NYdYMiP",
+        "Persona-Device-Id": "[REDACTED]",
+        "Referer": "[REDACTED]",
+        "Persona-Style-Variant": "[REDACTED]",
+        "nhmjlnrs": "[REDACTED]",
+        "Persona-Version": "[REDACTED]",
+        "Persona-Country": "[REDACTED]",
+        "User-Agent": "[REDACTED]",
+        "Persona-Organization-Id": "[REDACTED]",
+        "requestparams": "[REDACTED]"
+      },
+      "postData": "[REDACTED]",
+      "hasPostData": true,
+      "postDataEntries": [
+        {
+          "bytes": "[REDACTED]"
+        }
+      ],
+      "mixedContentType": "none",
+      "initialPriority": "High",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "isSameSite": false
+    },
+    "timestamp": 318325.863664,
+    "wallTime": 1787837378.9731,
+    "initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "",
+            "scriptId": "33",
+            "url": "https://cdn.withpersona.com/build/assets/inquiry/sentry-BCEH4HJr.js",
+            "lineNumber": 15,
+            "columnNumber": 16311
+          },
+          {
+            "functionName": "apply",
+            "scriptId": "33",
+            "url": "https://cdn.withpersona.com/build/assets/inquiry/sentry-BCEH4HJr.js",
+            "lineNumber": 15,
+            "columnNumber": 10208
+          },
+          {
+            "functionName": "",
+            "scriptId": "18",
+            "url": "https://cdn.withpersona.com/build/assets/inquiry/axios-Ca5N40wo.js",
+            "lineNumber": 2,
+            "columnNumber": 18653
+          },
+          {
+            "functionName": "xhr",
+            "scriptId": "18",
+            "url": "https://cdn.withpersona.com/build/assets/inquiry/axios-Ca5N40wo.js",
+            "lineNumber": 2,
+            "columnNumber": 16643
+          },
+          {
+            "functionName": "bt",
+            "scriptId": "18",
+            "url": "https://cdn.withpersona.com/build/assets/inquiry/axios-Ca5N40wo.js",
+            "lineNumber": 4,
+            "columnNumber": 534
+          }
+        ]
+      }
+    },
+    "redirectHasExtraInfo": false,
+    "type": "XHR",
+    "frameId": "[REDACTED]",
+    "hasUserGesture": true
+  },
+  "requestWillBeSentExtraInfo": [
+    {
+      "requestId": "[REDACTED]",
+      "associatedCookies": [],
+      "headers": {
+        ":authority": "inquiry.withpersona.com",
+        ":method": "POST",
+        ":path": "[REDACTED]",
+        ":scheme": "https",
+        "accept": "application/json, text/plain, */*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9",
+        "authorization": "[REDACTED]",
+        "bkpqlmwz": "[REDACTED]",
+        "content-length": "937",
+        "content-type": "multipart/form-data; boundary=----WebKitFormBoundarynqlTsyuN8NYdYMiP",
+        "dnlgnzlz": "[REDACTED]",
+        "key-inflection": "kebab",
+        "nhmjlnrs": "[REDACTED]",
+        "origin": "https://inquiry.withpersona.com",
+        "persona-country": "[REDACTED]",
+        "persona-device-id": "[REDACTED]",
+        "persona-device-locale": "[REDACTED]",
+        "persona-environment-id": "[REDACTED]",
+        "persona-inquiry-template-id": "[REDACTED]",
+        "persona-js-sdk-version": "[REDACTED]",
+        "persona-organization-id": "[REDACTED]",
+        "persona-server-sha": "[REDACTED]",
+        "persona-style-variant": "[REDACTED]",
+        "persona-version": "[REDACTED]",
+        "priority": "u=1, i",
+        "referer": "[REDACTED]",
+        "requestparams": "[REDACTED]",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-storage-access": "none",
+        "stpbwsbb": "[REDACTED]",
+        "tljlggdg": "User-Agent, tljlggdg, Persona-Version",
+        "user-agent": "[REDACTED]"
+      },
+      "connectTiming": {
+        "requestTime": 318325.864092
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": true,
+        "initiatorIPAddressSpace": "[REDACTED]",
+        "privateNetworkRequestPolicy": "PermissionBlock"
+      },
+      "siteHasCookieInOtherPartition": false
+    }
+  ]
+}

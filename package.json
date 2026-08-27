@@ -1,0 +1,21 @@
+{
+  "name": "openai-cyber-verification-country-support",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "node scripts/capture-transitions.mjs",
+    "sanitize": "node scripts/sanitize-capture.mjs",
+    "audit": "node scripts/audit-sanitized-evidence.mjs",
+    "promote": "node scripts/promote-evidence.mjs",
+    "video": "node scripts/record-unsupported-video.mjs",
+    "verify-video": "node scripts/verify-video.mjs",
+    "verify": "node scripts/verify-evidence.mjs",
+    "check-index": "node scripts/check-git-index.mjs",
+    "check": "for file in lib/*.mjs scripts/*.mjs tests/*.mjs; do node --check \"$file\" || exit 1; done",
+    "test": "node --test tests/*.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

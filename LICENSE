@@ -1,0 +1,57 @@
+Licensing
+=========
+
+Copyright (c) 2026 George Lubaretsi
+
+1. Software
+-----------
+
+Repository-authored software and configuration, including `lib/`, `scripts/`,
+`tests/`, `flake.nix`, `package.json`, `.githooks/`, and `config/`, is licensed
+under the MIT License in `LICENSES/MIT.txt`.
+
+2. Original analysis and compilation
+------------------------------------
+
+`README.md`, `FINDINGS.md`, and the original selection, structure, and
+arrangement of repository-authored audit results are licensed under the
+Creative Commons Attribution 4.0 International License in
+`LICENSES/CC-BY-4.0.txt`, but only to the extent George Lubaretsi holds the
+rights being licensed.
+
+3. Third-party and upstream material
+------------------------------------
+
+This repository does not relicense third-party material. In particular:
+
+- OpenSanctions-derived enrichment under `evidence/enrichment/us-sanctions-*`
+  remains subject to CC BY-NC 4.0 and its recorded attribution. The legal code
+  is included at `LICENSES/CC-BY-NC-4.0.txt`.
+- Population enrichment under `evidence/enrichment/population-*` remains
+  subject to the applicable Our World in Data and United Nations source terms.
+  Source URLs and attribution are recorded in
+  `evidence/enrichment/population-source-metadata.json`.
+- OpenAI and Persona interfaces, captured transitions, screenshots, video,
+  trademarks, and other third-party material under `evidence/` remain subject
+  to the rights of their respective owners. They are included as research
+  evidence; this license grants no additional rights in that underlying
+  material.
+- Tweets, profile captures, and third-party correspondence under
+  `evidence-external/` remain subject to the rights of their respective
+  authors and platforms. This license grants no additional rights in that
+  underlying material.
+
+Repository-authored annotations, manifests, and arrangement around excluded
+material remain covered by Sections 1 or 2 where applicable.
+
+4. Attribution
+--------------
+
+Attribution for CC BY 4.0 material may be provided as:
+
+  George Lubaretsi, "OpenAI Trusted Access for Cyber Country Audit",
+  https://github.com/georgelubaretsi/openai-tac-country-audit
+
+The licenses grant no trademark rights and imply no endorsement by OpenAI,
+Persona, X, OpenSanctions, Our World in Data, the United Nations, or any other
+third party.
