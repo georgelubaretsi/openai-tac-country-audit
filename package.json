@@ -1,5 +1,5 @@
 {
-  "name": "openai-cyber-verification-country-support",
+  "name": "openai-tac-country-audit",
   "version": "1.0.0",
   "private": true,
   "type": "module",

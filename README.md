@@ -1,8 +1,10 @@
-# OpenAI Cyber Verification Country Support
+# OpenAI Trusted Access for Cyber Country Audit
 
 A reproducible audit of country and government-ID support in the Persona widget configured for OpenAI’s cyber-verification flow.
 
 This repository records a complete selector sweep, preserves exact raw Persona transition exchanges locally, produces byte-span-sanitized request/response evidence for Git, captures full-page and widget-only selected/result screenshots plus a side-by-side widget comparison per country, stores one representative video of unsupported-country transitions, and enriches the canonical selector map with a population snapshot.
+
+Historical artifacts and `v1` schema identifiers retain the original `openai-cyber-verification-country-support` namespace recorded at capture time.
 
 ## Privacy boundary
 
@@ -110,7 +112,7 @@ npm run verify-video -- <run-id>
 npm run enrich-population
 ```
 
-The enrichment downloads the Our World in Data population CSV and metadata, selects 2023 records derived from UN World Population Prospects 2024, hashes both source payloads, and maps three-letter ISO source codes to the canonical selector entries. Duplicate or reused source records fail closed. Entries absent from the primary source remain `null`, never zero.
+The enrichment downloads the Our World in Data population CSV and metadata, selects 2023 records derived from UN World Population Prospects 2024, hashes both source payloads, and maps three-letter ISO source codes to the canonical selector entries. Duplicate or reused source records fail closed. Entries absent from the primary source remain `null`; `null` is distinct from zero.
 
 It writes JSON, CSV, and source-provenance artifacts under `evidence/enrichment/`. If an official-access comparison already exists, the command also refreshes its population fields and population-weighted summaries.
 
@@ -122,7 +124,7 @@ npm run enrich-sanctions
 
 The enrichment downloads and hashes the OpenSanctions program directory, selects active U.S.-issued programs containing the documented measures, maps `target_territories` to all 250 canonical codes, and stores program IDs, measures, legal aliases, authoritative URLs, source provenance, attribution, and license metadata. Unmatched entries retain an empty program array.
 
-The command writes only machine-readable evidence and derived comparison artifacts. It never edits `FINDINGS.md` or `README.md`; report interpretation remains manually maintained.
+The command writes machine-readable evidence and derived comparison artifacts. Report interpretation in `FINDINGS.md` and `README.md` remains manually maintained.
 
 ### 8. Compare against OpenAI’s official ChatGPT access list
 

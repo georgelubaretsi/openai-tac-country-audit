@@ -1,4 +1,4 @@
-# OpenAI Cyber Verification Country Support — Findings
+# OpenAI Trusted Access for Cyber Country Audit — Findings
 
 ## Executive summary
 

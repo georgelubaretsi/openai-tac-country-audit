@@ -1,5 +1,7 @@
 .DS_Store
 node_modules/
+.direnv/
+result
 
 # Local custody: exact raw requests/responses and unreviewed media.
 /runtime/

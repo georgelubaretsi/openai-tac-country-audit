@@ -1,0 +1,48 @@
+{
+  "nodes": {
+    "gh-touchid": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1787866000,
+        "narHash": "sha256-dDI1Bj3B8uH/Ghg5tVNr0VSF/CChSV0FnkzhxCloIgQ=",
+        "owner": "georgelubaretsi",
+        "repo": "gh-touchid",
+        "rev": "afb92de5ea583fe6e2bb953850f0e5e1e0dc033d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "georgelubaretsi",
+        "repo": "gh-touchid",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1787736819,
+        "narHash": "sha256-cV5xEJJK3BvhU8rEd4mC9UsmDi5qscv/kzGPhBRC5WA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "9fbb54b33e91ee4ca368e35a78e0613c720600b3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "gh-touchid": "gh-touchid",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
