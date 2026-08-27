@@ -10,14 +10,14 @@
     {
       "path": "evidence/comparisons/openai-chatgpt-supported-countries.csv",
       "kind": "official-access-comparison-csv",
-      "bytes": 16789,
-      "sha256": "0072f626c1aa1d79f64ac3d3325388e36789256973a58db9ba1d29f1a03cb4f7"
+      "bytes": 23181,
+      "sha256": "7e490e6a4b03053c553e25472bcea197da6e7a5de3f16e448c1ec4c8fd48afbe"
     },
     {
       "path": "evidence/comparisons/openai-chatgpt-supported-countries.json",
       "kind": "official-access-comparison",
-      "bytes": 80941,
-      "sha256": "2dd4bed07c4757cfe77329235d590164e59c6db40e2a59afc52d4f6c662a9281"
+      "bytes": 112841,
+      "sha256": "cb33b9fe24e34e7587c8dd27aa39610af7a03d19ca20aea03f3ec470c1ddcea0"
     },
     {
       "path": "evidence/country-support.csv",
@@ -50,24 +50,7 @@
       "sha256": "eff36338d73cc2ee0caeca10b30f486f436bad7392fe775af9824952a9f60228"
     },
     {
-      "path": "evidence/enrichment/us-sanctions-programs.csv",
-      "kind": "us-sanctions-program-enrichment-csv",
-      "bytes": 5500,
-      "sha256": "c4b9c84594f2301899ac4d29fe8e68b572c10a74907a0dd01544e7fff4dac84b"
-    },
-    {
-      "path": "evidence/enrichment/us-sanctions-programs.json",
-      "kind": "us-sanctions-program-enrichment",
-      "bytes": 42365,
-      "sha256": "6f7517ab141109d539b9472ae8b4c1656dfba8e08b0ee9fa32501fb1f98568c4"
-    },
-    {
-      "path": "evidence/enrichment/us-sanctions-source-metadata.json",
-      "kind": "us-sanctions-source-metadata",
-      "bytes": 1329,
-      "sha256": "6a866789e7a6245c4543619986667c6a4b2f62073cd44e3a41b6cef7bbe0fb4e"
-    },
-    {
+
       "path": "evidence/sanitized-transitions/redactions/0001-AF-sanitized-request-body.json",
       "kind": "redaction-manifest",
       "bytes": 929,

@@ -11,6 +11,10 @@ import {
   OFFICIAL_SOURCE_URL,
   parseOfficialCountryNames,
 } from "../lib/official-country-support.mjs";
+import {
+  enrichOfficialComparison,
+  officialComparisonCsv,
+} from "../lib/population.mjs";
 import { atomicJson, atomicWrite, sha256 } from "../lib/runtime.mjs";
 const execFileAsync = promisify(execFile);
 
@@ -21,14 +25,20 @@ const manifestPath = resolve(evidenceRoot, "manifest.json");
 const outputDirectory = resolve(evidenceRoot, "comparisons");
 const jsonPath = resolve(outputDirectory, "openai-chatgpt-supported-countries.json");
 const csvPath = resolve(outputDirectory, "openai-chatgpt-supported-countries.csv");
+const populationPath = resolve(evidenceRoot, "enrichment/population-2023.json");
 
 await mkdir(outputDirectory, { recursive: true });
-const [countryMap, manifest] = await Promise.all([
+const [countryMap, populationEnrichment, manifest] = await Promise.all([
   readFile(mapPath, "utf8").then(text => JSON.parse(text)),
+  readFile(populationPath, "utf8").then(text => JSON.parse(text)),
   readFile(manifestPath, "utf8").then(text => JSON.parse(text)),
 ]);
 if (countryMap.schema !== "openai-cyber-verification-country-support/v1" || countryMap.results?.length !== 250) {
   throw new Error("canonical cyber country map is unavailable");
+}
+if (populationEnrichment.schema !== "openai-cyber-verification-country-support/population-enrichment/v1" ||
+    populationEnrichment.results?.length !== 250) {
+  throw new Error("population enrichment is unavailable");
 }
 if (manifest.schema !== "openai-cyber-verification-country-support/evidence-manifest/v1" || !Array.isArray(manifest.files)) {
   throw new Error("evidence manifest is unavailable");
@@ -56,7 +66,7 @@ async function fetchOfficialHtml() {
 const { html, transport } = await fetchOfficialHtml();
 const officialNames = parseOfficialCountryNames(html);
 const comparison = compareCountrySupport(officialNames, countryMap.results);
-const generated = {
+const generated = enrichOfficialComparison({
   schema: "openai-cyber-verification-country-support/official-access-comparison/v1",
   source: {
     url: OFFICIAL_SOURCE_URL,
@@ -72,26 +82,11 @@ const generated = {
   },
   official_entries: comparison.official_entries,
   results: comparison.results,
-};
+}, populationEnrichment);
 await atomicJson(jsonPath, generated);
 await chmod(jsonPath, 0o644);
 
-const csvCell = value => /[",\n]/u.test(String(value))
-  ? `"${String(value).replaceAll('"', '""')}"`
-  : String(value);
-const csv = [
-  "index,code,name,official_source_name,official_chatgpt_supported,cyber_verification_supported,classification",
-  ...comparison.results.map(result => [
-    result.index,
-    result.code,
-    csvCell(result.name),
-    csvCell(result.official_source_name ?? ""),
-    result.official_chatgpt_supported,
-    result.cyber_verification_supported,
-    result.classification,
-  ].join(",")),
-].join("\n") + "\n";
-await atomicWrite(csvPath, csv);
+await atomicWrite(csvPath, officialComparisonCsv(generated));
 await chmod(csvPath, 0o644);
 
 const entries = [];

@@ -1,0 +1,49 @@
+{
+  "schema": "openai-cyber-verification-country-support/population-source-metadata/v1",
+  "fetched_at": "2026-08-27T14:42:12.251Z",
+  "reference_year": 2023,
+  "source": {
+    "label": "UN WPP 2024 via Our World in Data",
+    "underlying_source": "United Nations, World Population Prospects 2024 revision",
+    "underlying_source_url": "https://population.un.org/wpp/",
+    "distribution": {
+      "url": "https://ourworldindata.org/grapher/population.csv",
+      "bytes": 1594182,
+      "sha256": "6e72d4ffe8f0e940df60c90b13c8ad6eda85043b995b244e8b3e20b1e833b541",
+      "format": "CSV"
+    },
+    "metadata": {
+      "url": "https://ourworldindata.org/grapher/population.metadata.json",
+      "bytes": 4146,
+      "sha256": "d6f591fba8d46e8cd3bbc731106af56e672419f6f2d7bd4dd9a9ac603ecaae81",
+      "owid_variable_id": 953903,
+      "last_updated": "2024-07-15",
+      "citation": "HYDE (2023); Gapminder (2022); UN WPP (2024) – with major processing by Our World in Data. “Population – HYDE, Gapminder, UN – Long-run data” [dataset]. PBL Netherlands Environmental Assessment Agency, “History Database of the Global Environment 3.3”; Gapminder, “Population v7”; United Nations, “World Population Prospects”; United Nations, “World Population Prospects - Interim Update”; Gapminder, “Systema Globalis” [original data].",
+      "chart_note": "Country data is always based on current geographical borders.",
+      "source_reported_download_date": "2026-08-27"
+    }
+  },
+  "method": {
+    "canonical_entries": 250,
+    "matched_entries": 237,
+    "uncovered_entries": 13,
+    "matching": "Canonical selector names plus reviewed exact-name aliases; source rows require three-letter ISO codes; duplicate names, codes, aliases, and source-record reuse fail closed.",
+    "missing_values": "Entries absent from the primary source remain null and are not interpreted as zero.",
+    "territory_overlap_caveat": "Territory populations can overlap parent-country totals; population sums across selector entries are not necessarily mutually exclusive.",
+    "uncovered_codes": [
+      "AX",
+      "AQ",
+      "BV",
+      "IO",
+      "CX",
+      "CC",
+      "TF",
+      "HM",
+      "XK",
+      "NF",
+      "PN",
+      "GS",
+      "UM"
+    ]
+  }
+}

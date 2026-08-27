@@ -1,0 +1,251 @@
+index,code,iso3,name,population,population_year,population_source,population_source_url,population_status
+1,AF,AFG,Afghanistan,41454762,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+2,AX,,Åland Islands,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+3,AL,ALB,Albania,2811660,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+4,DZ,DZA,Algeria,46164222,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+5,AS,ASM,American Samoa,47544,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+6,AD,AND,Andorra,80869,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+7,AO,AGO,Angola,36749909,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+8,AI,AIA,Anguilla,14435,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+9,AQ,,Antarctica,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+10,AG,ATG,Antigua and Barbuda,93331,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+11,AR,ARG,Argentina,45538402,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+12,AM,ARM,Armenia,2943398,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+13,AW,ABW,Aruba,107946,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+14,AU,AUS,Australia,26451126,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+15,AT,AUT,Austria,9130434,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+16,AZ,AZE,Azerbaijan,10318209,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+17,BS,BHS,Bahamas,399452,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+18,BH,BHR,Bahrain,1569674,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+19,BD,BGD,Bangladesh,171466986,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+20,BB,BRB,Barbados,282347,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+21,BY,BLR,Belarus,9115679,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+22,BE,BEL,Belgium,11712891,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+23,BZ,BLZ,Belize,411112,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+24,BJ,BEN,Benin,14111035,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+25,BM,BMU,Bermuda,64721,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+26,BT,BTN,Bhutan,786386,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+27,BO,BOL,Bolivia,12244161,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+28,BQ,BES,"Bonaire, Sint Eustatius and Saba",29920,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+29,BA,BIH,Bosnia and Herzegovina,3185072,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+30,BW,BWA,Botswana,2480242,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+31,BV,,Bouvet Island,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+32,BR,BRA,Brazil,211140731,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+33,IO,,British Indian Ocean Territory,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+34,BN,BRN,Brunei Darussalam,458959,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+35,BG,BGR,Bulgaria,6795805,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+36,BF,BFA,Burkina Faso,23025777,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+37,BI,BDI,Burundi,13689455,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+38,CV,CPV,Cabo Verde,522335,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+39,KH,KHM,Cambodia,17423884,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+40,CM,CMR,Cameroon,28372690,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+41,CA,CAN,Canada,39299098,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+42,KY,CYM,Cayman Islands,73055,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+43,CF,CAF,Central African Republic,5152415,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+44,TD,TCD,Chad,19319075,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+45,CL,CHL,Chile,19658833,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+46,CN,CHN,China,1422584930,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+47,CX,,Christmas Island,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+48,CC,,Cocos (Keeling) Islands,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+49,CO,COL,Colombia,52321152,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+50,KM,COM,Comoros,850390,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+51,CG,COG,Congo,6182890,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+52,CD,COD,"Congo, The Democratic Republic of the",105789733,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+53,CK,COK,Cook Islands,14244,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+54,CR,CRI,Costa Rica,5105526,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+55,CI,CIV,Côte d'Ivoire,31165653,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+56,HR,HRV,Croatia,3896023,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+57,CU,CUB,Cuba,11019932,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+58,CW,CUW,Curaçao,185437,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+59,CY,CYP,Cyprus,1344981,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+60,CZ,CZE,Czechia,10809722,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+61,DK,DNK,Denmark,5948134,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+62,DJ,DJI,Djibouti,1152951,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+63,DM,DMA,Dominica,66531,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+64,DO,DOM,Dominican Republic,11331269,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+65,EC,ECU,Ecuador,17980079,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+66,EG,EGY,Egypt,114535772,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+67,SV,SLV,El Salvador,6309629,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+68,GQ,GNQ,Equatorial Guinea,1847556,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+69,ER,ERI,Eritrea,3470391,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+70,EE,EST,Estonia,1367195,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+71,SZ,SWZ,Eswatini,1230507,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+72,ET,ETH,Ethiopia,128691695,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+73,FK,FLK,Falkland Islands (Malvinas),3498,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+74,FO,FRO,Faroe Islands,54738,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+75,FJ,FJI,Fiji,924150,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+76,FI,FIN,Finland,5601185,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+77,FR,FRA,France,66438828,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+78,GF,GUF,French Guiana,303408,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+79,PF,PYF,French Polynesia,281125,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+80,TF,,French Southern Territories,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+81,GA,GAB,Gabon,2484790,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+82,GM,GMB,Gambia,2697846,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+83,GE,GEO,Georgia,3807494,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+84,DE,DEU,Germany,84548233,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+85,GH,GHA,Ghana,33787916,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+86,GI,GIB,Gibraltar,38493,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+87,GR,GRC,Greece,10242910,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+88,GL,GRL,Greenland,55951,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+89,GD,GRD,Grenada,117094,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+90,GP,GLP,Guadeloupe,376518,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+91,GU,GUM,Guam,166522,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+92,GT,GTM,Guatemala,18124841,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+93,GG,GGY,Guernsey,64043,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+94,GN,GIN,Guinea,14405469,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+95,GW,GNB,Guinea-Bissau,2153343,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+96,GY,GUY,Guyana,826357,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+97,HT,HTI,Haiti,11637402,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+98,HM,,Heard Island and McDonald Islands,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+99,VA,VAT,Holy See (Vatican City State),501,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+100,HN,HND,Honduras,10644853,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+101,HK,HKG,Hong Kong,7442738,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+102,HU,HUN,Hungary,9686465,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+103,IS,ISL,Iceland,387559,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+104,IN,IND,India,1438069597,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+105,ID,IDN,Indonesia,281190068,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+106,IR,IRN,Iran,90608708,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+107,IQ,IRQ,Iraq,45074055,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+108,IE,IRL,Ireland,5196629,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+109,IM,IMN,Isle of Man,84182,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+110,IL,ISR,Israel,9256311,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+111,IT,ITA,Italy,59499452,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+112,JM,JAM,Jamaica,2839785,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+113,JP,JPN,Japan,124370947,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+114,JE,JEY,Jersey,103680,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+115,JO,JOR,Jordan,11439220,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+116,KZ,KAZ,Kazakhstan,20330109,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+117,KE,KEN,Kenya,55339007,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+118,KI,KIR,Kiribati,132540,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+119,XK,,Kosovo,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+120,KW,KWT,Kuwait,4838781,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+121,KG,KGZ,Kyrgyzstan,7073523,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+122,LA,LAO,Lao People's Democratic Republic,7665001,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+123,LV,LVA,Latvia,1882399,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+124,LB,LBN,Lebanon,5773494,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+125,LS,LSO,Lesotho,2311476,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+126,LR,LBR,Liberia,5493035,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+127,LY,LBY,Libya,7305659,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+128,LI,LIE,Liechtenstein,39622,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+129,LT,LTU,Lithuania,2854104,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+130,LU,LUX,Luxembourg,665101,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+131,MO,MAC,Macao,713916,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+132,MG,MDG,Madagascar,31195937,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+133,MW,MWI,Malawi,21104480,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+134,MY,MYS,Malaysia,35126295,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+135,MV,MDV,Maldives,526009,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+136,ML,MLI,Mali,23769130,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+137,MT,MLT,Malta,532964,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+138,MH,MHL,Marshall Islands,38849,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+139,MQ,MTQ,Martinique,346008,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+140,MR,MRT,Mauritania,5022442,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+141,MU,MUS,Mauritius,1273591,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+142,YT,MYT,Mayotte,316028,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+143,MX,MEX,Mexico,129739761,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+144,FM,FSM,"Micronesia, Federated States of",112646,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+145,MD,MDA,Moldova,3067072,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+146,MC,MCO,Monaco,38979,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+147,MN,MNG,Mongolia,3431938,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+148,ME,MNE,Montenegro,633553,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+149,MS,MSR,Montserrat,4440,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+150,MA,MAR,Morocco,37712516,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+151,MZ,MOZ,Mozambique,33635163,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+152,MM,MMR,Myanmar,54133800,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+153,NA,NAM,Namibia,2963102,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+154,NR,NRU,Nauru,11900,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+155,NP,NPL,Nepal,29694614,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+156,NL,NLD,Netherlands,18092526,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+157,NC,NCL,New Caledonia,289879,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+158,NZ,NZL,New Zealand,5172837,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+159,NI,NIC,Nicaragua,6823619,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+160,NE,NER,Niger,26159863,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+161,NG,NGA,Nigeria,227882949,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+162,NU,NIU,Niue,1841,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+163,NF,,Norfolk Island,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+164,KP,PRK,North Korea,26418196,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+165,MK,MKD,North Macedonia,1831800,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+166,MP,MNP,Northern Mariana Islands,45166,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+167,NO,NOR,Norway,5519167,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+168,OM,OMN,Oman,5049267,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+169,PK,PAK,Pakistan,247504505,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+170,PW,PLW,Palau,17751,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+171,PS,PSE,"Palestine, State of",5409201,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+172,PA,PAN,Panama,4458758,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+173,PG,PNG,Papua New Guinea,10389638,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+174,PY,PRY,Paraguay,6844150,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+175,PE,PER,Peru,33845616,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+176,PH,PHL,Philippines,114891199,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+177,PN,,Pitcairn,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+178,PL,POL,Poland,38762847,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+179,PT,PRT,Portugal,10430735,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+180,PR,PRI,Puerto Rico,3242022,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+181,QA,QAT,Qatar,2979086,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+182,RE,REU,Réunion,874883,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+183,RO,ROU,Romania,19118482,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+184,RU,RUS,Russian Federation,145440502,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+185,RW,RWA,Rwanda,13954473,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+186,BL,BLM,Saint Barthélemy,11112,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+187,SH,SHN,"Saint Helena, Ascension and Tristan da Cunha",5316,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+188,KN,KNA,Saint Kitts and Nevis,46783,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+189,LC,LCA,Saint Lucia,179291,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+190,MF,MAF,Saint Martin (French part),27545,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+191,PM,SPM,Saint Pierre and Miquelon,5707,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+192,VC,VCT,Saint Vincent and the Grenadines,101331,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+193,WS,WSM,Samoa,216673,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+194,SM,SMR,San Marino,33761,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+195,ST,STP,Sao Tome and Principe,230882,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+196,SA,SAU,Saudi Arabia,33264289,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+197,SN,SEN,Senegal,18077573,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+198,RS,SRB,Serbia,6773204,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+199,SC,SYC,Seychelles,127961,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+200,SL,SLE,Sierra Leone,8460523,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+201,SG,SGP,Singapore,5789092,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+202,SX,SXM,Sint Maarten (Dutch part),42775,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+203,SK,SVK,Slovakia,5518057,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+204,SI,SVN,Slovenia,2118394,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+205,SB,SLB,Solomon Islands,800014,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+206,SO,SOM,Somalia,18358622,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+207,ZA,ZAF,South Africa,63212386,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+208,GS,,South Georgia and the South Sandwich Islands,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+209,KR,KOR,South Korea,51748744,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+210,SS,SSD,South Sudan,11483370,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+211,ES,ESP,Spain,47911583,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+212,LK,LKA,Sri Lanka,22971615,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+213,SD,SDN,Sudan,50042800,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+214,SR,SUR,Suriname,628892,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+215,SJ,SJM,Svalbard and Jan Mayen,2400,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+216,SE,SWE,Sweden,10551493,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+217,CH,CHE,Switzerland,8870564,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+218,SY,SYR,Syrian Arab Republic,23594623,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+219,TW,TWN,Taiwan,23317145,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+220,TJ,TJK,Tajikistan,10389807,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+221,TZ,TZA,Tanzania,66617607,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+222,TH,THA,Thailand,71702436,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+223,TL,TLS,Timor-Leste,1384292,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+224,TG,TGO,Togo,8223853,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+225,TK,TKL,Tokelau,2424,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+226,TO,TON,Tonga,104613,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+227,TT,TTO,Trinidad and Tobago,1502938,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+228,TN,TUN,Tunisia,12200434,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+229,TR,TUR,Türkiye,87270502,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+230,TM,TKM,Turkmenistan,7364437,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+231,TC,TCA,Turks and Caicos Islands,46221,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+232,TV,TUV,Tuvalu,9837,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+233,UG,UGA,Uganda,48656606,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+234,UA,UKR,Ukraine,37732833,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+235,AE,ARE,United Arab Emirates,10642089,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+236,GB,GBR,United Kingdom,68682965,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+237,US,USA,United States,343477330,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+238,UM,,United States Minor Outlying Islands,,,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,not-covered-by-primary-source
+239,UY,URY,Uruguay,3388083,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+240,UZ,UZB,Uzbekistan,35652311,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+241,VU,VUT,Vanuatu,320422,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+242,VE,VEN,Venezuela,28300861,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+243,VN,VNM,Vietnam,100352189,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+244,VG,VGB,"Virgin Islands, British",39009,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+245,VI,VIR,"Virgin Islands, U.S.",85712,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+246,WF,WLF,Wallis and Futuna,11394,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+247,EH,ESH,Western Sahara,579734,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+248,YE,YEM,Yemen,39390800,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+249,ZM,ZMB,Zambia,20723967,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched
+250,ZW,ZWE,Zimbabwe,16340829,2023,UN WPP 2024 via Our World in Data,https://ourworldindata.org/grapher/population.csv,matched

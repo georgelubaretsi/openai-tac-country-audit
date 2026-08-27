@@ -6,6 +6,11 @@ import { dirname, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
 
+import {
+  enrichOfficialComparison,
+  officialComparisonCsv,
+  populationEnrichmentCsv,
+} from "../lib/population.mjs";
 import { sha256 } from "../lib/runtime.mjs";
 
 const execFileAsync = promisify(execFile);
@@ -49,19 +54,58 @@ if (map.summary.total !== 250 || map.results.length !== 250 || map.summary.uniqu
     map.summary.supported + map.summary.unsupported !== 250 || new Set(map.results.map(row => row.code)).size !== 250) {
   throw new Error("canonical country map counts are invalid");
 }
+const population = JSON.parse(await readFile(resolve(evidenceRoot, "enrichment/population-2023.json"), "utf8"));
+const populationMetadata = JSON.parse(await readFile(
+  resolve(evidenceRoot, "enrichment/population-source-metadata.json"), "utf8"));
+const populationCsv = await readFile(resolve(evidenceRoot, "enrichment/population-2023.csv"), "utf8");
+if (population.schema !== "openai-cyber-verification-country-support/population-enrichment/v1" ||
+    population.results?.length !== 250 ||
+    population.summary.matched !== 237 ||
+    population.summary.not_covered_by_primary_source !== 13 ||
+    population.summary.missing_codes.join(",") !== "AX,AQ,BV,IO,CX,CC,TF,HM,XK,NF,PN,GS,UM" ||
+    population.results.some((row, index) =>
+      row.code !== map.results[index].code ||
+      row.index !== map.results[index].index ||
+      (row.population_status === "matched"
+        ? !/^[A-Z]{3}$/u.test(row.iso3) || !Number.isSafeInteger(row.population) || row.population < 0 ||
+          row.population_year !== 2023
+        : row.population_status !== "not-covered-by-primary-source" ||
+          row.iso3 !== null || row.population !== null || row.population_year !== null)) ||
+    populationCsv !== populationEnrichmentCsv(population)) {
+  throw new Error("population enrichment is inconsistent with the canonical map");
+}
+if (populationMetadata.schema !== "openai-cyber-verification-country-support/population-source-metadata/v1" ||
+    populationMetadata.reference_year !== 2023 ||
+    populationMetadata.method?.matched_entries !== 237 ||
+    populationMetadata.method?.uncovered_entries !== 13 ||
+    !/^[a-f0-9]{64}$/u.test(populationMetadata.source?.distribution?.sha256 ?? "") ||
+    !/^[a-f0-9]{64}$/u.test(populationMetadata.source?.metadata?.sha256 ?? "")) {
+  throw new Error("population source metadata contract mismatch");
+}
 const officialComparison = JSON.parse(await readFile(
   resolve(evidenceRoot, "comparisons/openai-chatgpt-supported-countries.json"), "utf8"));
+const officialComparisonCsvText = await readFile(
+  resolve(evidenceRoot, "comparisons/openai-chatgpt-supported-countries.csv"), "utf8");
 const comparisonSummary = officialComparison.summary;
-if (officialComparison.schema !== "openai-cyber-verification-country-support/official-access-comparison/v1" ||
+const recomputedWeighted = enrichOfficialComparison(officialComparison, population).summary.population_weighted;
+if (officialComparison.schema !== "openai-cyber-verification-country-support/official-access-comparison/v2" ||
     officialComparison.results?.length !== 250 ||
     comparisonSummary.official_and_cyber_supported +
       comparisonSummary.official_supported_cyber_unsupported +
       comparisonSummary.cyber_supported_not_official +
       comparisonSummary.neither_supported !== 250 ||
+    comparisonSummary.population_entries_with_data !== 237 ||
+    comparisonSummary.population_entries_without_data !== 13 ||
+    JSON.stringify(comparisonSummary.population_weighted) !== JSON.stringify(recomputedWeighted) ||
+    officialComparisonCsvText !== officialComparisonCsv(officialComparison) ||
     officialComparison.results.some((row, index) =>
       row.code !== map.results[index].code ||
-      row.cyber_verification_supported !== map.results[index].supported)) {
-  throw new Error("official access comparison is inconsistent with the canonical map");
+      row.cyber_verification_supported !== map.results[index].supported ||
+      row.iso3 !== population.results[index].iso3 ||
+      row.population !== population.results[index].population ||
+      row.population_year !== population.results[index].population_year ||
+      row.population_status !== population.results[index].population_status)) {
+  throw new Error("official access comparison is inconsistent with the canonical map and population enrichment");
 }
 const fullScreenshots = [...actual].filter(path => path.startsWith("evidence/screenshots/countries/") && path.endsWith(".webp"));
 const widgetScreenshots = [...actual].filter(path => path.startsWith("evidence/screenshots/widgets/") && path.endsWith(".webp"));
@@ -110,6 +154,9 @@ console.log(JSON.stringify({
   screenshots: fullScreenshots.length + widgetScreenshots.length + comparisons.length,
   official_chatgpt_supported: comparisonSummary.official_chatgpt_supported,
   official_supported_cyber_unsupported: comparisonSummary.official_supported_cyber_unsupported,
+  population_reference_year: population.summary.population_reference_year,
+  population_entries_with_data: population.summary.matched,
+  population_entries_without_data: population.summary.not_covered_by_primary_source,
   video_chapters: chapters.chapters.length,
   video_bytes: Number(probe.format.size),
   video_duration_seconds: Number(probe.format.duration),

@@ -36,6 +36,21 @@ The 13 selector entries with accepted cyber ID classes but absent from the offic
 
 This comparison does not imply that those 13 locations are permitted access regions. The cyber flow exposes all 250 selector entries, and an accepted ID configuration is not evidence that OpenAI permits service access from that location. Conversely, presence on the official access list does not imply that the cyber-verification template supports identity documents from that location.
 
+## Population enrichment
+
+The 250 canonical selector entries were enriched with 2023 population values from [Our World in Data’s population dataset](https://ourworldindata.org/grapher/population), whose 1950–2023 country records derive from the United Nations World Population Prospects 2024 revision.
+
+- **237 entries matched a three-letter ISO-coded source record**
+- **13 entries remain `null` because the primary source does not cover them under a standard three-letter code**
+- **206 of 208 entries on OpenAI’s official access list have population data**
+- **176 of 177 cyber-supported entries have population data**
+
+The uncovered entries are Åland Islands, Antarctica, Bouvet Island, British Indian Ocean Territory, Christmas Island, Cocos (Keeling) Islands, French Southern Territories, Heard Island and McDonald Islands, Kosovo, Norfolk Island, Pitcairn, South Georgia and the South Sandwich Islands, and United States Minor Outlying Islands. Missing does not mean zero.
+
+Among official-access entries with population data, **5,663,893,485 of 6,318,876,833 people (89.63%)** are in entries that also returned accepted cyber-verification ID classes. The official-access/cyber-unsupported group accounts for **654,983,348 people across 42 populated entries**, with two additional entries excluded because their population is `null`.
+
+These are selector-entry aggregates, not an estimate of OpenAI users or identity-verification demand. Territory populations may overlap parent-country totals, so sums across all 250 entries are not necessarily mutually exclusive. The committed source metadata records the fetch timestamp, source URLs, source payload hashes, reference year, alias method, null handling, and overlap caveat.
+
 ## Method
 
 - Surface: the production Persona widget embedded in OpenAI’s cyber-verification page.
@@ -199,13 +214,18 @@ This is consistent with per-country-code document configuration rather than pare
 - No identity document was uploaded and verification was not completed.
 - The selector’s inclusion of a country does not imply support; rejection occurs after submission.
 - OpenAI or Persona can change the configuration without notice.
+- Population values use one 2023 source snapshot; 13 selector entries are not covered and remain `null`.
+- Population-weighted sums may double-count territories already represented in parent-country estimates.
 
 ## Evidence inventory
 
 - `evidence/country-support.json` — canonical ordered map and summary.
 - `evidence/country-support.csv` — spreadsheet-friendly map.
-- `evidence/comparisons/openai-chatgpt-supported-countries.json` — official access-list snapshot, mappings, 2×2 comparison, and all 250 classifications.
-- `evidence/comparisons/openai-chatgpt-supported-countries.csv` — spreadsheet-friendly official-access comparison.
+- `evidence/comparisons/openai-chatgpt-supported-countries.json` — official access-list snapshot, mappings, 2×2 comparison, all 250 classifications, joined population fields, and population-weighted summaries.
+- `evidence/comparisons/openai-chatgpt-supported-countries.csv` — spreadsheet-friendly official-access and population comparison.
+- `evidence/enrichment/population-2023.json` — ordered population enrichment for all 250 canonical entries.
+- `evidence/enrichment/population-2023.csv` — spreadsheet-friendly population enrichment.
+- `evidence/enrichment/population-source-metadata.json` — source URLs, hashes, fetch time, source citation, coverage, and matching method.
 - `evidence/sanitized-transitions/requests/` — post-capture-sanitized request metadata and bodies.
 - `evidence/sanitized-transitions/responses/` — post-capture-sanitized response metadata and bodies.
 - `evidence/sanitized-transitions/redactions/` — raw-to-sanitized byte-span manifests.

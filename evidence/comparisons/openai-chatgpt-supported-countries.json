@@ -1,9 +1,9 @@
 {
-  "schema": "openai-cyber-verification-country-support/official-access-comparison/v1",
+  "schema": "openai-cyber-verification-country-support/official-access-comparison/v2",
   "source": {
     "url": "https://help.openai.com/en/articles/7947663-chatgpt-supported-countries",
-    "fetched_at": "2026-08-27T14:06:17.876Z",
-    "html_sha256": "577fd514662deb709737645c2ef342fb8d53c533cb932f0088c3583c99e48d95",
+    "fetched_at": "2026-08-27T14:42:17.083Z",
+    "html_sha256": "a27a8c8edb37a99bc61ed6a475813cba99cad4fa32b778289d7db84324d23281",
     "title": "ChatGPT Supported Countries | OpenAI Help Center",
     "description": "Countries, regions, and territories OpenAI currently supports access from.",
     "transport": "curl"
@@ -15,7 +15,50 @@
     "official_and_cyber_supported": 164,
     "official_supported_cyber_unsupported": 44,
     "cyber_supported_not_official": 13,
-    "neither_supported": 29
+    "neither_supported": 29,
+    "population_reference_year": 2023,
+    "population_entries_with_data": 237,
+    "population_entries_without_data": 13,
+    "population_weighted": {
+      "reference_year": 2023,
+      "territory_overlap_caveat": "Territory populations can overlap parent-country totals; sums are selector-entry aggregates, not mutually exclusive world population.",
+      "canonical_selector_entries": {
+        "population": 8088958260,
+        "country_entries_with_population": 237,
+        "country_entries_without_population": 13
+      },
+      "official_chatgpt_supported": {
+        "population": 6318876833,
+        "country_entries_with_population": 206,
+        "country_entries_without_population": 2
+      },
+      "cyber_verification_supported": {
+        "population": 5667976216,
+        "country_entries_with_population": 176,
+        "country_entries_without_population": 1
+      },
+      "official_and_cyber_supported": {
+        "population": 5663893485,
+        "country_entries_with_population": 164,
+        "country_entries_without_population": 0
+      },
+      "official_supported_cyber_unsupported": {
+        "population": 654983348,
+        "country_entries_with_population": 42,
+        "country_entries_without_population": 2
+      },
+      "cyber_supported_not_official": {
+        "population": 4082731,
+        "country_entries_with_population": 12,
+        "country_entries_without_population": 1
+      },
+      "neither_supported": {
+        "population": 1765998696,
+        "country_entries_with_population": 19,
+        "country_entries_without_population": 10
+      },
+      "official_supported_population_with_cyber_verification_percent": 89.63
+    }
   },
   "official_entries": [
     {
@@ -859,7 +902,11 @@
       "official_source_name": "Afghanistan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "AFG",
+      "population": 41454762,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 2,
@@ -868,7 +915,11 @@
       "official_source_name": "Aland Islands",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 3,
@@ -877,7 +928,11 @@
       "official_source_name": "Albania",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ALB",
+      "population": 2811660,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 4,
@@ -886,7 +941,11 @@
       "official_source_name": "Algeria",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "DZA",
+      "population": 46164222,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 5,
@@ -895,7 +954,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": "ASM",
+      "population": 47544,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 6,
@@ -904,7 +967,11 @@
       "official_source_name": "Andorra",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "AND",
+      "population": 80869,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 7,
@@ -913,7 +980,11 @@
       "official_source_name": "Angola",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "AGO",
+      "population": 36749909,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 8,
@@ -922,7 +993,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": "AIA",
+      "population": 14435,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 9,
@@ -931,7 +1006,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 10,
@@ -940,7 +1019,11 @@
       "official_source_name": "Antigua and Barbuda",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ATG",
+      "population": 93331,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 11,
@@ -949,7 +1032,11 @@
       "official_source_name": "Argentina",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ARG",
+      "population": 45538402,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 12,
@@ -958,7 +1045,11 @@
       "official_source_name": "Armenia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "ARM",
+      "population": 2943398,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 13,
@@ -967,7 +1058,11 @@
       "official_source_name": "Aruba",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "ABW",
+      "population": 107946,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 14,
@@ -976,7 +1071,11 @@
       "official_source_name": "Australia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "AUS",
+      "population": 26451126,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 15,
@@ -985,7 +1084,11 @@
       "official_source_name": "Austria",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "AUT",
+      "population": 9130434,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 16,
@@ -994,7 +1097,11 @@
       "official_source_name": "Azerbaijan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "AZE",
+      "population": 10318209,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 17,
@@ -1003,7 +1110,11 @@
       "official_source_name": "Bahamas",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BHS",
+      "population": 399452,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 18,
@@ -1012,7 +1123,11 @@
       "official_source_name": "Bahrain",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BHR",
+      "population": 1569674,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 19,
@@ -1021,7 +1136,11 @@
       "official_source_name": "Bangladesh",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BGD",
+      "population": 171466986,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 20,
@@ -1030,7 +1149,11 @@
       "official_source_name": "Barbados",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BRB",
+      "population": 282347,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 21,
@@ -1039,7 +1162,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "BLR",
+      "population": 9115679,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 22,
@@ -1048,7 +1175,11 @@
       "official_source_name": "Belgium",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BEL",
+      "population": 11712891,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 23,
@@ -1057,7 +1188,11 @@
       "official_source_name": "Belize",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BLZ",
+      "population": 411112,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 24,
@@ -1066,7 +1201,11 @@
       "official_source_name": "Benin",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BEN",
+      "population": 14111035,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 25,
@@ -1075,7 +1214,11 @@
       "official_source_name": "Bermuda",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BMU",
+      "population": 64721,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 26,
@@ -1084,7 +1227,11 @@
       "official_source_name": "Bhutan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BTN",
+      "population": 786386,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 27,
@@ -1093,7 +1240,11 @@
       "official_source_name": "Bolivia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BOL",
+      "population": 12244161,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 28,
@@ -1102,7 +1253,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "BES",
+      "population": 29920,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 29,
@@ -1111,7 +1266,11 @@
       "official_source_name": "Bosnia and Herzegovina",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BIH",
+      "population": 3185072,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 30,
@@ -1120,7 +1279,11 @@
       "official_source_name": "Botswana",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BWA",
+      "population": 2480242,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 31,
@@ -1129,7 +1292,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 32,
@@ -1138,7 +1305,11 @@
       "official_source_name": "Brazil",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BRA",
+      "population": 211140731,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 33,
@@ -1147,7 +1318,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 34,
@@ -1156,7 +1331,11 @@
       "official_source_name": "Brunei",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BRN",
+      "population": 458959,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 35,
@@ -1165,7 +1344,11 @@
       "official_source_name": "Bulgaria",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BGR",
+      "population": 6795805,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 36,
@@ -1174,7 +1357,11 @@
       "official_source_name": "Burkina Faso",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BFA",
+      "population": 23025777,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 37,
@@ -1183,7 +1370,11 @@
       "official_source_name": "Burundi",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "BDI",
+      "population": 13689455,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 38,
@@ -1192,7 +1383,11 @@
       "official_source_name": "Cabo Verde",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "CPV",
+      "population": 522335,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 39,
@@ -1201,7 +1396,11 @@
       "official_source_name": "Cambodia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "KHM",
+      "population": 17423884,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 40,
@@ -1210,7 +1409,11 @@
       "official_source_name": "Cameroon",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "CMR",
+      "population": 28372690,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 41,
@@ -1219,7 +1422,11 @@
       "official_source_name": "Canada",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "CAN",
+      "population": 39299098,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 42,
@@ -1228,7 +1435,11 @@
       "official_source_name": "Cayman Islands",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "CYM",
+      "population": 73055,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 43,
@@ -1237,7 +1448,11 @@
       "official_source_name": "Central African Republic",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "CAF",
+      "population": 5152415,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 44,
@@ -1246,7 +1461,11 @@
       "official_source_name": "Chad",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "TCD",
+      "population": 19319075,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 45,
@@ -1255,7 +1474,11 @@
       "official_source_name": "Chile",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "CHL",
+      "population": 19658833,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 46,
@@ -1264,7 +1487,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "CHN",
+      "population": 1422584930,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 47,
@@ -1273,7 +1500,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 48,
@@ -1282,7 +1513,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 49,
@@ -1291,7 +1526,11 @@
       "official_source_name": "Colombia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "COL",
+      "population": 52321152,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 50,
@@ -1300,7 +1539,11 @@
       "official_source_name": "Comoros",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "COM",
+      "population": 850390,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 51,
@@ -1309,7 +1552,11 @@
       "official_source_name": "Congo (Brazzaville)",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "COG",
+      "population": 6182890,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 52,
@@ -1318,7 +1565,11 @@
       "official_source_name": "Congo (DRC)",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "COD",
+      "population": 105789733,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 53,
@@ -1327,7 +1578,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "COK",
+      "population": 14244,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 54,
@@ -1336,7 +1591,11 @@
       "official_source_name": "Costa Rica",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "CRI",
+      "population": 5105526,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 55,
@@ -1345,7 +1604,11 @@
       "official_source_name": "Côte d'Ivoire",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "CIV",
+      "population": 31165653,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 56,
@@ -1354,7 +1617,11 @@
       "official_source_name": "Croatia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "HRV",
+      "population": 3896023,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 57,
@@ -1363,7 +1630,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "CUB",
+      "population": 11019932,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 58,
@@ -1372,7 +1643,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": "CUW",
+      "population": 185437,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 59,
@@ -1381,7 +1656,11 @@
       "official_source_name": "Cyprus",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "CYP",
+      "population": 1344981,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 60,
@@ -1390,7 +1669,11 @@
       "official_source_name": "Czechia (Czech Republic)",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "CZE",
+      "population": 10809722,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 61,
@@ -1399,7 +1682,11 @@
       "official_source_name": "Denmark",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "DNK",
+      "population": 5948134,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 62,
@@ -1408,7 +1695,11 @@
       "official_source_name": "Djibouti",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "DJI",
+      "population": 1152951,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 63,
@@ -1417,7 +1708,11 @@
       "official_source_name": "Dominica",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "DMA",
+      "population": 66531,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 64,
@@ -1426,7 +1721,11 @@
       "official_source_name": "Dominican Republic",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "DOM",
+      "population": 11331269,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 65,
@@ -1435,7 +1734,11 @@
       "official_source_name": "Ecuador",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ECU",
+      "population": 17980079,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 66,
@@ -1444,7 +1747,11 @@
       "official_source_name": "Egypt",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "EGY",
+      "population": 114535772,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 67,
@@ -1453,7 +1760,11 @@
       "official_source_name": "El Salvador",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SLV",
+      "population": 6309629,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 68,
@@ -1462,7 +1773,11 @@
       "official_source_name": "Equatorial Guinea",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "GNQ",
+      "population": 1847556,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 69,
@@ -1471,7 +1786,11 @@
       "official_source_name": "Eritrea",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "ERI",
+      "population": 3470391,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 70,
@@ -1480,7 +1799,11 @@
       "official_source_name": "Estonia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "EST",
+      "population": 1367195,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 71,
@@ -1489,7 +1812,11 @@
       "official_source_name": "Eswatini (Swaziland)",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SWZ",
+      "population": 1230507,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 72,
@@ -1498,7 +1825,11 @@
       "official_source_name": "Ethiopia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ETH",
+      "population": 128691695,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 73,
@@ -1507,7 +1838,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "FLK",
+      "population": 3498,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 74,
@@ -1516,7 +1851,11 @@
       "official_source_name": "Faroe Islands",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "FRO",
+      "population": 54738,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 75,
@@ -1525,7 +1864,11 @@
       "official_source_name": "Fiji",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "FJI",
+      "population": 924150,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 76,
@@ -1534,7 +1877,11 @@
       "official_source_name": "Finland",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "FIN",
+      "population": 5601185,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 77,
@@ -1543,7 +1890,11 @@
       "official_source_name": "France",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "FRA",
+      "population": 66438828,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 78,
@@ -1552,7 +1903,11 @@
       "official_source_name": "French Guiana",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "GUF",
+      "population": 303408,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 79,
@@ -1561,7 +1916,11 @@
       "official_source_name": "French Polynesia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "PYF",
+      "population": 281125,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 80,
@@ -1570,7 +1929,11 @@
       "official_source_name": "French Southern Territories",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 81,
@@ -1579,7 +1942,11 @@
       "official_source_name": "Gabon",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "GAB",
+      "population": 2484790,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 82,
@@ -1588,7 +1955,11 @@
       "official_source_name": "Gambia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "GMB",
+      "population": 2697846,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 83,
@@ -1597,7 +1968,11 @@
       "official_source_name": "Georgia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "GEO",
+      "population": 3807494,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 84,
@@ -1606,7 +1981,11 @@
       "official_source_name": "Germany",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "DEU",
+      "population": 84548233,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 85,
@@ -1615,7 +1994,11 @@
       "official_source_name": "Ghana",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "GHA",
+      "population": 33787916,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 86,
@@ -1624,7 +2007,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": "GIB",
+      "population": 38493,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 87,
@@ -1633,7 +2020,11 @@
       "official_source_name": "Greece",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "GRC",
+      "population": 10242910,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 88,
@@ -1642,7 +2033,11 @@
       "official_source_name": "Greenland",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "GRL",
+      "population": 55951,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 89,
@@ -1651,7 +2046,11 @@
       "official_source_name": "Grenada",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "GRD",
+      "population": 117094,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 90,
@@ -1660,7 +2059,11 @@
       "official_source_name": "Guadeloupe",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "GLP",
+      "population": 376518,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 91,
@@ -1669,7 +2072,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": "GUM",
+      "population": 166522,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 92,
@@ -1678,7 +2085,11 @@
       "official_source_name": "Guatemala",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "GTM",
+      "population": 18124841,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 93,
@@ -1687,7 +2098,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": "GGY",
+      "population": 64043,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 94,
@@ -1696,7 +2111,11 @@
       "official_source_name": "Guinea",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "GIN",
+      "population": 14405469,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 95,
@@ -1705,7 +2124,11 @@
       "official_source_name": "Guinea-Bissau",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "GNB",
+      "population": 2153343,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 96,
@@ -1714,7 +2137,11 @@
       "official_source_name": "Guyana",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "GUY",
+      "population": 826357,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 97,
@@ -1723,7 +2150,11 @@
       "official_source_name": "Haiti",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "HTI",
+      "population": 11637402,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 98,
@@ -1732,7 +2163,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 99,
@@ -1741,7 +2176,11 @@
       "official_source_name": "Holy See (Vatican City)",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "VAT",
+      "population": 501,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 100,
@@ -1750,7 +2189,11 @@
       "official_source_name": "Honduras",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "HND",
+      "population": 10644853,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 101,
@@ -1759,7 +2202,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "HKG",
+      "population": 7442738,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 102,
@@ -1768,7 +2215,11 @@
       "official_source_name": "Hungary",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "HUN",
+      "population": 9686465,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 103,
@@ -1777,7 +2228,11 @@
       "official_source_name": "Iceland",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ISL",
+      "population": 387559,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 104,
@@ -1786,7 +2241,11 @@
       "official_source_name": "India",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "IND",
+      "population": 1438069597,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 105,
@@ -1795,7 +2254,11 @@
       "official_source_name": "Indonesia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "IDN",
+      "population": 281190068,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 106,
@@ -1804,7 +2267,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "IRN",
+      "population": 90608708,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 107,
@@ -1813,7 +2280,11 @@
       "official_source_name": "Iraq",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "IRQ",
+      "population": 45074055,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 108,
@@ -1822,7 +2293,11 @@
       "official_source_name": "Ireland",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "IRL",
+      "population": 5196629,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 109,
@@ -1831,7 +2306,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": "IMN",
+      "population": 84182,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 110,
@@ -1840,7 +2319,11 @@
       "official_source_name": "Israel",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ISR",
+      "population": 9256311,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 111,
@@ -1849,7 +2332,11 @@
       "official_source_name": "Italy",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ITA",
+      "population": 59499452,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 112,
@@ -1858,7 +2345,11 @@
       "official_source_name": "Jamaica",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "JAM",
+      "population": 2839785,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 113,
@@ -1867,7 +2358,11 @@
       "official_source_name": "Japan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "JPN",
+      "population": 124370947,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 114,
@@ -1876,7 +2371,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": "JEY",
+      "population": 103680,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 115,
@@ -1885,7 +2384,11 @@
       "official_source_name": "Jordan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "JOR",
+      "population": 11439220,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 116,
@@ -1894,7 +2397,11 @@
       "official_source_name": "Kazakhstan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "KAZ",
+      "population": 20330109,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 117,
@@ -1903,7 +2410,11 @@
       "official_source_name": "Kenya",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "KEN",
+      "population": 55339007,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 118,
@@ -1912,7 +2423,11 @@
       "official_source_name": "Kiribati",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "KIR",
+      "population": 132540,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 119,
@@ -1921,7 +2436,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 120,
@@ -1930,7 +2449,11 @@
       "official_source_name": "Kuwait",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "KWT",
+      "population": 4838781,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 121,
@@ -1939,7 +2462,11 @@
       "official_source_name": "Kyrgyzstan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "KGZ",
+      "population": 7073523,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 122,
@@ -1948,7 +2475,11 @@
       "official_source_name": "Laos",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "LAO",
+      "population": 7665001,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 123,
@@ -1957,7 +2488,11 @@
       "official_source_name": "Latvia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "LVA",
+      "population": 1882399,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 124,
@@ -1966,7 +2501,11 @@
       "official_source_name": "Lebanon",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "LBN",
+      "population": 5773494,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 125,
@@ -1975,7 +2514,11 @@
       "official_source_name": "Lesotho",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "LSO",
+      "population": 2311476,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 126,
@@ -1984,7 +2527,11 @@
       "official_source_name": "Liberia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "LBR",
+      "population": 5493035,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 127,
@@ -1993,7 +2540,11 @@
       "official_source_name": "Libya",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "LBY",
+      "population": 7305659,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 128,
@@ -2002,7 +2553,11 @@
       "official_source_name": "Liechtenstein",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "LIE",
+      "population": 39622,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 129,
@@ -2011,7 +2566,11 @@
       "official_source_name": "Lithuania",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "LTU",
+      "population": 2854104,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 130,
@@ -2020,7 +2579,11 @@
       "official_source_name": "Luxembourg",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "LUX",
+      "population": 665101,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 131,
@@ -2029,7 +2592,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "MAC",
+      "population": 713916,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 132,
@@ -2038,7 +2605,11 @@
       "official_source_name": "Madagascar",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MDG",
+      "population": 31195937,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 133,
@@ -2047,7 +2618,11 @@
       "official_source_name": "Malawi",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MWI",
+      "population": 21104480,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 134,
@@ -2056,7 +2631,11 @@
       "official_source_name": "Malaysia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MYS",
+      "population": 35126295,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 135,
@@ -2065,7 +2644,11 @@
       "official_source_name": "Maldives",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MDV",
+      "population": 526009,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 136,
@@ -2074,7 +2657,11 @@
       "official_source_name": "Mali",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MLI",
+      "population": 23769130,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 137,
@@ -2083,7 +2670,11 @@
       "official_source_name": "Malta",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MLT",
+      "population": 532964,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 138,
@@ -2092,7 +2683,11 @@
       "official_source_name": "Marshall Islands",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MHL",
+      "population": 38849,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 139,
@@ -2101,7 +2696,11 @@
       "official_source_name": "Martinique",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "MTQ",
+      "population": 346008,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 140,
@@ -2110,7 +2709,11 @@
       "official_source_name": "Mauritania",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MRT",
+      "population": 5022442,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 141,
@@ -2119,7 +2722,11 @@
       "official_source_name": "Mauritius",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MUS",
+      "population": 1273591,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 142,
@@ -2128,7 +2735,11 @@
       "official_source_name": "Mayotte",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "MYT",
+      "population": 316028,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 143,
@@ -2137,7 +2748,11 @@
       "official_source_name": "Mexico",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MEX",
+      "population": 129739761,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 144,
@@ -2146,7 +2761,11 @@
       "official_source_name": "Micronesia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "FSM",
+      "population": 112646,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 145,
@@ -2155,7 +2774,11 @@
       "official_source_name": "Moldova",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "MDA",
+      "population": 3067072,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 146,
@@ -2164,7 +2787,11 @@
       "official_source_name": "Monaco",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MCO",
+      "population": 38979,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 147,
@@ -2173,7 +2800,11 @@
       "official_source_name": "Mongolia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "MNG",
+      "population": 3431938,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 148,
@@ -2182,7 +2813,11 @@
       "official_source_name": "Montenegro",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MNE",
+      "population": 633553,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 149,
@@ -2191,7 +2826,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": "MSR",
+      "population": 4440,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 150,
@@ -2200,7 +2839,11 @@
       "official_source_name": "Morocco",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MAR",
+      "population": 37712516,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 151,
@@ -2209,7 +2852,11 @@
       "official_source_name": "Mozambique",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MOZ",
+      "population": 33635163,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 152,
@@ -2218,7 +2865,11 @@
       "official_source_name": "Myanmar",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "MMR",
+      "population": 54133800,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 153,
@@ -2227,7 +2878,11 @@
       "official_source_name": "Namibia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "NAM",
+      "population": 2963102,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 154,
@@ -2236,7 +2891,11 @@
       "official_source_name": "Nauru",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "NRU",
+      "population": 11900,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 155,
@@ -2245,7 +2904,11 @@
       "official_source_name": "Nepal",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "NPL",
+      "population": 29694614,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 156,
@@ -2254,7 +2917,11 @@
       "official_source_name": "Netherlands",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "NLD",
+      "population": 18092526,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 157,
@@ -2263,7 +2930,11 @@
       "official_source_name": "New Caledonia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "NCL",
+      "population": 289879,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 158,
@@ -2272,7 +2943,11 @@
       "official_source_name": "New Zealand",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "NZL",
+      "population": 5172837,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 159,
@@ -2281,7 +2956,11 @@
       "official_source_name": "Nicaragua",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "NIC",
+      "population": 6823619,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 160,
@@ -2290,7 +2969,11 @@
       "official_source_name": "Niger",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "NER",
+      "population": 26159863,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 161,
@@ -2299,7 +2982,11 @@
       "official_source_name": "Nigeria",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "NGA",
+      "population": 227882949,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 162,
@@ -2308,7 +2995,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "NIU",
+      "population": 1841,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 163,
@@ -2317,7 +3008,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 164,
@@ -2326,7 +3021,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "PRK",
+      "population": 26418196,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 165,
@@ -2335,7 +3034,11 @@
       "official_source_name": "North Macedonia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MKD",
+      "population": 1831800,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 166,
@@ -2344,7 +3047,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "MNP",
+      "population": 45166,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 167,
@@ -2353,7 +3060,11 @@
       "official_source_name": "Norway",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "NOR",
+      "population": 5519167,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 168,
@@ -2362,7 +3073,11 @@
       "official_source_name": "Oman",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "OMN",
+      "population": 5049267,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 169,
@@ -2371,7 +3086,11 @@
       "official_source_name": "Pakistan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "PAK",
+      "population": 247504505,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 170,
@@ -2380,7 +3099,11 @@
       "official_source_name": "Palau",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "PLW",
+      "population": 17751,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 171,
@@ -2389,7 +3112,11 @@
       "official_source_name": "Palestine",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "PSE",
+      "population": 5409201,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 172,
@@ -2398,7 +3125,11 @@
       "official_source_name": "Panama",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "PAN",
+      "population": 4458758,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 173,
@@ -2407,7 +3138,11 @@
       "official_source_name": "Papua New Guinea",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "PNG",
+      "population": 10389638,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 174,
@@ -2416,7 +3151,11 @@
       "official_source_name": "Paraguay",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "PRY",
+      "population": 6844150,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 175,
@@ -2425,7 +3164,11 @@
       "official_source_name": "Peru",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "PER",
+      "population": 33845616,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 176,
@@ -2434,7 +3177,11 @@
       "official_source_name": "Philippines",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "PHL",
+      "population": 114891199,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 177,
@@ -2443,7 +3190,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 178,
@@ -2452,7 +3203,11 @@
       "official_source_name": "Poland",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "POL",
+      "population": 38762847,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 179,
@@ -2461,7 +3216,11 @@
       "official_source_name": "Portugal",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "PRT",
+      "population": 10430735,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 180,
@@ -2470,7 +3229,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": "PRI",
+      "population": 3242022,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 181,
@@ -2479,7 +3242,11 @@
       "official_source_name": "Qatar",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "QAT",
+      "population": 2979086,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 182,
@@ -2488,7 +3255,11 @@
       "official_source_name": "Réunion",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "REU",
+      "population": 874883,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 183,
@@ -2497,7 +3268,11 @@
       "official_source_name": "Romania",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ROU",
+      "population": 19118482,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 184,
@@ -2506,7 +3281,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "RUS",
+      "population": 145440502,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 185,
@@ -2515,7 +3294,11 @@
       "official_source_name": "Rwanda",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "RWA",
+      "population": 13954473,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 186,
@@ -2524,7 +3307,11 @@
       "official_source_name": "Saint Barthelemy",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "BLM",
+      "population": 11112,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 187,
@@ -2533,7 +3320,11 @@
       "official_source_name": "Saint Helena",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "SHN",
+      "population": 5316,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 188,
@@ -2542,7 +3333,11 @@
       "official_source_name": "Saint Kitts and Nevis",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "KNA",
+      "population": 46783,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 189,
@@ -2551,7 +3346,11 @@
       "official_source_name": "Saint Lucia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "LCA",
+      "population": 179291,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 190,
@@ -2560,7 +3359,11 @@
       "official_source_name": "Saint Martin (French part)",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "MAF",
+      "population": 27545,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 191,
@@ -2569,7 +3372,11 @@
       "official_source_name": "Saint Pierre and Miquelon",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "SPM",
+      "population": 5707,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 192,
@@ -2578,7 +3385,11 @@
       "official_source_name": "Saint Vincent and the Grenadines",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "VCT",
+      "population": 101331,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 193,
@@ -2587,7 +3398,11 @@
       "official_source_name": "Samoa",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "WSM",
+      "population": 216673,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 194,
@@ -2596,7 +3411,11 @@
       "official_source_name": "San Marino",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SMR",
+      "population": 33761,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 195,
@@ -2605,7 +3424,11 @@
       "official_source_name": "Sao Tome and Principe",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "STP",
+      "population": 230882,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 196,
@@ -2614,7 +3437,11 @@
       "official_source_name": "Saudi Arabia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SAU",
+      "population": 33264289,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 197,
@@ -2623,7 +3450,11 @@
       "official_source_name": "Senegal",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SEN",
+      "population": 18077573,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 198,
@@ -2632,7 +3463,11 @@
       "official_source_name": "Serbia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SRB",
+      "population": 6773204,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 199,
@@ -2641,7 +3476,11 @@
       "official_source_name": "Seychelles",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SYC",
+      "population": 127961,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 200,
@@ -2650,7 +3489,11 @@
       "official_source_name": "Sierra Leone",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SLE",
+      "population": 8460523,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 201,
@@ -2659,7 +3502,11 @@
       "official_source_name": "Singapore",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SGP",
+      "population": 5789092,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 202,
@@ -2668,7 +3515,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "SXM",
+      "population": 42775,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 203,
@@ -2677,7 +3528,11 @@
       "official_source_name": "Slovakia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SVK",
+      "population": 5518057,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 204,
@@ -2686,7 +3541,11 @@
       "official_source_name": "Slovenia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SVN",
+      "population": 2118394,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 205,
@@ -2695,7 +3554,11 @@
       "official_source_name": "Solomon Islands",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SLB",
+      "population": 800014,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 206,
@@ -2704,7 +3567,11 @@
       "official_source_name": "Somalia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "SOM",
+      "population": 18358622,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 207,
@@ -2713,7 +3580,11 @@
       "official_source_name": "South Africa",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ZAF",
+      "population": 63212386,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 208,
@@ -2722,7 +3593,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 209,
@@ -2731,7 +3606,11 @@
       "official_source_name": "South Korea",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "KOR",
+      "population": 51748744,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 210,
@@ -2740,7 +3619,11 @@
       "official_source_name": "South Sudan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "SSD",
+      "population": 11483370,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 211,
@@ -2749,7 +3632,11 @@
       "official_source_name": "Spain",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ESP",
+      "population": 47911583,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 212,
@@ -2758,7 +3645,11 @@
       "official_source_name": "Sri Lanka",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "LKA",
+      "population": 22971615,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 213,
@@ -2767,7 +3658,11 @@
       "official_source_name": "Sudan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "SDN",
+      "population": 50042800,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 214,
@@ -2776,7 +3671,11 @@
       "official_source_name": "Suriname",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SUR",
+      "population": 628892,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 215,
@@ -2785,7 +3684,11 @@
       "official_source_name": "Svalbard and Jan Mayen",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "SJM",
+      "population": 2400,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 216,
@@ -2794,7 +3697,11 @@
       "official_source_name": "Sweden",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "SWE",
+      "population": 10551493,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 217,
@@ -2803,7 +3710,11 @@
       "official_source_name": "Switzerland",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "CHE",
+      "population": 8870564,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 218,
@@ -2812,7 +3723,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "SYR",
+      "population": 23594623,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 219,
@@ -2821,7 +3736,11 @@
       "official_source_name": "Taiwan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "TWN",
+      "population": 23317145,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 220,
@@ -2830,7 +3749,11 @@
       "official_source_name": "Tajikistan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "TJK",
+      "population": 10389807,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 221,
@@ -2839,7 +3762,11 @@
       "official_source_name": "Tanzania",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "TZA",
+      "population": 66617607,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 222,
@@ -2848,7 +3775,11 @@
       "official_source_name": "Thailand",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "THA",
+      "population": 71702436,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 223,
@@ -2857,7 +3788,11 @@
       "official_source_name": "Timor-Leste (East Timor)",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "TLS",
+      "population": 1384292,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 224,
@@ -2866,7 +3801,11 @@
       "official_source_name": "Togo",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "TGO",
+      "population": 8223853,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 225,
@@ -2875,7 +3814,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "TKL",
+      "population": 2424,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 226,
@@ -2884,7 +3827,11 @@
       "official_source_name": "Tonga",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "TON",
+      "population": 104613,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 227,
@@ -2893,7 +3840,11 @@
       "official_source_name": "Trinidad and Tobago",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "TTO",
+      "population": 1502938,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 228,
@@ -2902,7 +3853,11 @@
       "official_source_name": "Tunisia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "TUN",
+      "population": 12200434,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 229,
@@ -2911,7 +3866,11 @@
       "official_source_name": "Turkey",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "TUR",
+      "population": 87270502,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 230,
@@ -2920,7 +3879,11 @@
       "official_source_name": "Turkmenistan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "TKM",
+      "population": 7364437,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 231,
@@ -2929,7 +3892,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": "TCA",
+      "population": 46221,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 232,
@@ -2938,7 +3905,11 @@
       "official_source_name": "Tuvalu",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "TUV",
+      "population": 9837,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 233,
@@ -2947,7 +3918,11 @@
       "official_source_name": "Uganda",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "UGA",
+      "population": 48656606,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 234,
@@ -2956,7 +3931,11 @@
       "official_source_name": "Ukraine (with certain exceptions)",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "UKR",
+      "population": 37732833,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 235,
@@ -2965,7 +3944,11 @@
       "official_source_name": "United Arab Emirates",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ARE",
+      "population": 10642089,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 236,
@@ -2974,7 +3957,11 @@
       "official_source_name": "United Kingdom",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "GBR",
+      "population": 68682965,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 237,
@@ -2983,7 +3970,11 @@
       "official_source_name": "United States of America",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "USA",
+      "population": 343477330,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 238,
@@ -2992,7 +3983,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": null,
+      "population": null,
+      "population_year": null,
+      "population_status": "not-covered-by-primary-source"
     },
     {
       "index": 239,
@@ -3001,7 +3996,11 @@
       "official_source_name": "Uruguay",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "URY",
+      "population": 3388083,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 240,
@@ -3010,7 +4009,11 @@
       "official_source_name": "Uzbekistan",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "UZB",
+      "population": 35652311,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 241,
@@ -3019,7 +4022,11 @@
       "official_source_name": "Vanuatu",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "VUT",
+      "population": 320422,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 242,
@@ -3028,7 +4035,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "VEN",
+      "population": 28300861,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 243,
@@ -3037,7 +4048,11 @@
       "official_source_name": "Vietnam",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "VNM",
+      "population": 100352189,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 244,
@@ -3046,7 +4061,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "VGB",
+      "population": 39009,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 245,
@@ -3055,7 +4074,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": true,
-      "classification": "cyber-supported-not-official"
+      "classification": "cyber-supported-not-official",
+      "iso3": "VIR",
+      "population": 85712,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 246,
@@ -3064,7 +4087,11 @@
       "official_source_name": "Wallis and Futuna",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "WLF",
+      "population": 11394,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 247,
@@ -3073,7 +4100,11 @@
       "official_source_name": null,
       "official_chatgpt_supported": false,
       "cyber_verification_supported": false,
-      "classification": "neither-supported"
+      "classification": "neither-supported",
+      "iso3": "ESH",
+      "population": 579734,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 248,
@@ -3082,7 +4113,11 @@
       "official_source_name": "Yemen",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "YEM",
+      "population": 39390800,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 249,
@@ -3091,7 +4126,11 @@
       "official_source_name": "Zambia",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": true,
-      "classification": "official-and-cyber-supported"
+      "classification": "official-and-cyber-supported",
+      "iso3": "ZMB",
+      "population": 20723967,
+      "population_year": 2023,
+      "population_status": "matched"
     },
     {
       "index": 250,
@@ -3100,7 +4139,17 @@
       "official_source_name": "Zimbabwe",
       "official_chatgpt_supported": true,
       "cyber_verification_supported": false,
-      "classification": "official-supported-cyber-unsupported"
+      "classification": "official-supported-cyber-unsupported",
+      "iso3": "ZWE",
+      "population": 16340829,
+      "population_year": 2023,
+      "population_status": "matched"
     }
-  ]
+  ],
+  "population_source": {
+    "label": "UN WPP 2024 via Our World in Data",
+    "reference_year": 2023,
+    "enrichment_path": "evidence/enrichment/population-2023.json",
+    "metadata_path": "evidence/enrichment/population-source-metadata.json"
+  }
 }

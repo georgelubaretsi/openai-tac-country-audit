@@ -2,7 +2,7 @@
 
 A reproducible audit of country and government-ID support in the Persona widget configured for OpenAI’s cyber-verification flow.
 
-This repository records a complete selector sweep, preserves exact raw Persona transition exchanges locally, produces byte-span-sanitized request/response evidence for Git, captures full-page and widget-only selected/result screenshots plus a side-by-side widget comparison per country, and stores one representative video of unsupported-country transitions.
+This repository records a complete selector sweep, preserves exact raw Persona transition exchanges locally, produces byte-span-sanitized request/response evidence for Git, captures full-page and widget-only selected/result screenshots plus a side-by-side widget comparison per country, stores one representative video of unsupported-country transitions, and enriches the canonical selector map with a population snapshot.
 
 ## Privacy boundary
 
@@ -104,15 +104,25 @@ Finalize, metadata-strip, validate, and promote the sole representative MP4:
 npm run verify-video -- <run-id>
 ```
 
-### 6. Compare against OpenAI’s official ChatGPT access list
+### 6. Enrich canonical entries with population
+
+```sh
+npm run enrich-population
+```
+
+The enrichment downloads the Our World in Data population CSV and metadata, selects 2023 records derived from UN World Population Prospects 2024, hashes both source payloads, and maps three-letter ISO source codes to the canonical selector entries. Duplicate or reused source records fail closed. Entries absent from the primary source remain `null`, never zero.
+
+It writes JSON, CSV, and source-provenance artifacts under `evidence/enrichment/`. If an official-access comparison already exists, the command also refreshes its population fields and population-weighted summaries.
+
+### 7. Compare against OpenAI’s official ChatGPT access list
 
 ```sh
 npm run compare-official
 ```
 
-The comparison fetches OpenAI’s official supported-country article, maps every source name to the canonical ISO-coded selector map, fails on unmapped or duplicate entries, and stores JSON and CSV comparison artifacts with the source URL, fetch timestamp, and HTML hash.
+The comparison fetches OpenAI’s official supported-country article, maps every source name to the canonical ISO-coded selector map, fails on unmapped or duplicate entries, joins the committed population enrichment, and stores JSON and CSV comparison artifacts with source provenance and population-weighted summaries.
 
-### 7. Check before committing
+### 8. Check before committing
 
 ```sh
 npm run check
@@ -131,6 +141,10 @@ evidence/
 ├── comparisons/
 │   ├── openai-chatgpt-supported-countries.json
 │   └── openai-chatgpt-supported-countries.csv
+├── enrichment/
+│   ├── population-2023.json
+│   ├── population-2023.csv
+│   └── population-source-metadata.json
 ├── sanitized-transitions/
 │   ├── requests/
 │   ├── responses/
