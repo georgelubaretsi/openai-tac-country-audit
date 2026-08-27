@@ -183,3 +183,7 @@ The operator navigates, signs in, and clicks **Start verification** before runni
 ## Findings
 
 The completed audit and its limitations are documented in [FINDINGS.md](FINDINGS.md).
+
+## License
+
+Repository-authored software is licensed under MIT; original analysis and compilation are licensed under CC BY 4.0. Third-party and upstream materials retain their respective terms, including CC BY-NC 4.0 for OpenSanctions-derived enrichment. See [LICENSE](LICENSE) for the allocation and exceptions.
