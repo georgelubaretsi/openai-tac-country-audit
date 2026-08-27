@@ -140,103 +140,113 @@ The transition carries no reason field. Document coverage, OpenAI configuration,
 
 ## Availability gaps
 
-These lists separate official ChatGPT availability from cyber-verification availability. ChatGPT availability is based on OpenAI’s official supported-country list. Cyber verification is unavailable when the observed transition returned no accepted government-ID classes.
+These tables separate official ChatGPT availability from cyber-verification availability. ChatGPT availability is based on OpenAI’s official supported-country list. Cyber verification is unavailable when the observed transition returned no accepted government-ID classes.
+
+The **broad/extensive sanctions signal** identifies current broad country restrictions or extensive sanctions spanning a government and multiple major sectors. `—` means no comparable current broad or extensive signal. This classification is contextual and does not establish why OpenAI or Persona configured an entry as unavailable.
 
 ### ChatGPT unavailable according to OpenAI’s official access list — 42 entries
 
 These selector entries are absent from OpenAI’s official access list. Thirteen returned accepted cyber-verification classes, but widget configuration does not override the official ChatGPT access policy.
 
-- American Samoa (`AS`)
-- Anguilla (`AI`)
-- Antarctica (`AQ`)
-- Belarus (`BY`)
-- Bonaire, Sint Eustatius and Saba (`BQ`)
-- Bouvet Island (`BV`)
-- British Indian Ocean Territory (`IO`)
-- China (`CN`)
-- Christmas Island (`CX`)
-- Cocos (Keeling) Islands (`CC`)
-- Cook Islands (`CK`)
-- Cuba (`CU`)
-- Curaçao (`CW`)
-- Falkland Islands (Malvinas) (`FK`)
-- Gibraltar (`GI`)
-- Guam (`GU`)
-- Guernsey (`GG`)
-- Heard Island and McDonald Islands (`HM`)
-- Hong Kong (`HK`)
-- Iran (`IR`)
-- Isle of Man (`IM`)
-- Jersey (`JE`)
-- Kosovo (`XK`)
-- Macao (`MO`)
-- Montserrat (`MS`)
-- Niue (`NU`)
-- Norfolk Island (`NF`)
-- North Korea (`KP`)
-- Northern Mariana Islands (`MP`)
-- Pitcairn (`PN`)
-- Puerto Rico (`PR`)
-- Russian Federation (`RU`)
-- Sint Maarten (Dutch part) (`SX`)
-- South Georgia and the South Sandwich Islands (`GS`)
-- Syrian Arab Republic (`SY`)
-- Tokelau (`TK`)
-- Turks and Caicos Islands (`TC`)
-- United States Minor Outlying Islands (`UM`)
-- Venezuela (`VE`)
-- Virgin Islands, British (`VG`)
-- Virgin Islands, U.S. (`VI`)
-- Western Sahara (`EH`)
+| Entry | Code | Broad/extensive sanctions signal |
+|---|---|---|
+| American Samoa | `AS` | — |
+| Anguilla | `AI` | — |
+| Antarctica | `AQ` | — |
+| Belarus | `BY` | Extensive |
+| Bonaire, Sint Eustatius and Saba | `BQ` | — |
+| Bouvet Island | `BV` | — |
+| British Indian Ocean Territory | `IO` | — |
+| China | `CN` | — |
+| Christmas Island | `CX` | — |
+| Cocos (Keeling) Islands | `CC` | — |
+| Cook Islands | `CK` | — |
+| Cuba | `CU` | Broad |
+| Curaçao | `CW` | — |
+| Falkland Islands (Malvinas) | `FK` | — |
+| Gibraltar | `GI` | — |
+| Guam | `GU` | — |
+| Guernsey | `GG` | — |
+| Heard Island and McDonald Islands | `HM` | — |
+| Hong Kong | `HK` | — |
+| Iran | `IR` | Broad |
+| Isle of Man | `IM` | — |
+| Jersey | `JE` | — |
+| Kosovo | `XK` | — |
+| Macao | `MO` | — |
+| Montserrat | `MS` | — |
+| Niue | `NU` | — |
+| Norfolk Island | `NF` | — |
+| North Korea | `KP` | Broad |
+| Northern Mariana Islands | `MP` | — |
+| Pitcairn | `PN` | — |
+| Puerto Rico | `PR` | — |
+| Russian Federation | `RU` | Extensive |
+| Sint Maarten (Dutch part) | `SX` | — |
+| South Georgia and the South Sandwich Islands | `GS` | — |
+| Syrian Arab Republic | `SY` | — |
+| Tokelau | `TK` | — |
+| Turks and Caicos Islands | `TC` | — |
+| United States Minor Outlying Islands | `UM` | — |
+| Venezuela | `VE` | Extensive |
+| Virgin Islands, British | `VG` | — |
+| Virgin Islands, U.S. | `VI` | — |
+| Western Sahara | `EH` | — |
 
 ### ChatGPT available, but cyber verification unavailable — 44 entries
 
 These entries appear on OpenAI’s official access list, but their observed cyber-verification transitions returned no accepted government-ID classes.
 
-- Afghanistan (`AF`)
-- Åland Islands (`AX`)
-- Armenia (`AM`)
-- Aruba (`AW`)
-- Azerbaijan (`AZ`)
-- Cambodia (`KH`)
-- Central African Republic (`CF`)
-- Congo, The Democratic Republic of the (`CD`)
-- Eritrea (`ER`)
-- French Guiana (`GF`)
-- French Polynesia (`PF`)
-- French Southern Territories (`TF`)
-- Georgia (`GE`)
-- Guadeloupe (`GP`)
-- Haiti (`HT`)
-- Holy See (Vatican City State) (`VA`)
-- Iraq (`IQ`)
-- Kazakhstan (`KZ`)
-- Kyrgyzstan (`KG`)
-- Lao People's Democratic Republic (`LA`)
-- Lebanon (`LB`)
-- Libya (`LY`)
-- Martinique (`MQ`)
-- Mayotte (`YT`)
-- Moldova (`MD`)
-- Mongolia (`MN`)
-- Myanmar (`MM`)
-- New Caledonia (`NC`)
-- Nicaragua (`NI`)
-- Réunion (`RE`)
-- Saint Barthélemy (`BL`)
-- Saint Helena, Ascension and Tristan da Cunha (`SH`)
-- Saint Pierre and Miquelon (`PM`)
-- Somalia (`SO`)
-- South Sudan (`SS`)
-- Sudan (`SD`)
-- Svalbard and Jan Mayen (`SJ`)
-- Tajikistan (`TJ`)
-- Turkmenistan (`TM`)
-- Uzbekistan (`UZ`)
-- Vietnam (`VN`)
-- Wallis and Futuna (`WF`)
-- Yemen (`YE`)
-- Zimbabwe (`ZW`)
+| Entry | Code | Broad/extensive sanctions signal |
+|---|---|---|
+| Afghanistan | `AF` | — |
+| Åland Islands | `AX` | — |
+| Armenia | `AM` | — |
+| Aruba | `AW` | — |
+| Azerbaijan | `AZ` | — |
+| Cambodia | `KH` | — |
+| Central African Republic | `CF` | — |
+| Congo, The Democratic Republic of the | `CD` | — |
+| Eritrea | `ER` | — |
+| French Guiana | `GF` | — |
+| French Polynesia | `PF` | — |
+| French Southern Territories | `TF` | — |
+| Georgia | `GE` | — |
+| Guadeloupe | `GP` | — |
+| Haiti | `HT` | — |
+| Holy See (Vatican City State) | `VA` | — |
+| Iraq | `IQ` | — |
+| Kazakhstan | `KZ` | — |
+| Kyrgyzstan | `KG` | — |
+| Lao People's Democratic Republic | `LA` | — |
+| Lebanon | `LB` | — |
+| Libya | `LY` | — |
+| Martinique | `MQ` | — |
+| Mayotte | `YT` | — |
+| Moldova | `MD` | — |
+| Mongolia | `MN` | — |
+| Myanmar | `MM` | Extensive |
+| New Caledonia | `NC` | — |
+| Nicaragua | `NI` | — |
+| Réunion | `RE` | — |
+| Saint Barthélemy | `BL` | — |
+| Saint Helena, Ascension and Tristan da Cunha | `SH` | — |
+| Saint Pierre and Miquelon | `PM` | — |
+| Somalia | `SO` | — |
+| South Sudan | `SS` | — |
+| Sudan | `SD` | — |
+| Svalbard and Jan Mayen | `SJ` | — |
+| Tajikistan | `TJ` | — |
+| Turkmenistan | `TM` | — |
+| Uzbekistan | `UZ` | — |
+| Vietnam | `VN` | — |
+| Wallis and Futuna | `WF` | — |
+| Yemen | `YE` | — |
+| Zimbabwe | `ZW` | — |
+
+Prominent sanctions align with six of the 42 ChatGPT-unavailable entries and one of the 44 cyber-specific gaps. Most cyber-verification gaps, including Georgia, are not explained by a broad or extensive sanctions signal.
+
+**Sanctions sources, checked 2026-08-27:** OFAC’s [sanctions-program index](https://ofac.treasury.gov/sanctions-programs-and-country-information) and current program information for [Belarus](https://ofac.treasury.gov/sanctions-programs-and-country-information/belarus-sanctions), [Cuba](https://ofac.treasury.gov/sanctions-programs-and-country-information/cuba-sanctions), [Iran](https://ofac.treasury.gov/sanctions-programs-and-country-information/iran-sanctions), [North Korea](https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions), [Russia](https://ofac.treasury.gov/sanctions-programs-and-country-information/russian-harmful-foreign-activities-sanctions), [Venezuela](https://ofac.treasury.gov/sanctions-programs-and-country-information/venezuela-related-sanctions), and [Myanmar](https://ofac.treasury.gov/sanctions-programs-and-country-information/burma).
 
 ## Limitations
 
