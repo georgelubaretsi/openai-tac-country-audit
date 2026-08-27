@@ -109,26 +109,34 @@ Every supported entry accepted a passport. Other document classes vary by countr
 
 ## Notable patterns
 
-### Large-country and regional gaps
+### Most surprising official-access cyber gaps
 
-Several unsupported entries are surprising if interpreted only as document-recognition coverage:
+“Surprising” here is descriptive rather than causal. These entries stand out because of population scale, a close supported comparator, or an internally inconsistent territory configuration. The evidence does not identify why an entry lacks cyber-verification classes.
 
-- China and Hong Kong are unsupported, while Taiwan supports driver license, national ID, and passport.
-- Vietnam and Cambodia are unsupported, while Thailand, Indonesia, Malaysia, and the Philippines support several document classes.
-- Armenia, Azerbaijan, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Mongolia, and Uzbekistan form a conspicuous post-Soviet/Central Asian cluster.
-- Venezuela is unsupported while Brazil, Colombia, Ecuador, and Peru are supported.
-- Democratic Republic of the Congo is unsupported while the Republic of the Congo supports driver license, national ID, and passport.
+#### Direct country anomalies
+
+- **Georgia (`GE`)** — officially available, population **3,807,494**, but no cyber-verification classes. Neighboring Türkiye supports driver license, national ID, and passport. Armenia and Azerbaijan are also gaps, suggesting a broader Caucasus configuration hole rather than a Georgia-specific decision.
+- **Vietnam (`VN`)** — officially available, population **100,352,189**, but no cyber-verification classes. Thailand, Indonesia, Malaysia, and the Philippines support driver license, national ID, and passport; the Philippines also supports additional classes.
+- **Democratic Republic of the Congo (`CD`)** — officially available, population **105,789,733**, but no cyber-verification classes. The Republic of the Congo supports driver license, national ID, and passport.
+- **Moldova (`MD`)** — officially available, population **3,067,072**, but no cyber-verification classes. Romania supports driver license, national ID, and passport, while Ukraine supports driver license and passport.
+
+#### Territory configuration anomalies
+
+- **Ten French-associated entries** — French Guiana, French Polynesia, French Southern Territories, Guadeloupe, Martinique, Mayotte, New Caledonia, Réunion, Saint Barthélemy, and Saint Pierre and Miquelon are officially available but have no cyber-verification classes. France supports driver license, national ID, and passport.
+- **Aruba (`AW`)** — officially available but has no cyber-verification classes. Curaçao is absent from the official access list but its cyber configuration supports driver license, national ID, and passport; the Netherlands supports the same three classes. This inversion shows that official access and cyber-verification configuration are maintained independently.
+
+#### Large regional omissions
+
+| Country | Code | 2023 population |
+|---|---|---:|
+| Uzbekistan | `UZ` | 35,652,311 |
+| Kazakhstan | `KZ` | 20,330,109 |
+| Cambodia | `KH` | 17,423,884 |
+| Zimbabwe | `ZW` | 16,340,829 |
+
+Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan form a complete Central Asian gap among officially available entries. Alongside Armenia, Azerbaijan, Georgia, Moldova, and Mongolia, this suggests a broader regional coverage or configuration boundary rather than isolated country anomalies.
 
 The transition carries no reason field. Document coverage, OpenAI configuration, compliance policy, and fraud policy cannot be separated from this evidence.
-
-### Territory support is not inherited from a parent state
-
-- France is supported, while French Guiana, French Polynesia, Guadeloupe, Martinique, Mayotte, Réunion, Saint Barthélemy, and Saint Pierre and Miquelon are unsupported.
-- Netherlands is supported; Curaçao is supported; Aruba, Bonaire/Sint Eustatius/Saba, and Sint Maarten are unsupported.
-- United States is supported; American Samoa, Guam, Puerto Rico, and the U.S. Virgin Islands are supported; Northern Mariana Islands and U.S. Minor Outlying Islands are unsupported.
-- United Kingdom is supported; Bermuda, Cayman Islands, Gibraltar, Guernsey, Isle of Man, Jersey, and Turks and Caicos are supported; British Virgin Islands and Falkland Islands are unsupported.
-
-This is consistent with per-country-code document configuration rather than parent-country inheritance.
 
 ## Availability gaps
 
