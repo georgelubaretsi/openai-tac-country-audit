@@ -142,26 +142,26 @@ The transition carries no reason field. Document coverage, OpenAI configuration,
 
 These tables separate official ChatGPT availability from cyber-verification availability. ChatGPT availability is based on OpenAI’s official supported-country list. Cyber verification is unavailable when the observed transition returned no accepted government-ID classes.
 
-The **broad/extensive sanctions signal** identifies current broad country restrictions or extensive sanctions spanning a government and multiple major sectors. `—` means no comparable current broad or extensive signal. This classification is contextual and does not establish why OpenAI or Persona configured an entry as unavailable.
+The program column lists active U.S.-issued OpenSanctions programs that target the entry and include financial, import, export, investment, services, sectoral, or transportation restrictions. Program IDs link to the authoritative source recorded by OpenSanctions. `—` means that no program matched this defined source and measure filter. Program presence is contextual and does not establish why OpenAI or Persona configured an entry as unavailable.
 
 ### ChatGPT unavailable according to OpenAI’s official access list — 42 entries
 
 These selector entries are absent from OpenAI’s official access list. Thirteen returned accepted cyber-verification classes, but widget configuration does not override the official ChatGPT access policy.
 
-| Entry | Code | Broad/extensive sanctions signal |
+| Entry | Code | Active selected U.S. sanctions programs |
 |---|---|---|
 | American Samoa | `AS` | — |
 | Anguilla | `AI` | — |
 | Antarctica | `AQ` | — |
-| Belarus | `BY` | Extensive |
+| Belarus | `BY` | — |
 | Bonaire, Sint Eustatius and Saba | `BQ` | — |
 | Bouvet Island | `BV` | — |
 | British Indian Ocean Territory | `IO` | — |
-| China | `CN` | — |
+| China | `CN` | [`US-NS-CMIC`](https://ofac.treasury.gov/sanctions-programs-and-country-information/chinese-military-companies-sanctions); [`US-UFLPA`](https://www.dhs.gov/uflpa) |
 | Christmas Island | `CX` | — |
 | Cocos (Keeling) Islands | `CC` | — |
 | Cook Islands | `CK` | — |
-| Cuba | `CU` | Broad |
+| Cuba | `CU` | [`US-CUBA`](https://ofac.treasury.gov/sanctions-programs-and-country-information/cuba-sanctions); [`US-DOS-CU-PAL`](https://www.state.gov/cuba-sanctions/cuba-prohibited-accommodations-list); [`US-DOS-CU-REA`](https://www.state.gov/division-for-counter-threat-finance-and-sanctions/cuba-restricted-list) |
 | Curaçao | `CW` | — |
 | Falkland Islands (Malvinas) | `FK` | — |
 | Gibraltar | `GI` | — |
@@ -169,7 +169,7 @@ These selector entries are absent from OpenAI’s official access list. Thirteen
 | Guernsey | `GG` | — |
 | Heard Island and McDonald Islands | `HM` | — |
 | Hong Kong | `HK` | — |
-| Iran | `IR` | Broad |
+| Iran | `IR` | [`US-FSE`](https://ofac.treasury.gov/other-ofac-sanctions-lists); [`US-IRAN`](https://ofac.treasury.gov/sanctions-programs-and-country-information/iran-sanctions) |
 | Isle of Man | `IM` | — |
 | Jersey | `JE` | — |
 | Kosovo | `XK` | — |
@@ -177,18 +177,18 @@ These selector entries are absent from OpenAI’s official access list. Thirteen
 | Montserrat | `MS` | — |
 | Niue | `NU` | — |
 | Norfolk Island | `NF` | — |
-| North Korea | `KP` | Broad |
+| North Korea | `KP` | [`US-NK`](https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions) |
 | Northern Mariana Islands | `MP` | — |
 | Pitcairn | `PN` | — |
 | Puerto Rico | `PR` | — |
-| Russian Federation | `RU` | Extensive |
+| Russian Federation | `RU` | [`US-RUSHAR`](https://ofac.treasury.gov/sanctions-programs-and-country-information/russian-harmful-foreign-activities-sanctions); [`US-SSI`](https://ofac.treasury.gov/other-ofac-sanctions-lists); [`US-UKRRUS-REL`](https://ofac.treasury.gov/sanctions-programs-and-country-information/ukraine-russia-related-sanctions) |
 | Sint Maarten (Dutch part) | `SX` | — |
 | South Georgia and the South Sandwich Islands | `GS` | — |
-| Syrian Arab Republic | `SY` | — |
+| Syrian Arab Republic | `SY` | [`US-FSE`](https://ofac.treasury.gov/other-ofac-sanctions-lists); [`US-SYR-REL`](https://ofac.treasury.gov/sanctions-programs-and-country-information/paarss) |
 | Tokelau | `TK` | — |
 | Turks and Caicos Islands | `TC` | — |
 | United States Minor Outlying Islands | `UM` | — |
-| Venezuela | `VE` | Extensive |
+| Venezuela | `VE` | [`US-VEN`](https://ofac.treasury.gov/sanctions-programs-and-country-information/venezuela-related-sanctions) |
 | Virgin Islands, British | `VG` | — |
 | Virgin Islands, U.S. | `VI` | — |
 | Western Sahara | `EH` | — |
@@ -197,7 +197,7 @@ These selector entries are absent from OpenAI’s official access list. Thirteen
 
 These entries appear on OpenAI’s official access list, but their observed cyber-verification transitions returned no accepted government-ID classes.
 
-| Entry | Code | Broad/extensive sanctions signal |
+| Entry | Code | Active selected U.S. sanctions programs |
 |---|---|---|
 | Afghanistan | `AF` | — |
 | Åland Islands | `AX` | — |
@@ -225,14 +225,14 @@ These entries appear on OpenAI’s official access list, but their observed cybe
 | Mayotte | `YT` | — |
 | Moldova | `MD` | — |
 | Mongolia | `MN` | — |
-| Myanmar | `MM` | Extensive |
+| Myanmar | `MM` | [`US-BURMA`](https://ofac.treasury.gov/sanctions-programs-and-country-information/burma) |
 | New Caledonia | `NC` | — |
 | Nicaragua | `NI` | — |
 | Réunion | `RE` | — |
 | Saint Barthélemy | `BL` | — |
 | Saint Helena, Ascension and Tristan da Cunha | `SH` | — |
 | Saint Pierre and Miquelon | `PM` | — |
-| Somalia | `SO` | — |
+| Somalia | `SO` | [`US-SOMALIA`](https://ofac.treasury.gov/sanctions-programs-and-country-information/somalia-sanctions) |
 | South Sudan | `SS` | — |
 | Sudan | `SD` | — |
 | Svalbard and Jan Mayen | `SJ` | — |
@@ -244,9 +244,9 @@ These entries appear on OpenAI’s official access list, but their observed cybe
 | Yemen | `YE` | — |
 | Zimbabwe | `ZW` | — |
 
-Prominent sanctions align with six of the 42 ChatGPT-unavailable entries and one of the 44 cyber-specific gaps. Most cyber-verification gaps, including Georgia, are not explained by a broad or extensive sanctions signal.
+Seven of the 42 ChatGPT-unavailable entries and two of the 44 cyber-specific gaps have at least one matched program under this definition. Georgia has no matched program.
 
-**Sanctions sources, checked 2026-08-27:** OFAC’s [sanctions-program index](https://ofac.treasury.gov/sanctions-programs-and-country-information) and current program information for [Belarus](https://ofac.treasury.gov/sanctions-programs-and-country-information/belarus-sanctions), [Cuba](https://ofac.treasury.gov/sanctions-programs-and-country-information/cuba-sanctions), [Iran](https://ofac.treasury.gov/sanctions-programs-and-country-information/iran-sanctions), [North Korea](https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions), [Russia](https://ofac.treasury.gov/sanctions-programs-and-country-information/russian-harmful-foreign-activities-sanctions), [Venezuela](https://ofac.treasury.gov/sanctions-programs-and-country-information/venezuela-related-sanctions), and [Myanmar](https://ofac.treasury.gov/sanctions-programs-and-country-information/burma).
+**Sanctions source, fetched 2026-08-27:** [OpenSanctions sanctions program directory](https://data.opensanctions.org/meta/programs.json), filtered to active U.S.-issued programs and the defined measures. Contains data from [OpenSanctions](https://www.opensanctions.org/docs/programs/) under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The committed source metadata records the exact fetch timestamp, source hash, filter, and coverage.
 
 ## Limitations
 
@@ -258,16 +258,20 @@ Prominent sanctions align with six of the 42 ChatGPT-unavailable entries and one
 - OpenAI or Persona can change the configuration without notice.
 - Population values use one 2023 source snapshot; 13 selector entries are not covered and remain `null`.
 - Population-weighted sums may double-count territories already represented in parent-country estimates.
+- Sanctions mappings use one OpenSanctions program-directory snapshot and its curated target-territory and measure taxonomy; program presence does not establish causation or legal applicability to every resident.
 
 ## Evidence inventory
 
 - `evidence/country-support.json` — canonical ordered map and summary.
 - `evidence/country-support.csv` — spreadsheet-friendly map.
-- `evidence/comparisons/openai-chatgpt-supported-countries.json` — official access-list snapshot, mappings, 2×2 comparison, all 250 classifications, joined population fields, and population-weighted summaries.
-- `evidence/comparisons/openai-chatgpt-supported-countries.csv` — spreadsheet-friendly official-access and population comparison.
+- `evidence/comparisons/openai-chatgpt-supported-countries.json` — official access-list snapshot, mappings, 2×2 comparison, all 250 classifications, joined population fields, sanctions program IDs, and derived summaries.
+- `evidence/comparisons/openai-chatgpt-supported-countries.csv` — spreadsheet-friendly official-access, population, and sanctions-program comparison.
 - `evidence/enrichment/population-2023.json` — ordered population enrichment for all 250 canonical entries.
 - `evidence/enrichment/population-2023.csv` — spreadsheet-friendly population enrichment.
 - `evidence/enrichment/population-source-metadata.json` — source URLs, hashes, fetch time, source citation, coverage, and matching method.
+- `evidence/enrichment/us-sanctions-programs.json` — ordered active selected U.S. sanctions-program mapping for all 250 canonical entries.
+- `evidence/enrichment/us-sanctions-programs.csv` — spreadsheet-friendly sanctions-program mapping.
+- `evidence/enrichment/us-sanctions-source-metadata.json` — OpenSanctions attribution, license, source hash, fetch time, filter, and coverage.
 - `evidence/sanitized-transitions/requests/` — post-capture-sanitized request metadata and bodies.
 - `evidence/sanitized-transitions/responses/` — post-capture-sanitized response metadata and bodies.
 - `evidence/sanitized-transitions/redactions/` — raw-to-sanitized byte-span manifests.

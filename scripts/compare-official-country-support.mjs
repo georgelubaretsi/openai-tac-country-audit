@@ -15,6 +15,7 @@ import {
   enrichOfficialComparison,
   officialComparisonCsv,
 } from "../lib/population.mjs";
+import { enrichOfficialComparisonWithSanctions } from "../lib/sanctions-programs.mjs";
 import { atomicJson, atomicWrite, sha256 } from "../lib/runtime.mjs";
 const execFileAsync = promisify(execFile);
 
@@ -26,11 +27,13 @@ const outputDirectory = resolve(evidenceRoot, "comparisons");
 const jsonPath = resolve(outputDirectory, "openai-chatgpt-supported-countries.json");
 const csvPath = resolve(outputDirectory, "openai-chatgpt-supported-countries.csv");
 const populationPath = resolve(evidenceRoot, "enrichment/population-2023.json");
+const sanctionsPath = resolve(evidenceRoot, "enrichment/us-sanctions-programs.json");
 
 await mkdir(outputDirectory, { recursive: true });
-const [countryMap, populationEnrichment, manifest] = await Promise.all([
+const [countryMap, populationEnrichment, sanctionsEnrichment, manifest] = await Promise.all([
   readFile(mapPath, "utf8").then(text => JSON.parse(text)),
   readFile(populationPath, "utf8").then(text => JSON.parse(text)),
+  readFile(sanctionsPath, "utf8").then(text => JSON.parse(text)),
   readFile(manifestPath, "utf8").then(text => JSON.parse(text)),
 ]);
 if (countryMap.schema !== "openai-cyber-verification-country-support/v1" || countryMap.results?.length !== 250) {
@@ -39,6 +42,10 @@ if (countryMap.schema !== "openai-cyber-verification-country-support/v1" || coun
 if (populationEnrichment.schema !== "openai-cyber-verification-country-support/population-enrichment/v1" ||
     populationEnrichment.results?.length !== 250) {
   throw new Error("population enrichment is unavailable");
+}
+if (sanctionsEnrichment.schema !== "openai-cyber-verification-country-support/us-sanctions-programs/v1" ||
+    sanctionsEnrichment.results?.length !== 250) {
+  throw new Error("sanctions enrichment is unavailable");
 }
 if (manifest.schema !== "openai-cyber-verification-country-support/evidence-manifest/v1" || !Array.isArray(manifest.files)) {
   throw new Error("evidence manifest is unavailable");
@@ -66,7 +73,7 @@ async function fetchOfficialHtml() {
 const { html, transport } = await fetchOfficialHtml();
 const officialNames = parseOfficialCountryNames(html);
 const comparison = compareCountrySupport(officialNames, countryMap.results);
-const generated = enrichOfficialComparison({
+const populationComparison = enrichOfficialComparison({
   schema: "openai-cyber-verification-country-support/official-access-comparison/v1",
   source: {
     url: OFFICIAL_SOURCE_URL,
@@ -83,6 +90,7 @@ const generated = enrichOfficialComparison({
   official_entries: comparison.official_entries,
   results: comparison.results,
 }, populationEnrichment);
+const generated = enrichOfficialComparisonWithSanctions(populationComparison, sanctionsEnrichment);
 await atomicJson(jsonPath, generated);
 await chmod(jsonPath, 0o644);
 

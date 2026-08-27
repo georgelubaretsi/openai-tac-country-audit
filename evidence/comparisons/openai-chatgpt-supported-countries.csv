@@ -1,251 +1,251 @@
-index,code,iso3,name,population,population_year,population_status,official_source_name,official_chatgpt_supported,cyber_verification_supported,classification
-1,AF,AFG,Afghanistan,41454762,2023,matched,Afghanistan,true,false,official-supported-cyber-unsupported
-2,AX,,Åland Islands,,,not-covered-by-primary-source,Aland Islands,true,false,official-supported-cyber-unsupported
-3,AL,ALB,Albania,2811660,2023,matched,Albania,true,true,official-and-cyber-supported
-4,DZ,DZA,Algeria,46164222,2023,matched,Algeria,true,true,official-and-cyber-supported
-5,AS,ASM,American Samoa,47544,2023,matched,,false,true,cyber-supported-not-official
-6,AD,AND,Andorra,80869,2023,matched,Andorra,true,true,official-and-cyber-supported
-7,AO,AGO,Angola,36749909,2023,matched,Angola,true,true,official-and-cyber-supported
-8,AI,AIA,Anguilla,14435,2023,matched,,false,true,cyber-supported-not-official
-9,AQ,,Antarctica,,,not-covered-by-primary-source,,false,false,neither-supported
-10,AG,ATG,Antigua and Barbuda,93331,2023,matched,Antigua and Barbuda,true,true,official-and-cyber-supported
-11,AR,ARG,Argentina,45538402,2023,matched,Argentina,true,true,official-and-cyber-supported
-12,AM,ARM,Armenia,2943398,2023,matched,Armenia,true,false,official-supported-cyber-unsupported
-13,AW,ABW,Aruba,107946,2023,matched,Aruba,true,false,official-supported-cyber-unsupported
-14,AU,AUS,Australia,26451126,2023,matched,Australia,true,true,official-and-cyber-supported
-15,AT,AUT,Austria,9130434,2023,matched,Austria,true,true,official-and-cyber-supported
-16,AZ,AZE,Azerbaijan,10318209,2023,matched,Azerbaijan,true,false,official-supported-cyber-unsupported
-17,BS,BHS,Bahamas,399452,2023,matched,Bahamas,true,true,official-and-cyber-supported
-18,BH,BHR,Bahrain,1569674,2023,matched,Bahrain,true,true,official-and-cyber-supported
-19,BD,BGD,Bangladesh,171466986,2023,matched,Bangladesh,true,true,official-and-cyber-supported
-20,BB,BRB,Barbados,282347,2023,matched,Barbados,true,true,official-and-cyber-supported
-21,BY,BLR,Belarus,9115679,2023,matched,,false,false,neither-supported
-22,BE,BEL,Belgium,11712891,2023,matched,Belgium,true,true,official-and-cyber-supported
-23,BZ,BLZ,Belize,411112,2023,matched,Belize,true,true,official-and-cyber-supported
-24,BJ,BEN,Benin,14111035,2023,matched,Benin,true,true,official-and-cyber-supported
-25,BM,BMU,Bermuda,64721,2023,matched,Bermuda,true,true,official-and-cyber-supported
-26,BT,BTN,Bhutan,786386,2023,matched,Bhutan,true,true,official-and-cyber-supported
-27,BO,BOL,Bolivia,12244161,2023,matched,Bolivia,true,true,official-and-cyber-supported
-28,BQ,BES,"Bonaire, Sint Eustatius and Saba",29920,2023,matched,,false,false,neither-supported
-29,BA,BIH,Bosnia and Herzegovina,3185072,2023,matched,Bosnia and Herzegovina,true,true,official-and-cyber-supported
-30,BW,BWA,Botswana,2480242,2023,matched,Botswana,true,true,official-and-cyber-supported
-31,BV,,Bouvet Island,,,not-covered-by-primary-source,,false,false,neither-supported
-32,BR,BRA,Brazil,211140731,2023,matched,Brazil,true,true,official-and-cyber-supported
-33,IO,,British Indian Ocean Territory,,,not-covered-by-primary-source,,false,false,neither-supported
-34,BN,BRN,Brunei Darussalam,458959,2023,matched,Brunei,true,true,official-and-cyber-supported
-35,BG,BGR,Bulgaria,6795805,2023,matched,Bulgaria,true,true,official-and-cyber-supported
-36,BF,BFA,Burkina Faso,23025777,2023,matched,Burkina Faso,true,true,official-and-cyber-supported
-37,BI,BDI,Burundi,13689455,2023,matched,Burundi,true,true,official-and-cyber-supported
-38,CV,CPV,Cabo Verde,522335,2023,matched,Cabo Verde,true,true,official-and-cyber-supported
-39,KH,KHM,Cambodia,17423884,2023,matched,Cambodia,true,false,official-supported-cyber-unsupported
-40,CM,CMR,Cameroon,28372690,2023,matched,Cameroon,true,true,official-and-cyber-supported
-41,CA,CAN,Canada,39299098,2023,matched,Canada,true,true,official-and-cyber-supported
-42,KY,CYM,Cayman Islands,73055,2023,matched,Cayman Islands,true,true,official-and-cyber-supported
-43,CF,CAF,Central African Republic,5152415,2023,matched,Central African Republic,true,false,official-supported-cyber-unsupported
-44,TD,TCD,Chad,19319075,2023,matched,Chad,true,true,official-and-cyber-supported
-45,CL,CHL,Chile,19658833,2023,matched,Chile,true,true,official-and-cyber-supported
-46,CN,CHN,China,1422584930,2023,matched,,false,false,neither-supported
-47,CX,,Christmas Island,,,not-covered-by-primary-source,,false,false,neither-supported
-48,CC,,Cocos (Keeling) Islands,,,not-covered-by-primary-source,,false,false,neither-supported
-49,CO,COL,Colombia,52321152,2023,matched,Colombia,true,true,official-and-cyber-supported
-50,KM,COM,Comoros,850390,2023,matched,Comoros,true,true,official-and-cyber-supported
-51,CG,COG,Congo,6182890,2023,matched,Congo (Brazzaville),true,true,official-and-cyber-supported
-52,CD,COD,"Congo, The Democratic Republic of the",105789733,2023,matched,Congo (DRC),true,false,official-supported-cyber-unsupported
-53,CK,COK,Cook Islands,14244,2023,matched,,false,false,neither-supported
-54,CR,CRI,Costa Rica,5105526,2023,matched,Costa Rica,true,true,official-and-cyber-supported
-55,CI,CIV,Côte d'Ivoire,31165653,2023,matched,Côte d'Ivoire,true,true,official-and-cyber-supported
-56,HR,HRV,Croatia,3896023,2023,matched,Croatia,true,true,official-and-cyber-supported
-57,CU,CUB,Cuba,11019932,2023,matched,,false,false,neither-supported
-58,CW,CUW,Curaçao,185437,2023,matched,,false,true,cyber-supported-not-official
-59,CY,CYP,Cyprus,1344981,2023,matched,Cyprus,true,true,official-and-cyber-supported
-60,CZ,CZE,Czechia,10809722,2023,matched,Czechia (Czech Republic),true,true,official-and-cyber-supported
-61,DK,DNK,Denmark,5948134,2023,matched,Denmark,true,true,official-and-cyber-supported
-62,DJ,DJI,Djibouti,1152951,2023,matched,Djibouti,true,true,official-and-cyber-supported
-63,DM,DMA,Dominica,66531,2023,matched,Dominica,true,true,official-and-cyber-supported
-64,DO,DOM,Dominican Republic,11331269,2023,matched,Dominican Republic,true,true,official-and-cyber-supported
-65,EC,ECU,Ecuador,17980079,2023,matched,Ecuador,true,true,official-and-cyber-supported
-66,EG,EGY,Egypt,114535772,2023,matched,Egypt,true,true,official-and-cyber-supported
-67,SV,SLV,El Salvador,6309629,2023,matched,El Salvador,true,true,official-and-cyber-supported
-68,GQ,GNQ,Equatorial Guinea,1847556,2023,matched,Equatorial Guinea,true,true,official-and-cyber-supported
-69,ER,ERI,Eritrea,3470391,2023,matched,Eritrea,true,false,official-supported-cyber-unsupported
-70,EE,EST,Estonia,1367195,2023,matched,Estonia,true,true,official-and-cyber-supported
-71,SZ,SWZ,Eswatini,1230507,2023,matched,Eswatini (Swaziland),true,true,official-and-cyber-supported
-72,ET,ETH,Ethiopia,128691695,2023,matched,Ethiopia,true,true,official-and-cyber-supported
-73,FK,FLK,Falkland Islands (Malvinas),3498,2023,matched,,false,false,neither-supported
-74,FO,FRO,Faroe Islands,54738,2023,matched,Faroe Islands,true,true,official-and-cyber-supported
-75,FJ,FJI,Fiji,924150,2023,matched,Fiji,true,true,official-and-cyber-supported
-76,FI,FIN,Finland,5601185,2023,matched,Finland,true,true,official-and-cyber-supported
-77,FR,FRA,France,66438828,2023,matched,France,true,true,official-and-cyber-supported
-78,GF,GUF,French Guiana,303408,2023,matched,French Guiana,true,false,official-supported-cyber-unsupported
-79,PF,PYF,French Polynesia,281125,2023,matched,French Polynesia,true,false,official-supported-cyber-unsupported
-80,TF,,French Southern Territories,,,not-covered-by-primary-source,French Southern Territories,true,false,official-supported-cyber-unsupported
-81,GA,GAB,Gabon,2484790,2023,matched,Gabon,true,true,official-and-cyber-supported
-82,GM,GMB,Gambia,2697846,2023,matched,Gambia,true,true,official-and-cyber-supported
-83,GE,GEO,Georgia,3807494,2023,matched,Georgia,true,false,official-supported-cyber-unsupported
-84,DE,DEU,Germany,84548233,2023,matched,Germany,true,true,official-and-cyber-supported
-85,GH,GHA,Ghana,33787916,2023,matched,Ghana,true,true,official-and-cyber-supported
-86,GI,GIB,Gibraltar,38493,2023,matched,,false,true,cyber-supported-not-official
-87,GR,GRC,Greece,10242910,2023,matched,Greece,true,true,official-and-cyber-supported
-88,GL,GRL,Greenland,55951,2023,matched,Greenland,true,true,official-and-cyber-supported
-89,GD,GRD,Grenada,117094,2023,matched,Grenada,true,true,official-and-cyber-supported
-90,GP,GLP,Guadeloupe,376518,2023,matched,Guadeloupe,true,false,official-supported-cyber-unsupported
-91,GU,GUM,Guam,166522,2023,matched,,false,true,cyber-supported-not-official
-92,GT,GTM,Guatemala,18124841,2023,matched,Guatemala,true,true,official-and-cyber-supported
-93,GG,GGY,Guernsey,64043,2023,matched,,false,true,cyber-supported-not-official
-94,GN,GIN,Guinea,14405469,2023,matched,Guinea,true,true,official-and-cyber-supported
-95,GW,GNB,Guinea-Bissau,2153343,2023,matched,Guinea-Bissau,true,true,official-and-cyber-supported
-96,GY,GUY,Guyana,826357,2023,matched,Guyana,true,true,official-and-cyber-supported
-97,HT,HTI,Haiti,11637402,2023,matched,Haiti,true,false,official-supported-cyber-unsupported
-98,HM,,Heard Island and McDonald Islands,,,not-covered-by-primary-source,,false,false,neither-supported
-99,VA,VAT,Holy See (Vatican City State),501,2023,matched,Holy See (Vatican City),true,false,official-supported-cyber-unsupported
-100,HN,HND,Honduras,10644853,2023,matched,Honduras,true,true,official-and-cyber-supported
-101,HK,HKG,Hong Kong,7442738,2023,matched,,false,false,neither-supported
-102,HU,HUN,Hungary,9686465,2023,matched,Hungary,true,true,official-and-cyber-supported
-103,IS,ISL,Iceland,387559,2023,matched,Iceland,true,true,official-and-cyber-supported
-104,IN,IND,India,1438069597,2023,matched,India,true,true,official-and-cyber-supported
-105,ID,IDN,Indonesia,281190068,2023,matched,Indonesia,true,true,official-and-cyber-supported
-106,IR,IRN,Iran,90608708,2023,matched,,false,false,neither-supported
-107,IQ,IRQ,Iraq,45074055,2023,matched,Iraq,true,false,official-supported-cyber-unsupported
-108,IE,IRL,Ireland,5196629,2023,matched,Ireland,true,true,official-and-cyber-supported
-109,IM,IMN,Isle of Man,84182,2023,matched,,false,true,cyber-supported-not-official
-110,IL,ISR,Israel,9256311,2023,matched,Israel,true,true,official-and-cyber-supported
-111,IT,ITA,Italy,59499452,2023,matched,Italy,true,true,official-and-cyber-supported
-112,JM,JAM,Jamaica,2839785,2023,matched,Jamaica,true,true,official-and-cyber-supported
-113,JP,JPN,Japan,124370947,2023,matched,Japan,true,true,official-and-cyber-supported
-114,JE,JEY,Jersey,103680,2023,matched,,false,true,cyber-supported-not-official
-115,JO,JOR,Jordan,11439220,2023,matched,Jordan,true,true,official-and-cyber-supported
-116,KZ,KAZ,Kazakhstan,20330109,2023,matched,Kazakhstan,true,false,official-supported-cyber-unsupported
-117,KE,KEN,Kenya,55339007,2023,matched,Kenya,true,true,official-and-cyber-supported
-118,KI,KIR,Kiribati,132540,2023,matched,Kiribati,true,true,official-and-cyber-supported
-119,XK,,Kosovo,,,not-covered-by-primary-source,,false,true,cyber-supported-not-official
-120,KW,KWT,Kuwait,4838781,2023,matched,Kuwait,true,true,official-and-cyber-supported
-121,KG,KGZ,Kyrgyzstan,7073523,2023,matched,Kyrgyzstan,true,false,official-supported-cyber-unsupported
-122,LA,LAO,Lao People's Democratic Republic,7665001,2023,matched,Laos,true,false,official-supported-cyber-unsupported
-123,LV,LVA,Latvia,1882399,2023,matched,Latvia,true,true,official-and-cyber-supported
-124,LB,LBN,Lebanon,5773494,2023,matched,Lebanon,true,false,official-supported-cyber-unsupported
-125,LS,LSO,Lesotho,2311476,2023,matched,Lesotho,true,true,official-and-cyber-supported
-126,LR,LBR,Liberia,5493035,2023,matched,Liberia,true,true,official-and-cyber-supported
-127,LY,LBY,Libya,7305659,2023,matched,Libya,true,false,official-supported-cyber-unsupported
-128,LI,LIE,Liechtenstein,39622,2023,matched,Liechtenstein,true,true,official-and-cyber-supported
-129,LT,LTU,Lithuania,2854104,2023,matched,Lithuania,true,true,official-and-cyber-supported
-130,LU,LUX,Luxembourg,665101,2023,matched,Luxembourg,true,true,official-and-cyber-supported
-131,MO,MAC,Macao,713916,2023,matched,,false,false,neither-supported
-132,MG,MDG,Madagascar,31195937,2023,matched,Madagascar,true,true,official-and-cyber-supported
-133,MW,MWI,Malawi,21104480,2023,matched,Malawi,true,true,official-and-cyber-supported
-134,MY,MYS,Malaysia,35126295,2023,matched,Malaysia,true,true,official-and-cyber-supported
-135,MV,MDV,Maldives,526009,2023,matched,Maldives,true,true,official-and-cyber-supported
-136,ML,MLI,Mali,23769130,2023,matched,Mali,true,true,official-and-cyber-supported
-137,MT,MLT,Malta,532964,2023,matched,Malta,true,true,official-and-cyber-supported
-138,MH,MHL,Marshall Islands,38849,2023,matched,Marshall Islands,true,true,official-and-cyber-supported
-139,MQ,MTQ,Martinique,346008,2023,matched,Martinique,true,false,official-supported-cyber-unsupported
-140,MR,MRT,Mauritania,5022442,2023,matched,Mauritania,true,true,official-and-cyber-supported
-141,MU,MUS,Mauritius,1273591,2023,matched,Mauritius,true,true,official-and-cyber-supported
-142,YT,MYT,Mayotte,316028,2023,matched,Mayotte,true,false,official-supported-cyber-unsupported
-143,MX,MEX,Mexico,129739761,2023,matched,Mexico,true,true,official-and-cyber-supported
-144,FM,FSM,"Micronesia, Federated States of",112646,2023,matched,Micronesia,true,true,official-and-cyber-supported
-145,MD,MDA,Moldova,3067072,2023,matched,Moldova,true,false,official-supported-cyber-unsupported
-146,MC,MCO,Monaco,38979,2023,matched,Monaco,true,true,official-and-cyber-supported
-147,MN,MNG,Mongolia,3431938,2023,matched,Mongolia,true,false,official-supported-cyber-unsupported
-148,ME,MNE,Montenegro,633553,2023,matched,Montenegro,true,true,official-and-cyber-supported
-149,MS,MSR,Montserrat,4440,2023,matched,,false,true,cyber-supported-not-official
-150,MA,MAR,Morocco,37712516,2023,matched,Morocco,true,true,official-and-cyber-supported
-151,MZ,MOZ,Mozambique,33635163,2023,matched,Mozambique,true,true,official-and-cyber-supported
-152,MM,MMR,Myanmar,54133800,2023,matched,Myanmar,true,false,official-supported-cyber-unsupported
-153,NA,NAM,Namibia,2963102,2023,matched,Namibia,true,true,official-and-cyber-supported
-154,NR,NRU,Nauru,11900,2023,matched,Nauru,true,true,official-and-cyber-supported
-155,NP,NPL,Nepal,29694614,2023,matched,Nepal,true,true,official-and-cyber-supported
-156,NL,NLD,Netherlands,18092526,2023,matched,Netherlands,true,true,official-and-cyber-supported
-157,NC,NCL,New Caledonia,289879,2023,matched,New Caledonia,true,false,official-supported-cyber-unsupported
-158,NZ,NZL,New Zealand,5172837,2023,matched,New Zealand,true,true,official-and-cyber-supported
-159,NI,NIC,Nicaragua,6823619,2023,matched,Nicaragua,true,false,official-supported-cyber-unsupported
-160,NE,NER,Niger,26159863,2023,matched,Niger,true,true,official-and-cyber-supported
-161,NG,NGA,Nigeria,227882949,2023,matched,Nigeria,true,true,official-and-cyber-supported
-162,NU,NIU,Niue,1841,2023,matched,,false,false,neither-supported
-163,NF,,Norfolk Island,,,not-covered-by-primary-source,,false,false,neither-supported
-164,KP,PRK,North Korea,26418196,2023,matched,,false,false,neither-supported
-165,MK,MKD,North Macedonia,1831800,2023,matched,North Macedonia,true,true,official-and-cyber-supported
-166,MP,MNP,Northern Mariana Islands,45166,2023,matched,,false,false,neither-supported
-167,NO,NOR,Norway,5519167,2023,matched,Norway,true,true,official-and-cyber-supported
-168,OM,OMN,Oman,5049267,2023,matched,Oman,true,true,official-and-cyber-supported
-169,PK,PAK,Pakistan,247504505,2023,matched,Pakistan,true,true,official-and-cyber-supported
-170,PW,PLW,Palau,17751,2023,matched,Palau,true,true,official-and-cyber-supported
-171,PS,PSE,"Palestine, State of",5409201,2023,matched,Palestine,true,true,official-and-cyber-supported
-172,PA,PAN,Panama,4458758,2023,matched,Panama,true,true,official-and-cyber-supported
-173,PG,PNG,Papua New Guinea,10389638,2023,matched,Papua New Guinea,true,true,official-and-cyber-supported
-174,PY,PRY,Paraguay,6844150,2023,matched,Paraguay,true,true,official-and-cyber-supported
-175,PE,PER,Peru,33845616,2023,matched,Peru,true,true,official-and-cyber-supported
-176,PH,PHL,Philippines,114891199,2023,matched,Philippines,true,true,official-and-cyber-supported
-177,PN,,Pitcairn,,,not-covered-by-primary-source,,false,false,neither-supported
-178,PL,POL,Poland,38762847,2023,matched,Poland,true,true,official-and-cyber-supported
-179,PT,PRT,Portugal,10430735,2023,matched,Portugal,true,true,official-and-cyber-supported
-180,PR,PRI,Puerto Rico,3242022,2023,matched,,false,true,cyber-supported-not-official
-181,QA,QAT,Qatar,2979086,2023,matched,Qatar,true,true,official-and-cyber-supported
-182,RE,REU,Réunion,874883,2023,matched,Réunion,true,false,official-supported-cyber-unsupported
-183,RO,ROU,Romania,19118482,2023,matched,Romania,true,true,official-and-cyber-supported
-184,RU,RUS,Russian Federation,145440502,2023,matched,,false,false,neither-supported
-185,RW,RWA,Rwanda,13954473,2023,matched,Rwanda,true,true,official-and-cyber-supported
-186,BL,BLM,Saint Barthélemy,11112,2023,matched,Saint Barthelemy,true,false,official-supported-cyber-unsupported
-187,SH,SHN,"Saint Helena, Ascension and Tristan da Cunha",5316,2023,matched,Saint Helena,true,false,official-supported-cyber-unsupported
-188,KN,KNA,Saint Kitts and Nevis,46783,2023,matched,Saint Kitts and Nevis,true,true,official-and-cyber-supported
-189,LC,LCA,Saint Lucia,179291,2023,matched,Saint Lucia,true,true,official-and-cyber-supported
-190,MF,MAF,Saint Martin (French part),27545,2023,matched,Saint Martin (French part),true,true,official-and-cyber-supported
-191,PM,SPM,Saint Pierre and Miquelon,5707,2023,matched,Saint Pierre and Miquelon,true,false,official-supported-cyber-unsupported
-192,VC,VCT,Saint Vincent and the Grenadines,101331,2023,matched,Saint Vincent and the Grenadines,true,true,official-and-cyber-supported
-193,WS,WSM,Samoa,216673,2023,matched,Samoa,true,true,official-and-cyber-supported
-194,SM,SMR,San Marino,33761,2023,matched,San Marino,true,true,official-and-cyber-supported
-195,ST,STP,Sao Tome and Principe,230882,2023,matched,Sao Tome and Principe,true,true,official-and-cyber-supported
-196,SA,SAU,Saudi Arabia,33264289,2023,matched,Saudi Arabia,true,true,official-and-cyber-supported
-197,SN,SEN,Senegal,18077573,2023,matched,Senegal,true,true,official-and-cyber-supported
-198,RS,SRB,Serbia,6773204,2023,matched,Serbia,true,true,official-and-cyber-supported
-199,SC,SYC,Seychelles,127961,2023,matched,Seychelles,true,true,official-and-cyber-supported
-200,SL,SLE,Sierra Leone,8460523,2023,matched,Sierra Leone,true,true,official-and-cyber-supported
-201,SG,SGP,Singapore,5789092,2023,matched,Singapore,true,true,official-and-cyber-supported
-202,SX,SXM,Sint Maarten (Dutch part),42775,2023,matched,,false,false,neither-supported
-203,SK,SVK,Slovakia,5518057,2023,matched,Slovakia,true,true,official-and-cyber-supported
-204,SI,SVN,Slovenia,2118394,2023,matched,Slovenia,true,true,official-and-cyber-supported
-205,SB,SLB,Solomon Islands,800014,2023,matched,Solomon Islands,true,true,official-and-cyber-supported
-206,SO,SOM,Somalia,18358622,2023,matched,Somalia,true,false,official-supported-cyber-unsupported
-207,ZA,ZAF,South Africa,63212386,2023,matched,South Africa,true,true,official-and-cyber-supported
-208,GS,,South Georgia and the South Sandwich Islands,,,not-covered-by-primary-source,,false,false,neither-supported
-209,KR,KOR,South Korea,51748744,2023,matched,South Korea,true,true,official-and-cyber-supported
-210,SS,SSD,South Sudan,11483370,2023,matched,South Sudan,true,false,official-supported-cyber-unsupported
-211,ES,ESP,Spain,47911583,2023,matched,Spain,true,true,official-and-cyber-supported
-212,LK,LKA,Sri Lanka,22971615,2023,matched,Sri Lanka,true,true,official-and-cyber-supported
-213,SD,SDN,Sudan,50042800,2023,matched,Sudan,true,false,official-supported-cyber-unsupported
-214,SR,SUR,Suriname,628892,2023,matched,Suriname,true,true,official-and-cyber-supported
-215,SJ,SJM,Svalbard and Jan Mayen,2400,2023,matched,Svalbard and Jan Mayen,true,false,official-supported-cyber-unsupported
-216,SE,SWE,Sweden,10551493,2023,matched,Sweden,true,true,official-and-cyber-supported
-217,CH,CHE,Switzerland,8870564,2023,matched,Switzerland,true,true,official-and-cyber-supported
-218,SY,SYR,Syrian Arab Republic,23594623,2023,matched,,false,false,neither-supported
-219,TW,TWN,Taiwan,23317145,2023,matched,Taiwan,true,true,official-and-cyber-supported
-220,TJ,TJK,Tajikistan,10389807,2023,matched,Tajikistan,true,false,official-supported-cyber-unsupported
-221,TZ,TZA,Tanzania,66617607,2023,matched,Tanzania,true,true,official-and-cyber-supported
-222,TH,THA,Thailand,71702436,2023,matched,Thailand,true,true,official-and-cyber-supported
-223,TL,TLS,Timor-Leste,1384292,2023,matched,Timor-Leste (East Timor),true,true,official-and-cyber-supported
-224,TG,TGO,Togo,8223853,2023,matched,Togo,true,true,official-and-cyber-supported
-225,TK,TKL,Tokelau,2424,2023,matched,,false,false,neither-supported
-226,TO,TON,Tonga,104613,2023,matched,Tonga,true,true,official-and-cyber-supported
-227,TT,TTO,Trinidad and Tobago,1502938,2023,matched,Trinidad and Tobago,true,true,official-and-cyber-supported
-228,TN,TUN,Tunisia,12200434,2023,matched,Tunisia,true,true,official-and-cyber-supported
-229,TR,TUR,Türkiye,87270502,2023,matched,Turkey,true,true,official-and-cyber-supported
-230,TM,TKM,Turkmenistan,7364437,2023,matched,Turkmenistan,true,false,official-supported-cyber-unsupported
-231,TC,TCA,Turks and Caicos Islands,46221,2023,matched,,false,true,cyber-supported-not-official
-232,TV,TUV,Tuvalu,9837,2023,matched,Tuvalu,true,true,official-and-cyber-supported
-233,UG,UGA,Uganda,48656606,2023,matched,Uganda,true,true,official-and-cyber-supported
-234,UA,UKR,Ukraine,37732833,2023,matched,Ukraine (with certain exceptions),true,true,official-and-cyber-supported
-235,AE,ARE,United Arab Emirates,10642089,2023,matched,United Arab Emirates,true,true,official-and-cyber-supported
-236,GB,GBR,United Kingdom,68682965,2023,matched,United Kingdom,true,true,official-and-cyber-supported
-237,US,USA,United States,343477330,2023,matched,United States of America,true,true,official-and-cyber-supported
-238,UM,,United States Minor Outlying Islands,,,not-covered-by-primary-source,,false,false,neither-supported
-239,UY,URY,Uruguay,3388083,2023,matched,Uruguay,true,true,official-and-cyber-supported
-240,UZ,UZB,Uzbekistan,35652311,2023,matched,Uzbekistan,true,false,official-supported-cyber-unsupported
-241,VU,VUT,Vanuatu,320422,2023,matched,Vanuatu,true,true,official-and-cyber-supported
-242,VE,VEN,Venezuela,28300861,2023,matched,,false,false,neither-supported
-243,VN,VNM,Vietnam,100352189,2023,matched,Vietnam,true,false,official-supported-cyber-unsupported
-244,VG,VGB,"Virgin Islands, British",39009,2023,matched,,false,false,neither-supported
-245,VI,VIR,"Virgin Islands, U.S.",85712,2023,matched,,false,true,cyber-supported-not-official
-246,WF,WLF,Wallis and Futuna,11394,2023,matched,Wallis and Futuna,true,false,official-supported-cyber-unsupported
-247,EH,ESH,Western Sahara,579734,2023,matched,,false,false,neither-supported
-248,YE,YEM,Yemen,39390800,2023,matched,Yemen,true,false,official-supported-cyber-unsupported
-249,ZM,ZMB,Zambia,20723967,2023,matched,Zambia,true,true,official-and-cyber-supported
-250,ZW,ZWE,Zimbabwe,16340829,2023,matched,Zimbabwe,true,false,official-supported-cyber-unsupported
+index,code,iso3,name,population,population_year,population_status,official_source_name,official_chatgpt_supported,cyber_verification_supported,classification,active_us_sanctions_program_ids
+1,AF,AFG,Afghanistan,41454762,2023,matched,Afghanistan,true,false,official-supported-cyber-unsupported,
+2,AX,,Åland Islands,,,not-covered-by-primary-source,Aland Islands,true,false,official-supported-cyber-unsupported,
+3,AL,ALB,Albania,2811660,2023,matched,Albania,true,true,official-and-cyber-supported,
+4,DZ,DZA,Algeria,46164222,2023,matched,Algeria,true,true,official-and-cyber-supported,
+5,AS,ASM,American Samoa,47544,2023,matched,,false,true,cyber-supported-not-official,
+6,AD,AND,Andorra,80869,2023,matched,Andorra,true,true,official-and-cyber-supported,
+7,AO,AGO,Angola,36749909,2023,matched,Angola,true,true,official-and-cyber-supported,
+8,AI,AIA,Anguilla,14435,2023,matched,,false,true,cyber-supported-not-official,
+9,AQ,,Antarctica,,,not-covered-by-primary-source,,false,false,neither-supported,
+10,AG,ATG,Antigua and Barbuda,93331,2023,matched,Antigua and Barbuda,true,true,official-and-cyber-supported,
+11,AR,ARG,Argentina,45538402,2023,matched,Argentina,true,true,official-and-cyber-supported,
+12,AM,ARM,Armenia,2943398,2023,matched,Armenia,true,false,official-supported-cyber-unsupported,
+13,AW,ABW,Aruba,107946,2023,matched,Aruba,true,false,official-supported-cyber-unsupported,
+14,AU,AUS,Australia,26451126,2023,matched,Australia,true,true,official-and-cyber-supported,
+15,AT,AUT,Austria,9130434,2023,matched,Austria,true,true,official-and-cyber-supported,
+16,AZ,AZE,Azerbaijan,10318209,2023,matched,Azerbaijan,true,false,official-supported-cyber-unsupported,
+17,BS,BHS,Bahamas,399452,2023,matched,Bahamas,true,true,official-and-cyber-supported,
+18,BH,BHR,Bahrain,1569674,2023,matched,Bahrain,true,true,official-and-cyber-supported,
+19,BD,BGD,Bangladesh,171466986,2023,matched,Bangladesh,true,true,official-and-cyber-supported,
+20,BB,BRB,Barbados,282347,2023,matched,Barbados,true,true,official-and-cyber-supported,
+21,BY,BLR,Belarus,9115679,2023,matched,,false,false,neither-supported,
+22,BE,BEL,Belgium,11712891,2023,matched,Belgium,true,true,official-and-cyber-supported,
+23,BZ,BLZ,Belize,411112,2023,matched,Belize,true,true,official-and-cyber-supported,
+24,BJ,BEN,Benin,14111035,2023,matched,Benin,true,true,official-and-cyber-supported,
+25,BM,BMU,Bermuda,64721,2023,matched,Bermuda,true,true,official-and-cyber-supported,
+26,BT,BTN,Bhutan,786386,2023,matched,Bhutan,true,true,official-and-cyber-supported,
+27,BO,BOL,Bolivia,12244161,2023,matched,Bolivia,true,true,official-and-cyber-supported,
+28,BQ,BES,"Bonaire, Sint Eustatius and Saba",29920,2023,matched,,false,false,neither-supported,
+29,BA,BIH,Bosnia and Herzegovina,3185072,2023,matched,Bosnia and Herzegovina,true,true,official-and-cyber-supported,
+30,BW,BWA,Botswana,2480242,2023,matched,Botswana,true,true,official-and-cyber-supported,
+31,BV,,Bouvet Island,,,not-covered-by-primary-source,,false,false,neither-supported,
+32,BR,BRA,Brazil,211140731,2023,matched,Brazil,true,true,official-and-cyber-supported,
+33,IO,,British Indian Ocean Territory,,,not-covered-by-primary-source,,false,false,neither-supported,
+34,BN,BRN,Brunei Darussalam,458959,2023,matched,Brunei,true,true,official-and-cyber-supported,
+35,BG,BGR,Bulgaria,6795805,2023,matched,Bulgaria,true,true,official-and-cyber-supported,
+36,BF,BFA,Burkina Faso,23025777,2023,matched,Burkina Faso,true,true,official-and-cyber-supported,
+37,BI,BDI,Burundi,13689455,2023,matched,Burundi,true,true,official-and-cyber-supported,
+38,CV,CPV,Cabo Verde,522335,2023,matched,Cabo Verde,true,true,official-and-cyber-supported,
+39,KH,KHM,Cambodia,17423884,2023,matched,Cambodia,true,false,official-supported-cyber-unsupported,
+40,CM,CMR,Cameroon,28372690,2023,matched,Cameroon,true,true,official-and-cyber-supported,
+41,CA,CAN,Canada,39299098,2023,matched,Canada,true,true,official-and-cyber-supported,
+42,KY,CYM,Cayman Islands,73055,2023,matched,Cayman Islands,true,true,official-and-cyber-supported,
+43,CF,CAF,Central African Republic,5152415,2023,matched,Central African Republic,true,false,official-supported-cyber-unsupported,
+44,TD,TCD,Chad,19319075,2023,matched,Chad,true,true,official-and-cyber-supported,
+45,CL,CHL,Chile,19658833,2023,matched,Chile,true,true,official-and-cyber-supported,
+46,CN,CHN,China,1422584930,2023,matched,,false,false,neither-supported,US-NS-CMIC;US-UFLPA
+47,CX,,Christmas Island,,,not-covered-by-primary-source,,false,false,neither-supported,
+48,CC,,Cocos (Keeling) Islands,,,not-covered-by-primary-source,,false,false,neither-supported,
+49,CO,COL,Colombia,52321152,2023,matched,Colombia,true,true,official-and-cyber-supported,
+50,KM,COM,Comoros,850390,2023,matched,Comoros,true,true,official-and-cyber-supported,
+51,CG,COG,Congo,6182890,2023,matched,Congo (Brazzaville),true,true,official-and-cyber-supported,
+52,CD,COD,"Congo, The Democratic Republic of the",105789733,2023,matched,Congo (DRC),true,false,official-supported-cyber-unsupported,
+53,CK,COK,Cook Islands,14244,2023,matched,,false,false,neither-supported,
+54,CR,CRI,Costa Rica,5105526,2023,matched,Costa Rica,true,true,official-and-cyber-supported,
+55,CI,CIV,Côte d'Ivoire,31165653,2023,matched,Côte d'Ivoire,true,true,official-and-cyber-supported,
+56,HR,HRV,Croatia,3896023,2023,matched,Croatia,true,true,official-and-cyber-supported,
+57,CU,CUB,Cuba,11019932,2023,matched,,false,false,neither-supported,US-CUBA;US-DOS-CU-PAL;US-DOS-CU-REA
+58,CW,CUW,Curaçao,185437,2023,matched,,false,true,cyber-supported-not-official,
+59,CY,CYP,Cyprus,1344981,2023,matched,Cyprus,true,true,official-and-cyber-supported,
+60,CZ,CZE,Czechia,10809722,2023,matched,Czechia (Czech Republic),true,true,official-and-cyber-supported,
+61,DK,DNK,Denmark,5948134,2023,matched,Denmark,true,true,official-and-cyber-supported,
+62,DJ,DJI,Djibouti,1152951,2023,matched,Djibouti,true,true,official-and-cyber-supported,
+63,DM,DMA,Dominica,66531,2023,matched,Dominica,true,true,official-and-cyber-supported,
+64,DO,DOM,Dominican Republic,11331269,2023,matched,Dominican Republic,true,true,official-and-cyber-supported,
+65,EC,ECU,Ecuador,17980079,2023,matched,Ecuador,true,true,official-and-cyber-supported,
+66,EG,EGY,Egypt,114535772,2023,matched,Egypt,true,true,official-and-cyber-supported,
+67,SV,SLV,El Salvador,6309629,2023,matched,El Salvador,true,true,official-and-cyber-supported,
+68,GQ,GNQ,Equatorial Guinea,1847556,2023,matched,Equatorial Guinea,true,true,official-and-cyber-supported,
+69,ER,ERI,Eritrea,3470391,2023,matched,Eritrea,true,false,official-supported-cyber-unsupported,
+70,EE,EST,Estonia,1367195,2023,matched,Estonia,true,true,official-and-cyber-supported,
+71,SZ,SWZ,Eswatini,1230507,2023,matched,Eswatini (Swaziland),true,true,official-and-cyber-supported,
+72,ET,ETH,Ethiopia,128691695,2023,matched,Ethiopia,true,true,official-and-cyber-supported,
+73,FK,FLK,Falkland Islands (Malvinas),3498,2023,matched,,false,false,neither-supported,
+74,FO,FRO,Faroe Islands,54738,2023,matched,Faroe Islands,true,true,official-and-cyber-supported,
+75,FJ,FJI,Fiji,924150,2023,matched,Fiji,true,true,official-and-cyber-supported,
+76,FI,FIN,Finland,5601185,2023,matched,Finland,true,true,official-and-cyber-supported,
+77,FR,FRA,France,66438828,2023,matched,France,true,true,official-and-cyber-supported,
+78,GF,GUF,French Guiana,303408,2023,matched,French Guiana,true,false,official-supported-cyber-unsupported,
+79,PF,PYF,French Polynesia,281125,2023,matched,French Polynesia,true,false,official-supported-cyber-unsupported,
+80,TF,,French Southern Territories,,,not-covered-by-primary-source,French Southern Territories,true,false,official-supported-cyber-unsupported,
+81,GA,GAB,Gabon,2484790,2023,matched,Gabon,true,true,official-and-cyber-supported,
+82,GM,GMB,Gambia,2697846,2023,matched,Gambia,true,true,official-and-cyber-supported,
+83,GE,GEO,Georgia,3807494,2023,matched,Georgia,true,false,official-supported-cyber-unsupported,
+84,DE,DEU,Germany,84548233,2023,matched,Germany,true,true,official-and-cyber-supported,
+85,GH,GHA,Ghana,33787916,2023,matched,Ghana,true,true,official-and-cyber-supported,
+86,GI,GIB,Gibraltar,38493,2023,matched,,false,true,cyber-supported-not-official,
+87,GR,GRC,Greece,10242910,2023,matched,Greece,true,true,official-and-cyber-supported,
+88,GL,GRL,Greenland,55951,2023,matched,Greenland,true,true,official-and-cyber-supported,
+89,GD,GRD,Grenada,117094,2023,matched,Grenada,true,true,official-and-cyber-supported,
+90,GP,GLP,Guadeloupe,376518,2023,matched,Guadeloupe,true,false,official-supported-cyber-unsupported,
+91,GU,GUM,Guam,166522,2023,matched,,false,true,cyber-supported-not-official,
+92,GT,GTM,Guatemala,18124841,2023,matched,Guatemala,true,true,official-and-cyber-supported,
+93,GG,GGY,Guernsey,64043,2023,matched,,false,true,cyber-supported-not-official,
+94,GN,GIN,Guinea,14405469,2023,matched,Guinea,true,true,official-and-cyber-supported,
+95,GW,GNB,Guinea-Bissau,2153343,2023,matched,Guinea-Bissau,true,true,official-and-cyber-supported,
+96,GY,GUY,Guyana,826357,2023,matched,Guyana,true,true,official-and-cyber-supported,
+97,HT,HTI,Haiti,11637402,2023,matched,Haiti,true,false,official-supported-cyber-unsupported,
+98,HM,,Heard Island and McDonald Islands,,,not-covered-by-primary-source,,false,false,neither-supported,
+99,VA,VAT,Holy See (Vatican City State),501,2023,matched,Holy See (Vatican City),true,false,official-supported-cyber-unsupported,
+100,HN,HND,Honduras,10644853,2023,matched,Honduras,true,true,official-and-cyber-supported,
+101,HK,HKG,Hong Kong,7442738,2023,matched,,false,false,neither-supported,
+102,HU,HUN,Hungary,9686465,2023,matched,Hungary,true,true,official-and-cyber-supported,
+103,IS,ISL,Iceland,387559,2023,matched,Iceland,true,true,official-and-cyber-supported,
+104,IN,IND,India,1438069597,2023,matched,India,true,true,official-and-cyber-supported,
+105,ID,IDN,Indonesia,281190068,2023,matched,Indonesia,true,true,official-and-cyber-supported,
+106,IR,IRN,Iran,90608708,2023,matched,,false,false,neither-supported,US-FSE;US-IRAN
+107,IQ,IRQ,Iraq,45074055,2023,matched,Iraq,true,false,official-supported-cyber-unsupported,
+108,IE,IRL,Ireland,5196629,2023,matched,Ireland,true,true,official-and-cyber-supported,
+109,IM,IMN,Isle of Man,84182,2023,matched,,false,true,cyber-supported-not-official,
+110,IL,ISR,Israel,9256311,2023,matched,Israel,true,true,official-and-cyber-supported,
+111,IT,ITA,Italy,59499452,2023,matched,Italy,true,true,official-and-cyber-supported,
+112,JM,JAM,Jamaica,2839785,2023,matched,Jamaica,true,true,official-and-cyber-supported,
+113,JP,JPN,Japan,124370947,2023,matched,Japan,true,true,official-and-cyber-supported,
+114,JE,JEY,Jersey,103680,2023,matched,,false,true,cyber-supported-not-official,
+115,JO,JOR,Jordan,11439220,2023,matched,Jordan,true,true,official-and-cyber-supported,
+116,KZ,KAZ,Kazakhstan,20330109,2023,matched,Kazakhstan,true,false,official-supported-cyber-unsupported,
+117,KE,KEN,Kenya,55339007,2023,matched,Kenya,true,true,official-and-cyber-supported,
+118,KI,KIR,Kiribati,132540,2023,matched,Kiribati,true,true,official-and-cyber-supported,
+119,XK,,Kosovo,,,not-covered-by-primary-source,,false,true,cyber-supported-not-official,
+120,KW,KWT,Kuwait,4838781,2023,matched,Kuwait,true,true,official-and-cyber-supported,
+121,KG,KGZ,Kyrgyzstan,7073523,2023,matched,Kyrgyzstan,true,false,official-supported-cyber-unsupported,
+122,LA,LAO,Lao People's Democratic Republic,7665001,2023,matched,Laos,true,false,official-supported-cyber-unsupported,
+123,LV,LVA,Latvia,1882399,2023,matched,Latvia,true,true,official-and-cyber-supported,
+124,LB,LBN,Lebanon,5773494,2023,matched,Lebanon,true,false,official-supported-cyber-unsupported,
+125,LS,LSO,Lesotho,2311476,2023,matched,Lesotho,true,true,official-and-cyber-supported,
+126,LR,LBR,Liberia,5493035,2023,matched,Liberia,true,true,official-and-cyber-supported,
+127,LY,LBY,Libya,7305659,2023,matched,Libya,true,false,official-supported-cyber-unsupported,
+128,LI,LIE,Liechtenstein,39622,2023,matched,Liechtenstein,true,true,official-and-cyber-supported,
+129,LT,LTU,Lithuania,2854104,2023,matched,Lithuania,true,true,official-and-cyber-supported,
+130,LU,LUX,Luxembourg,665101,2023,matched,Luxembourg,true,true,official-and-cyber-supported,
+131,MO,MAC,Macao,713916,2023,matched,,false,false,neither-supported,
+132,MG,MDG,Madagascar,31195937,2023,matched,Madagascar,true,true,official-and-cyber-supported,
+133,MW,MWI,Malawi,21104480,2023,matched,Malawi,true,true,official-and-cyber-supported,
+134,MY,MYS,Malaysia,35126295,2023,matched,Malaysia,true,true,official-and-cyber-supported,
+135,MV,MDV,Maldives,526009,2023,matched,Maldives,true,true,official-and-cyber-supported,
+136,ML,MLI,Mali,23769130,2023,matched,Mali,true,true,official-and-cyber-supported,
+137,MT,MLT,Malta,532964,2023,matched,Malta,true,true,official-and-cyber-supported,
+138,MH,MHL,Marshall Islands,38849,2023,matched,Marshall Islands,true,true,official-and-cyber-supported,
+139,MQ,MTQ,Martinique,346008,2023,matched,Martinique,true,false,official-supported-cyber-unsupported,
+140,MR,MRT,Mauritania,5022442,2023,matched,Mauritania,true,true,official-and-cyber-supported,
+141,MU,MUS,Mauritius,1273591,2023,matched,Mauritius,true,true,official-and-cyber-supported,
+142,YT,MYT,Mayotte,316028,2023,matched,Mayotte,true,false,official-supported-cyber-unsupported,
+143,MX,MEX,Mexico,129739761,2023,matched,Mexico,true,true,official-and-cyber-supported,
+144,FM,FSM,"Micronesia, Federated States of",112646,2023,matched,Micronesia,true,true,official-and-cyber-supported,
+145,MD,MDA,Moldova,3067072,2023,matched,Moldova,true,false,official-supported-cyber-unsupported,
+146,MC,MCO,Monaco,38979,2023,matched,Monaco,true,true,official-and-cyber-supported,
+147,MN,MNG,Mongolia,3431938,2023,matched,Mongolia,true,false,official-supported-cyber-unsupported,
+148,ME,MNE,Montenegro,633553,2023,matched,Montenegro,true,true,official-and-cyber-supported,
+149,MS,MSR,Montserrat,4440,2023,matched,,false,true,cyber-supported-not-official,
+150,MA,MAR,Morocco,37712516,2023,matched,Morocco,true,true,official-and-cyber-supported,
+151,MZ,MOZ,Mozambique,33635163,2023,matched,Mozambique,true,true,official-and-cyber-supported,
+152,MM,MMR,Myanmar,54133800,2023,matched,Myanmar,true,false,official-supported-cyber-unsupported,US-BURMA
+153,NA,NAM,Namibia,2963102,2023,matched,Namibia,true,true,official-and-cyber-supported,
+154,NR,NRU,Nauru,11900,2023,matched,Nauru,true,true,official-and-cyber-supported,
+155,NP,NPL,Nepal,29694614,2023,matched,Nepal,true,true,official-and-cyber-supported,
+156,NL,NLD,Netherlands,18092526,2023,matched,Netherlands,true,true,official-and-cyber-supported,
+157,NC,NCL,New Caledonia,289879,2023,matched,New Caledonia,true,false,official-supported-cyber-unsupported,
+158,NZ,NZL,New Zealand,5172837,2023,matched,New Zealand,true,true,official-and-cyber-supported,
+159,NI,NIC,Nicaragua,6823619,2023,matched,Nicaragua,true,false,official-supported-cyber-unsupported,
+160,NE,NER,Niger,26159863,2023,matched,Niger,true,true,official-and-cyber-supported,
+161,NG,NGA,Nigeria,227882949,2023,matched,Nigeria,true,true,official-and-cyber-supported,
+162,NU,NIU,Niue,1841,2023,matched,,false,false,neither-supported,
+163,NF,,Norfolk Island,,,not-covered-by-primary-source,,false,false,neither-supported,
+164,KP,PRK,North Korea,26418196,2023,matched,,false,false,neither-supported,US-NK
+165,MK,MKD,North Macedonia,1831800,2023,matched,North Macedonia,true,true,official-and-cyber-supported,
+166,MP,MNP,Northern Mariana Islands,45166,2023,matched,,false,false,neither-supported,
+167,NO,NOR,Norway,5519167,2023,matched,Norway,true,true,official-and-cyber-supported,
+168,OM,OMN,Oman,5049267,2023,matched,Oman,true,true,official-and-cyber-supported,
+169,PK,PAK,Pakistan,247504505,2023,matched,Pakistan,true,true,official-and-cyber-supported,
+170,PW,PLW,Palau,17751,2023,matched,Palau,true,true,official-and-cyber-supported,
+171,PS,PSE,"Palestine, State of",5409201,2023,matched,Palestine,true,true,official-and-cyber-supported,US-NS-PLC
+172,PA,PAN,Panama,4458758,2023,matched,Panama,true,true,official-and-cyber-supported,
+173,PG,PNG,Papua New Guinea,10389638,2023,matched,Papua New Guinea,true,true,official-and-cyber-supported,
+174,PY,PRY,Paraguay,6844150,2023,matched,Paraguay,true,true,official-and-cyber-supported,
+175,PE,PER,Peru,33845616,2023,matched,Peru,true,true,official-and-cyber-supported,
+176,PH,PHL,Philippines,114891199,2023,matched,Philippines,true,true,official-and-cyber-supported,
+177,PN,,Pitcairn,,,not-covered-by-primary-source,,false,false,neither-supported,
+178,PL,POL,Poland,38762847,2023,matched,Poland,true,true,official-and-cyber-supported,
+179,PT,PRT,Portugal,10430735,2023,matched,Portugal,true,true,official-and-cyber-supported,
+180,PR,PRI,Puerto Rico,3242022,2023,matched,,false,true,cyber-supported-not-official,
+181,QA,QAT,Qatar,2979086,2023,matched,Qatar,true,true,official-and-cyber-supported,
+182,RE,REU,Réunion,874883,2023,matched,Réunion,true,false,official-supported-cyber-unsupported,
+183,RO,ROU,Romania,19118482,2023,matched,Romania,true,true,official-and-cyber-supported,
+184,RU,RUS,Russian Federation,145440502,2023,matched,,false,false,neither-supported,US-RUSHAR;US-SSI;US-UKRRUS-REL
+185,RW,RWA,Rwanda,13954473,2023,matched,Rwanda,true,true,official-and-cyber-supported,
+186,BL,BLM,Saint Barthélemy,11112,2023,matched,Saint Barthelemy,true,false,official-supported-cyber-unsupported,
+187,SH,SHN,"Saint Helena, Ascension and Tristan da Cunha",5316,2023,matched,Saint Helena,true,false,official-supported-cyber-unsupported,
+188,KN,KNA,Saint Kitts and Nevis,46783,2023,matched,Saint Kitts and Nevis,true,true,official-and-cyber-supported,
+189,LC,LCA,Saint Lucia,179291,2023,matched,Saint Lucia,true,true,official-and-cyber-supported,
+190,MF,MAF,Saint Martin (French part),27545,2023,matched,Saint Martin (French part),true,true,official-and-cyber-supported,
+191,PM,SPM,Saint Pierre and Miquelon,5707,2023,matched,Saint Pierre and Miquelon,true,false,official-supported-cyber-unsupported,
+192,VC,VCT,Saint Vincent and the Grenadines,101331,2023,matched,Saint Vincent and the Grenadines,true,true,official-and-cyber-supported,
+193,WS,WSM,Samoa,216673,2023,matched,Samoa,true,true,official-and-cyber-supported,
+194,SM,SMR,San Marino,33761,2023,matched,San Marino,true,true,official-and-cyber-supported,
+195,ST,STP,Sao Tome and Principe,230882,2023,matched,Sao Tome and Principe,true,true,official-and-cyber-supported,
+196,SA,SAU,Saudi Arabia,33264289,2023,matched,Saudi Arabia,true,true,official-and-cyber-supported,
+197,SN,SEN,Senegal,18077573,2023,matched,Senegal,true,true,official-and-cyber-supported,
+198,RS,SRB,Serbia,6773204,2023,matched,Serbia,true,true,official-and-cyber-supported,
+199,SC,SYC,Seychelles,127961,2023,matched,Seychelles,true,true,official-and-cyber-supported,
+200,SL,SLE,Sierra Leone,8460523,2023,matched,Sierra Leone,true,true,official-and-cyber-supported,
+201,SG,SGP,Singapore,5789092,2023,matched,Singapore,true,true,official-and-cyber-supported,
+202,SX,SXM,Sint Maarten (Dutch part),42775,2023,matched,,false,false,neither-supported,
+203,SK,SVK,Slovakia,5518057,2023,matched,Slovakia,true,true,official-and-cyber-supported,
+204,SI,SVN,Slovenia,2118394,2023,matched,Slovenia,true,true,official-and-cyber-supported,
+205,SB,SLB,Solomon Islands,800014,2023,matched,Solomon Islands,true,true,official-and-cyber-supported,
+206,SO,SOM,Somalia,18358622,2023,matched,Somalia,true,false,official-supported-cyber-unsupported,US-SOMALIA
+207,ZA,ZAF,South Africa,63212386,2023,matched,South Africa,true,true,official-and-cyber-supported,
+208,GS,,South Georgia and the South Sandwich Islands,,,not-covered-by-primary-source,,false,false,neither-supported,
+209,KR,KOR,South Korea,51748744,2023,matched,South Korea,true,true,official-and-cyber-supported,
+210,SS,SSD,South Sudan,11483370,2023,matched,South Sudan,true,false,official-supported-cyber-unsupported,
+211,ES,ESP,Spain,47911583,2023,matched,Spain,true,true,official-and-cyber-supported,
+212,LK,LKA,Sri Lanka,22971615,2023,matched,Sri Lanka,true,true,official-and-cyber-supported,
+213,SD,SDN,Sudan,50042800,2023,matched,Sudan,true,false,official-supported-cyber-unsupported,
+214,SR,SUR,Suriname,628892,2023,matched,Suriname,true,true,official-and-cyber-supported,
+215,SJ,SJM,Svalbard and Jan Mayen,2400,2023,matched,Svalbard and Jan Mayen,true,false,official-supported-cyber-unsupported,
+216,SE,SWE,Sweden,10551493,2023,matched,Sweden,true,true,official-and-cyber-supported,
+217,CH,CHE,Switzerland,8870564,2023,matched,Switzerland,true,true,official-and-cyber-supported,
+218,SY,SYR,Syrian Arab Republic,23594623,2023,matched,,false,false,neither-supported,US-FSE;US-SYR-REL
+219,TW,TWN,Taiwan,23317145,2023,matched,Taiwan,true,true,official-and-cyber-supported,
+220,TJ,TJK,Tajikistan,10389807,2023,matched,Tajikistan,true,false,official-supported-cyber-unsupported,
+221,TZ,TZA,Tanzania,66617607,2023,matched,Tanzania,true,true,official-and-cyber-supported,
+222,TH,THA,Thailand,71702436,2023,matched,Thailand,true,true,official-and-cyber-supported,
+223,TL,TLS,Timor-Leste,1384292,2023,matched,Timor-Leste (East Timor),true,true,official-and-cyber-supported,
+224,TG,TGO,Togo,8223853,2023,matched,Togo,true,true,official-and-cyber-supported,
+225,TK,TKL,Tokelau,2424,2023,matched,,false,false,neither-supported,
+226,TO,TON,Tonga,104613,2023,matched,Tonga,true,true,official-and-cyber-supported,
+227,TT,TTO,Trinidad and Tobago,1502938,2023,matched,Trinidad and Tobago,true,true,official-and-cyber-supported,
+228,TN,TUN,Tunisia,12200434,2023,matched,Tunisia,true,true,official-and-cyber-supported,
+229,TR,TUR,Türkiye,87270502,2023,matched,Turkey,true,true,official-and-cyber-supported,
+230,TM,TKM,Turkmenistan,7364437,2023,matched,Turkmenistan,true,false,official-supported-cyber-unsupported,
+231,TC,TCA,Turks and Caicos Islands,46221,2023,matched,,false,true,cyber-supported-not-official,
+232,TV,TUV,Tuvalu,9837,2023,matched,Tuvalu,true,true,official-and-cyber-supported,
+233,UG,UGA,Uganda,48656606,2023,matched,Uganda,true,true,official-and-cyber-supported,
+234,UA,UKR,Ukraine,37732833,2023,matched,Ukraine (with certain exceptions),true,true,official-and-cyber-supported,
+235,AE,ARE,United Arab Emirates,10642089,2023,matched,United Arab Emirates,true,true,official-and-cyber-supported,
+236,GB,GBR,United Kingdom,68682965,2023,matched,United Kingdom,true,true,official-and-cyber-supported,
+237,US,USA,United States,343477330,2023,matched,United States of America,true,true,official-and-cyber-supported,
+238,UM,,United States Minor Outlying Islands,,,not-covered-by-primary-source,,false,false,neither-supported,
+239,UY,URY,Uruguay,3388083,2023,matched,Uruguay,true,true,official-and-cyber-supported,
+240,UZ,UZB,Uzbekistan,35652311,2023,matched,Uzbekistan,true,false,official-supported-cyber-unsupported,
+241,VU,VUT,Vanuatu,320422,2023,matched,Vanuatu,true,true,official-and-cyber-supported,
+242,VE,VEN,Venezuela,28300861,2023,matched,,false,false,neither-supported,US-VEN
+243,VN,VNM,Vietnam,100352189,2023,matched,Vietnam,true,false,official-supported-cyber-unsupported,
+244,VG,VGB,"Virgin Islands, British",39009,2023,matched,,false,false,neither-supported,
+245,VI,VIR,"Virgin Islands, U.S.",85712,2023,matched,,false,true,cyber-supported-not-official,
+246,WF,WLF,Wallis and Futuna,11394,2023,matched,Wallis and Futuna,true,false,official-supported-cyber-unsupported,
+247,EH,ESH,Western Sahara,579734,2023,matched,,false,false,neither-supported,
+248,YE,YEM,Yemen,39390800,2023,matched,Yemen,true,false,official-supported-cyber-unsupported,
+249,ZM,ZMB,Zambia,20723967,2023,matched,Zambia,true,true,official-and-cyber-supported,
+250,ZW,ZWE,Zimbabwe,16340829,2023,matched,Zimbabwe,true,false,official-supported-cyber-unsupported,

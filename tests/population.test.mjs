@@ -62,4 +62,9 @@ test("population-weighted comparison reports null exclusions and uses only cover
     country_entries_without_population: 1,
   });
   assert.equal(comparison.summary.population_weighted.official_supported_population_with_cyber_verification_percent, 98.9);
+  const refreshedV3 = enrichOfficialComparison({
+    ...comparison,
+    schema: "openai-cyber-verification-country-support/official-access-comparison/v3",
+  }, population);
+  assert.equal(refreshedV3.schema, "openai-cyber-verification-country-support/official-access-comparison/v3");
 });

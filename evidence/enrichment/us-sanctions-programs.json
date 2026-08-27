@@ -1,0 +1,2121 @@
+{
+  "schema": "openai-cyber-verification-country-support/us-sanctions-programs/v1",
+  "source": {
+    "name": "OpenSanctions sanctions program directory",
+    "distribution_url": "https://data.opensanctions.org/meta/programs.json",
+    "documentation_url": "https://www.opensanctions.org/docs/programs/",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "issuer_territory": "us",
+    "status": "active",
+    "included_measures": [
+      "Financial restrictions",
+      "Import restrictions",
+      "Export control",
+      "Investment ban",
+      "Services ban",
+      "Sectoral sanctions",
+      "Transportation restrictions"
+    ],
+    "metadata_path": "evidence/enrichment/us-sanctions-source-metadata.json"
+  },
+  "summary": {
+    "canonical_country_entries": 250,
+    "source_programs": 261,
+    "active_us_programs": 61,
+    "selected_active_us_programs": 27,
+    "mapped_programs": 16,
+    "entries_with_programs": 10,
+    "entries_without_programs": 240,
+    "program_assignments": 17
+  },
+  "programs": [
+    {
+      "key": "US-BURMA",
+      "title": "Burma-Related Sanctions",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/burma",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "mm"
+      ],
+      "measures": [
+        "Asset freeze",
+        "Financial restrictions",
+        "Travel ban"
+      ],
+      "aliases": [
+        "EO 14014",
+        "BURMA-EO14014",
+        "Burma Sanctions Regulations",
+        "31 CFR Part 525"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Financial restrictions"
+      ]
+    },
+    {
+      "key": "US-CUBA",
+      "title": "Cuba Sanctions",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/cuba-sanctions",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "cu"
+      ],
+      "measures": [
+        "Asset freeze",
+        "Financial restrictions",
+        "Import restrictions",
+        "Export control",
+        "Transportation restrictions",
+        "Travel ban"
+      ],
+      "aliases": [
+        "Cuban Assets Control Regulations",
+        "CACR",
+        "31 CFR Part 515",
+        "Cuban Liberty and Democratic Solidarity (LIBERTAD) Act of 1996",
+        "Helms-Burton Act",
+        "Cuban Democracy Act of 1992",
+        "Trade Sanctions Reform and Export Enhancement Act of 2000",
+        "TSRA",
+        "EO 12854",
+        "EO 14404",
+        "CUBA",
+        "CUBA-EO14404"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Financial restrictions",
+        "Import restrictions",
+        "Export control",
+        "Transportation restrictions"
+      ]
+    },
+    {
+      "key": "US-DOS-CU-PAL",
+      "title": "Cuba Prohibited Accommodations List",
+      "url": "https://www.state.gov/cuba-sanctions/cuba-prohibited-accommodations-list",
+      "issuer": {
+        "name": "US State Department",
+        "acronym": "State",
+        "organisation": null,
+        "territory": "us"
+      },
+      "target_territories": [
+        "cu"
+      ],
+      "measures": [
+        "Financial restrictions"
+      ],
+      "aliases": [
+        "CPA List",
+        "31 CFR 515.210"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Financial restrictions"
+      ]
+    },
+    {
+      "key": "US-DOS-CU-REA",
+      "title": "List of Restricted Entities and Subentities Associated With Cuba",
+      "url": "https://www.state.gov/division-for-counter-threat-finance-and-sanctions/cuba-restricted-list",
+      "issuer": {
+        "name": "US State Department",
+        "acronym": "State",
+        "organisation": null,
+        "territory": "us"
+      },
+      "target_territories": [
+        "cu"
+      ],
+      "measures": [
+        "Financial restrictions"
+      ],
+      "aliases": [
+        "Cuba Restricted List",
+        "31 CFR 515.209"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Financial restrictions"
+      ]
+    },
+    {
+      "key": "US-FSE",
+      "title": "Foreign Sanctions Evaders (FSE) List",
+      "url": "https://ofac.treasury.gov/other-ofac-sanctions-lists",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "ir",
+        "sy"
+      ],
+      "measures": [
+        "Financial restrictions",
+        "Travel ban"
+      ],
+      "aliases": [
+        "EO 13608",
+        "FSE List",
+        "List of Foreign Sanctions Evaders",
+        "FSE-IR",
+        "FSE-SY"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Financial restrictions"
+      ]
+    },
+    {
+      "key": "US-IRAN",
+      "title": "Iran Sanctions",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/iran-sanctions",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "ir"
+      ],
+      "measures": [
+        "Asset freeze",
+        "Import restrictions",
+        "Export control",
+        "Investment ban",
+        "Financial restrictions",
+        "Travel ban"
+      ],
+      "aliases": [
+        "Iranian Transactions and Sanctions Regulations",
+        "ITSR",
+        "31 CFR Part 560",
+        "Iranian Financial Sanctions Regulations",
+        "31 CFR Part 561",
+        "Iran Sanctions Act",
+        "CISADA",
+        "EO 13599",
+        "EO 13846",
+        "EO 13876",
+        "EO 13902",
+        "EO 13949",
+        "IRAN",
+        "IRAN-HR",
+        "IRAN-TRA",
+        "IRAN-CON-ARMS-EO",
+        "IRAN-EO13846",
+        "IRAN-EO13871",
+        "IRAN-EO13876",
+        "IRAN-EO13902",
+        "HRIT-IR",
+        "IFSR",
+        "561-Related",
+        "IRGC",
+        "ISA"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Import restrictions",
+        "Export control",
+        "Investment ban",
+        "Financial restrictions"
+      ]
+    },
+    {
+      "key": "US-NK",
+      "title": "North Korea Sanctions",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "kp"
+      ],
+      "measures": [
+        "Asset freeze",
+        "Import restrictions",
+        "Export control",
+        "Investment ban",
+        "Financial restrictions",
+        "Transportation restrictions",
+        "Travel ban"
+      ],
+      "aliases": [
+        "North Korea Sanctions Regulations",
+        "31 CFR Part 510",
+        "EO 13466",
+        "EO 13551",
+        "EO 13570",
+        "EO 13687",
+        "EO 13722",
+        "EO 13810",
+        "North Korea Sanctions and Policy Enhancement Act of 2016",
+        "NKSPEA",
+        "DPRK",
+        "DPRK2",
+        "DPRK3",
+        "DPRK4",
+        "DPRK-NKSPEA"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Import restrictions",
+        "Export control",
+        "Investment ban",
+        "Financial restrictions",
+        "Transportation restrictions"
+      ]
+    },
+    {
+      "key": "US-NS-CMIC",
+      "title": "Non-SDN Chinese Military-Industrial Complex Companies List (NS-CMIC List)",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/chinese-military-companies-sanctions",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "cn"
+      ],
+      "measures": [
+        "Investment ban",
+        "Financial restrictions"
+      ],
+      "aliases": [
+        "NS-CMIC",
+        "EO 13959",
+        "EO 14032",
+        "CMIC-EO13959"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Investment ban",
+        "Financial restrictions"
+      ]
+    },
+    {
+      "key": "US-NS-PLC",
+      "title": "Non-SDN Palestinian Legislative Council List (NS-PLC List)",
+      "url": "https://ofac.treasury.gov/other-ofac-sanctions-lists",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "ps"
+      ],
+      "measures": [
+        "Financial restrictions"
+      ],
+      "aliases": [
+        "NS-PLC",
+        "Non-SDN Palestinian Legislative Council List"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Financial restrictions"
+      ]
+    },
+    {
+      "key": "US-RUSHAR",
+      "title": "Russian Harmful Foreign Activities Sanctions",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/russian-harmful-foreign-activities-sanctions",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "ru"
+      ],
+      "measures": [
+        "Asset freeze",
+        "Financial restrictions",
+        "Import restrictions",
+        "Export control",
+        "Investment ban",
+        "Services ban"
+      ],
+      "aliases": [
+        "EO 14024",
+        "EO 14039",
+        "EO 14066",
+        "EO 14068",
+        "EO 14071",
+        "EO 14114",
+        "RUSSIA-EO14024",
+        "PEESA-EO14039",
+        "PEESA",
+        "31 CFR Part 587"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Financial restrictions",
+        "Import restrictions",
+        "Export control",
+        "Investment ban",
+        "Services ban"
+      ]
+    },
+    {
+      "key": "US-SOMALIA",
+      "title": "Somalia Sanctions",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/somalia-sanctions",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "so"
+      ],
+      "measures": [
+        "Asset freeze",
+        "Import restrictions"
+      ],
+      "aliases": [
+        "EO 13536",
+        "EO 13620",
+        "SOMALIA",
+        "31 CFR Part 551",
+        "Resolution 1844",
+        "Resolution 2036"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Import restrictions"
+      ]
+    },
+    {
+      "key": "US-SSI",
+      "title": "Sectoral Sanctions Identifications (SSI) List",
+      "url": "https://ofac.treasury.gov/other-ofac-sanctions-lists",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "ru"
+      ],
+      "measures": [
+        "Financial restrictions",
+        "Export control"
+      ],
+      "aliases": [
+        "SSI",
+        "Sectoral Sanctions Identifications",
+        "EO 13662",
+        "UKRAINE-EO13662"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Financial restrictions",
+        "Export control"
+      ]
+    },
+    {
+      "key": "US-SYR-REL",
+      "title": "Promoting Accountability for Assad and Regional Stabilization Sanctions (PAARSS)",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/paarss",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "sy"
+      ],
+      "measures": [
+        "Asset freeze",
+        "Financial restrictions",
+        "Travel ban"
+      ],
+      "aliases": [
+        "PAARSS",
+        "Syria-Related Sanctions",
+        "EO 13894",
+        "EO 14142",
+        "EO 14312",
+        "31 CFR Part 569",
+        "PAARSSR-EO13894"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Financial restrictions"
+      ]
+    },
+    {
+      "key": "US-UFLPA",
+      "title": "Uyghur Forced Labor Prevention Act (Public Law No. 117-78)",
+      "url": "https://www.dhs.gov/uflpa",
+      "issuer": {
+        "name": "Department of Homeland Security",
+        "acronym": "DHS",
+        "organisation": null,
+        "territory": "us"
+      },
+      "target_territories": [
+        "cn"
+      ],
+      "measures": [
+        "Import restrictions"
+      ],
+      "aliases": [
+        "UFLPA",
+        "UFLPA Entity List",
+        "Public Law 117-78"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Import restrictions"
+      ]
+    },
+    {
+      "key": "US-UKRRUS-REL",
+      "title": "Ukraine-/Russia-Related Sanctions",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/ukraine-russia-related-sanctions",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "ru",
+        "ua-cri",
+        "ua-dpr",
+        "ua-lpr"
+      ],
+      "measures": [
+        "Asset freeze",
+        "Financial restrictions",
+        "Investment ban",
+        "Import restrictions",
+        "Export control",
+        "Services ban"
+      ],
+      "aliases": [
+        "EO 14065",
+        "EO 13883",
+        "EO 13849",
+        "EO 13685",
+        "EO 13662",
+        "EO 13661",
+        "EO 13660",
+        "UKRAINE-EO13660",
+        "UKRAINE-EO13661",
+        "UKRAINE-EO13662",
+        "UKRAINE-EO13685",
+        "RUSSIA-EO14065",
+        "SSIDES",
+        "Ukraine Freedom Support Act of 2014",
+        "31 CFR Part 589"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Financial restrictions",
+        "Investment ban",
+        "Import restrictions",
+        "Export control",
+        "Services ban"
+      ]
+    },
+    {
+      "key": "US-VEN",
+      "title": "Venezuela-Related Sanctions",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/venezuela-related-sanctions",
+      "issuer": {
+        "name": "Office of Foreign Assets Control",
+        "acronym": "OFAC",
+        "organisation": "United States Treasury",
+        "territory": "us"
+      },
+      "target_territories": [
+        "ve"
+      ],
+      "measures": [
+        "Asset freeze",
+        "Financial restrictions",
+        "Travel ban"
+      ],
+      "aliases": [
+        "EO 13692",
+        "EO 13808",
+        "EO 13827",
+        "EO 13835",
+        "EO 13850",
+        "EO 13857",
+        "EO 13884",
+        "EO 14373",
+        "Venezuela Defense of Human Rights and Civil Society Act of 2014",
+        "Venezuela Sanctions Regulations",
+        "31 CFR Part 591",
+        "VENEZUELA",
+        "VENEZUELA-EO13850",
+        "VENEZUELA-EO13884"
+      ],
+      "status": "active",
+      "relevant_measures": [
+        "Financial restrictions"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "code": "AF",
+      "name": "Afghanistan",
+      "program_ids": []
+    },
+    {
+      "index": 2,
+      "code": "AX",
+      "name": "Åland Islands",
+      "program_ids": []
+    },
+    {
+      "index": 3,
+      "code": "AL",
+      "name": "Albania",
+      "program_ids": []
+    },
+    {
+      "index": 4,
+      "code": "DZ",
+      "name": "Algeria",
+      "program_ids": []
+    },
+    {
+      "index": 5,
+      "code": "AS",
+      "name": "American Samoa",
+      "program_ids": []
+    },
+    {
+      "index": 6,
+      "code": "AD",
+      "name": "Andorra",
+      "program_ids": []
+    },
+    {
+      "index": 7,
+      "code": "AO",
+      "name": "Angola",
+      "program_ids": []
+    },
+    {
+      "index": 8,
+      "code": "AI",
+      "name": "Anguilla",
+      "program_ids": []
+    },
+    {
+      "index": 9,
+      "code": "AQ",
+      "name": "Antarctica",
+      "program_ids": []
+    },
+    {
+      "index": 10,
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "program_ids": []
+    },
+    {
+      "index": 11,
+      "code": "AR",
+      "name": "Argentina",
+      "program_ids": []
+    },
+    {
+      "index": 12,
+      "code": "AM",
+      "name": "Armenia",
+      "program_ids": []
+    },
+    {
+      "index": 13,
+      "code": "AW",
+      "name": "Aruba",
+      "program_ids": []
+    },
+    {
+      "index": 14,
+      "code": "AU",
+      "name": "Australia",
+      "program_ids": []
+    },
+    {
+      "index": 15,
+      "code": "AT",
+      "name": "Austria",
+      "program_ids": []
+    },
+    {
+      "index": 16,
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "program_ids": []
+    },
+    {
+      "index": 17,
+      "code": "BS",
+      "name": "Bahamas",
+      "program_ids": []
+    },
+    {
+      "index": 18,
+      "code": "BH",
+      "name": "Bahrain",
+      "program_ids": []
+    },
+    {
+      "index": 19,
+      "code": "BD",
+      "name": "Bangladesh",
+      "program_ids": []
+    },
+    {
+      "index": 20,
+      "code": "BB",
+      "name": "Barbados",
+      "program_ids": []
+    },
+    {
+      "index": 21,
+      "code": "BY",
+      "name": "Belarus",
+      "program_ids": []
+    },
+    {
+      "index": 22,
+      "code": "BE",
+      "name": "Belgium",
+      "program_ids": []
+    },
+    {
+      "index": 23,
+      "code": "BZ",
+      "name": "Belize",
+      "program_ids": []
+    },
+    {
+      "index": 24,
+      "code": "BJ",
+      "name": "Benin",
+      "program_ids": []
+    },
+    {
+      "index": 25,
+      "code": "BM",
+      "name": "Bermuda",
+      "program_ids": []
+    },
+    {
+      "index": 26,
+      "code": "BT",
+      "name": "Bhutan",
+      "program_ids": []
+    },
+    {
+      "index": 27,
+      "code": "BO",
+      "name": "Bolivia",
+      "program_ids": []
+    },
+    {
+      "index": 28,
+      "code": "BQ",
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "program_ids": []
+    },
+    {
+      "index": 29,
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "program_ids": []
+    },
+    {
+      "index": 30,
+      "code": "BW",
+      "name": "Botswana",
+      "program_ids": []
+    },
+    {
+      "index": 31,
+      "code": "BV",
+      "name": "Bouvet Island",
+      "program_ids": []
+    },
+    {
+      "index": 32,
+      "code": "BR",
+      "name": "Brazil",
+      "program_ids": []
+    },
+    {
+      "index": 33,
+      "code": "IO",
+      "name": "British Indian Ocean Territory",
+      "program_ids": []
+    },
+    {
+      "index": 34,
+      "code": "BN",
+      "name": "Brunei Darussalam",
+      "program_ids": []
+    },
+    {
+      "index": 35,
+      "code": "BG",
+      "name": "Bulgaria",
+      "program_ids": []
+    },
+    {
+      "index": 36,
+      "code": "BF",
+      "name": "Burkina Faso",
+      "program_ids": []
+    },
+    {
+      "index": 37,
+      "code": "BI",
+      "name": "Burundi",
+      "program_ids": []
+    },
+    {
+      "index": 38,
+      "code": "CV",
+      "name": "Cabo Verde",
+      "program_ids": []
+    },
+    {
+      "index": 39,
+      "code": "KH",
+      "name": "Cambodia",
+      "program_ids": []
+    },
+    {
+      "index": 40,
+      "code": "CM",
+      "name": "Cameroon",
+      "program_ids": []
+    },
+    {
+      "index": 41,
+      "code": "CA",
+      "name": "Canada",
+      "program_ids": []
+    },
+    {
+      "index": 42,
+      "code": "KY",
+      "name": "Cayman Islands",
+      "program_ids": []
+    },
+    {
+      "index": 43,
+      "code": "CF",
+      "name": "Central African Republic",
+      "program_ids": []
+    },
+    {
+      "index": 44,
+      "code": "TD",
+      "name": "Chad",
+      "program_ids": []
+    },
+    {
+      "index": 45,
+      "code": "CL",
+      "name": "Chile",
+      "program_ids": []
+    },
+    {
+      "index": 46,
+      "code": "CN",
+      "name": "China",
+      "program_ids": [
+        "US-NS-CMIC",
+        "US-UFLPA"
+      ]
+    },
+    {
+      "index": 47,
+      "code": "CX",
+      "name": "Christmas Island",
+      "program_ids": []
+    },
+    {
+      "index": 48,
+      "code": "CC",
+      "name": "Cocos (Keeling) Islands",
+      "program_ids": []
+    },
+    {
+      "index": 49,
+      "code": "CO",
+      "name": "Colombia",
+      "program_ids": []
+    },
+    {
+      "index": 50,
+      "code": "KM",
+      "name": "Comoros",
+      "program_ids": []
+    },
+    {
+      "index": 51,
+      "code": "CG",
+      "name": "Congo",
+      "program_ids": []
+    },
+    {
+      "index": 52,
+      "code": "CD",
+      "name": "Congo, The Democratic Republic of the",
+      "program_ids": []
+    },
+    {
+      "index": 53,
+      "code": "CK",
+      "name": "Cook Islands",
+      "program_ids": []
+    },
+    {
+      "index": 54,
+      "code": "CR",
+      "name": "Costa Rica",
+      "program_ids": []
+    },
+    {
+      "index": 55,
+      "code": "CI",
+      "name": "Côte d'Ivoire",
+      "program_ids": []
+    },
+    {
+      "index": 56,
+      "code": "HR",
+      "name": "Croatia",
+      "program_ids": []
+    },
+    {
+      "index": 57,
+      "code": "CU",
+      "name": "Cuba",
+      "program_ids": [
+        "US-CUBA",
+        "US-DOS-CU-PAL",
+        "US-DOS-CU-REA"
+      ]
+    },
+    {
+      "index": 58,
+      "code": "CW",
+      "name": "Curaçao",
+      "program_ids": []
+    },
+    {
+      "index": 59,
+      "code": "CY",
+      "name": "Cyprus",
+      "program_ids": []
+    },
+    {
+      "index": 60,
+      "code": "CZ",
+      "name": "Czechia",
+      "program_ids": []
+    },
+    {
+      "index": 61,
+      "code": "DK",
+      "name": "Denmark",
+      "program_ids": []
+    },
+    {
+      "index": 62,
+      "code": "DJ",
+      "name": "Djibouti",
+      "program_ids": []
+    },
+    {
+      "index": 63,
+      "code": "DM",
+      "name": "Dominica",
+      "program_ids": []
+    },
+    {
+      "index": 64,
+      "code": "DO",
+      "name": "Dominican Republic",
+      "program_ids": []
+    },
+    {
+      "index": 65,
+      "code": "EC",
+      "name": "Ecuador",
+      "program_ids": []
+    },
+    {
+      "index": 66,
+      "code": "EG",
+      "name": "Egypt",
+      "program_ids": []
+    },
+    {
+      "index": 67,
+      "code": "SV",
+      "name": "El Salvador",
+      "program_ids": []
+    },
+    {
+      "index": 68,
+      "code": "GQ",
+      "name": "Equatorial Guinea",
+      "program_ids": []
+    },
+    {
+      "index": 69,
+      "code": "ER",
+      "name": "Eritrea",
+      "program_ids": []
+    },
+    {
+      "index": 70,
+      "code": "EE",
+      "name": "Estonia",
+      "program_ids": []
+    },
+    {
+      "index": 71,
+      "code": "SZ",
+      "name": "Eswatini",
+      "program_ids": []
+    },
+    {
+      "index": 72,
+      "code": "ET",
+      "name": "Ethiopia",
+      "program_ids": []
+    },
+    {
+      "index": 73,
+      "code": "FK",
+      "name": "Falkland Islands (Malvinas)",
+      "program_ids": []
+    },
+    {
+      "index": 74,
+      "code": "FO",
+      "name": "Faroe Islands",
+      "program_ids": []
+    },
+    {
+      "index": 75,
+      "code": "FJ",
+      "name": "Fiji",
+      "program_ids": []
+    },
+    {
+      "index": 76,
+      "code": "FI",
+      "name": "Finland",
+      "program_ids": []
+    },
+    {
+      "index": 77,
+      "code": "FR",
+      "name": "France",
+      "program_ids": []
+    },
+    {
+      "index": 78,
+      "code": "GF",
+      "name": "French Guiana",
+      "program_ids": []
+    },
+    {
+      "index": 79,
+      "code": "PF",
+      "name": "French Polynesia",
+      "program_ids": []
+    },
+    {
+      "index": 80,
+      "code": "TF",
+      "name": "French Southern Territories",
+      "program_ids": []
+    },
+    {
+      "index": 81,
+      "code": "GA",
+      "name": "Gabon",
+      "program_ids": []
+    },
+    {
+      "index": 82,
+      "code": "GM",
+      "name": "Gambia",
+      "program_ids": []
+    },
+    {
+      "index": 83,
+      "code": "GE",
+      "name": "Georgia",
+      "program_ids": []
+    },
+    {
+      "index": 84,
+      "code": "DE",
+      "name": "Germany",
+      "program_ids": []
+    },
+    {
+      "index": 85,
+      "code": "GH",
+      "name": "Ghana",
+      "program_ids": []
+    },
+    {
+      "index": 86,
+      "code": "GI",
+      "name": "Gibraltar",
+      "program_ids": []
+    },
+    {
+      "index": 87,
+      "code": "GR",
+      "name": "Greece",
+      "program_ids": []
+    },
+    {
+      "index": 88,
+      "code": "GL",
+      "name": "Greenland",
+      "program_ids": []
+    },
+    {
+      "index": 89,
+      "code": "GD",
+      "name": "Grenada",
+      "program_ids": []
+    },
+    {
+      "index": 90,
+      "code": "GP",
+      "name": "Guadeloupe",
+      "program_ids": []
+    },
+    {
+      "index": 91,
+      "code": "GU",
+      "name": "Guam",
+      "program_ids": []
+    },
+    {
+      "index": 92,
+      "code": "GT",
+      "name": "Guatemala",
+      "program_ids": []
+    },
+    {
+      "index": 93,
+      "code": "GG",
+      "name": "Guernsey",
+      "program_ids": []
+    },
+    {
+      "index": 94,
+      "code": "GN",
+      "name": "Guinea",
+      "program_ids": []
+    },
+    {
+      "index": 95,
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "program_ids": []
+    },
+    {
+      "index": 96,
+      "code": "GY",
+      "name": "Guyana",
+      "program_ids": []
+    },
+    {
+      "index": 97,
+      "code": "HT",
+      "name": "Haiti",
+      "program_ids": []
+    },
+    {
+      "index": 98,
+      "code": "HM",
+      "name": "Heard Island and McDonald Islands",
+      "program_ids": []
+    },
+    {
+      "index": 99,
+      "code": "VA",
+      "name": "Holy See (Vatican City State)",
+      "program_ids": []
+    },
+    {
+      "index": 100,
+      "code": "HN",
+      "name": "Honduras",
+      "program_ids": []
+    },
+    {
+      "index": 101,
+      "code": "HK",
+      "name": "Hong Kong",
+      "program_ids": []
+    },
+    {
+      "index": 102,
+      "code": "HU",
+      "name": "Hungary",
+      "program_ids": []
+    },
+    {
+      "index": 103,
+      "code": "IS",
+      "name": "Iceland",
+      "program_ids": []
+    },
+    {
+      "index": 104,
+      "code": "IN",
+      "name": "India",
+      "program_ids": []
+    },
+    {
+      "index": 105,
+      "code": "ID",
+      "name": "Indonesia",
+      "program_ids": []
+    },
+    {
+      "index": 106,
+      "code": "IR",
+      "name": "Iran",
+      "program_ids": [
+        "US-FSE",
+        "US-IRAN"
+      ]
+    },
+    {
+      "index": 107,
+      "code": "IQ",
+      "name": "Iraq",
+      "program_ids": []
+    },
+    {
+      "index": 108,
+      "code": "IE",
+      "name": "Ireland",
+      "program_ids": []
+    },
+    {
+      "index": 109,
+      "code": "IM",
+      "name": "Isle of Man",
+      "program_ids": []
+    },
+    {
+      "index": 110,
+      "code": "IL",
+      "name": "Israel",
+      "program_ids": []
+    },
+    {
+      "index": 111,
+      "code": "IT",
+      "name": "Italy",
+      "program_ids": []
+    },
+    {
+      "index": 112,
+      "code": "JM",
+      "name": "Jamaica",
+      "program_ids": []
+    },
+    {
+      "index": 113,
+      "code": "JP",
+      "name": "Japan",
+      "program_ids": []
+    },
+    {
+      "index": 114,
+      "code": "JE",
+      "name": "Jersey",
+      "program_ids": []
+    },
+    {
+      "index": 115,
+      "code": "JO",
+      "name": "Jordan",
+      "program_ids": []
+    },
+    {
+      "index": 116,
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "program_ids": []
+    },
+    {
+      "index": 117,
+      "code": "KE",
+      "name": "Kenya",
+      "program_ids": []
+    },
+    {
+      "index": 118,
+      "code": "KI",
+      "name": "Kiribati",
+      "program_ids": []
+    },
+    {
+      "index": 119,
+      "code": "XK",
+      "name": "Kosovo",
+      "program_ids": []
+    },
+    {
+      "index": 120,
+      "code": "KW",
+      "name": "Kuwait",
+      "program_ids": []
+    },
+    {
+      "index": 121,
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "program_ids": []
+    },
+    {
+      "index": 122,
+      "code": "LA",
+      "name": "Lao People's Democratic Republic",
+      "program_ids": []
+    },
+    {
+      "index": 123,
+      "code": "LV",
+      "name": "Latvia",
+      "program_ids": []
+    },
+    {
+      "index": 124,
+      "code": "LB",
+      "name": "Lebanon",
+      "program_ids": []
+    },
+    {
+      "index": 125,
+      "code": "LS",
+      "name": "Lesotho",
+      "program_ids": []
+    },
+    {
+      "index": 126,
+      "code": "LR",
+      "name": "Liberia",
+      "program_ids": []
+    },
+    {
+      "index": 127,
+      "code": "LY",
+      "name": "Libya",
+      "program_ids": []
+    },
+    {
+      "index": 128,
+      "code": "LI",
+      "name": "Liechtenstein",
+      "program_ids": []
+    },
+    {
+      "index": 129,
+      "code": "LT",
+      "name": "Lithuania",
+      "program_ids": []
+    },
+    {
+      "index": 130,
+      "code": "LU",
+      "name": "Luxembourg",
+      "program_ids": []
+    },
+    {
+      "index": 131,
+      "code": "MO",
+      "name": "Macao",
+      "program_ids": []
+    },
+    {
+      "index": 132,
+      "code": "MG",
+      "name": "Madagascar",
+      "program_ids": []
+    },
+    {
+      "index": 133,
+      "code": "MW",
+      "name": "Malawi",
+      "program_ids": []
+    },
+    {
+      "index": 134,
+      "code": "MY",
+      "name": "Malaysia",
+      "program_ids": []
+    },
+    {
+      "index": 135,
+      "code": "MV",
+      "name": "Maldives",
+      "program_ids": []
+    },
+    {
+      "index": 136,
+      "code": "ML",
+      "name": "Mali",
+      "program_ids": []
+    },
+    {
+      "index": 137,
+      "code": "MT",
+      "name": "Malta",
+      "program_ids": []
+    },
+    {
+      "index": 138,
+      "code": "MH",
+      "name": "Marshall Islands",
+      "program_ids": []
+    },
+    {
+      "index": 139,
+      "code": "MQ",
+      "name": "Martinique",
+      "program_ids": []
+    },
+    {
+      "index": 140,
+      "code": "MR",
+      "name": "Mauritania",
+      "program_ids": []
+    },
+    {
+      "index": 141,
+      "code": "MU",
+      "name": "Mauritius",
+      "program_ids": []
+    },
+    {
+      "index": 142,
+      "code": "YT",
+      "name": "Mayotte",
+      "program_ids": []
+    },
+    {
+      "index": 143,
+      "code": "MX",
+      "name": "Mexico",
+      "program_ids": []
+    },
+    {
+      "index": 144,
+      "code": "FM",
+      "name": "Micronesia, Federated States of",
+      "program_ids": []
+    },
+    {
+      "index": 145,
+      "code": "MD",
+      "name": "Moldova",
+      "program_ids": []
+    },
+    {
+      "index": 146,
+      "code": "MC",
+      "name": "Monaco",
+      "program_ids": []
+    },
+    {
+      "index": 147,
+      "code": "MN",
+      "name": "Mongolia",
+      "program_ids": []
+    },
+    {
+      "index": 148,
+      "code": "ME",
+      "name": "Montenegro",
+      "program_ids": []
+    },
+    {
+      "index": 149,
+      "code": "MS",
+      "name": "Montserrat",
+      "program_ids": []
+    },
+    {
+      "index": 150,
+      "code": "MA",
+      "name": "Morocco",
+      "program_ids": []
+    },
+    {
+      "index": 151,
+      "code": "MZ",
+      "name": "Mozambique",
+      "program_ids": []
+    },
+    {
+      "index": 152,
+      "code": "MM",
+      "name": "Myanmar",
+      "program_ids": [
+        "US-BURMA"
+      ]
+    },
+    {
+      "index": 153,
+      "code": "NA",
+      "name": "Namibia",
+      "program_ids": []
+    },
+    {
+      "index": 154,
+      "code": "NR",
+      "name": "Nauru",
+      "program_ids": []
+    },
+    {
+      "index": 155,
+      "code": "NP",
+      "name": "Nepal",
+      "program_ids": []
+    },
+    {
+      "index": 156,
+      "code": "NL",
+      "name": "Netherlands",
+      "program_ids": []
+    },
+    {
+      "index": 157,
+      "code": "NC",
+      "name": "New Caledonia",
+      "program_ids": []
+    },
+    {
+      "index": 158,
+      "code": "NZ",
+      "name": "New Zealand",
+      "program_ids": []
+    },
+    {
+      "index": 159,
+      "code": "NI",
+      "name": "Nicaragua",
+      "program_ids": []
+    },
+    {
+      "index": 160,
+      "code": "NE",
+      "name": "Niger",
+      "program_ids": []
+    },
+    {
+      "index": 161,
+      "code": "NG",
+      "name": "Nigeria",
+      "program_ids": []
+    },
+    {
+      "index": 162,
+      "code": "NU",
+      "name": "Niue",
+      "program_ids": []
+    },
+    {
+      "index": 163,
+      "code": "NF",
+      "name": "Norfolk Island",
+      "program_ids": []
+    },
+    {
+      "index": 164,
+      "code": "KP",
+      "name": "North Korea",
+      "program_ids": [
+        "US-NK"
+      ]
+    },
+    {
+      "index": 165,
+      "code": "MK",
+      "name": "North Macedonia",
+      "program_ids": []
+    },
+    {
+      "index": 166,
+      "code": "MP",
+      "name": "Northern Mariana Islands",
+      "program_ids": []
+    },
+    {
+      "index": 167,
+      "code": "NO",
+      "name": "Norway",
+      "program_ids": []
+    },
+    {
+      "index": 168,
+      "code": "OM",
+      "name": "Oman",
+      "program_ids": []
+    },
+    {
+      "index": 169,
+      "code": "PK",
+      "name": "Pakistan",
+      "program_ids": []
+    },
+    {
+      "index": 170,
+      "code": "PW",
+      "name": "Palau",
+      "program_ids": []
+    },
+    {
+      "index": 171,
+      "code": "PS",
+      "name": "Palestine, State of",
+      "program_ids": [
+        "US-NS-PLC"
+      ]
+    },
+    {
+      "index": 172,
+      "code": "PA",
+      "name": "Panama",
+      "program_ids": []
+    },
+    {
+      "index": 173,
+      "code": "PG",
+      "name": "Papua New Guinea",
+      "program_ids": []
+    },
+    {
+      "index": 174,
+      "code": "PY",
+      "name": "Paraguay",
+      "program_ids": []
+    },
+    {
+      "index": 175,
+      "code": "PE",
+      "name": "Peru",
+      "program_ids": []
+    },
+    {
+      "index": 176,
+      "code": "PH",
+      "name": "Philippines",
+      "program_ids": []
+    },
+    {
+      "index": 177,
+      "code": "PN",
+      "name": "Pitcairn",
+      "program_ids": []
+    },
+    {
+      "index": 178,
+      "code": "PL",
+      "name": "Poland",
+      "program_ids": []
+    },
+    {
+      "index": 179,
+      "code": "PT",
+      "name": "Portugal",
+      "program_ids": []
+    },
+    {
+      "index": 180,
+      "code": "PR",
+      "name": "Puerto Rico",
+      "program_ids": []
+    },
+    {
+      "index": 181,
+      "code": "QA",
+      "name": "Qatar",
+      "program_ids": []
+    },
+    {
+      "index": 182,
+      "code": "RE",
+      "name": "Réunion",
+      "program_ids": []
+    },
+    {
+      "index": 183,
+      "code": "RO",
+      "name": "Romania",
+      "program_ids": []
+    },
+    {
+      "index": 184,
+      "code": "RU",
+      "name": "Russian Federation",
+      "program_ids": [
+        "US-RUSHAR",
+        "US-SSI",
+        "US-UKRRUS-REL"
+      ]
+    },
+    {
+      "index": 185,
+      "code": "RW",
+      "name": "Rwanda",
+      "program_ids": []
+    },
+    {
+      "index": 186,
+      "code": "BL",
+      "name": "Saint Barthélemy",
+      "program_ids": []
+    },
+    {
+      "index": 187,
+      "code": "SH",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "program_ids": []
+    },
+    {
+      "index": 188,
+      "code": "KN",
+      "name": "Saint Kitts and Nevis",
+      "program_ids": []
+    },
+    {
+      "index": 189,
+      "code": "LC",
+      "name": "Saint Lucia",
+      "program_ids": []
+    },
+    {
+      "index": 190,
+      "code": "MF",
+      "name": "Saint Martin (French part)",
+      "program_ids": []
+    },
+    {
+      "index": 191,
+      "code": "PM",
+      "name": "Saint Pierre and Miquelon",
+      "program_ids": []
+    },
+    {
+      "index": 192,
+      "code": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "program_ids": []
+    },
+    {
+      "index": 193,
+      "code": "WS",
+      "name": "Samoa",
+      "program_ids": []
+    },
+    {
+      "index": 194,
+      "code": "SM",
+      "name": "San Marino",
+      "program_ids": []
+    },
+    {
+      "index": 195,
+      "code": "ST",
+      "name": "Sao Tome and Principe",
+      "program_ids": []
+    },
+    {
+      "index": 196,
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "program_ids": []
+    },
+    {
+      "index": 197,
+      "code": "SN",
+      "name": "Senegal",
+      "program_ids": []
+    },
+    {
+      "index": 198,
+      "code": "RS",
+      "name": "Serbia",
+      "program_ids": []
+    },
+    {
+      "index": 199,
+      "code": "SC",
+      "name": "Seychelles",
+      "program_ids": []
+    },
+    {
+      "index": 200,
+      "code": "SL",
+      "name": "Sierra Leone",
+      "program_ids": []
+    },
+    {
+      "index": 201,
+      "code": "SG",
+      "name": "Singapore",
+      "program_ids": []
+    },
+    {
+      "index": 202,
+      "code": "SX",
+      "name": "Sint Maarten (Dutch part)",
+      "program_ids": []
+    },
+    {
+      "index": 203,
+      "code": "SK",
+      "name": "Slovakia",
+      "program_ids": []
+    },
+    {
+      "index": 204,
+      "code": "SI",
+      "name": "Slovenia",
+      "program_ids": []
+    },
+    {
+      "index": 205,
+      "code": "SB",
+      "name": "Solomon Islands",
+      "program_ids": []
+    },
+    {
+      "index": 206,
+      "code": "SO",
+      "name": "Somalia",
+      "program_ids": [
+        "US-SOMALIA"
+      ]
+    },
+    {
+      "index": 207,
+      "code": "ZA",
+      "name": "South Africa",
+      "program_ids": []
+    },
+    {
+      "index": 208,
+      "code": "GS",
+      "name": "South Georgia and the South Sandwich Islands",
+      "program_ids": []
+    },
+    {
+      "index": 209,
+      "code": "KR",
+      "name": "South Korea",
+      "program_ids": []
+    },
+    {
+      "index": 210,
+      "code": "SS",
+      "name": "South Sudan",
+      "program_ids": []
+    },
+    {
+      "index": 211,
+      "code": "ES",
+      "name": "Spain",
+      "program_ids": []
+    },
+    {
+      "index": 212,
+      "code": "LK",
+      "name": "Sri Lanka",
+      "program_ids": []
+    },
+    {
+      "index": 213,
+      "code": "SD",
+      "name": "Sudan",
+      "program_ids": []
+    },
+    {
+      "index": 214,
+      "code": "SR",
+      "name": "Suriname",
+      "program_ids": []
+    },
+    {
+      "index": 215,
+      "code": "SJ",
+      "name": "Svalbard and Jan Mayen",
+      "program_ids": []
+    },
+    {
+      "index": 216,
+      "code": "SE",
+      "name": "Sweden",
+      "program_ids": []
+    },
+    {
+      "index": 217,
+      "code": "CH",
+      "name": "Switzerland",
+      "program_ids": []
+    },
+    {
+      "index": 218,
+      "code": "SY",
+      "name": "Syrian Arab Republic",
+      "program_ids": [
+        "US-FSE",
+        "US-SYR-REL"
+      ]
+    },
+    {
+      "index": 219,
+      "code": "TW",
+      "name": "Taiwan",
+      "program_ids": []
+    },
+    {
+      "index": 220,
+      "code": "TJ",
+      "name": "Tajikistan",
+      "program_ids": []
+    },
+    {
+      "index": 221,
+      "code": "TZ",
+      "name": "Tanzania",
+      "program_ids": []
+    },
+    {
+      "index": 222,
+      "code": "TH",
+      "name": "Thailand",
+      "program_ids": []
+    },
+    {
+      "index": 223,
+      "code": "TL",
+      "name": "Timor-Leste",
+      "program_ids": []
+    },
+    {
+      "index": 224,
+      "code": "TG",
+      "name": "Togo",
+      "program_ids": []
+    },
+    {
+      "index": 225,
+      "code": "TK",
+      "name": "Tokelau",
+      "program_ids": []
+    },
+    {
+      "index": 226,
+      "code": "TO",
+      "name": "Tonga",
+      "program_ids": []
+    },
+    {
+      "index": 227,
+      "code": "TT",
+      "name": "Trinidad and Tobago",
+      "program_ids": []
+    },
+    {
+      "index": 228,
+      "code": "TN",
+      "name": "Tunisia",
+      "program_ids": []
+    },
+    {
+      "index": 229,
+      "code": "TR",
+      "name": "Türkiye",
+      "program_ids": []
+    },
+    {
+      "index": 230,
+      "code": "TM",
+      "name": "Turkmenistan",
+      "program_ids": []
+    },
+    {
+      "index": 231,
+      "code": "TC",
+      "name": "Turks and Caicos Islands",
+      "program_ids": []
+    },
+    {
+      "index": 232,
+      "code": "TV",
+      "name": "Tuvalu",
+      "program_ids": []
+    },
+    {
+      "index": 233,
+      "code": "UG",
+      "name": "Uganda",
+      "program_ids": []
+    },
+    {
+      "index": 234,
+      "code": "UA",
+      "name": "Ukraine",
+      "program_ids": []
+    },
+    {
+      "index": 235,
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "program_ids": []
+    },
+    {
+      "index": 236,
+      "code": "GB",
+      "name": "United Kingdom",
+      "program_ids": []
+    },
+    {
+      "index": 237,
+      "code": "US",
+      "name": "United States",
+      "program_ids": []
+    },
+    {
+      "index": 238,
+      "code": "UM",
+      "name": "United States Minor Outlying Islands",
+      "program_ids": []
+    },
+    {
+      "index": 239,
+      "code": "UY",
+      "name": "Uruguay",
+      "program_ids": []
+    },
+    {
+      "index": 240,
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "program_ids": []
+    },
+    {
+      "index": 241,
+      "code": "VU",
+      "name": "Vanuatu",
+      "program_ids": []
+    },
+    {
+      "index": 242,
+      "code": "VE",
+      "name": "Venezuela",
+      "program_ids": [
+        "US-VEN"
+      ]
+    },
+    {
+      "index": 243,
+      "code": "VN",
+      "name": "Vietnam",
+      "program_ids": []
+    },
+    {
+      "index": 244,
+      "code": "VG",
+      "name": "Virgin Islands, British",
+      "program_ids": []
+    },
+    {
+      "index": 245,
+      "code": "VI",
+      "name": "Virgin Islands, U.S.",
+      "program_ids": []
+    },
+    {
+      "index": 246,
+      "code": "WF",
+      "name": "Wallis and Futuna",
+      "program_ids": []
+    },
+    {
+      "index": 247,
+      "code": "EH",
+      "name": "Western Sahara",
+      "program_ids": []
+    },
+    {
+      "index": 248,
+      "code": "YE",
+      "name": "Yemen",
+      "program_ids": []
+    },
+    {
+      "index": 249,
+      "code": "ZM",
+      "name": "Zambia",
+      "program_ids": []
+    },
+    {
+      "index": 250,
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "program_ids": []
+    }
+  ]
+}

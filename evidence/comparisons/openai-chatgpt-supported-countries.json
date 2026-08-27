@@ -1,9 +1,9 @@
 {
-  "schema": "openai-cyber-verification-country-support/official-access-comparison/v2",
+  "schema": "openai-cyber-verification-country-support/official-access-comparison/v3",
   "source": {
     "url": "https://help.openai.com/en/articles/7947663-chatgpt-supported-countries",
-    "fetched_at": "2026-08-27T14:42:17.083Z",
-    "html_sha256": "a27a8c8edb37a99bc61ed6a475813cba99cad4fa32b778289d7db84324d23281",
+    "fetched_at": "2026-08-27T15:46:26.338Z",
+    "html_sha256": "dfebde28355209d0216846c0651d323fd3b68d66182d9fa6f741bb84ed759249",
     "title": "ChatGPT Supported Countries | OpenAI Help Center",
     "description": "Countries, regions, and territories OpenAI currently supports access from.",
     "transport": "curl"
@@ -58,7 +58,11 @@
         "country_entries_without_population": 10
       },
       "official_supported_population_with_cyber_verification_percent": 89.63
-    }
+    },
+    "sanctions_entries_with_programs": 10,
+    "sanctions_program_assignments": 17,
+    "sanctions_chatgpt_unavailable_entries_with_programs": 7,
+    "sanctions_official_supported_cyber_unsupported_entries_with_programs": 2
   },
   "official_entries": [
     {
@@ -906,7 +910,8 @@
       "iso3": "AFG",
       "population": 41454762,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 2,
@@ -919,7 +924,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 3,
@@ -932,7 +938,8 @@
       "iso3": "ALB",
       "population": 2811660,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 4,
@@ -945,7 +952,8 @@
       "iso3": "DZA",
       "population": 46164222,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 5,
@@ -958,7 +966,8 @@
       "iso3": "ASM",
       "population": 47544,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 6,
@@ -971,7 +980,8 @@
       "iso3": "AND",
       "population": 80869,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 7,
@@ -984,7 +994,8 @@
       "iso3": "AGO",
       "population": 36749909,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 8,
@@ -997,7 +1008,8 @@
       "iso3": "AIA",
       "population": 14435,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 9,
@@ -1010,7 +1022,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 10,
@@ -1023,7 +1036,8 @@
       "iso3": "ATG",
       "population": 93331,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 11,
@@ -1036,7 +1050,8 @@
       "iso3": "ARG",
       "population": 45538402,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 12,
@@ -1049,7 +1064,8 @@
       "iso3": "ARM",
       "population": 2943398,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 13,
@@ -1062,7 +1078,8 @@
       "iso3": "ABW",
       "population": 107946,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 14,
@@ -1075,7 +1092,8 @@
       "iso3": "AUS",
       "population": 26451126,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 15,
@@ -1088,7 +1106,8 @@
       "iso3": "AUT",
       "population": 9130434,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 16,
@@ -1101,7 +1120,8 @@
       "iso3": "AZE",
       "population": 10318209,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 17,
@@ -1114,7 +1134,8 @@
       "iso3": "BHS",
       "population": 399452,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 18,
@@ -1127,7 +1148,8 @@
       "iso3": "BHR",
       "population": 1569674,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 19,
@@ -1140,7 +1162,8 @@
       "iso3": "BGD",
       "population": 171466986,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 20,
@@ -1153,7 +1176,8 @@
       "iso3": "BRB",
       "population": 282347,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 21,
@@ -1166,7 +1190,8 @@
       "iso3": "BLR",
       "population": 9115679,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 22,
@@ -1179,7 +1204,8 @@
       "iso3": "BEL",
       "population": 11712891,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 23,
@@ -1192,7 +1218,8 @@
       "iso3": "BLZ",
       "population": 411112,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 24,
@@ -1205,7 +1232,8 @@
       "iso3": "BEN",
       "population": 14111035,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 25,
@@ -1218,7 +1246,8 @@
       "iso3": "BMU",
       "population": 64721,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 26,
@@ -1231,7 +1260,8 @@
       "iso3": "BTN",
       "population": 786386,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 27,
@@ -1244,7 +1274,8 @@
       "iso3": "BOL",
       "population": 12244161,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 28,
@@ -1257,7 +1288,8 @@
       "iso3": "BES",
       "population": 29920,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 29,
@@ -1270,7 +1302,8 @@
       "iso3": "BIH",
       "population": 3185072,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 30,
@@ -1283,7 +1316,8 @@
       "iso3": "BWA",
       "population": 2480242,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 31,
@@ -1296,7 +1330,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 32,
@@ -1309,7 +1344,8 @@
       "iso3": "BRA",
       "population": 211140731,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 33,
@@ -1322,7 +1358,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 34,
@@ -1335,7 +1372,8 @@
       "iso3": "BRN",
       "population": 458959,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 35,
@@ -1348,7 +1386,8 @@
       "iso3": "BGR",
       "population": 6795805,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 36,
@@ -1361,7 +1400,8 @@
       "iso3": "BFA",
       "population": 23025777,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 37,
@@ -1374,7 +1414,8 @@
       "iso3": "BDI",
       "population": 13689455,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 38,
@@ -1387,7 +1428,8 @@
       "iso3": "CPV",
       "population": 522335,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 39,
@@ -1400,7 +1442,8 @@
       "iso3": "KHM",
       "population": 17423884,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 40,
@@ -1413,7 +1456,8 @@
       "iso3": "CMR",
       "population": 28372690,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 41,
@@ -1426,7 +1470,8 @@
       "iso3": "CAN",
       "population": 39299098,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 42,
@@ -1439,7 +1484,8 @@
       "iso3": "CYM",
       "population": 73055,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 43,
@@ -1452,7 +1498,8 @@
       "iso3": "CAF",
       "population": 5152415,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 44,
@@ -1465,7 +1512,8 @@
       "iso3": "TCD",
       "population": 19319075,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 45,
@@ -1478,7 +1526,8 @@
       "iso3": "CHL",
       "population": 19658833,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 46,
@@ -1491,7 +1540,11 @@
       "iso3": "CHN",
       "population": 1422584930,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": [
+        "US-NS-CMIC",
+        "US-UFLPA"
+      ]
     },
     {
       "index": 47,
@@ -1504,7 +1557,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 48,
@@ -1517,7 +1571,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 49,
@@ -1530,7 +1585,8 @@
       "iso3": "COL",
       "population": 52321152,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 50,
@@ -1543,7 +1599,8 @@
       "iso3": "COM",
       "population": 850390,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 51,
@@ -1556,7 +1613,8 @@
       "iso3": "COG",
       "population": 6182890,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 52,
@@ -1569,7 +1627,8 @@
       "iso3": "COD",
       "population": 105789733,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 53,
@@ -1582,7 +1641,8 @@
       "iso3": "COK",
       "population": 14244,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 54,
@@ -1595,7 +1655,8 @@
       "iso3": "CRI",
       "population": 5105526,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 55,
@@ -1608,7 +1669,8 @@
       "iso3": "CIV",
       "population": 31165653,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 56,
@@ -1621,7 +1683,8 @@
       "iso3": "HRV",
       "population": 3896023,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 57,
@@ -1634,7 +1697,12 @@
       "iso3": "CUB",
       "population": 11019932,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": [
+        "US-CUBA",
+        "US-DOS-CU-PAL",
+        "US-DOS-CU-REA"
+      ]
     },
     {
       "index": 58,
@@ -1647,7 +1715,8 @@
       "iso3": "CUW",
       "population": 185437,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 59,
@@ -1660,7 +1729,8 @@
       "iso3": "CYP",
       "population": 1344981,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 60,
@@ -1673,7 +1743,8 @@
       "iso3": "CZE",
       "population": 10809722,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 61,
@@ -1686,7 +1757,8 @@
       "iso3": "DNK",
       "population": 5948134,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 62,
@@ -1699,7 +1771,8 @@
       "iso3": "DJI",
       "population": 1152951,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 63,
@@ -1712,7 +1785,8 @@
       "iso3": "DMA",
       "population": 66531,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 64,
@@ -1725,7 +1799,8 @@
       "iso3": "DOM",
       "population": 11331269,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 65,
@@ -1738,7 +1813,8 @@
       "iso3": "ECU",
       "population": 17980079,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 66,
@@ -1751,7 +1827,8 @@
       "iso3": "EGY",
       "population": 114535772,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 67,
@@ -1764,7 +1841,8 @@
       "iso3": "SLV",
       "population": 6309629,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 68,
@@ -1777,7 +1855,8 @@
       "iso3": "GNQ",
       "population": 1847556,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 69,
@@ -1790,7 +1869,8 @@
       "iso3": "ERI",
       "population": 3470391,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 70,
@@ -1803,7 +1883,8 @@
       "iso3": "EST",
       "population": 1367195,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 71,
@@ -1816,7 +1897,8 @@
       "iso3": "SWZ",
       "population": 1230507,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 72,
@@ -1829,7 +1911,8 @@
       "iso3": "ETH",
       "population": 128691695,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 73,
@@ -1842,7 +1925,8 @@
       "iso3": "FLK",
       "population": 3498,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 74,
@@ -1855,7 +1939,8 @@
       "iso3": "FRO",
       "population": 54738,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 75,
@@ -1868,7 +1953,8 @@
       "iso3": "FJI",
       "population": 924150,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 76,
@@ -1881,7 +1967,8 @@
       "iso3": "FIN",
       "population": 5601185,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 77,
@@ -1894,7 +1981,8 @@
       "iso3": "FRA",
       "population": 66438828,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 78,
@@ -1907,7 +1995,8 @@
       "iso3": "GUF",
       "population": 303408,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 79,
@@ -1920,7 +2009,8 @@
       "iso3": "PYF",
       "population": 281125,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 80,
@@ -1933,7 +2023,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 81,
@@ -1946,7 +2037,8 @@
       "iso3": "GAB",
       "population": 2484790,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 82,
@@ -1959,7 +2051,8 @@
       "iso3": "GMB",
       "population": 2697846,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 83,
@@ -1972,7 +2065,8 @@
       "iso3": "GEO",
       "population": 3807494,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 84,
@@ -1985,7 +2079,8 @@
       "iso3": "DEU",
       "population": 84548233,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 85,
@@ -1998,7 +2093,8 @@
       "iso3": "GHA",
       "population": 33787916,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 86,
@@ -2011,7 +2107,8 @@
       "iso3": "GIB",
       "population": 38493,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 87,
@@ -2024,7 +2121,8 @@
       "iso3": "GRC",
       "population": 10242910,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 88,
@@ -2037,7 +2135,8 @@
       "iso3": "GRL",
       "population": 55951,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 89,
@@ -2050,7 +2149,8 @@
       "iso3": "GRD",
       "population": 117094,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 90,
@@ -2063,7 +2163,8 @@
       "iso3": "GLP",
       "population": 376518,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 91,
@@ -2076,7 +2177,8 @@
       "iso3": "GUM",
       "population": 166522,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 92,
@@ -2089,7 +2191,8 @@
       "iso3": "GTM",
       "population": 18124841,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 93,
@@ -2102,7 +2205,8 @@
       "iso3": "GGY",
       "population": 64043,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 94,
@@ -2115,7 +2219,8 @@
       "iso3": "GIN",
       "population": 14405469,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 95,
@@ -2128,7 +2233,8 @@
       "iso3": "GNB",
       "population": 2153343,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 96,
@@ -2141,7 +2247,8 @@
       "iso3": "GUY",
       "population": 826357,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 97,
@@ -2154,7 +2261,8 @@
       "iso3": "HTI",
       "population": 11637402,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 98,
@@ -2167,7 +2275,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 99,
@@ -2180,7 +2289,8 @@
       "iso3": "VAT",
       "population": 501,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 100,
@@ -2193,7 +2303,8 @@
       "iso3": "HND",
       "population": 10644853,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 101,
@@ -2206,7 +2317,8 @@
       "iso3": "HKG",
       "population": 7442738,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 102,
@@ -2219,7 +2331,8 @@
       "iso3": "HUN",
       "population": 9686465,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 103,
@@ -2232,7 +2345,8 @@
       "iso3": "ISL",
       "population": 387559,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 104,
@@ -2245,7 +2359,8 @@
       "iso3": "IND",
       "population": 1438069597,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 105,
@@ -2258,7 +2373,8 @@
       "iso3": "IDN",
       "population": 281190068,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 106,
@@ -2271,7 +2387,11 @@
       "iso3": "IRN",
       "population": 90608708,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": [
+        "US-FSE",
+        "US-IRAN"
+      ]
     },
     {
       "index": 107,
@@ -2284,7 +2404,8 @@
       "iso3": "IRQ",
       "population": 45074055,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 108,
@@ -2297,7 +2418,8 @@
       "iso3": "IRL",
       "population": 5196629,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 109,
@@ -2310,7 +2432,8 @@
       "iso3": "IMN",
       "population": 84182,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 110,
@@ -2323,7 +2446,8 @@
       "iso3": "ISR",
       "population": 9256311,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 111,
@@ -2336,7 +2460,8 @@
       "iso3": "ITA",
       "population": 59499452,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 112,
@@ -2349,7 +2474,8 @@
       "iso3": "JAM",
       "population": 2839785,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 113,
@@ -2362,7 +2488,8 @@
       "iso3": "JPN",
       "population": 124370947,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 114,
@@ -2375,7 +2502,8 @@
       "iso3": "JEY",
       "population": 103680,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 115,
@@ -2388,7 +2516,8 @@
       "iso3": "JOR",
       "population": 11439220,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 116,
@@ -2401,7 +2530,8 @@
       "iso3": "KAZ",
       "population": 20330109,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 117,
@@ -2414,7 +2544,8 @@
       "iso3": "KEN",
       "population": 55339007,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 118,
@@ -2427,7 +2558,8 @@
       "iso3": "KIR",
       "population": 132540,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 119,
@@ -2440,7 +2572,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 120,
@@ -2453,7 +2586,8 @@
       "iso3": "KWT",
       "population": 4838781,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 121,
@@ -2466,7 +2600,8 @@
       "iso3": "KGZ",
       "population": 7073523,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 122,
@@ -2479,7 +2614,8 @@
       "iso3": "LAO",
       "population": 7665001,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 123,
@@ -2492,7 +2628,8 @@
       "iso3": "LVA",
       "population": 1882399,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 124,
@@ -2505,7 +2642,8 @@
       "iso3": "LBN",
       "population": 5773494,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 125,
@@ -2518,7 +2656,8 @@
       "iso3": "LSO",
       "population": 2311476,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 126,
@@ -2531,7 +2670,8 @@
       "iso3": "LBR",
       "population": 5493035,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 127,
@@ -2544,7 +2684,8 @@
       "iso3": "LBY",
       "population": 7305659,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 128,
@@ -2557,7 +2698,8 @@
       "iso3": "LIE",
       "population": 39622,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 129,
@@ -2570,7 +2712,8 @@
       "iso3": "LTU",
       "population": 2854104,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 130,
@@ -2583,7 +2726,8 @@
       "iso3": "LUX",
       "population": 665101,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 131,
@@ -2596,7 +2740,8 @@
       "iso3": "MAC",
       "population": 713916,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 132,
@@ -2609,7 +2754,8 @@
       "iso3": "MDG",
       "population": 31195937,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 133,
@@ -2622,7 +2768,8 @@
       "iso3": "MWI",
       "population": 21104480,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 134,
@@ -2635,7 +2782,8 @@
       "iso3": "MYS",
       "population": 35126295,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 135,
@@ -2648,7 +2796,8 @@
       "iso3": "MDV",
       "population": 526009,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 136,
@@ -2661,7 +2810,8 @@
       "iso3": "MLI",
       "population": 23769130,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 137,
@@ -2674,7 +2824,8 @@
       "iso3": "MLT",
       "population": 532964,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 138,
@@ -2687,7 +2838,8 @@
       "iso3": "MHL",
       "population": 38849,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 139,
@@ -2700,7 +2852,8 @@
       "iso3": "MTQ",
       "population": 346008,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 140,
@@ -2713,7 +2866,8 @@
       "iso3": "MRT",
       "population": 5022442,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 141,
@@ -2726,7 +2880,8 @@
       "iso3": "MUS",
       "population": 1273591,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 142,
@@ -2739,7 +2894,8 @@
       "iso3": "MYT",
       "population": 316028,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 143,
@@ -2752,7 +2908,8 @@
       "iso3": "MEX",
       "population": 129739761,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 144,
@@ -2765,7 +2922,8 @@
       "iso3": "FSM",
       "population": 112646,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 145,
@@ -2778,7 +2936,8 @@
       "iso3": "MDA",
       "population": 3067072,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 146,
@@ -2791,7 +2950,8 @@
       "iso3": "MCO",
       "population": 38979,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 147,
@@ -2804,7 +2964,8 @@
       "iso3": "MNG",
       "population": 3431938,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 148,
@@ -2817,7 +2978,8 @@
       "iso3": "MNE",
       "population": 633553,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 149,
@@ -2830,7 +2992,8 @@
       "iso3": "MSR",
       "population": 4440,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 150,
@@ -2843,7 +3006,8 @@
       "iso3": "MAR",
       "population": 37712516,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 151,
@@ -2856,7 +3020,8 @@
       "iso3": "MOZ",
       "population": 33635163,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 152,
@@ -2869,7 +3034,10 @@
       "iso3": "MMR",
       "population": 54133800,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": [
+        "US-BURMA"
+      ]
     },
     {
       "index": 153,
@@ -2882,7 +3050,8 @@
       "iso3": "NAM",
       "population": 2963102,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 154,
@@ -2895,7 +3064,8 @@
       "iso3": "NRU",
       "population": 11900,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 155,
@@ -2908,7 +3078,8 @@
       "iso3": "NPL",
       "population": 29694614,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 156,
@@ -2921,7 +3092,8 @@
       "iso3": "NLD",
       "population": 18092526,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 157,
@@ -2934,7 +3106,8 @@
       "iso3": "NCL",
       "population": 289879,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 158,
@@ -2947,7 +3120,8 @@
       "iso3": "NZL",
       "population": 5172837,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 159,
@@ -2960,7 +3134,8 @@
       "iso3": "NIC",
       "population": 6823619,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 160,
@@ -2973,7 +3148,8 @@
       "iso3": "NER",
       "population": 26159863,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 161,
@@ -2986,7 +3162,8 @@
       "iso3": "NGA",
       "population": 227882949,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 162,
@@ -2999,7 +3176,8 @@
       "iso3": "NIU",
       "population": 1841,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 163,
@@ -3012,7 +3190,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 164,
@@ -3025,7 +3204,10 @@
       "iso3": "PRK",
       "population": 26418196,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": [
+        "US-NK"
+      ]
     },
     {
       "index": 165,
@@ -3038,7 +3220,8 @@
       "iso3": "MKD",
       "population": 1831800,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 166,
@@ -3051,7 +3234,8 @@
       "iso3": "MNP",
       "population": 45166,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 167,
@@ -3064,7 +3248,8 @@
       "iso3": "NOR",
       "population": 5519167,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 168,
@@ -3077,7 +3262,8 @@
       "iso3": "OMN",
       "population": 5049267,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 169,
@@ -3090,7 +3276,8 @@
       "iso3": "PAK",
       "population": 247504505,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 170,
@@ -3103,7 +3290,8 @@
       "iso3": "PLW",
       "population": 17751,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 171,
@@ -3116,7 +3304,10 @@
       "iso3": "PSE",
       "population": 5409201,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": [
+        "US-NS-PLC"
+      ]
     },
     {
       "index": 172,
@@ -3129,7 +3320,8 @@
       "iso3": "PAN",
       "population": 4458758,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 173,
@@ -3142,7 +3334,8 @@
       "iso3": "PNG",
       "population": 10389638,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 174,
@@ -3155,7 +3348,8 @@
       "iso3": "PRY",
       "population": 6844150,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 175,
@@ -3168,7 +3362,8 @@
       "iso3": "PER",
       "population": 33845616,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 176,
@@ -3181,7 +3376,8 @@
       "iso3": "PHL",
       "population": 114891199,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 177,
@@ -3194,7 +3390,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 178,
@@ -3207,7 +3404,8 @@
       "iso3": "POL",
       "population": 38762847,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 179,
@@ -3220,7 +3418,8 @@
       "iso3": "PRT",
       "population": 10430735,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 180,
@@ -3233,7 +3432,8 @@
       "iso3": "PRI",
       "population": 3242022,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 181,
@@ -3246,7 +3446,8 @@
       "iso3": "QAT",
       "population": 2979086,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 182,
@@ -3259,7 +3460,8 @@
       "iso3": "REU",
       "population": 874883,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 183,
@@ -3272,7 +3474,8 @@
       "iso3": "ROU",
       "population": 19118482,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 184,
@@ -3285,7 +3488,12 @@
       "iso3": "RUS",
       "population": 145440502,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": [
+        "US-RUSHAR",
+        "US-SSI",
+        "US-UKRRUS-REL"
+      ]
     },
     {
       "index": 185,
@@ -3298,7 +3506,8 @@
       "iso3": "RWA",
       "population": 13954473,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 186,
@@ -3311,7 +3520,8 @@
       "iso3": "BLM",
       "population": 11112,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 187,
@@ -3324,7 +3534,8 @@
       "iso3": "SHN",
       "population": 5316,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 188,
@@ -3337,7 +3548,8 @@
       "iso3": "KNA",
       "population": 46783,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 189,
@@ -3350,7 +3562,8 @@
       "iso3": "LCA",
       "population": 179291,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 190,
@@ -3363,7 +3576,8 @@
       "iso3": "MAF",
       "population": 27545,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 191,
@@ -3376,7 +3590,8 @@
       "iso3": "SPM",
       "population": 5707,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 192,
@@ -3389,7 +3604,8 @@
       "iso3": "VCT",
       "population": 101331,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 193,
@@ -3402,7 +3618,8 @@
       "iso3": "WSM",
       "population": 216673,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 194,
@@ -3415,7 +3632,8 @@
       "iso3": "SMR",
       "population": 33761,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 195,
@@ -3428,7 +3646,8 @@
       "iso3": "STP",
       "population": 230882,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 196,
@@ -3441,7 +3660,8 @@
       "iso3": "SAU",
       "population": 33264289,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 197,
@@ -3454,7 +3674,8 @@
       "iso3": "SEN",
       "population": 18077573,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 198,
@@ -3467,7 +3688,8 @@
       "iso3": "SRB",
       "population": 6773204,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 199,
@@ -3480,7 +3702,8 @@
       "iso3": "SYC",
       "population": 127961,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 200,
@@ -3493,7 +3716,8 @@
       "iso3": "SLE",
       "population": 8460523,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 201,
@@ -3506,7 +3730,8 @@
       "iso3": "SGP",
       "population": 5789092,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 202,
@@ -3519,7 +3744,8 @@
       "iso3": "SXM",
       "population": 42775,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 203,
@@ -3532,7 +3758,8 @@
       "iso3": "SVK",
       "population": 5518057,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 204,
@@ -3545,7 +3772,8 @@
       "iso3": "SVN",
       "population": 2118394,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 205,
@@ -3558,7 +3786,8 @@
       "iso3": "SLB",
       "population": 800014,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 206,
@@ -3571,7 +3800,10 @@
       "iso3": "SOM",
       "population": 18358622,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": [
+        "US-SOMALIA"
+      ]
     },
     {
       "index": 207,
@@ -3584,7 +3816,8 @@
       "iso3": "ZAF",
       "population": 63212386,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 208,
@@ -3597,7 +3830,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 209,
@@ -3610,7 +3844,8 @@
       "iso3": "KOR",
       "population": 51748744,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 210,
@@ -3623,7 +3858,8 @@
       "iso3": "SSD",
       "population": 11483370,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 211,
@@ -3636,7 +3872,8 @@
       "iso3": "ESP",
       "population": 47911583,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 212,
@@ -3649,7 +3886,8 @@
       "iso3": "LKA",
       "population": 22971615,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 213,
@@ -3662,7 +3900,8 @@
       "iso3": "SDN",
       "population": 50042800,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 214,
@@ -3675,7 +3914,8 @@
       "iso3": "SUR",
       "population": 628892,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 215,
@@ -3688,7 +3928,8 @@
       "iso3": "SJM",
       "population": 2400,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 216,
@@ -3701,7 +3942,8 @@
       "iso3": "SWE",
       "population": 10551493,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 217,
@@ -3714,7 +3956,8 @@
       "iso3": "CHE",
       "population": 8870564,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 218,
@@ -3727,7 +3970,11 @@
       "iso3": "SYR",
       "population": 23594623,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": [
+        "US-FSE",
+        "US-SYR-REL"
+      ]
     },
     {
       "index": 219,
@@ -3740,7 +3987,8 @@
       "iso3": "TWN",
       "population": 23317145,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 220,
@@ -3753,7 +4001,8 @@
       "iso3": "TJK",
       "population": 10389807,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 221,
@@ -3766,7 +4015,8 @@
       "iso3": "TZA",
       "population": 66617607,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 222,
@@ -3779,7 +4029,8 @@
       "iso3": "THA",
       "population": 71702436,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 223,
@@ -3792,7 +4043,8 @@
       "iso3": "TLS",
       "population": 1384292,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 224,
@@ -3805,7 +4057,8 @@
       "iso3": "TGO",
       "population": 8223853,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 225,
@@ -3818,7 +4071,8 @@
       "iso3": "TKL",
       "population": 2424,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 226,
@@ -3831,7 +4085,8 @@
       "iso3": "TON",
       "population": 104613,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 227,
@@ -3844,7 +4099,8 @@
       "iso3": "TTO",
       "population": 1502938,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 228,
@@ -3857,7 +4113,8 @@
       "iso3": "TUN",
       "population": 12200434,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 229,
@@ -3870,7 +4127,8 @@
       "iso3": "TUR",
       "population": 87270502,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 230,
@@ -3883,7 +4141,8 @@
       "iso3": "TKM",
       "population": 7364437,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 231,
@@ -3896,7 +4155,8 @@
       "iso3": "TCA",
       "population": 46221,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 232,
@@ -3909,7 +4169,8 @@
       "iso3": "TUV",
       "population": 9837,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 233,
@@ -3922,7 +4183,8 @@
       "iso3": "UGA",
       "population": 48656606,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 234,
@@ -3935,7 +4197,8 @@
       "iso3": "UKR",
       "population": 37732833,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 235,
@@ -3948,7 +4211,8 @@
       "iso3": "ARE",
       "population": 10642089,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 236,
@@ -3961,7 +4225,8 @@
       "iso3": "GBR",
       "population": 68682965,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 237,
@@ -3974,7 +4239,8 @@
       "iso3": "USA",
       "population": 343477330,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 238,
@@ -3987,7 +4253,8 @@
       "iso3": null,
       "population": null,
       "population_year": null,
-      "population_status": "not-covered-by-primary-source"
+      "population_status": "not-covered-by-primary-source",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 239,
@@ -4000,7 +4267,8 @@
       "iso3": "URY",
       "population": 3388083,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 240,
@@ -4013,7 +4281,8 @@
       "iso3": "UZB",
       "population": 35652311,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 241,
@@ -4026,7 +4295,8 @@
       "iso3": "VUT",
       "population": 320422,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 242,
@@ -4039,7 +4309,10 @@
       "iso3": "VEN",
       "population": 28300861,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": [
+        "US-VEN"
+      ]
     },
     {
       "index": 243,
@@ -4052,7 +4325,8 @@
       "iso3": "VNM",
       "population": 100352189,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 244,
@@ -4065,7 +4339,8 @@
       "iso3": "VGB",
       "population": 39009,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 245,
@@ -4078,7 +4353,8 @@
       "iso3": "VIR",
       "population": 85712,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 246,
@@ -4091,7 +4367,8 @@
       "iso3": "WLF",
       "population": 11394,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 247,
@@ -4104,7 +4381,8 @@
       "iso3": "ESH",
       "population": 579734,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 248,
@@ -4117,7 +4395,8 @@
       "iso3": "YEM",
       "population": 39390800,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 249,
@@ -4130,7 +4409,8 @@
       "iso3": "ZMB",
       "population": 20723967,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     },
     {
       "index": 250,
@@ -4143,7 +4423,8 @@
       "iso3": "ZWE",
       "population": 16340829,
       "population_year": 2023,
-      "population_status": "matched"
+      "population_status": "matched",
+      "active_us_sanctions_program_ids": []
     }
   ],
   "population_source": {
@@ -4151,5 +4432,21 @@
     "reference_year": 2023,
     "enrichment_path": "evidence/enrichment/population-2023.json",
     "metadata_path": "evidence/enrichment/population-source-metadata.json"
+  },
+  "sanctions_source": {
+    "name": "OpenSanctions sanctions program directory",
+    "enrichment_path": "evidence/enrichment/us-sanctions-programs.json",
+    "metadata_path": "evidence/enrichment/us-sanctions-source-metadata.json",
+    "issuer_territory": "us",
+    "status": "active",
+    "included_measures": [
+      "Financial restrictions",
+      "Import restrictions",
+      "Export control",
+      "Investment ban",
+      "Services ban",
+      "Sectoral sanctions",
+      "Transportation restrictions"
+    ]
   }
 }

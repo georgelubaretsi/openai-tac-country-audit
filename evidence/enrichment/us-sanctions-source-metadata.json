@@ -1,0 +1,36 @@
+{
+  "schema": "openai-cyber-verification-country-support/us-sanctions-source-metadata/v1",
+  "fetched_at": "2026-08-27T15:45:24.821Z",
+  "source": {
+    "name": "OpenSanctions sanctions program directory",
+    "distribution_url": "https://data.opensanctions.org/meta/programs.json",
+    "documentation_url": "https://www.opensanctions.org/docs/programs/",
+    "bytes": 269901,
+    "sha256": "12bef910cee588e3bcb8e901c80b40341a2abb884592d518d8d5c33b85701874",
+    "format": "JSON",
+    "attribution": "Contains data from OpenSanctions (opensanctions.org).",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/"
+  },
+  "method": {
+    "canonical_entries": 250,
+    "issuer_territory": "us",
+    "program_status": "active",
+    "included_measures": [
+      "Financial restrictions",
+      "Import restrictions",
+      "Export control",
+      "Investment ban",
+      "Services ban",
+      "Sectoral sanctions",
+      "Transportation restrictions"
+    ],
+    "source_programs": 261,
+    "active_us_programs": 61,
+    "selected_active_us_programs": 27,
+    "mapped_programs": 16,
+    "entries_with_programs": 10,
+    "entries_without_programs": 240,
+    "mapping": "OpenSanctions target_territories values are matched case-insensitively to the canonical two-letter selector codes."
+  }
+}

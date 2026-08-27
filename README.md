@@ -114,15 +114,25 @@ The enrichment downloads the Our World in Data population CSV and metadata, sele
 
 It writes JSON, CSV, and source-provenance artifacts under `evidence/enrichment/`. If an official-access comparison already exists, the command also refreshes its population fields and population-weighted summaries.
 
-### 7. Compare against OpenAI’s official ChatGPT access list
+### 7. Enrich canonical entries with active U.S. sanctions programs
+
+```sh
+npm run enrich-sanctions
+```
+
+The enrichment downloads and hashes the OpenSanctions program directory, selects active U.S.-issued programs containing the documented measures, maps `target_territories` to all 250 canonical codes, and stores program IDs, measures, legal aliases, authoritative URLs, source provenance, attribution, and license metadata. Unmatched entries retain an empty program array.
+
+The command writes only machine-readable evidence and derived comparison artifacts. It never edits `FINDINGS.md` or `README.md`; report interpretation remains manually maintained.
+
+### 8. Compare against OpenAI’s official ChatGPT access list
 
 ```sh
 npm run compare-official
 ```
 
-The comparison fetches OpenAI’s official supported-country article, maps every source name to the canonical ISO-coded selector map, fails on unmapped or duplicate entries, joins the committed population enrichment, and stores JSON and CSV comparison artifacts with source provenance and population-weighted summaries.
+The comparison fetches OpenAI’s official supported-country article, maps every source name to the canonical ISO-coded selector map, fails on unmapped or duplicate entries, joins the committed population and sanctions-program enrichments, and stores JSON and CSV comparison artifacts with source provenance and derived summaries.
 
-### 8. Check before committing
+### 9. Check before committing
 
 ```sh
 npm run check
@@ -144,7 +154,10 @@ evidence/
 ├── enrichment/
 │   ├── population-2023.json
 │   ├── population-2023.csv
-│   └── population-source-metadata.json
+│   ├── population-source-metadata.json
+│   ├── us-sanctions-programs.json
+│   ├── us-sanctions-programs.csv
+│   └── us-sanctions-source-metadata.json
 ├── sanitized-transitions/
 │   ├── requests/
 │   ├── responses/

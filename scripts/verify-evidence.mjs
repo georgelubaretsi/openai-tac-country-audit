@@ -11,6 +11,11 @@ import {
   officialComparisonCsv,
   populationEnrichmentCsv,
 } from "../lib/population.mjs";
+import {
+  enrichOfficialComparisonWithSanctions,
+  sanctionsEnrichmentCsv,
+  INCLUDED_SANCTIONS_MEASURES,
+} from "../lib/sanctions-programs.mjs";
 import { sha256 } from "../lib/runtime.mjs";
 
 const execFileAsync = promisify(execFile);
@@ -82,13 +87,64 @@ if (populationMetadata.schema !== "openai-cyber-verification-country-support/pop
     !/^[a-f0-9]{64}$/u.test(populationMetadata.source?.metadata?.sha256 ?? "")) {
   throw new Error("population source metadata contract mismatch");
 }
+const sanctions = JSON.parse(await readFile(
+  resolve(evidenceRoot, "enrichment/us-sanctions-programs.json"), "utf8"));
+const sanctionsMetadata = JSON.parse(await readFile(
+  resolve(evidenceRoot, "enrichment/us-sanctions-source-metadata.json"), "utf8"));
+const sanctionsCsv = await readFile(resolve(evidenceRoot, "enrichment/us-sanctions-programs.csv"), "utf8");
+const sanctionsProgramKeys = new Set(sanctions.programs?.map(program => program.key));
+const includedMeasures = new Set(INCLUDED_SANCTIONS_MEASURES);
+const sanctionsEntriesWithPrograms = sanctions.results?.filter(result => result.program_ids.length > 0).length;
+const sanctionsAssignments = sanctions.results?.reduce((sum, result) => sum + result.program_ids.length, 0);
+if (sanctions.schema !== "openai-cyber-verification-country-support/us-sanctions-programs/v1" ||
+    sanctions.results?.length !== 250 ||
+    !Array.isArray(sanctions.programs) ||
+    sanctionsProgramKeys.size !== sanctions.programs.length ||
+    sanctions.programs.some(program =>
+      program.status !== "active" ||
+      program.issuer?.territory !== "us" ||
+      !Array.isArray(program.relevant_measures) ||
+      program.relevant_measures.length === 0 ||
+      program.relevant_measures.some(measure => !includedMeasures.has(measure))) ||
+    sanctions.results.some((result, index) =>
+      result.code !== map.results[index].code ||
+      result.index !== map.results[index].index ||
+      !Array.isArray(result.program_ids) ||
+      new Set(result.program_ids).size !== result.program_ids.length ||
+      result.program_ids.some(programId => !sanctionsProgramKeys.has(programId)) ||
+      JSON.stringify(result.program_ids) !== JSON.stringify([...result.program_ids].sort((left, right) =>
+        left.localeCompare(right)))) ||
+    sanctions.summary.mapped_programs !== sanctions.programs.length ||
+    sanctions.summary.entries_with_programs !== sanctionsEntriesWithPrograms ||
+    sanctions.summary.entries_without_programs !== 250 - sanctionsEntriesWithPrograms ||
+    sanctions.summary.program_assignments !== sanctionsAssignments ||
+    sanctionsCsv !== sanctionsEnrichmentCsv(sanctions)) {
+  throw new Error("sanctions enrichment is inconsistent with the canonical map and selected programs");
+}
+if (sanctionsMetadata.schema !==
+      "openai-cyber-verification-country-support/us-sanctions-source-metadata/v1" ||
+    sanctionsMetadata.method?.canonical_entries !== 250 ||
+    sanctionsMetadata.method?.selected_active_us_programs !==
+      sanctions.summary.selected_active_us_programs ||
+    sanctionsMetadata.method?.mapped_programs !== sanctions.summary.mapped_programs ||
+    sanctionsMetadata.method?.entries_with_programs !== sanctions.summary.entries_with_programs ||
+    JSON.stringify(sanctionsMetadata.method?.included_measures) !==
+      JSON.stringify(INCLUDED_SANCTIONS_MEASURES) ||
+    sanctionsMetadata.source?.license !== "CC BY-NC 4.0" ||
+    !/^[a-f0-9]{64}$/u.test(sanctionsMetadata.source?.sha256 ?? "")) {
+  throw new Error("sanctions source metadata contract mismatch");
+}
 const officialComparison = JSON.parse(await readFile(
   resolve(evidenceRoot, "comparisons/openai-chatgpt-supported-countries.json"), "utf8"));
 const officialComparisonCsvText = await readFile(
   resolve(evidenceRoot, "comparisons/openai-chatgpt-supported-countries.csv"), "utf8");
 const comparisonSummary = officialComparison.summary;
-const recomputedWeighted = enrichOfficialComparison(officialComparison, population).summary.population_weighted;
-if (officialComparison.schema !== "openai-cyber-verification-country-support/official-access-comparison/v2" ||
+const recomputedComparison = enrichOfficialComparisonWithSanctions(
+  enrichOfficialComparison(officialComparison, population),
+  sanctions,
+);
+const recomputedWeighted = recomputedComparison.summary.population_weighted;
+if (officialComparison.schema !== "openai-cyber-verification-country-support/official-access-comparison/v3" ||
     officialComparison.results?.length !== 250 ||
     comparisonSummary.official_and_cyber_supported +
       comparisonSummary.official_supported_cyber_unsupported +
@@ -97,6 +153,14 @@ if (officialComparison.schema !== "openai-cyber-verification-country-support/off
     comparisonSummary.population_entries_with_data !== 237 ||
     comparisonSummary.population_entries_without_data !== 13 ||
     JSON.stringify(comparisonSummary.population_weighted) !== JSON.stringify(recomputedWeighted) ||
+    comparisonSummary.sanctions_entries_with_programs !==
+      recomputedComparison.summary.sanctions_entries_with_programs ||
+    comparisonSummary.sanctions_program_assignments !==
+      recomputedComparison.summary.sanctions_program_assignments ||
+    comparisonSummary.sanctions_chatgpt_unavailable_entries_with_programs !==
+      recomputedComparison.summary.sanctions_chatgpt_unavailable_entries_with_programs ||
+    comparisonSummary.sanctions_official_supported_cyber_unsupported_entries_with_programs !==
+      recomputedComparison.summary.sanctions_official_supported_cyber_unsupported_entries_with_programs ||
     officialComparisonCsvText !== officialComparisonCsv(officialComparison) ||
     officialComparison.results.some((row, index) =>
       row.code !== map.results[index].code ||
@@ -104,8 +168,10 @@ if (officialComparison.schema !== "openai-cyber-verification-country-support/off
       row.iso3 !== population.results[index].iso3 ||
       row.population !== population.results[index].population ||
       row.population_year !== population.results[index].population_year ||
-      row.population_status !== population.results[index].population_status)) {
-  throw new Error("official access comparison is inconsistent with the canonical map and population enrichment");
+      row.population_status !== population.results[index].population_status ||
+      JSON.stringify(row.active_us_sanctions_program_ids) !==
+        JSON.stringify(sanctions.results[index].program_ids))) {
+  throw new Error("official access comparison is inconsistent with the canonical map and enrichments");
 }
 const fullScreenshots = [...actual].filter(path => path.startsWith("evidence/screenshots/countries/") && path.endsWith(".webp"));
 const widgetScreenshots = [...actual].filter(path => path.startsWith("evidence/screenshots/widgets/") && path.endsWith(".webp"));
@@ -157,6 +223,8 @@ console.log(JSON.stringify({
   population_reference_year: population.summary.population_reference_year,
   population_entries_with_data: population.summary.matched,
   population_entries_without_data: population.summary.not_covered_by_primary_source,
+  sanctions_mapped_programs: sanctions.summary.mapped_programs,
+  sanctions_entries_with_programs: sanctions.summary.entries_with_programs,
   video_chapters: chapters.chapters.length,
   video_bytes: Number(probe.format.size),
   video_duration_seconds: Number(probe.format.duration),
