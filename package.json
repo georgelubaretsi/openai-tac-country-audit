@@ -11,6 +11,7 @@
     "video": "node scripts/record-unsupported-video.mjs",
     "verify-video": "node scripts/verify-video.mjs",
     "verify": "node scripts/verify-evidence.mjs",
+    "compare-official": "node scripts/compare-official-country-support.mjs",
     "check-index": "node scripts/check-git-index.mjs",
     "check": "for file in lib/*.mjs scripts/*.mjs tests/*.mjs; do node --check \"$file\" || exit 1; done",
     "test": "node --test tests/*.mjs"

@@ -32,6 +32,7 @@ async function ensureCleanEvidence() {
   const files = [];
   async function walk(directory) {
     for (const entry of await readdir(directory, { withFileTypes: true })) {
+      if (entry.name === ".DS_Store") continue;
       const path = resolve(directory, entry.name);
       if (entry.isSymbolicLink()) throw new Error("symlink forbidden under evidence");
       if (entry.isDirectory()) await walk(path);

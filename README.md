@@ -20,6 +20,7 @@ The recorder preserves selected transition traffic exactly. It writes CDP reques
 - Node.js 22 or newer
 - Chrome launched with a CDP remote-debugging port
 - `ffmpeg` and `ffprobe` for representative video
+- `curl` as a fallback transport for the OpenAI Help Center comparison
 
 The Node.js scripts use only built-in modules.
 
@@ -103,7 +104,15 @@ Finalize, metadata-strip, validate, and promote the sole representative MP4:
 npm run verify-video -- <run-id>
 ```
 
-### 6. Check before committing
+### 6. Compare against OpenAI’s official ChatGPT access list
+
+```sh
+npm run compare-official
+```
+
+The comparison fetches OpenAI’s official supported-country article, maps every source name to the canonical ISO-coded selector map, fails on unmapped or duplicate entries, and stores JSON and CSV comparison artifacts with the source URL, fetch timestamp, and HTML hash.
+
+### 7. Check before committing
 
 ```sh
 npm run check
@@ -119,6 +128,9 @@ A completed audit contains:
 evidence/
 ├── country-support.json
 ├── country-support.csv
+├── comparisons/
+│   ├── openai-chatgpt-supported-countries.json
+│   └── openai-chatgpt-supported-countries.csv
 ├── sanitized-transitions/
 │   ├── requests/
 │   ├── responses/

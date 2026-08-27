@@ -1,0 +1,251 @@
+index,code,name,official_source_name,official_chatgpt_supported,cyber_verification_supported,classification
+1,AF,Afghanistan,Afghanistan,true,false,official-supported-cyber-unsupported
+2,AX,Åland Islands,Aland Islands,true,false,official-supported-cyber-unsupported
+3,AL,Albania,Albania,true,true,official-and-cyber-supported
+4,DZ,Algeria,Algeria,true,true,official-and-cyber-supported
+5,AS,American Samoa,,false,true,cyber-supported-not-official
+6,AD,Andorra,Andorra,true,true,official-and-cyber-supported
+7,AO,Angola,Angola,true,true,official-and-cyber-supported
+8,AI,Anguilla,,false,true,cyber-supported-not-official
+9,AQ,Antarctica,,false,false,neither-supported
+10,AG,Antigua and Barbuda,Antigua and Barbuda,true,true,official-and-cyber-supported
+11,AR,Argentina,Argentina,true,true,official-and-cyber-supported
+12,AM,Armenia,Armenia,true,false,official-supported-cyber-unsupported
+13,AW,Aruba,Aruba,true,false,official-supported-cyber-unsupported
+14,AU,Australia,Australia,true,true,official-and-cyber-supported
+15,AT,Austria,Austria,true,true,official-and-cyber-supported
+16,AZ,Azerbaijan,Azerbaijan,true,false,official-supported-cyber-unsupported
+17,BS,Bahamas,Bahamas,true,true,official-and-cyber-supported
+18,BH,Bahrain,Bahrain,true,true,official-and-cyber-supported
+19,BD,Bangladesh,Bangladesh,true,true,official-and-cyber-supported
+20,BB,Barbados,Barbados,true,true,official-and-cyber-supported
+21,BY,Belarus,,false,false,neither-supported
+22,BE,Belgium,Belgium,true,true,official-and-cyber-supported
+23,BZ,Belize,Belize,true,true,official-and-cyber-supported
+24,BJ,Benin,Benin,true,true,official-and-cyber-supported
+25,BM,Bermuda,Bermuda,true,true,official-and-cyber-supported
+26,BT,Bhutan,Bhutan,true,true,official-and-cyber-supported
+27,BO,Bolivia,Bolivia,true,true,official-and-cyber-supported
+28,BQ,"Bonaire, Sint Eustatius and Saba",,false,false,neither-supported
+29,BA,Bosnia and Herzegovina,Bosnia and Herzegovina,true,true,official-and-cyber-supported
+30,BW,Botswana,Botswana,true,true,official-and-cyber-supported
+31,BV,Bouvet Island,,false,false,neither-supported
+32,BR,Brazil,Brazil,true,true,official-and-cyber-supported
+33,IO,British Indian Ocean Territory,,false,false,neither-supported
+34,BN,Brunei Darussalam,Brunei,true,true,official-and-cyber-supported
+35,BG,Bulgaria,Bulgaria,true,true,official-and-cyber-supported
+36,BF,Burkina Faso,Burkina Faso,true,true,official-and-cyber-supported
+37,BI,Burundi,Burundi,true,true,official-and-cyber-supported
+38,CV,Cabo Verde,Cabo Verde,true,true,official-and-cyber-supported
+39,KH,Cambodia,Cambodia,true,false,official-supported-cyber-unsupported
+40,CM,Cameroon,Cameroon,true,true,official-and-cyber-supported
+41,CA,Canada,Canada,true,true,official-and-cyber-supported
+42,KY,Cayman Islands,Cayman Islands,true,true,official-and-cyber-supported
+43,CF,Central African Republic,Central African Republic,true,false,official-supported-cyber-unsupported
+44,TD,Chad,Chad,true,true,official-and-cyber-supported
+45,CL,Chile,Chile,true,true,official-and-cyber-supported
+46,CN,China,,false,false,neither-supported
+47,CX,Christmas Island,,false,false,neither-supported
+48,CC,Cocos (Keeling) Islands,,false,false,neither-supported
+49,CO,Colombia,Colombia,true,true,official-and-cyber-supported
+50,KM,Comoros,Comoros,true,true,official-and-cyber-supported
+51,CG,Congo,Congo (Brazzaville),true,true,official-and-cyber-supported
+52,CD,"Congo, The Democratic Republic of the",Congo (DRC),true,false,official-supported-cyber-unsupported
+53,CK,Cook Islands,,false,false,neither-supported
+54,CR,Costa Rica,Costa Rica,true,true,official-and-cyber-supported
+55,CI,Côte d'Ivoire,Côte d'Ivoire,true,true,official-and-cyber-supported
+56,HR,Croatia,Croatia,true,true,official-and-cyber-supported
+57,CU,Cuba,,false,false,neither-supported
+58,CW,Curaçao,,false,true,cyber-supported-not-official
+59,CY,Cyprus,Cyprus,true,true,official-and-cyber-supported
+60,CZ,Czechia,Czechia (Czech Republic),true,true,official-and-cyber-supported
+61,DK,Denmark,Denmark,true,true,official-and-cyber-supported
+62,DJ,Djibouti,Djibouti,true,true,official-and-cyber-supported
+63,DM,Dominica,Dominica,true,true,official-and-cyber-supported
+64,DO,Dominican Republic,Dominican Republic,true,true,official-and-cyber-supported
+65,EC,Ecuador,Ecuador,true,true,official-and-cyber-supported
+66,EG,Egypt,Egypt,true,true,official-and-cyber-supported
+67,SV,El Salvador,El Salvador,true,true,official-and-cyber-supported
+68,GQ,Equatorial Guinea,Equatorial Guinea,true,true,official-and-cyber-supported
+69,ER,Eritrea,Eritrea,true,false,official-supported-cyber-unsupported
+70,EE,Estonia,Estonia,true,true,official-and-cyber-supported
+71,SZ,Eswatini,Eswatini (Swaziland),true,true,official-and-cyber-supported
+72,ET,Ethiopia,Ethiopia,true,true,official-and-cyber-supported
+73,FK,Falkland Islands (Malvinas),,false,false,neither-supported
+74,FO,Faroe Islands,Faroe Islands,true,true,official-and-cyber-supported
+75,FJ,Fiji,Fiji,true,true,official-and-cyber-supported
+76,FI,Finland,Finland,true,true,official-and-cyber-supported
+77,FR,France,France,true,true,official-and-cyber-supported
+78,GF,French Guiana,French Guiana,true,false,official-supported-cyber-unsupported
+79,PF,French Polynesia,French Polynesia,true,false,official-supported-cyber-unsupported
+80,TF,French Southern Territories,French Southern Territories,true,false,official-supported-cyber-unsupported
+81,GA,Gabon,Gabon,true,true,official-and-cyber-supported
+82,GM,Gambia,Gambia,true,true,official-and-cyber-supported
+83,GE,Georgia,Georgia,true,false,official-supported-cyber-unsupported
+84,DE,Germany,Germany,true,true,official-and-cyber-supported
+85,GH,Ghana,Ghana,true,true,official-and-cyber-supported
+86,GI,Gibraltar,,false,true,cyber-supported-not-official
+87,GR,Greece,Greece,true,true,official-and-cyber-supported
+88,GL,Greenland,Greenland,true,true,official-and-cyber-supported
+89,GD,Grenada,Grenada,true,true,official-and-cyber-supported
+90,GP,Guadeloupe,Guadeloupe,true,false,official-supported-cyber-unsupported
+91,GU,Guam,,false,true,cyber-supported-not-official
+92,GT,Guatemala,Guatemala,true,true,official-and-cyber-supported
+93,GG,Guernsey,,false,true,cyber-supported-not-official
+94,GN,Guinea,Guinea,true,true,official-and-cyber-supported
+95,GW,Guinea-Bissau,Guinea-Bissau,true,true,official-and-cyber-supported
+96,GY,Guyana,Guyana,true,true,official-and-cyber-supported
+97,HT,Haiti,Haiti,true,false,official-supported-cyber-unsupported
+98,HM,Heard Island and McDonald Islands,,false,false,neither-supported
+99,VA,Holy See (Vatican City State),Holy See (Vatican City),true,false,official-supported-cyber-unsupported
+100,HN,Honduras,Honduras,true,true,official-and-cyber-supported
+101,HK,Hong Kong,,false,false,neither-supported
+102,HU,Hungary,Hungary,true,true,official-and-cyber-supported
+103,IS,Iceland,Iceland,true,true,official-and-cyber-supported
+104,IN,India,India,true,true,official-and-cyber-supported
+105,ID,Indonesia,Indonesia,true,true,official-and-cyber-supported
+106,IR,Iran,,false,false,neither-supported
+107,IQ,Iraq,Iraq,true,false,official-supported-cyber-unsupported
+108,IE,Ireland,Ireland,true,true,official-and-cyber-supported
+109,IM,Isle of Man,,false,true,cyber-supported-not-official
+110,IL,Israel,Israel,true,true,official-and-cyber-supported
+111,IT,Italy,Italy,true,true,official-and-cyber-supported
+112,JM,Jamaica,Jamaica,true,true,official-and-cyber-supported
+113,JP,Japan,Japan,true,true,official-and-cyber-supported
+114,JE,Jersey,,false,true,cyber-supported-not-official
+115,JO,Jordan,Jordan,true,true,official-and-cyber-supported
+116,KZ,Kazakhstan,Kazakhstan,true,false,official-supported-cyber-unsupported
+117,KE,Kenya,Kenya,true,true,official-and-cyber-supported
+118,KI,Kiribati,Kiribati,true,true,official-and-cyber-supported
+119,XK,Kosovo,,false,true,cyber-supported-not-official
+120,KW,Kuwait,Kuwait,true,true,official-and-cyber-supported
+121,KG,Kyrgyzstan,Kyrgyzstan,true,false,official-supported-cyber-unsupported
+122,LA,Lao People's Democratic Republic,Laos,true,false,official-supported-cyber-unsupported
+123,LV,Latvia,Latvia,true,true,official-and-cyber-supported
+124,LB,Lebanon,Lebanon,true,false,official-supported-cyber-unsupported
+125,LS,Lesotho,Lesotho,true,true,official-and-cyber-supported
+126,LR,Liberia,Liberia,true,true,official-and-cyber-supported
+127,LY,Libya,Libya,true,false,official-supported-cyber-unsupported
+128,LI,Liechtenstein,Liechtenstein,true,true,official-and-cyber-supported
+129,LT,Lithuania,Lithuania,true,true,official-and-cyber-supported
+130,LU,Luxembourg,Luxembourg,true,true,official-and-cyber-supported
+131,MO,Macao,,false,false,neither-supported
+132,MG,Madagascar,Madagascar,true,true,official-and-cyber-supported
+133,MW,Malawi,Malawi,true,true,official-and-cyber-supported
+134,MY,Malaysia,Malaysia,true,true,official-and-cyber-supported
+135,MV,Maldives,Maldives,true,true,official-and-cyber-supported
+136,ML,Mali,Mali,true,true,official-and-cyber-supported
+137,MT,Malta,Malta,true,true,official-and-cyber-supported
+138,MH,Marshall Islands,Marshall Islands,true,true,official-and-cyber-supported
+139,MQ,Martinique,Martinique,true,false,official-supported-cyber-unsupported
+140,MR,Mauritania,Mauritania,true,true,official-and-cyber-supported
+141,MU,Mauritius,Mauritius,true,true,official-and-cyber-supported
+142,YT,Mayotte,Mayotte,true,false,official-supported-cyber-unsupported
+143,MX,Mexico,Mexico,true,true,official-and-cyber-supported
+144,FM,"Micronesia, Federated States of",Micronesia,true,true,official-and-cyber-supported
+145,MD,Moldova,Moldova,true,false,official-supported-cyber-unsupported
+146,MC,Monaco,Monaco,true,true,official-and-cyber-supported
+147,MN,Mongolia,Mongolia,true,false,official-supported-cyber-unsupported
+148,ME,Montenegro,Montenegro,true,true,official-and-cyber-supported
+149,MS,Montserrat,,false,true,cyber-supported-not-official
+150,MA,Morocco,Morocco,true,true,official-and-cyber-supported
+151,MZ,Mozambique,Mozambique,true,true,official-and-cyber-supported
+152,MM,Myanmar,Myanmar,true,false,official-supported-cyber-unsupported
+153,NA,Namibia,Namibia,true,true,official-and-cyber-supported
+154,NR,Nauru,Nauru,true,true,official-and-cyber-supported
+155,NP,Nepal,Nepal,true,true,official-and-cyber-supported
+156,NL,Netherlands,Netherlands,true,true,official-and-cyber-supported
+157,NC,New Caledonia,New Caledonia,true,false,official-supported-cyber-unsupported
+158,NZ,New Zealand,New Zealand,true,true,official-and-cyber-supported
+159,NI,Nicaragua,Nicaragua,true,false,official-supported-cyber-unsupported
+160,NE,Niger,Niger,true,true,official-and-cyber-supported
+161,NG,Nigeria,Nigeria,true,true,official-and-cyber-supported
+162,NU,Niue,,false,false,neither-supported
+163,NF,Norfolk Island,,false,false,neither-supported
+164,KP,North Korea,,false,false,neither-supported
+165,MK,North Macedonia,North Macedonia,true,true,official-and-cyber-supported
+166,MP,Northern Mariana Islands,,false,false,neither-supported
+167,NO,Norway,Norway,true,true,official-and-cyber-supported
+168,OM,Oman,Oman,true,true,official-and-cyber-supported
+169,PK,Pakistan,Pakistan,true,true,official-and-cyber-supported
+170,PW,Palau,Palau,true,true,official-and-cyber-supported
+171,PS,"Palestine, State of",Palestine,true,true,official-and-cyber-supported
+172,PA,Panama,Panama,true,true,official-and-cyber-supported
+173,PG,Papua New Guinea,Papua New Guinea,true,true,official-and-cyber-supported
+174,PY,Paraguay,Paraguay,true,true,official-and-cyber-supported
+175,PE,Peru,Peru,true,true,official-and-cyber-supported
+176,PH,Philippines,Philippines,true,true,official-and-cyber-supported
+177,PN,Pitcairn,,false,false,neither-supported
+178,PL,Poland,Poland,true,true,official-and-cyber-supported
+179,PT,Portugal,Portugal,true,true,official-and-cyber-supported
+180,PR,Puerto Rico,,false,true,cyber-supported-not-official
+181,QA,Qatar,Qatar,true,true,official-and-cyber-supported
+182,RE,Réunion,Réunion,true,false,official-supported-cyber-unsupported
+183,RO,Romania,Romania,true,true,official-and-cyber-supported
+184,RU,Russian Federation,,false,false,neither-supported
+185,RW,Rwanda,Rwanda,true,true,official-and-cyber-supported
+186,BL,Saint Barthélemy,Saint Barthelemy,true,false,official-supported-cyber-unsupported
+187,SH,"Saint Helena, Ascension and Tristan da Cunha",Saint Helena,true,false,official-supported-cyber-unsupported
+188,KN,Saint Kitts and Nevis,Saint Kitts and Nevis,true,true,official-and-cyber-supported
+189,LC,Saint Lucia,Saint Lucia,true,true,official-and-cyber-supported
+190,MF,Saint Martin (French part),Saint Martin (French part),true,true,official-and-cyber-supported
+191,PM,Saint Pierre and Miquelon,Saint Pierre and Miquelon,true,false,official-supported-cyber-unsupported
+192,VC,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,true,true,official-and-cyber-supported
+193,WS,Samoa,Samoa,true,true,official-and-cyber-supported
+194,SM,San Marino,San Marino,true,true,official-and-cyber-supported
+195,ST,Sao Tome and Principe,Sao Tome and Principe,true,true,official-and-cyber-supported
+196,SA,Saudi Arabia,Saudi Arabia,true,true,official-and-cyber-supported
+197,SN,Senegal,Senegal,true,true,official-and-cyber-supported
+198,RS,Serbia,Serbia,true,true,official-and-cyber-supported
+199,SC,Seychelles,Seychelles,true,true,official-and-cyber-supported
+200,SL,Sierra Leone,Sierra Leone,true,true,official-and-cyber-supported
+201,SG,Singapore,Singapore,true,true,official-and-cyber-supported
+202,SX,Sint Maarten (Dutch part),,false,false,neither-supported
+203,SK,Slovakia,Slovakia,true,true,official-and-cyber-supported
+204,SI,Slovenia,Slovenia,true,true,official-and-cyber-supported
+205,SB,Solomon Islands,Solomon Islands,true,true,official-and-cyber-supported
+206,SO,Somalia,Somalia,true,false,official-supported-cyber-unsupported
+207,ZA,South Africa,South Africa,true,true,official-and-cyber-supported
+208,GS,South Georgia and the South Sandwich Islands,,false,false,neither-supported
+209,KR,South Korea,South Korea,true,true,official-and-cyber-supported
+210,SS,South Sudan,South Sudan,true,false,official-supported-cyber-unsupported
+211,ES,Spain,Spain,true,true,official-and-cyber-supported
+212,LK,Sri Lanka,Sri Lanka,true,true,official-and-cyber-supported
+213,SD,Sudan,Sudan,true,false,official-supported-cyber-unsupported
+214,SR,Suriname,Suriname,true,true,official-and-cyber-supported
+215,SJ,Svalbard and Jan Mayen,Svalbard and Jan Mayen,true,false,official-supported-cyber-unsupported
+216,SE,Sweden,Sweden,true,true,official-and-cyber-supported
+217,CH,Switzerland,Switzerland,true,true,official-and-cyber-supported
+218,SY,Syrian Arab Republic,,false,false,neither-supported
+219,TW,Taiwan,Taiwan,true,true,official-and-cyber-supported
+220,TJ,Tajikistan,Tajikistan,true,false,official-supported-cyber-unsupported
+221,TZ,Tanzania,Tanzania,true,true,official-and-cyber-supported
+222,TH,Thailand,Thailand,true,true,official-and-cyber-supported
+223,TL,Timor-Leste,Timor-Leste (East Timor),true,true,official-and-cyber-supported
+224,TG,Togo,Togo,true,true,official-and-cyber-supported
+225,TK,Tokelau,,false,false,neither-supported
+226,TO,Tonga,Tonga,true,true,official-and-cyber-supported
+227,TT,Trinidad and Tobago,Trinidad and Tobago,true,true,official-and-cyber-supported
+228,TN,Tunisia,Tunisia,true,true,official-and-cyber-supported
+229,TR,Türkiye,Turkey,true,true,official-and-cyber-supported
+230,TM,Turkmenistan,Turkmenistan,true,false,official-supported-cyber-unsupported
+231,TC,Turks and Caicos Islands,,false,true,cyber-supported-not-official
+232,TV,Tuvalu,Tuvalu,true,true,official-and-cyber-supported
+233,UG,Uganda,Uganda,true,true,official-and-cyber-supported
+234,UA,Ukraine,Ukraine (with certain exceptions),true,true,official-and-cyber-supported
+235,AE,United Arab Emirates,United Arab Emirates,true,true,official-and-cyber-supported
+236,GB,United Kingdom,United Kingdom,true,true,official-and-cyber-supported
+237,US,United States,United States of America,true,true,official-and-cyber-supported
+238,UM,United States Minor Outlying Islands,,false,false,neither-supported
+239,UY,Uruguay,Uruguay,true,true,official-and-cyber-supported
+240,UZ,Uzbekistan,Uzbekistan,true,false,official-supported-cyber-unsupported
+241,VU,Vanuatu,Vanuatu,true,true,official-and-cyber-supported
+242,VE,Venezuela,,false,false,neither-supported
+243,VN,Vietnam,Vietnam,true,false,official-supported-cyber-unsupported
+244,VG,"Virgin Islands, British",,false,false,neither-supported
+245,VI,"Virgin Islands, U.S.",,false,true,cyber-supported-not-official
+246,WF,Wallis and Futuna,Wallis and Futuna,true,false,official-supported-cyber-unsupported
+247,EH,Western Sahara,,false,false,neither-supported
+248,YE,Yemen,Yemen,true,false,official-supported-cyber-unsupported
+249,ZM,Zambia,Zambia,true,true,official-and-cyber-supported
+250,ZW,Zimbabwe,Zimbabwe,true,false,official-supported-cyber-unsupported

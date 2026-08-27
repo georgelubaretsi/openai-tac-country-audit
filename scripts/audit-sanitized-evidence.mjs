@@ -333,6 +333,7 @@ async function inventory(root, relative = "") {
   const entries = await readdir(relative ? resolveInside(root, relative) : root, { withFileTypes: true });
   const files = [];
   for (const entry of entries) {
+    if (entry.name === ".DS_Store") continue;
     const child = relative ? path.posix.join(relative, entry.name) : entry.name;
     const stat = await lstat(resolveInside(root, child));
     if (stat.isSymbolicLink()) throw new Error("symlink");

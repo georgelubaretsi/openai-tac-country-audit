@@ -16,6 +16,26 @@ A fresh complete pass of the OpenAI-configured Persona government-ID selector te
 
 This was not an HTTP or transport block.
 
+## Comparison with OpenAI’s ChatGPT supported-country list
+
+The canonical map was compared with OpenAI’s official [ChatGPT Supported Countries](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries) article, fetched on 2026-08-27. The official article listed 208 countries, regions, and territories.
+
+| Official ChatGPT access list | Cyber ID support | Count |
+|---|---|---:|
+| Listed | Supported | 164 |
+| Listed | Unsupported | 44 |
+| Not listed | Supported | 13 |
+| Not listed | Unsupported | 29 |
+
+The primary gap is the **44 entries OpenAI lists for ChatGPT access but whose cyber-verification transition returned no accepted ID classes**. The complete ordered comparison is stored in:
+
+- `evidence/comparisons/openai-chatgpt-supported-countries.json`
+- `evidence/comparisons/openai-chatgpt-supported-countries.csv`
+
+The 13 selector entries with accepted cyber ID classes but absent from the official access article were American Samoa, Anguilla, Curaçao, Gibraltar, Guam, Guernsey, Isle of Man, Jersey, Kosovo, Montserrat, Puerto Rico, Turks and Caicos Islands, and the U.S. Virgin Islands.
+
+This comparison does not imply that those 13 locations are permitted access regions. The cyber flow exposes all 250 selector entries, and an accepted ID configuration is not evidence that OpenAI permits service access from that location. Conversely, presence on the official access list does not imply that the cyber-verification template supports identity documents from that location.
+
 ## Method
 
 - Surface: the production Persona widget embedded in OpenAI’s cyber-verification page.
@@ -184,6 +204,8 @@ This is consistent with per-country-code document configuration rather than pare
 
 - `evidence/country-support.json` — canonical ordered map and summary.
 - `evidence/country-support.csv` — spreadsheet-friendly map.
+- `evidence/comparisons/openai-chatgpt-supported-countries.json` — official access-list snapshot, mappings, 2×2 comparison, and all 250 classifications.
+- `evidence/comparisons/openai-chatgpt-supported-countries.csv` — spreadsheet-friendly official-access comparison.
 - `evidence/sanitized-transitions/requests/` — post-capture-sanitized request metadata and bodies.
 - `evidence/sanitized-transitions/responses/` — post-capture-sanitized response metadata and bodies.
 - `evidence/sanitized-transitions/redactions/` — raw-to-sanitized byte-span manifests.

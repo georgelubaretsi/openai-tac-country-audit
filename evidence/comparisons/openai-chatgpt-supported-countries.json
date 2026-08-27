@@ -1,0 +1,3106 @@
+{
+  "schema": "openai-cyber-verification-country-support/official-access-comparison/v1",
+  "source": {
+    "url": "https://help.openai.com/en/articles/7947663-chatgpt-supported-countries",
+    "fetched_at": "2026-08-27T14:06:17.876Z",
+    "html_sha256": "577fd514662deb709737645c2ef342fb8d53c533cb932f0088c3583c99e48d95",
+    "title": "ChatGPT Supported Countries | OpenAI Help Center",
+    "description": "Countries, regions, and territories OpenAI currently supports access from.",
+    "transport": "curl"
+  },
+  "summary": {
+    "canonical_country_entries": 250,
+    "official_chatgpt_supported": 208,
+    "cyber_verification_supported": 177,
+    "official_and_cyber_supported": 164,
+    "official_supported_cyber_unsupported": 44,
+    "cyber_supported_not_official": 13,
+    "neither_supported": 29
+  },
+  "official_entries": [
+    {
+      "code": "AL",
+      "source_name": "Albania"
+    },
+    {
+      "code": "DZ",
+      "source_name": "Algeria"
+    },
+    {
+      "code": "AF",
+      "source_name": "Afghanistan"
+    },
+    {
+      "code": "AX",
+      "source_name": "Aland Islands"
+    },
+    {
+      "code": "AD",
+      "source_name": "Andorra"
+    },
+    {
+      "code": "AO",
+      "source_name": "Angola"
+    },
+    {
+      "code": "AG",
+      "source_name": "Antigua and Barbuda"
+    },
+    {
+      "code": "AR",
+      "source_name": "Argentina"
+    },
+    {
+      "code": "AM",
+      "source_name": "Armenia"
+    },
+    {
+      "code": "AW",
+      "source_name": "Aruba"
+    },
+    {
+      "code": "AU",
+      "source_name": "Australia"
+    },
+    {
+      "code": "AT",
+      "source_name": "Austria"
+    },
+    {
+      "code": "AZ",
+      "source_name": "Azerbaijan"
+    },
+    {
+      "code": "BS",
+      "source_name": "Bahamas"
+    },
+    {
+      "code": "BH",
+      "source_name": "Bahrain"
+    },
+    {
+      "code": "BD",
+      "source_name": "Bangladesh"
+    },
+    {
+      "code": "BB",
+      "source_name": "Barbados"
+    },
+    {
+      "code": "BE",
+      "source_name": "Belgium"
+    },
+    {
+      "code": "BZ",
+      "source_name": "Belize"
+    },
+    {
+      "code": "BM",
+      "source_name": "Bermuda"
+    },
+    {
+      "code": "BJ",
+      "source_name": "Benin"
+    },
+    {
+      "code": "BT",
+      "source_name": "Bhutan"
+    },
+    {
+      "code": "BO",
+      "source_name": "Bolivia"
+    },
+    {
+      "code": "BA",
+      "source_name": "Bosnia and Herzegovina"
+    },
+    {
+      "code": "BW",
+      "source_name": "Botswana"
+    },
+    {
+      "code": "BR",
+      "source_name": "Brazil"
+    },
+    {
+      "code": "BN",
+      "source_name": "Brunei"
+    },
+    {
+      "code": "BG",
+      "source_name": "Bulgaria"
+    },
+    {
+      "code": "BF",
+      "source_name": "Burkina Faso"
+    },
+    {
+      "code": "BI",
+      "source_name": "Burundi"
+    },
+    {
+      "code": "CV",
+      "source_name": "Cabo Verde"
+    },
+    {
+      "code": "KH",
+      "source_name": "Cambodia"
+    },
+    {
+      "code": "CM",
+      "source_name": "Cameroon"
+    },
+    {
+      "code": "CA",
+      "source_name": "Canada"
+    },
+    {
+      "code": "KY",
+      "source_name": "Cayman Islands"
+    },
+    {
+      "code": "CF",
+      "source_name": "Central African Republic"
+    },
+    {
+      "code": "TD",
+      "source_name": "Chad"
+    },
+    {
+      "code": "CL",
+      "source_name": "Chile"
+    },
+    {
+      "code": "CO",
+      "source_name": "Colombia"
+    },
+    {
+      "code": "KM",
+      "source_name": "Comoros"
+    },
+    {
+      "code": "CG",
+      "source_name": "Congo (Brazzaville)"
+    },
+    {
+      "code": "CD",
+      "source_name": "Congo (DRC)"
+    },
+    {
+      "code": "CR",
+      "source_name": "Costa Rica"
+    },
+    {
+      "code": "CI",
+      "source_name": "Côte d'Ivoire"
+    },
+    {
+      "code": "HR",
+      "source_name": "Croatia"
+    },
+    {
+      "code": "CY",
+      "source_name": "Cyprus"
+    },
+    {
+      "code": "CZ",
+      "source_name": "Czechia (Czech Republic)"
+    },
+    {
+      "code": "DK",
+      "source_name": "Denmark"
+    },
+    {
+      "code": "DJ",
+      "source_name": "Djibouti"
+    },
+    {
+      "code": "DM",
+      "source_name": "Dominica"
+    },
+    {
+      "code": "DO",
+      "source_name": "Dominican Republic"
+    },
+    {
+      "code": "EC",
+      "source_name": "Ecuador"
+    },
+    {
+      "code": "EG",
+      "source_name": "Egypt"
+    },
+    {
+      "code": "SV",
+      "source_name": "El Salvador"
+    },
+    {
+      "code": "GQ",
+      "source_name": "Equatorial Guinea"
+    },
+    {
+      "code": "ER",
+      "source_name": "Eritrea"
+    },
+    {
+      "code": "EE",
+      "source_name": "Estonia"
+    },
+    {
+      "code": "SZ",
+      "source_name": "Eswatini (Swaziland)"
+    },
+    {
+      "code": "ET",
+      "source_name": "Ethiopia"
+    },
+    {
+      "code": "FO",
+      "source_name": "Faroe Islands"
+    },
+    {
+      "code": "FJ",
+      "source_name": "Fiji"
+    },
+    {
+      "code": "FI",
+      "source_name": "Finland"
+    },
+    {
+      "code": "FR",
+      "source_name": "France"
+    },
+    {
+      "code": "GF",
+      "source_name": "French Guiana"
+    },
+    {
+      "code": "PF",
+      "source_name": "French Polynesia"
+    },
+    {
+      "code": "TF",
+      "source_name": "French Southern Territories"
+    },
+    {
+      "code": "GA",
+      "source_name": "Gabon"
+    },
+    {
+      "code": "GM",
+      "source_name": "Gambia"
+    },
+    {
+      "code": "GE",
+      "source_name": "Georgia"
+    },
+    {
+      "code": "DE",
+      "source_name": "Germany"
+    },
+    {
+      "code": "GH",
+      "source_name": "Ghana"
+    },
+    {
+      "code": "GR",
+      "source_name": "Greece"
+    },
+    {
+      "code": "GD",
+      "source_name": "Grenada"
+    },
+    {
+      "code": "GL",
+      "source_name": "Greenland"
+    },
+    {
+      "code": "GT",
+      "source_name": "Guatemala"
+    },
+    {
+      "code": "GP",
+      "source_name": "Guadeloupe"
+    },
+    {
+      "code": "GN",
+      "source_name": "Guinea"
+    },
+    {
+      "code": "GW",
+      "source_name": "Guinea-Bissau"
+    },
+    {
+      "code": "GY",
+      "source_name": "Guyana"
+    },
+    {
+      "code": "HT",
+      "source_name": "Haiti"
+    },
+    {
+      "code": "VA",
+      "source_name": "Holy See (Vatican City)"
+    },
+    {
+      "code": "HN",
+      "source_name": "Honduras"
+    },
+    {
+      "code": "HU",
+      "source_name": "Hungary"
+    },
+    {
+      "code": "IS",
+      "source_name": "Iceland"
+    },
+    {
+      "code": "IN",
+      "source_name": "India"
+    },
+    {
+      "code": "ID",
+      "source_name": "Indonesia"
+    },
+    {
+      "code": "IQ",
+      "source_name": "Iraq"
+    },
+    {
+      "code": "IE",
+      "source_name": "Ireland"
+    },
+    {
+      "code": "IL",
+      "source_name": "Israel"
+    },
+    {
+      "code": "IT",
+      "source_name": "Italy"
+    },
+    {
+      "code": "JM",
+      "source_name": "Jamaica"
+    },
+    {
+      "code": "JP",
+      "source_name": "Japan"
+    },
+    {
+      "code": "JO",
+      "source_name": "Jordan"
+    },
+    {
+      "code": "KZ",
+      "source_name": "Kazakhstan"
+    },
+    {
+      "code": "KE",
+      "source_name": "Kenya"
+    },
+    {
+      "code": "KI",
+      "source_name": "Kiribati"
+    },
+    {
+      "code": "KW",
+      "source_name": "Kuwait"
+    },
+    {
+      "code": "KG",
+      "source_name": "Kyrgyzstan"
+    },
+    {
+      "code": "LA",
+      "source_name": "Laos"
+    },
+    {
+      "code": "LV",
+      "source_name": "Latvia"
+    },
+    {
+      "code": "LB",
+      "source_name": "Lebanon"
+    },
+    {
+      "code": "LS",
+      "source_name": "Lesotho"
+    },
+    {
+      "code": "LR",
+      "source_name": "Liberia"
+    },
+    {
+      "code": "LY",
+      "source_name": "Libya"
+    },
+    {
+      "code": "LI",
+      "source_name": "Liechtenstein"
+    },
+    {
+      "code": "LT",
+      "source_name": "Lithuania"
+    },
+    {
+      "code": "LU",
+      "source_name": "Luxembourg"
+    },
+    {
+      "code": "MG",
+      "source_name": "Madagascar"
+    },
+    {
+      "code": "MW",
+      "source_name": "Malawi"
+    },
+    {
+      "code": "MY",
+      "source_name": "Malaysia"
+    },
+    {
+      "code": "MV",
+      "source_name": "Maldives"
+    },
+    {
+      "code": "ML",
+      "source_name": "Mali"
+    },
+    {
+      "code": "MT",
+      "source_name": "Malta"
+    },
+    {
+      "code": "MH",
+      "source_name": "Marshall Islands"
+    },
+    {
+      "code": "MQ",
+      "source_name": "Martinique"
+    },
+    {
+      "code": "MR",
+      "source_name": "Mauritania"
+    },
+    {
+      "code": "MU",
+      "source_name": "Mauritius"
+    },
+    {
+      "code": "YT",
+      "source_name": "Mayotte"
+    },
+    {
+      "code": "MX",
+      "source_name": "Mexico"
+    },
+    {
+      "code": "FM",
+      "source_name": "Micronesia"
+    },
+    {
+      "code": "MD",
+      "source_name": "Moldova"
+    },
+    {
+      "code": "MC",
+      "source_name": "Monaco"
+    },
+    {
+      "code": "MN",
+      "source_name": "Mongolia"
+    },
+    {
+      "code": "ME",
+      "source_name": "Montenegro"
+    },
+    {
+      "code": "MA",
+      "source_name": "Morocco"
+    },
+    {
+      "code": "MZ",
+      "source_name": "Mozambique"
+    },
+    {
+      "code": "MM",
+      "source_name": "Myanmar"
+    },
+    {
+      "code": "NA",
+      "source_name": "Namibia"
+    },
+    {
+      "code": "NR",
+      "source_name": "Nauru"
+    },
+    {
+      "code": "NP",
+      "source_name": "Nepal"
+    },
+    {
+      "code": "NL",
+      "source_name": "Netherlands"
+    },
+    {
+      "code": "NC",
+      "source_name": "New Caledonia"
+    },
+    {
+      "code": "NZ",
+      "source_name": "New Zealand"
+    },
+    {
+      "code": "NI",
+      "source_name": "Nicaragua"
+    },
+    {
+      "code": "NE",
+      "source_name": "Niger"
+    },
+    {
+      "code": "NG",
+      "source_name": "Nigeria"
+    },
+    {
+      "code": "MK",
+      "source_name": "North Macedonia"
+    },
+    {
+      "code": "NO",
+      "source_name": "Norway"
+    },
+    {
+      "code": "OM",
+      "source_name": "Oman"
+    },
+    {
+      "code": "PK",
+      "source_name": "Pakistan"
+    },
+    {
+      "code": "PW",
+      "source_name": "Palau"
+    },
+    {
+      "code": "PS",
+      "source_name": "Palestine"
+    },
+    {
+      "code": "PA",
+      "source_name": "Panama"
+    },
+    {
+      "code": "PG",
+      "source_name": "Papua New Guinea"
+    },
+    {
+      "code": "PY",
+      "source_name": "Paraguay"
+    },
+    {
+      "code": "PE",
+      "source_name": "Peru"
+    },
+    {
+      "code": "PH",
+      "source_name": "Philippines"
+    },
+    {
+      "code": "PL",
+      "source_name": "Poland"
+    },
+    {
+      "code": "PT",
+      "source_name": "Portugal"
+    },
+    {
+      "code": "QA",
+      "source_name": "Qatar"
+    },
+    {
+      "code": "RE",
+      "source_name": "Réunion"
+    },
+    {
+      "code": "RO",
+      "source_name": "Romania"
+    },
+    {
+      "code": "RW",
+      "source_name": "Rwanda"
+    },
+    {
+      "code": "BL",
+      "source_name": "Saint Barthelemy"
+    },
+    {
+      "code": "SH",
+      "source_name": "Saint Helena"
+    },
+    {
+      "code": "KN",
+      "source_name": "Saint Kitts and Nevis"
+    },
+    {
+      "code": "LC",
+      "source_name": "Saint Lucia"
+    },
+    {
+      "code": "MF",
+      "source_name": "Saint Martin (French part)"
+    },
+    {
+      "code": "PM",
+      "source_name": "Saint Pierre and Miquelon"
+    },
+    {
+      "code": "VC",
+      "source_name": "Saint Vincent and the Grenadines"
+    },
+    {
+      "code": "WS",
+      "source_name": "Samoa"
+    },
+    {
+      "code": "SM",
+      "source_name": "San Marino"
+    },
+    {
+      "code": "ST",
+      "source_name": "Sao Tome and Principe"
+    },
+    {
+      "code": "SA",
+      "source_name": "Saudi Arabia"
+    },
+    {
+      "code": "SN",
+      "source_name": "Senegal"
+    },
+    {
+      "code": "RS",
+      "source_name": "Serbia"
+    },
+    {
+      "code": "SC",
+      "source_name": "Seychelles"
+    },
+    {
+      "code": "SL",
+      "source_name": "Sierra Leone"
+    },
+    {
+      "code": "SG",
+      "source_name": "Singapore"
+    },
+    {
+      "code": "SK",
+      "source_name": "Slovakia"
+    },
+    {
+      "code": "SI",
+      "source_name": "Slovenia"
+    },
+    {
+      "code": "SB",
+      "source_name": "Solomon Islands"
+    },
+    {
+      "code": "SO",
+      "source_name": "Somalia"
+    },
+    {
+      "code": "ZA",
+      "source_name": "South Africa"
+    },
+    {
+      "code": "KR",
+      "source_name": "South Korea"
+    },
+    {
+      "code": "SS",
+      "source_name": "South Sudan"
+    },
+    {
+      "code": "ES",
+      "source_name": "Spain"
+    },
+    {
+      "code": "LK",
+      "source_name": "Sri Lanka"
+    },
+    {
+      "code": "SR",
+      "source_name": "Suriname"
+    },
+    {
+      "code": "SE",
+      "source_name": "Sweden"
+    },
+    {
+      "code": "CH",
+      "source_name": "Switzerland"
+    },
+    {
+      "code": "SD",
+      "source_name": "Sudan"
+    },
+    {
+      "code": "SJ",
+      "source_name": "Svalbard and Jan Mayen"
+    },
+    {
+      "code": "TW",
+      "source_name": "Taiwan"
+    },
+    {
+      "code": "TJ",
+      "source_name": "Tajikistan"
+    },
+    {
+      "code": "TZ",
+      "source_name": "Tanzania"
+    },
+    {
+      "code": "TH",
+      "source_name": "Thailand"
+    },
+    {
+      "code": "TL",
+      "source_name": "Timor-Leste (East Timor)"
+    },
+    {
+      "code": "TG",
+      "source_name": "Togo"
+    },
+    {
+      "code": "TO",
+      "source_name": "Tonga"
+    },
+    {
+      "code": "TT",
+      "source_name": "Trinidad and Tobago"
+    },
+    {
+      "code": "TN",
+      "source_name": "Tunisia"
+    },
+    {
+      "code": "TR",
+      "source_name": "Turkey"
+    },
+    {
+      "code": "TM",
+      "source_name": "Turkmenistan"
+    },
+    {
+      "code": "TV",
+      "source_name": "Tuvalu"
+    },
+    {
+      "code": "UG",
+      "source_name": "Uganda"
+    },
+    {
+      "code": "UA",
+      "source_name": "Ukraine (with certain exceptions)"
+    },
+    {
+      "code": "AE",
+      "source_name": "United Arab Emirates"
+    },
+    {
+      "code": "GB",
+      "source_name": "United Kingdom"
+    },
+    {
+      "code": "US",
+      "source_name": "United States of America"
+    },
+    {
+      "code": "UY",
+      "source_name": "Uruguay"
+    },
+    {
+      "code": "UZ",
+      "source_name": "Uzbekistan"
+    },
+    {
+      "code": "VU",
+      "source_name": "Vanuatu"
+    },
+    {
+      "code": "VN",
+      "source_name": "Vietnam"
+    },
+    {
+      "code": "WF",
+      "source_name": "Wallis and Futuna"
+    },
+    {
+      "code": "YE",
+      "source_name": "Yemen"
+    },
+    {
+      "code": "ZM",
+      "source_name": "Zambia"
+    },
+    {
+      "code": "ZW",
+      "source_name": "Zimbabwe"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "code": "AF",
+      "name": "Afghanistan",
+      "official_source_name": "Afghanistan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 2,
+      "code": "AX",
+      "name": "Åland Islands",
+      "official_source_name": "Aland Islands",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 3,
+      "code": "AL",
+      "name": "Albania",
+      "official_source_name": "Albania",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 4,
+      "code": "DZ",
+      "name": "Algeria",
+      "official_source_name": "Algeria",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 5,
+      "code": "AS",
+      "name": "American Samoa",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 6,
+      "code": "AD",
+      "name": "Andorra",
+      "official_source_name": "Andorra",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 7,
+      "code": "AO",
+      "name": "Angola",
+      "official_source_name": "Angola",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 8,
+      "code": "AI",
+      "name": "Anguilla",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 9,
+      "code": "AQ",
+      "name": "Antarctica",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 10,
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "official_source_name": "Antigua and Barbuda",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 11,
+      "code": "AR",
+      "name": "Argentina",
+      "official_source_name": "Argentina",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 12,
+      "code": "AM",
+      "name": "Armenia",
+      "official_source_name": "Armenia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 13,
+      "code": "AW",
+      "name": "Aruba",
+      "official_source_name": "Aruba",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 14,
+      "code": "AU",
+      "name": "Australia",
+      "official_source_name": "Australia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 15,
+      "code": "AT",
+      "name": "Austria",
+      "official_source_name": "Austria",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 16,
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "official_source_name": "Azerbaijan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 17,
+      "code": "BS",
+      "name": "Bahamas",
+      "official_source_name": "Bahamas",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 18,
+      "code": "BH",
+      "name": "Bahrain",
+      "official_source_name": "Bahrain",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 19,
+      "code": "BD",
+      "name": "Bangladesh",
+      "official_source_name": "Bangladesh",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 20,
+      "code": "BB",
+      "name": "Barbados",
+      "official_source_name": "Barbados",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 21,
+      "code": "BY",
+      "name": "Belarus",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 22,
+      "code": "BE",
+      "name": "Belgium",
+      "official_source_name": "Belgium",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 23,
+      "code": "BZ",
+      "name": "Belize",
+      "official_source_name": "Belize",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 24,
+      "code": "BJ",
+      "name": "Benin",
+      "official_source_name": "Benin",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 25,
+      "code": "BM",
+      "name": "Bermuda",
+      "official_source_name": "Bermuda",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 26,
+      "code": "BT",
+      "name": "Bhutan",
+      "official_source_name": "Bhutan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 27,
+      "code": "BO",
+      "name": "Bolivia",
+      "official_source_name": "Bolivia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 28,
+      "code": "BQ",
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 29,
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "official_source_name": "Bosnia and Herzegovina",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 30,
+      "code": "BW",
+      "name": "Botswana",
+      "official_source_name": "Botswana",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 31,
+      "code": "BV",
+      "name": "Bouvet Island",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 32,
+      "code": "BR",
+      "name": "Brazil",
+      "official_source_name": "Brazil",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 33,
+      "code": "IO",
+      "name": "British Indian Ocean Territory",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 34,
+      "code": "BN",
+      "name": "Brunei Darussalam",
+      "official_source_name": "Brunei",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 35,
+      "code": "BG",
+      "name": "Bulgaria",
+      "official_source_name": "Bulgaria",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 36,
+      "code": "BF",
+      "name": "Burkina Faso",
+      "official_source_name": "Burkina Faso",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 37,
+      "code": "BI",
+      "name": "Burundi",
+      "official_source_name": "Burundi",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 38,
+      "code": "CV",
+      "name": "Cabo Verde",
+      "official_source_name": "Cabo Verde",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 39,
+      "code": "KH",
+      "name": "Cambodia",
+      "official_source_name": "Cambodia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 40,
+      "code": "CM",
+      "name": "Cameroon",
+      "official_source_name": "Cameroon",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 41,
+      "code": "CA",
+      "name": "Canada",
+      "official_source_name": "Canada",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 42,
+      "code": "KY",
+      "name": "Cayman Islands",
+      "official_source_name": "Cayman Islands",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 43,
+      "code": "CF",
+      "name": "Central African Republic",
+      "official_source_name": "Central African Republic",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 44,
+      "code": "TD",
+      "name": "Chad",
+      "official_source_name": "Chad",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 45,
+      "code": "CL",
+      "name": "Chile",
+      "official_source_name": "Chile",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 46,
+      "code": "CN",
+      "name": "China",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 47,
+      "code": "CX",
+      "name": "Christmas Island",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 48,
+      "code": "CC",
+      "name": "Cocos (Keeling) Islands",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 49,
+      "code": "CO",
+      "name": "Colombia",
+      "official_source_name": "Colombia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 50,
+      "code": "KM",
+      "name": "Comoros",
+      "official_source_name": "Comoros",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 51,
+      "code": "CG",
+      "name": "Congo",
+      "official_source_name": "Congo (Brazzaville)",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 52,
+      "code": "CD",
+      "name": "Congo, The Democratic Republic of the",
+      "official_source_name": "Congo (DRC)",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 53,
+      "code": "CK",
+      "name": "Cook Islands",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 54,
+      "code": "CR",
+      "name": "Costa Rica",
+      "official_source_name": "Costa Rica",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 55,
+      "code": "CI",
+      "name": "Côte d'Ivoire",
+      "official_source_name": "Côte d'Ivoire",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 56,
+      "code": "HR",
+      "name": "Croatia",
+      "official_source_name": "Croatia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 57,
+      "code": "CU",
+      "name": "Cuba",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 58,
+      "code": "CW",
+      "name": "Curaçao",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 59,
+      "code": "CY",
+      "name": "Cyprus",
+      "official_source_name": "Cyprus",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 60,
+      "code": "CZ",
+      "name": "Czechia",
+      "official_source_name": "Czechia (Czech Republic)",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 61,
+      "code": "DK",
+      "name": "Denmark",
+      "official_source_name": "Denmark",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 62,
+      "code": "DJ",
+      "name": "Djibouti",
+      "official_source_name": "Djibouti",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 63,
+      "code": "DM",
+      "name": "Dominica",
+      "official_source_name": "Dominica",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 64,
+      "code": "DO",
+      "name": "Dominican Republic",
+      "official_source_name": "Dominican Republic",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 65,
+      "code": "EC",
+      "name": "Ecuador",
+      "official_source_name": "Ecuador",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 66,
+      "code": "EG",
+      "name": "Egypt",
+      "official_source_name": "Egypt",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 67,
+      "code": "SV",
+      "name": "El Salvador",
+      "official_source_name": "El Salvador",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 68,
+      "code": "GQ",
+      "name": "Equatorial Guinea",
+      "official_source_name": "Equatorial Guinea",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 69,
+      "code": "ER",
+      "name": "Eritrea",
+      "official_source_name": "Eritrea",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 70,
+      "code": "EE",
+      "name": "Estonia",
+      "official_source_name": "Estonia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 71,
+      "code": "SZ",
+      "name": "Eswatini",
+      "official_source_name": "Eswatini (Swaziland)",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 72,
+      "code": "ET",
+      "name": "Ethiopia",
+      "official_source_name": "Ethiopia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 73,
+      "code": "FK",
+      "name": "Falkland Islands (Malvinas)",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 74,
+      "code": "FO",
+      "name": "Faroe Islands",
+      "official_source_name": "Faroe Islands",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 75,
+      "code": "FJ",
+      "name": "Fiji",
+      "official_source_name": "Fiji",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 76,
+      "code": "FI",
+      "name": "Finland",
+      "official_source_name": "Finland",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 77,
+      "code": "FR",
+      "name": "France",
+      "official_source_name": "France",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 78,
+      "code": "GF",
+      "name": "French Guiana",
+      "official_source_name": "French Guiana",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 79,
+      "code": "PF",
+      "name": "French Polynesia",
+      "official_source_name": "French Polynesia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 80,
+      "code": "TF",
+      "name": "French Southern Territories",
+      "official_source_name": "French Southern Territories",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 81,
+      "code": "GA",
+      "name": "Gabon",
+      "official_source_name": "Gabon",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 82,
+      "code": "GM",
+      "name": "Gambia",
+      "official_source_name": "Gambia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 83,
+      "code": "GE",
+      "name": "Georgia",
+      "official_source_name": "Georgia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 84,
+      "code": "DE",
+      "name": "Germany",
+      "official_source_name": "Germany",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 85,
+      "code": "GH",
+      "name": "Ghana",
+      "official_source_name": "Ghana",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 86,
+      "code": "GI",
+      "name": "Gibraltar",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 87,
+      "code": "GR",
+      "name": "Greece",
+      "official_source_name": "Greece",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 88,
+      "code": "GL",
+      "name": "Greenland",
+      "official_source_name": "Greenland",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 89,
+      "code": "GD",
+      "name": "Grenada",
+      "official_source_name": "Grenada",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 90,
+      "code": "GP",
+      "name": "Guadeloupe",
+      "official_source_name": "Guadeloupe",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 91,
+      "code": "GU",
+      "name": "Guam",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 92,
+      "code": "GT",
+      "name": "Guatemala",
+      "official_source_name": "Guatemala",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 93,
+      "code": "GG",
+      "name": "Guernsey",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 94,
+      "code": "GN",
+      "name": "Guinea",
+      "official_source_name": "Guinea",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 95,
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "official_source_name": "Guinea-Bissau",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 96,
+      "code": "GY",
+      "name": "Guyana",
+      "official_source_name": "Guyana",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 97,
+      "code": "HT",
+      "name": "Haiti",
+      "official_source_name": "Haiti",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 98,
+      "code": "HM",
+      "name": "Heard Island and McDonald Islands",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 99,
+      "code": "VA",
+      "name": "Holy See (Vatican City State)",
+      "official_source_name": "Holy See (Vatican City)",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 100,
+      "code": "HN",
+      "name": "Honduras",
+      "official_source_name": "Honduras",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 101,
+      "code": "HK",
+      "name": "Hong Kong",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 102,
+      "code": "HU",
+      "name": "Hungary",
+      "official_source_name": "Hungary",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 103,
+      "code": "IS",
+      "name": "Iceland",
+      "official_source_name": "Iceland",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 104,
+      "code": "IN",
+      "name": "India",
+      "official_source_name": "India",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 105,
+      "code": "ID",
+      "name": "Indonesia",
+      "official_source_name": "Indonesia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 106,
+      "code": "IR",
+      "name": "Iran",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 107,
+      "code": "IQ",
+      "name": "Iraq",
+      "official_source_name": "Iraq",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 108,
+      "code": "IE",
+      "name": "Ireland",
+      "official_source_name": "Ireland",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 109,
+      "code": "IM",
+      "name": "Isle of Man",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 110,
+      "code": "IL",
+      "name": "Israel",
+      "official_source_name": "Israel",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 111,
+      "code": "IT",
+      "name": "Italy",
+      "official_source_name": "Italy",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 112,
+      "code": "JM",
+      "name": "Jamaica",
+      "official_source_name": "Jamaica",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 113,
+      "code": "JP",
+      "name": "Japan",
+      "official_source_name": "Japan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 114,
+      "code": "JE",
+      "name": "Jersey",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 115,
+      "code": "JO",
+      "name": "Jordan",
+      "official_source_name": "Jordan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 116,
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "official_source_name": "Kazakhstan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 117,
+      "code": "KE",
+      "name": "Kenya",
+      "official_source_name": "Kenya",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 118,
+      "code": "KI",
+      "name": "Kiribati",
+      "official_source_name": "Kiribati",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 119,
+      "code": "XK",
+      "name": "Kosovo",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 120,
+      "code": "KW",
+      "name": "Kuwait",
+      "official_source_name": "Kuwait",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 121,
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "official_source_name": "Kyrgyzstan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 122,
+      "code": "LA",
+      "name": "Lao People's Democratic Republic",
+      "official_source_name": "Laos",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 123,
+      "code": "LV",
+      "name": "Latvia",
+      "official_source_name": "Latvia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 124,
+      "code": "LB",
+      "name": "Lebanon",
+      "official_source_name": "Lebanon",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 125,
+      "code": "LS",
+      "name": "Lesotho",
+      "official_source_name": "Lesotho",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 126,
+      "code": "LR",
+      "name": "Liberia",
+      "official_source_name": "Liberia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 127,
+      "code": "LY",
+      "name": "Libya",
+      "official_source_name": "Libya",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 128,
+      "code": "LI",
+      "name": "Liechtenstein",
+      "official_source_name": "Liechtenstein",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 129,
+      "code": "LT",
+      "name": "Lithuania",
+      "official_source_name": "Lithuania",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 130,
+      "code": "LU",
+      "name": "Luxembourg",
+      "official_source_name": "Luxembourg",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 131,
+      "code": "MO",
+      "name": "Macao",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 132,
+      "code": "MG",
+      "name": "Madagascar",
+      "official_source_name": "Madagascar",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 133,
+      "code": "MW",
+      "name": "Malawi",
+      "official_source_name": "Malawi",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 134,
+      "code": "MY",
+      "name": "Malaysia",
+      "official_source_name": "Malaysia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 135,
+      "code": "MV",
+      "name": "Maldives",
+      "official_source_name": "Maldives",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 136,
+      "code": "ML",
+      "name": "Mali",
+      "official_source_name": "Mali",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 137,
+      "code": "MT",
+      "name": "Malta",
+      "official_source_name": "Malta",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 138,
+      "code": "MH",
+      "name": "Marshall Islands",
+      "official_source_name": "Marshall Islands",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 139,
+      "code": "MQ",
+      "name": "Martinique",
+      "official_source_name": "Martinique",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 140,
+      "code": "MR",
+      "name": "Mauritania",
+      "official_source_name": "Mauritania",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 141,
+      "code": "MU",
+      "name": "Mauritius",
+      "official_source_name": "Mauritius",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 142,
+      "code": "YT",
+      "name": "Mayotte",
+      "official_source_name": "Mayotte",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 143,
+      "code": "MX",
+      "name": "Mexico",
+      "official_source_name": "Mexico",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 144,
+      "code": "FM",
+      "name": "Micronesia, Federated States of",
+      "official_source_name": "Micronesia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 145,
+      "code": "MD",
+      "name": "Moldova",
+      "official_source_name": "Moldova",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 146,
+      "code": "MC",
+      "name": "Monaco",
+      "official_source_name": "Monaco",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 147,
+      "code": "MN",
+      "name": "Mongolia",
+      "official_source_name": "Mongolia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 148,
+      "code": "ME",
+      "name": "Montenegro",
+      "official_source_name": "Montenegro",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 149,
+      "code": "MS",
+      "name": "Montserrat",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 150,
+      "code": "MA",
+      "name": "Morocco",
+      "official_source_name": "Morocco",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 151,
+      "code": "MZ",
+      "name": "Mozambique",
+      "official_source_name": "Mozambique",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 152,
+      "code": "MM",
+      "name": "Myanmar",
+      "official_source_name": "Myanmar",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 153,
+      "code": "NA",
+      "name": "Namibia",
+      "official_source_name": "Namibia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 154,
+      "code": "NR",
+      "name": "Nauru",
+      "official_source_name": "Nauru",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 155,
+      "code": "NP",
+      "name": "Nepal",
+      "official_source_name": "Nepal",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 156,
+      "code": "NL",
+      "name": "Netherlands",
+      "official_source_name": "Netherlands",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 157,
+      "code": "NC",
+      "name": "New Caledonia",
+      "official_source_name": "New Caledonia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 158,
+      "code": "NZ",
+      "name": "New Zealand",
+      "official_source_name": "New Zealand",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 159,
+      "code": "NI",
+      "name": "Nicaragua",
+      "official_source_name": "Nicaragua",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 160,
+      "code": "NE",
+      "name": "Niger",
+      "official_source_name": "Niger",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 161,
+      "code": "NG",
+      "name": "Nigeria",
+      "official_source_name": "Nigeria",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 162,
+      "code": "NU",
+      "name": "Niue",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 163,
+      "code": "NF",
+      "name": "Norfolk Island",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 164,
+      "code": "KP",
+      "name": "North Korea",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 165,
+      "code": "MK",
+      "name": "North Macedonia",
+      "official_source_name": "North Macedonia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 166,
+      "code": "MP",
+      "name": "Northern Mariana Islands",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 167,
+      "code": "NO",
+      "name": "Norway",
+      "official_source_name": "Norway",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 168,
+      "code": "OM",
+      "name": "Oman",
+      "official_source_name": "Oman",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 169,
+      "code": "PK",
+      "name": "Pakistan",
+      "official_source_name": "Pakistan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 170,
+      "code": "PW",
+      "name": "Palau",
+      "official_source_name": "Palau",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 171,
+      "code": "PS",
+      "name": "Palestine, State of",
+      "official_source_name": "Palestine",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 172,
+      "code": "PA",
+      "name": "Panama",
+      "official_source_name": "Panama",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 173,
+      "code": "PG",
+      "name": "Papua New Guinea",
+      "official_source_name": "Papua New Guinea",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 174,
+      "code": "PY",
+      "name": "Paraguay",
+      "official_source_name": "Paraguay",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 175,
+      "code": "PE",
+      "name": "Peru",
+      "official_source_name": "Peru",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 176,
+      "code": "PH",
+      "name": "Philippines",
+      "official_source_name": "Philippines",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 177,
+      "code": "PN",
+      "name": "Pitcairn",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 178,
+      "code": "PL",
+      "name": "Poland",
+      "official_source_name": "Poland",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 179,
+      "code": "PT",
+      "name": "Portugal",
+      "official_source_name": "Portugal",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 180,
+      "code": "PR",
+      "name": "Puerto Rico",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 181,
+      "code": "QA",
+      "name": "Qatar",
+      "official_source_name": "Qatar",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 182,
+      "code": "RE",
+      "name": "Réunion",
+      "official_source_name": "Réunion",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 183,
+      "code": "RO",
+      "name": "Romania",
+      "official_source_name": "Romania",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 184,
+      "code": "RU",
+      "name": "Russian Federation",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 185,
+      "code": "RW",
+      "name": "Rwanda",
+      "official_source_name": "Rwanda",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 186,
+      "code": "BL",
+      "name": "Saint Barthélemy",
+      "official_source_name": "Saint Barthelemy",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 187,
+      "code": "SH",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "official_source_name": "Saint Helena",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 188,
+      "code": "KN",
+      "name": "Saint Kitts and Nevis",
+      "official_source_name": "Saint Kitts and Nevis",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 189,
+      "code": "LC",
+      "name": "Saint Lucia",
+      "official_source_name": "Saint Lucia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 190,
+      "code": "MF",
+      "name": "Saint Martin (French part)",
+      "official_source_name": "Saint Martin (French part)",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 191,
+      "code": "PM",
+      "name": "Saint Pierre and Miquelon",
+      "official_source_name": "Saint Pierre and Miquelon",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 192,
+      "code": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "official_source_name": "Saint Vincent and the Grenadines",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 193,
+      "code": "WS",
+      "name": "Samoa",
+      "official_source_name": "Samoa",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 194,
+      "code": "SM",
+      "name": "San Marino",
+      "official_source_name": "San Marino",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 195,
+      "code": "ST",
+      "name": "Sao Tome and Principe",
+      "official_source_name": "Sao Tome and Principe",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 196,
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "official_source_name": "Saudi Arabia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 197,
+      "code": "SN",
+      "name": "Senegal",
+      "official_source_name": "Senegal",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 198,
+      "code": "RS",
+      "name": "Serbia",
+      "official_source_name": "Serbia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 199,
+      "code": "SC",
+      "name": "Seychelles",
+      "official_source_name": "Seychelles",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 200,
+      "code": "SL",
+      "name": "Sierra Leone",
+      "official_source_name": "Sierra Leone",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 201,
+      "code": "SG",
+      "name": "Singapore",
+      "official_source_name": "Singapore",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 202,
+      "code": "SX",
+      "name": "Sint Maarten (Dutch part)",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 203,
+      "code": "SK",
+      "name": "Slovakia",
+      "official_source_name": "Slovakia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 204,
+      "code": "SI",
+      "name": "Slovenia",
+      "official_source_name": "Slovenia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 205,
+      "code": "SB",
+      "name": "Solomon Islands",
+      "official_source_name": "Solomon Islands",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 206,
+      "code": "SO",
+      "name": "Somalia",
+      "official_source_name": "Somalia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 207,
+      "code": "ZA",
+      "name": "South Africa",
+      "official_source_name": "South Africa",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 208,
+      "code": "GS",
+      "name": "South Georgia and the South Sandwich Islands",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 209,
+      "code": "KR",
+      "name": "South Korea",
+      "official_source_name": "South Korea",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 210,
+      "code": "SS",
+      "name": "South Sudan",
+      "official_source_name": "South Sudan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 211,
+      "code": "ES",
+      "name": "Spain",
+      "official_source_name": "Spain",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 212,
+      "code": "LK",
+      "name": "Sri Lanka",
+      "official_source_name": "Sri Lanka",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 213,
+      "code": "SD",
+      "name": "Sudan",
+      "official_source_name": "Sudan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 214,
+      "code": "SR",
+      "name": "Suriname",
+      "official_source_name": "Suriname",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 215,
+      "code": "SJ",
+      "name": "Svalbard and Jan Mayen",
+      "official_source_name": "Svalbard and Jan Mayen",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 216,
+      "code": "SE",
+      "name": "Sweden",
+      "official_source_name": "Sweden",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 217,
+      "code": "CH",
+      "name": "Switzerland",
+      "official_source_name": "Switzerland",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 218,
+      "code": "SY",
+      "name": "Syrian Arab Republic",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 219,
+      "code": "TW",
+      "name": "Taiwan",
+      "official_source_name": "Taiwan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 220,
+      "code": "TJ",
+      "name": "Tajikistan",
+      "official_source_name": "Tajikistan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 221,
+      "code": "TZ",
+      "name": "Tanzania",
+      "official_source_name": "Tanzania",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 222,
+      "code": "TH",
+      "name": "Thailand",
+      "official_source_name": "Thailand",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 223,
+      "code": "TL",
+      "name": "Timor-Leste",
+      "official_source_name": "Timor-Leste (East Timor)",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 224,
+      "code": "TG",
+      "name": "Togo",
+      "official_source_name": "Togo",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 225,
+      "code": "TK",
+      "name": "Tokelau",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 226,
+      "code": "TO",
+      "name": "Tonga",
+      "official_source_name": "Tonga",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 227,
+      "code": "TT",
+      "name": "Trinidad and Tobago",
+      "official_source_name": "Trinidad and Tobago",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 228,
+      "code": "TN",
+      "name": "Tunisia",
+      "official_source_name": "Tunisia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 229,
+      "code": "TR",
+      "name": "Türkiye",
+      "official_source_name": "Turkey",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 230,
+      "code": "TM",
+      "name": "Turkmenistan",
+      "official_source_name": "Turkmenistan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 231,
+      "code": "TC",
+      "name": "Turks and Caicos Islands",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 232,
+      "code": "TV",
+      "name": "Tuvalu",
+      "official_source_name": "Tuvalu",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 233,
+      "code": "UG",
+      "name": "Uganda",
+      "official_source_name": "Uganda",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 234,
+      "code": "UA",
+      "name": "Ukraine",
+      "official_source_name": "Ukraine (with certain exceptions)",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 235,
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "official_source_name": "United Arab Emirates",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 236,
+      "code": "GB",
+      "name": "United Kingdom",
+      "official_source_name": "United Kingdom",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 237,
+      "code": "US",
+      "name": "United States",
+      "official_source_name": "United States of America",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 238,
+      "code": "UM",
+      "name": "United States Minor Outlying Islands",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 239,
+      "code": "UY",
+      "name": "Uruguay",
+      "official_source_name": "Uruguay",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 240,
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "official_source_name": "Uzbekistan",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 241,
+      "code": "VU",
+      "name": "Vanuatu",
+      "official_source_name": "Vanuatu",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 242,
+      "code": "VE",
+      "name": "Venezuela",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 243,
+      "code": "VN",
+      "name": "Vietnam",
+      "official_source_name": "Vietnam",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 244,
+      "code": "VG",
+      "name": "Virgin Islands, British",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 245,
+      "code": "VI",
+      "name": "Virgin Islands, U.S.",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": true,
+      "classification": "cyber-supported-not-official"
+    },
+    {
+      "index": 246,
+      "code": "WF",
+      "name": "Wallis and Futuna",
+      "official_source_name": "Wallis and Futuna",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 247,
+      "code": "EH",
+      "name": "Western Sahara",
+      "official_source_name": null,
+      "official_chatgpt_supported": false,
+      "cyber_verification_supported": false,
+      "classification": "neither-supported"
+    },
+    {
+      "index": 248,
+      "code": "YE",
+      "name": "Yemen",
+      "official_source_name": "Yemen",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    },
+    {
+      "index": 249,
+      "code": "ZM",
+      "name": "Zambia",
+      "official_source_name": "Zambia",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": true,
+      "classification": "official-and-cyber-supported"
+    },
+    {
+      "index": 250,
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "official_source_name": "Zimbabwe",
+      "official_chatgpt_supported": true,
+      "cyber_verification_supported": false,
+      "classification": "official-supported-cyber-unsupported"
+    }
+  ]
+}

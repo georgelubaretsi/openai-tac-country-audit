@@ -10,14 +10,14 @@
     {
       "path": "evidence/comparisons/openai-chatgpt-supported-countries.csv",
       "kind": "official-access-comparison-csv",
-      "bytes": 23616,
-      "sha256": "2737ae69bbfc10de950842617f0c0196e352d99991a30be94d9490a1d48dbdcb"
+      "bytes": 16789,
+      "sha256": "0072f626c1aa1d79f64ac3d3325388e36789256973a58db9ba1d29f1a03cb4f7"
     },
     {
       "path": "evidence/comparisons/openai-chatgpt-supported-countries.json",
       "kind": "official-access-comparison",
-      "bytes": 125245,
-      "sha256": "f15d45b715923d9d22e1d484f026a3bcad021fa336e013312f238a49d8c356b6"
+      "bytes": 80941,
+      "sha256": "2dd4bed07c4757cfe77329235d590164e59c6db40e2a59afc52d4f6c662a9281"
     },
     {
       "path": "evidence/country-support.csv",

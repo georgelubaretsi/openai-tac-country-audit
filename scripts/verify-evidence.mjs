@@ -15,6 +15,7 @@ const evidenceRoot = resolve(repoRoot, "evidence");
 async function inventory(directory, base = directory) {
   const files = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {
+    if (entry.name === ".DS_Store") continue;
     const path = resolve(directory, entry.name);
     const stat = await lstat(path);
     if (stat.isSymbolicLink()) throw new Error("symlink under evidence");
@@ -47,6 +48,20 @@ const map = JSON.parse(await readFile(resolve(evidenceRoot, "country-support.jso
 if (map.summary.total !== 250 || map.results.length !== 250 || map.summary.unique_codes !== 250 ||
     map.summary.supported + map.summary.unsupported !== 250 || new Set(map.results.map(row => row.code)).size !== 250) {
   throw new Error("canonical country map counts are invalid");
+}
+const officialComparison = JSON.parse(await readFile(
+  resolve(evidenceRoot, "comparisons/openai-chatgpt-supported-countries.json"), "utf8"));
+const comparisonSummary = officialComparison.summary;
+if (officialComparison.schema !== "openai-cyber-verification-country-support/official-access-comparison/v1" ||
+    officialComparison.results?.length !== 250 ||
+    comparisonSummary.official_and_cyber_supported +
+      comparisonSummary.official_supported_cyber_unsupported +
+      comparisonSummary.cyber_supported_not_official +
+      comparisonSummary.neither_supported !== 250 ||
+    officialComparison.results.some((row, index) =>
+      row.code !== map.results[index].code ||
+      row.cyber_verification_supported !== map.results[index].supported)) {
+  throw new Error("official access comparison is inconsistent with the canonical map");
 }
 const fullScreenshots = [...actual].filter(path => path.startsWith("evidence/screenshots/countries/") && path.endsWith(".webp"));
 const widgetScreenshots = [...actual].filter(path => path.startsWith("evidence/screenshots/widgets/") && path.endsWith(".webp"));
@@ -93,6 +108,8 @@ console.log(JSON.stringify({
   supported: map.summary.supported,
   unsupported: map.summary.unsupported,
   screenshots: fullScreenshots.length + widgetScreenshots.length + comparisons.length,
+  official_chatgpt_supported: comparisonSummary.official_chatgpt_supported,
+  official_supported_cyber_unsupported: comparisonSummary.official_supported_cyber_unsupported,
   video_chapters: chapters.chapters.length,
   video_bytes: Number(probe.format.size),
   video_duration_seconds: Number(probe.format.duration),
