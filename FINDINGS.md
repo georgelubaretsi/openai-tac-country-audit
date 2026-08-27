@@ -151,7 +151,7 @@ The following patterns describe differences in configuration; they do not establ
 
 ### Territory-level contrasts
 
-- Ten French-associated entries—French Guiana, French Polynesia, French Southern Territories, Guadeloupe, Martinique, Mayotte, New Caledonia, Réunion, Saint Barthélemy, and Saint Pierre and Miquelon—are listed for ChatGPT access but have no cyber-verification classes. France supports driver license, national ID, and passport.
+- Eleven French-associated entries—French Guiana, French Polynesia, French Southern Territories, Guadeloupe, Martinique, Mayotte, New Caledonia, Réunion, Saint Barthélemy, Saint Pierre and Miquelon, and Wallis and Futuna—are listed for ChatGPT access but have no cyber-verification classes. France supports driver license, national ID, and passport.
 - Aruba is listed for ChatGPT access but has no cyber-verification classes. Curaçao is absent from the official access list but its cyber configuration supports driver license, national ID, and passport; the Netherlands supports the same three classes.
 
 These results are consistent with independent per-entry configuration rather than automatic inheritance from a parent state.
@@ -166,6 +166,106 @@ Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan form a complete
 | Kazakhstan | `KZ` | 20,330,109 |
 | Cambodia | `KH` | 17,423,884 |
 | Zimbabwe | `ZW` | 16,340,829 |
+
+## Post-audit policy correlation research
+
+A follow-up analysis compared the 44 listed-but-unsupported entries with current export-control, financial-crime, conflict, institutional-risk, and cybercrime sources. These comparisons identify associations; they do not establish OpenAI’s internal decision rule.
+
+### BIS Country Groups D:1 and D:5
+
+The strongest association is with the U.S. Bureau of Industry and Security’s Export Administration Regulations country groups:
+
+- **D:1** identifies destinations subject to national-security controls.
+- **D:5** identifies destinations in the U.S. arms-embargo group.
+
+The relevant condition is membership in **D:1 or D:5** (`D:1 ∪ D:5`), not membership in every category from D:1 through D:5.
+
+Current [BIS Interactive Country Groups](https://www.bis.gov/regulations/ear/interactive-country-groups) data lists 24 D:1 destinations and 20 D:5 destinations, with 35 distinct entries in their union. The audited selector contains all 35:
+
+| Scope | D:1 or D:5 and cyber unsupported | D:1 or D:5 and cyber supported |
+|---|---:|---:|
+| Official ChatGPT access list | 26 | 0 |
+| Full 250-entry selector | 35 | 0 |
+
+Thus, D:1-or-D:5 membership is a perfect **sufficient condition** for cyber-verification exclusion in the observed configuration: all 35 matching selector entries are unsupported, and none of the 177 cyber-supported entries matches. It is not a complete explanation, because 38 unsupported entries are outside both groups.
+
+Consequently, if D:1/D:5 is one operative rule, at least one additional OpenAI exclusion or configuration mechanism must account for the 38 unsupported entries outside that union.
+
+The 26 entries within the primary 44-entry gap are:
+
+- **D:1:** Armenia, Azerbaijan, Cambodia, Georgia, Iraq, Kazakhstan, Kyrgyzstan, Laos, Libya, Moldova, Mongolia, Myanmar, Nicaragua, Tajikistan, Turkmenistan, Uzbekistan, Vietnam, and Yemen.
+- **D:5:** Afghanistan, Central African Republic, Eritrea, Haiti, Iraq, Lebanon, Libya, Myanmar, Nicaragua, Somalia, South Sudan, and Sudan.
+
+Iraq, Libya, Myanmar, and Nicaragua appear in both groups. The association accounts for all five Central Asian gaps and all three South Caucasus gaps.
+
+The specificity does not extend to Country Group D generally. D:3 or D:4 also includes cyber-supported Bahrain, Egypt, Israel, Jordan, Kuwait, Oman, Pakistan, Qatar, Saudi Arabia, and Taiwan. The observed dividing line is specifically D:1 or D:5.
+
+The different treatment of D:2-, D:3-, or D:4-only destinations is intelligible under ACE’s distinction between government and non-government end users, but those categories are not severity rankings or direct measures of individual trust. Allowing private applicants from those destinations while categorically excluding every D:1/D:5 applicant may follow an export-control structure; it does not constitute an individualized cyber-risk assessment.
+
+### Relationship to U.S. cyber export controls
+
+The pairing has direct subject-matter relevance. [15 CFR § 740.22](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-740/section-740.22), License Exception Authorized Cybersecurity Exports (`ACE`), specifically restricts use of that exception for enumerated cybersecurity items supplied to non-government end users in D:1 or D:5 destinations, subject to stated exceptions. BIS explained in its [2022 final rule](https://www.federalregister.gov/documents/2022/05/26/2022-11282/information-security-controls-cybersecurity-items) that the controlled tools could enable surveillance, espionage, or actions that disrupt, deny, or degrade networks or devices.
+
+That regulation does **not** direct OpenAI to produce the audited country-wide result:
+
+- ACE applies to enumerated Export Control Classification Numbers, not automatically to every cloud service or AI capability.
+- Ineligibility for one license exception is not a universal prohibition; another exception, authorization, or license may be available.
+- The rule evaluates an export transaction, item, end user, and end use. It does not declare every resident of a D:1 or D:5 destination ineligible for identity verification.
+- No public OpenAI source reviewed for this analysis states that Trusted Access for Cyber or Daybreak eligibility is derived from D:1 or D:5.
+
+Treating the unavailability of ACE as a categorical access denial would therefore collapse a transaction-specific licensing-pathway question into a country-wide prohibition that the regulation itself does not state.
+
+OpenAI instead describes access as depending on KYC, identity verification, the user, trust signals, risk considerations, intended use, and access level in [Trusted access for the next era of cyber defense](https://openai.com/index/scaling-trusted-access-for-cyber-defense/) and its [Daybreak overview](https://help.openai.com/en/articles/20001258-openai-daybreak-trusted-access-for-cyber-overview). OpenAI’s [Services Agreement](https://openai.com/policies/services-agreement/) separately requires compliance with applicable trade controls, but does not identify D:1 or D:5 as a categorical individual-eligibility rule.
+
+OpenAI publishes general ChatGPT and API availability lists but no public cyber-verification country list or D:1/D:5 rationale. Twenty-six D:1/D:5 entries are listed for ordinary ChatGPT access but reveal their cyber-verification exclusion only inside the identity flow. This makes the narrower eligibility boundary opaque before an applicant begins verification.
+
+The defensible finding is therefore that OpenAI’s observed configuration is **strongly patterned on** D:1/D:5 geography. The evidence does not establish that export law compelled the configuration.
+
+### Comparison with direct risk indicators
+
+Other public indicators show weaker discrimination and numerous cyber-supported counterexamples:
+
+| Indicator | Matches within the 44-entry gap | Officially listed, cyber-supported matches |
+|---|---:|---:|
+| BIS D:1 or D:5 | 26 | 0 |
+| [FATF high-risk or increased-monitoring lists](https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/increased-monitoring-june-2026.html) | 9 | 11 |
+| [World Bank FY2027 Public FCV List](https://thedocs.worldbank.org/en/doc/d2e218e68a25ba7a31147a7455f35cae-0090082026/original/A1-FY27-FCV-List.pdf) | 12 | 10 |
+| [World Bank FY2027 Institutional Fragility List](https://thedocs.worldbank.org/en/doc/5785e7e735f05d096b2ec74f92ffcf5a-0090082026/original/B1-Institutional-Fragility-FY27.pdf) | 9 | 15 |
+
+Direct cybercrime measures do not show that the gap cohort is uniquely dangerous:
+
+- In the peer-reviewed [World Cybercrime Index](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0297312), only one covered gap entry—Moldova—appears among the top 15 estimated cyber-offender bases. Nine cyber-supported entries appear in that top 15: Ukraine, the United States, Nigeria, Romania, the United Kingdom, Brazil, India, Ghana, and South Africa.
+- In the [2025 Global Organized Crime Index](https://ocindex.net/downloads), the 28 covered gap states have a lower mean cyber-dependent-crime score than 157 covered cyber-supported states: 3.89 versus 4.68 on a 1–10 scale.
+- The gap cohort does score worse on financial crime, anti-money-laundering capacity, overall criminality, and institutional resilience. Those measures support a generalized compliance or fraud-risk concern, but each also produces many cyber-supported counterexamples and none reproduces the categorical D:1/D:5 boundary.
+
+These comparisons distinguish country-level compliance conservatism from applicant-level cyber-abuse risk. A destination may present export-control or institutional concerns without its individual security researchers being more likely to misuse cyber capabilities than researchers in a supported destination.
+
+### Territory and issuer-namespace branch
+
+Fifteen listed-but-unsupported territorial or special-jurisdiction entries are absent from OpenAI’s [API supported-country list](https://help.openai.com/en/articles/5347006-openai-api-supported-countries-and-territories): Åland Islands, Aruba, French Guiana, French Polynesia, French Southern Territories, Guadeloupe, Martinique, Mayotte, New Caledonia, Réunion, Saint Barthélemy, Saint Helena, Saint Pierre and Miquelon, Svalbard and Jan Mayen, and Wallis and Futuna.
+
+Absence from the API list is not sufficient for exclusion. Bermuda, the Cayman Islands, the Faroe Islands, Greenland, and Saint Martin are also absent from that list but are officially listed for ChatGPT access and cyber supported.
+
+The eleven French-associated gaps span multiple French constitutional and EU classifications. Saint Martin is a decisive cyber-supported counterexample within the French overseas group. This pattern is more consistent with separately curated OpenAI country-to-document mappings, including missing parent-issuer aliases, than with one shared territorial legal restriction. It remains an inference about OpenAI’s configuration, not evidence of a Persona platform limitation.
+
+### Georgia as a case study
+
+Georgia’s D:1 status is longstanding. It appeared in the modern EAR country-group framework implemented by the [1996 EAR simplification rule](https://www.govinfo.gov/content/pkg/FR-1996-03-25/pdf/96-4173.pdf), effective April 24, 1996. That rule said the country groups were being revised to better reflect post-Cold War circumstances. This analysis establishes Georgia’s inclusion from the creation of the modern framework; it does not establish the first date on which predecessor controls applied.
+
+D:1 does not mean that Georgia is comprehensively sanctioned, embargoed, designated hostile, or classified as a state sponsor of terrorism. Under [15 CFR § 742.4](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742/section-742.4), it is a destination classification used when reviewing specified national-security-controlled dual-use exports that could contribute to military potential in a manner detrimental to U.S. national security. Licensing remains item- and transaction-specific.
+
+The 1996 rule provides no Georgia-specific rationale. Its continued placement appears to be a legacy post-Soviet export-control classification rather than a recent judgment about Georgian residents. Applying that destination classification to every Georgian identity-verification applicant would expand a transaction-specific export-control category into a categorical individual-access rule.
+
+### Policy assessment
+
+If OpenAI is using D:1-or-D:5 membership as a blanket eligibility proxy rather than implementing a transaction-specific legal requirement, the observed policy is **overbroad and poorly calibrated as an applicant-level cyber-safety control**:
+
+- it substitutes destination or document-issuer geography for evidence about the individual applicant;
+- it produces the same exclusion for every applicant regardless of identity, authorization, profession, intended defensive use, or other trust signals;
+- its boundary is not reproduced by direct measures of cyber-offender activity, financial crime, conflict, or institutional fragility;
+- it excludes legitimate defenders in environments that may have substantial need for defensive capability.
+
+Export-control compliance and cyber-abuse prevention are distinct objectives. A conservative geographic rule may reduce OpenAI’s compliance burden or legal uncertainty, but that does not make it a well-targeted measure of individual cyber risk. This assessment does not establish that the configuration is illegal, identify OpenAI’s internal legal advice, or prove that D:1/D:5 is the operative rule. It evaluates the observed result against the public purposes and scope of the compared sources.
 
 ## Country availability lists
 
@@ -284,6 +384,8 @@ In particular:
 - an empty ID-class list does not mean that every identity document from the entry is technically unreadable;
 - an accepted ID-class list does not mean a submitted document would pass verification;
 - sanctions-program matches provide context but do not establish legal applicability to every resident or explain OpenAI’s configuration;
+- the D:1/D:5 correlation does not establish that OpenAI uses those groups or that export law requires a country-wide identity-verification exclusion;
+- country-level cybercrime, financial-crime, conflict, and institutional indicators do not establish the risk presented by an individual applicant;
 - population-weighted totals describe represented populations, not affected users or demand;
 - territory and parent-country configurations cannot be assumed to inherit from one another.
 
